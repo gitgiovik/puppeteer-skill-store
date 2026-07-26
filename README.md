@@ -62,7 +62,7 @@ failing.
 }
 ```
 
-GitHub measures **repos** (42 of them); the catalogue is keyed by **slug** (108
+GitHub measures **repos** (63 of them); the catalogue is keyed by **slug** (201
 of them), and several slugs routinely share one upstream repo — `entries` is
 that fan-out, and it mirrors the app's `SkillPopularity` shape field-for-field.
 A repo the GraphQL query could not resolve contributes no `entries` row at all.
@@ -128,10 +128,10 @@ drifted from the catalogue (`generate-marketplace.mjs --check`).
 Each catalogue entry becomes one `plugins[]` row, sourced straight off its
 pin:
 
-- **Whole-repo skills** (9 entries: the 5 whose `upstreamPath` is `.`, plus
-  the 4 whose SKILL.md sits at the repo root) use
+- **Whole-repo skills** (11 entries: `upstreamPath: "."` rows, plus rows
+  whose SKILL.md sits at the repo root) use
   `{ source: "github", repo: "owner/repo", sha }`.
-- **Everything else** (99 entries) uses
+- **Everything else** (191 entries) uses
   `{ source: "git-subdir", url, path, sha }`, where `path` is the
   **directory** containing the SKILL.md.
 
@@ -237,7 +237,7 @@ data/                                 # NOT in this branch — lives on the orph
 
 ## Rate-limit posture
 
-- **Daily snapshot**: one aliased GitHub GraphQL query for the ~42 distinct
+- **Daily snapshot**: one aliased GitHub GraphQL query for the ~63 distinct
   upstream repos (a couple of GraphQL points out of 5000/h), plus one
   sequential, paced HEAD request per pinned tarball, plus one MCP registry
   delta sync (`updated_since` cursor, unauthenticated).
@@ -252,3 +252,15 @@ data/                                 # NOT in this branch — lives on the orph
 exact plan (which repos, which queries) without spending any network budget.
 `validate-entry.mjs` accepts `--slugs a,b,c` to check an explicit list on
 demand, or `--all` for a full-catalogue audit (expensive — not run on every PR).
+
+## Changelog
+
+- **2026-07-26** — catalogue extended (owner selection + aggregators): 108 → 201
+  entries. The owner-approved batch was 94; at close, 6 `nlb-*` rows were found
+  pinned to `<skill-dir>/SKILL.md` instead of `<skill-dir>`, which shipped a
+  one-file payload of a skill that routes into `references/`, `scripts/` and
+  `data/`. Five were repointed at their directory and re-hashed (18, 27, 35, 6
+  and 98 files respectively); `nlb-banner-design` was dropped because every step
+  of it invokes sibling skills that exist neither upstream nor here.
+  `nlb-ui-styling` was relicensed to `Apache-2.0 (skill) + OFL-1.1 (bundled
+  fonts)` to match the `LICENSE.txt` and 54 fonts the directory actually ships.

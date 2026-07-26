@@ -6,9 +6,1277 @@
   },
   "metadata": {
     "description": "Community-curated Claude Code skills, re-pinned to their upstream commit and byte-audited against what was actually reviewed. See README.md for the trust model — signals here are unaudited heuristics, not a security guarantee.",
-    "catalogGeneratedAt": "2026-07-26T06:09:23+02:00"
+    "catalogGeneratedAt": "2026-07-26T13:11:56+02:00"
   },
   "plugins": [
+    {
+      "name": "5-whys",
+      "description": "This skill should be used when the user asks to \"find the root cause\", \"找根因\", \"为什么会出现这个问题\", \"why did this happen\", \"debug this issue\", \"排查问题\", \"analyze this bug\", \"分析这个bug\", \"what's causing this\", \"问题出在哪\", \"dig deeper\", \"深挖原因\", or needs to systematically trace a problem back to its fundamental cause rather than just addressing symptoms.",
+      "source": {
+        "source": "github",
+        "repo": "awesome-skills/5-whys-skill",
+        "sha": "353a57673f1978de4b47fb363bb065e2547fd024"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "academic-pptx",
+      "description": "Use this skill whenever the user wants to create or improve a presentation for an academic context — conference papers, seminar talks, thesis defenses, grant briefings, lab meetings, invited lectures, or any presentation where the audience will evaluate reasoning and evidence. Triggers include: 'conference talk', 'seminar slides', 'thesis defense', 'research presentation', 'academic deck', 'academic presentation'. Also triggers when the user asks to 'make slides' in combination with academic content (e.g., 'make slides for my paper on X', 'create a presentation for my dissertation defense', 'build a deck for my grant proposal'). This skill governs CONTENT and STRUCTURE decisions. For the technical work of creating or editing the .pptx file itself, also read the pptx SKILL.md.",
+      "source": {
+        "source": "github",
+        "repo": "Gabberflast/academic-pptx-skill",
+        "sha": "9f2b703ffe8d1449851617665ab1ffb3516d54ac"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "accessibility",
+      "description": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/addyosmani/web-quality-skills",
+        "path": "skills/accessibility",
+        "sha": "95d6e255afe1596b557d7a8498517884438f5b3a"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-api-design-patterns",
+      "description": "REST API design with resource naming, pagination, versioning, and OpenAPI spec generation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/api-design-patterns",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-authentication-patterns",
+      "description": "Authentication and authorization patterns including OAuth2, JWT, RBAC, session management, and PKCE flows",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/authentication-patterns",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-ci-cd-pipelines",
+      "description": "CI/CD pipeline patterns for GitHub Actions, GitLab CI, testing strategies, and deployment automation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/ci-cd-pipelines",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-data-engineering",
+      "description": "Data engineering patterns for ETL pipelines, data warehousing, Apache Spark, and data quality validation",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/data-engineering",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-database-optimization",
+      "description": "Query optimization, indexing strategies, and database performance tuning for PostgreSQL and MySQL",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/database-optimization",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-devops-automation",
+      "description": "CI/CD pipeline design with GitHub Actions, Docker, Kubernetes, Helm, and GitOps patterns",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/devops-automation",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-django-patterns",
+      "description": "Django architecture patterns including DRF, ORM optimization, signals, middleware, and project structure",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/django-patterns",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-docker-best-practices",
+      "description": "Docker best practices including multi-stage builds, compose patterns, image optimization, and security",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/docker-best-practices",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-golang-idioms",
+      "description": "Idiomatic Go patterns for error handling, interfaces, concurrency, testing, and module management",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/golang-idioms",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-graphql-design",
+      "description": "GraphQL schema design, resolver patterns, subscriptions, DataLoader for N+1 prevention, and error handling",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/graphql-design",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-kubernetes-operations",
+      "description": "Kubernetes operations including manifests, Helm charts, operators, troubleshooting, and resource management",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/kubernetes-operations",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-microservices-design",
+      "description": "Microservices design patterns including service mesh, event-driven architecture, saga pattern, and API gateway",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/microservices-design",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-postgres-optimization",
+      "description": "PostgreSQL optimization including indexes, query plans, partitioning, JSONB operations, and connection pooling",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/postgres-optimization",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-python-best-practices",
+      "description": "Pythonic code with modern type hints, dataclasses, async patterns, packaging, and testing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/python-best-practices",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-redis-patterns",
+      "description": "Redis patterns including caching strategies, pub/sub, streams for event processing, Lua scripts, and data structures",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/redis-patterns",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-rust-systems",
+      "description": "Rust systems programming patterns including ownership, traits, async runtime, error handling, and unsafe guidelines",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/rust-systems",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-security-hardening",
+      "description": "Application security covering input validation, auth, headers, secrets management, and dependency auditing",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/security-hardening",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-springboot-patterns",
+      "description": "Spring Boot patterns including JPA repositories, REST controllers, layered services, and configuration",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/springboot-patterns",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-typescript-advanced",
+      "description": "Advanced TypeScript patterns including generics, conditional types, mapped types, template literals, and type guards",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/typescript-advanced",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "actk-websocket-realtime",
+      "description": "Real-time communication patterns with WebSocket, Socket.io, Server-Sent Events, and scaling strategies",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/awesome-claude-code-toolkit",
+        "path": "skills/websocket-realtime",
+        "sha": "ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/algorithmic-art",
+        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "anthropic-claude-api",
+      "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse over NL; debugging refusals/cutoffs/streaming/tool-calls/tokens).\nSKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/claude-api",
+        "sha": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "anthropic-internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/internal-comms",
+        "sha": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "awwwards-3d",
+      "description": "Build production-grade Awwwards-style scroll-driven 3D websites in the visual language of Active Theory, Lusion, 14islands, Bonhomme, Resn, Studio Freight, Locomotive, and Igloo Inc. Use when the user asks for an \"Awwwards-style\", \"scroll-driven 3D\", \"WebGL hero\", \"3D landing page\", \"interactive product showcase\", \"scroll storytelling site\", \"cinematic web experience\", \"creative dev portfolio\", \"premium 3D site\", \"Lusion-style\", \"Active Theory-style\", \"scroll 3D animation\", or mentions Three.js + GSAP + Lenis together. Also triggers on Mongolian phrases like \"3D вэб\", \"scroll-тэй 3D\", \"premium вэбсайт\", \"cinematic вэб\", \"Awwwards маягтай\", \"3D landing\", \"интерактив 3D\". Locks tech stack to Three.js r170 + GSAP 3.12.5 + Lenis 1.1.0 with three's built-in `EffectComposer` for post-processing. Produces single-file HTML deliverables when possible. Do NOT use for: static marketing sites without 3D, plain React/Next.js apps, dashboards, admin UIs, or simple landing pages where 3D would be decorative noise.",
+      "source": {
+        "source": "github",
+        "repo": "tsogjavklann/awwwards-3d",
+        "sha": "01072bd4a16f2936633b6209ee3b2aa3fb3b2e4f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "brainstorm",
+      "description": "You MUST use this before any creative work — creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements, and design before implementation.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rsmdt/the-startup",
+        "path": "plugins/start/skills/brainstorm",
+        "sha": "ff6a0bea8be2d57a21a866df85cf3c36e99da1dd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "brainstorming",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/obra/superpowers",
+        "path": "skills/brainstorming",
+        "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "brandkit",
+      "description": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexu-io/open-design",
+        "path": "skills/brandkit",
+        "sha": "28b2273e987eddaedc5301e2d87973c4a7ee5de9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "browser-harness",
+      "description": "Direct browser control via CDP. Use when the user wants to automate, scrape, test, or interact with web pages. Connects to the user's already-running Chrome.",
+      "source": {
+        "source": "github",
+        "repo": "browser-use/browser-harness",
+        "sha": "2cfaa7ea4c77b17b4c2434403865fa4b6d637b29"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "browser-use-cloud",
+      "description": "Documentation reference for using Browser Use Cloud — the hosted API and SDK for browser automation. Use this skill whenever the user needs help with the Cloud REST API (v2 or v3), browser-use-sdk (Python or TypeScript), X-Browser-Use-API-Key authentication, cloud sessions, browser profiles, profile sync, CDP WebSocket connections, stealth browsers, residential proxies, CAPTCHA handling, webhooks, workspaces, skills marketplace, liveUrl streaming, pricing, or integration patterns (chat UI, subagent, adding browser tools to existing agents). Also trigger for questions about n8n/Make/Zapier integration, Playwright/ Puppeteer/Selenium on cloud infrastructure, or 1Password vault integration. Do NOT use this for the open-source Python library (Agent, Browser, Tools config) — use the open-source skill instead.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/browser-use/browser-use",
+        "path": "skills/cloud",
+        "sha": "0964ad452a9f3fe249042a5ffb235e5f98519b2e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "browser-use-core",
+      "description": "Direct browser control via CDP for web interaction: automation, scraping, testing, screenshots, and site/app work.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/browser-use/browser-use",
+        "path": "skills/browser-use",
+        "sha": "0964ad452a9f3fe249042a5ffb235e5f98519b2e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "browser-use-open-source",
+      "description": "Documentation reference for writing Python code using the browser-use open-source library. Use this skill whenever the user needs help with Agent, Browser, or Tools configuration, is writing code that imports from browser_use, asks about @sandbox deployment, supported LLM models, Actor API, custom tools, lifecycle hooks, MCP server setup, or monitoring/observability with Laminar or OpenLIT. Also trigger for questions about browser-use installation, prompting strategies, or sensitive data handling. Do NOT use this for Cloud API/SDK usage or pricing — use the cloud skill instead. Do NOT use this for directly automating a browser via CLI commands — use the browser-use skill instead.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/browser-use/browser-use",
+        "path": "skills/open-source",
+        "sha": "0964ad452a9f3fe249042a5ffb235e5f98519b2e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "browser-use-qa",
+      "description": "QA-test a website or web app and return a 1-5 quality score (5 = flawless, 1 = broken) with evidence. Use when the user wants to test, QA, evaluate, score, or \"check how good\" a site, page, flow, or app — including a local dev server (e.g. \"qa test localhost:5173\", \"does the checkout work?\", \"rate this landing page\"). Drives a real Browser Use cloud browser, tunneling localhost automatically.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/browser-use/browser-use",
+        "path": "skills/qa",
+        "sha": "0964ad452a9f3fe249042a5ffb235e5f98519b2e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "browser-use-remote-browser",
+      "description": "Controls a local browser from a sandboxed remote machine. Use when the agent is running in a sandbox (no GUI) and needs to navigate websites, interact with web pages, fill forms, take screenshots, or expose local dev servers via tunnels.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/browser-use/browser-use",
+        "path": "skills/remote-browser",
+        "sha": "0964ad452a9f3fe249042a5ffb235e5f98519b2e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "browser-use-x402",
+      "description": "Set up Browser Use Cloud payments with x402 — pay per request from a crypto wallet (USDC on Base mainnet), no signup or API key. Two setups it works out up front — \"just use it\" (set up a wallet so you or Claude Code can run cloud browser tasks paid from the wallet — Claude writes and runs throwaway scripts, nothing touches your codebase) or \"build it in\" (install the SDK and write the key + code into your project). Walks through wallet setup, funding, .env, and a ~$1 test run. Use when the user asks about x402, pay-per-use, USDC payments, or wants Browser Use Cloud without an API key. For the free-tier signup (reverse-CAPTCHA → API key), use `browser-use cloud signup` or the `cloud` skill instead.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/browser-use/browser-use",
+        "path": "skills/x402",
+        "sha": "0964ad452a9f3fe249042a5ffb235e5f98519b2e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "c4-model",
+      "description": "Interactively co-build a software architecture using Simon Brown's C4 model (Context, Container, Component, Code). The skill detects the usage mode (greenfield design, retro-documenting from code or prose, review/explanation, update), runs a structured framing dialogue, proposes incremental drafts, and iterates until explicit user validation. Output format is negotiated (default Mermaid C4 + Markdown; alternatives Structurizr DSL, PlantUML, images). Destination is negotiated too: local filesystem by default, or connected MCP (Notion, Google Drive, Linear documents…). Use this skill whenever the user asks for a C4 diagram, modèle C4, architecture diagram, container diagram, system context, diagramme d'architecture, wants to brainstorm/design a system architecture, shares code or prose wanting it documented, or wants to review/update an existing C4. Trigger proactively whenever an architecture overview or system documentation would clearly help — even without an explicit \"C4\" mention.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cheriftj/c4-model-skill",
+        "path": "skills/c4-model",
+        "sha": "5b24dda00b38a402da59237a8b8685aaa588a07e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/canvas-design",
+        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "career-ops",
+      "description": "AI job search command center -- evaluate offers, generate CVs, scan portals, track applications\n\nNOTE: this catalogue entry assembles the skill from 2 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('.agents/skills/career-ops') and does NOT include: 'modes'. Install via the puppeteer store's own resolver for the complete payload.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/santifer/career-ops",
+        "path": ".agents/skills/career-ops",
+        "sha": "57b34c07e01cd106528936398507e1b4552ca295"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "caveman",
+      "description": "Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills",
+        "path": "skills/productivity/caveman",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "citypaul-ddd",
+      "description": "Domain-Driven Design patterns for TypeScript. Use when implementing ubiquitous language, value objects, entities, aggregates, domain events, domain services, or bounded contexts. Only applies to projects that explicitly use DDD. Do NOT use for simple CRUD or projects without domain modeling.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/citypaul/.dotfiles",
+        "path": "claude/.claude/skills/domain-driven-design",
+        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "citypaul-finding-seams",
+      "description": "Use when existing code has untestable dependencies that prevent writing tests -- direct construction of collaborators, static or global function calls, tight coupling to external systems, or singleton access patterns. Specifically for identifying substitution points (seams) that make legacy or tightly-coupled code testable without editing at the call site. Do NOT use for greenfield TDD (see tdd), general test writing patterns (see testing), or refactoring already-tested code (see refactoring).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/citypaul/.dotfiles",
+        "path": "claude/.claude/skills/finding-seams",
+        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "citypaul-hexagonal",
+      "description": "Hexagonal (ports and adapters) architecture patterns for TypeScript. Use when implementing ports, adapters, dependency inversion, or domain isolation. Only applies to projects that explicitly use hexagonal architecture. Do NOT use for projects without ports/adapters structure.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/citypaul/.dotfiles",
+        "path": "claude/.claude/skills/hexagonal-architecture",
+        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "citypaul-refactoring",
+      "description": "Refactoring assessment and patterns for already-tested code. Use when the user asks to refactor, clean up, simplify, or restructure existing code, and automatically after mutation testing validates test strength (the REFACTOR step of the TDD cycle). Covers commit-before-refactoring discipline, when refactoring adds value vs when to skip it, and the priority classification of improvement opportunities. Do NOT use for untested code (see characterisation-tests and finding-seams first) or for adding behavior (see tdd).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/citypaul/.dotfiles",
+        "path": "claude/.claude/skills/refactoring",
+        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "citypaul-tdd",
+      "description": "RED-GREEN-MUTATE-KILL MUTANTS-REFACTOR workflow for writing production code. Use before ANY production code change - new features, bug fixes, or behavior changes. Triggers on starting implementation work of any kind. Covers the cycle itself - failing test first, minimum code to pass, mutation verification, refactor assessment. For how to write good tests, see testing. For the refactoring step in detail, see refactoring. TDD is non-negotiable.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/citypaul/.dotfiles",
+        "path": "claude/.claude/skills/tdd",
+        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "citypaul-testing",
+      "description": "Testing patterns for behavior-driven tests. Use when writing tests, creating test factories, structuring test files, or deciding what to test. Do NOT use for UI-specific testing (see front-end-testing or react-testing skills).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/citypaul/.dotfiles",
+        "path": "claude/.claude/skills/testing",
+        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "claude-deep-research-skill",
+      "description": "Use when the user needs multi-source research with citation tracking, evidence persistence, and structured report generation. Triggers on \"deep research\", \"comprehensive analysis\", \"research report\", \"compare X vs Y\", \"analyze trends\", or \"state of the art\". Not for simple lookups, debugging, or questions answerable with 1-2 searches.",
+      "source": {
+        "source": "github",
+        "repo": "199-biotechnologies/claude-deep-research-skill",
+        "sha": "f2f2c0fa4e7617ca84c86b63f4bb40f77a746933"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "cloud-solution-architect",
+      "description": "Transform the agent into a Cloud Solution Architect following Azure Architecture Center best practices. Use when designing cloud architectures, reviewing system designs, selecting architecture styles, applying cloud design patterns, making technology choices, or conducting Well-Architected Framework reviews.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/microsoft/skills",
+        "path": ".github/skills/cloud-solution-architect",
+        "sha": "4f1db7ec55caf11e3b143c91220bd79a632bc55b"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "cloudflare-agents-sdk",
+      "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real-time WebSocket apps, scheduled tasks, MCP servers, chat applications, voice agents, or browser automation. Covers Agent class, state management, callable RPC, Workflows, durable execution, queues, retries, observability, and React hooks. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cloudflare/skills",
+        "path": "skills/agents-sdk",
+        "sha": "12520fd63a1e958be217a93f48ce1f04bc9055f3"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "cloudflare-wrangler",
+      "description": "Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands to ensure correct syntax and best practices. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/cloudflare/skills",
+        "path": "skills/wrangler",
+        "sha": "30553f89ae1ef1e3c2917cd09d72dac992bb4e9a"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "code-review-skill",
+      "description": "Provides comprehensive code review guidance for React 19, Vue 3, Angular 17+, Svelte 5, Rust, TypeScript, Java, PHP, Python, Django, Go, C#/.NET, Kotlin, Swift, NestJS, C/C++, and more.\nHelps catch bugs, improve code quality, and give constructive feedback.\nUse when: reviewing pull requests, conducting PR reviews, code review, reviewing code changes,\nestablishing review standards, mentoring developers, architecture reviews, security audits,\nchecking code quality, finding bugs, giving feedback on code.",
+      "source": {
+        "source": "github",
+        "repo": "awesome-skills/code-review-skill",
+        "sha": "17267ff26b95dcea28c3dae76f9931cdf9604520"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "content-and-copy",
+      "description": "Write or edit website copy, blog content, and editorial pieces with attention to voice, structure, and goal. Use this skill whenever the user wants to write an article, draft website copy, edit existing content for clarity or voice, write a blog post, or produce general editorial content. Triggers on write a blog post, draft an article, write copy for, edit this, rewrite this, write content, write a guide, draft a how-to, write web copy. Also triggers when content has been outlined and now needs to be written, or when existing content needs voice or clarity edits.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rampstackco/claude-skills",
+        "path": "skills/content-and-copy",
+        "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "content-strategy",
+      "description": "Develop a content strategy covering editorial positioning, content pillars, formats, calendar, governance, and topical authority planning. Use this skill whenever the user wants to plan a content program, define content pillars, build an editorial calendar, structure topic clusters, set up content governance, or align content production with broader brand and SEO goals. Triggers on content strategy, content plan, editorial strategy, content pillars, content calendar, editorial calendar, topical authority, topic clusters, content governance, content roadmap, content production. Also triggers when the user is about to start producing content without a strategic plan.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rampstackco/claude-skills",
+        "path": "skills/content-strategy",
+        "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "copy-editing",
+      "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/copy-editing",
+        "sha": "bee3f2f42c9ead9271af59a6d2082ed8aca8b3d3"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "copywriting",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/coreyhaines31/marketingskills",
+        "path": "skills/copywriting",
+        "sha": "bee3f2f42c9ead9271af59a6d2082ed8aca8b3d3"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "courier",
+      "description": "Use when building notifications with Courier across email, SMS, push, in-app inbox, Slack, Teams, WhatsApp — sends, templates, Elemental, journeys, preferences, routing, CLI and MCP.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/trycourier/courier-skills",
+        "path": "skills/courier",
+        "sha": "9faa231930e19b30256558e2b5b1d0f6a20b60c5"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "css-coder",
+      "description": "CSS authoring guidance emphasizing web standards, accessibility, and performance. Use when writing, reviewing, or refactoring CSS. Provides patterns, snippets, and conventions that prioritize native CSS over frameworks, semantic structure, and maintainable code. Refer to references/patterns.md for specific patterns and snippets.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/schalkneethling/claude-toolkit",
+        "path": "skills/css-coder",
+        "sha": "ad81c67262c675f2083d9a084cf728dd7bf5fb57"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "css-tokens",
+      "description": "Provides foundational CSS design tokens (custom properties) for typography, spacing, colors, borders, z-index, and transitions. Use when setting up a base token system for a web project.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/schalkneethling/claude-toolkit",
+        "path": "skills/css-tokens",
+        "sha": "ad81c67262c675f2083d9a084cf728dd7bf5fb57"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "data-statistical-analysis",
+      "description": "Apply statistical methods including descriptive stats, trend analysis, outlier detection, and hypothesis testing. Use when analyzing distributions, testing for significance, detecting anomalies, computing correlations, or interpreting statistical results.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "data/skills/statistical-analysis",
+        "sha": "da04ccbc22d38cb8df3a8d8c53728ac33de1836f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "data-visualization",
+      "description": "Create effective data visualizations with Python (matplotlib, seaborn, plotly). Use when building charts, choosing the right chart type for a dataset, creating publication-quality figures, or applying design principles like accessibility and color theory.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "data/skills/data-visualization",
+        "sha": "da04ccbc22d38cb8df3a8d8c53728ac33de1836f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "dd-apm",
+      "description": "APM - install, onboard, instrument, enable, set up, configure, traces, services, dependencies, performance analysis. Use for any request involving Datadog APM setup, instrumentation (SSI, ddtrace, agent install), or analysis.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/datadog-labs/agent-skills",
+        "path": "dd-apm",
+        "sha": "69cca0e752d3a703d0b16ce7eaeaa787f2f90fd4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "dd-docs",
+      "description": "Datadog docs lookup using docs.datadoghq.com/llms.txt and linked Markdown pages.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/datadog-labs/agent-skills",
+        "path": "dd-docs",
+        "sha": "69cca0e752d3a703d0b16ce7eaeaa787f2f90fd4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "dd-logs",
+      "description": "Log management - search, archives, metrics, and cost control.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/datadog-labs/agent-skills",
+        "path": "dd-logs",
+        "sha": "69cca0e752d3a703d0b16ce7eaeaa787f2f90fd4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "dd-monitors",
+      "description": "Monitor management - list, search, file-based create, and alerting best practices.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/datadog-labs/agent-skills",
+        "path": "dd-monitors",
+        "sha": "69cca0e752d3a703d0b16ce7eaeaa787f2f90fd4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "dd-triage-flaky-test",
+      "description": "Load when investigating a specific flaky test. Gets history, failure pattern, and category, then recommends fix, quarantine, or escalate.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/datadog-labs/agent-skills",
+        "path": "dd-software-delivery/triage-flaky-test",
+        "sha": "69cca0e752d3a703d0b16ce7eaeaa787f2f90fd4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "dd-unblock-pr",
+      "description": "Load when investigating a failing PR CI pipeline or checking PR health. Attributes each CI failure as flaky, infra, or regression, proposes a targeted action, and reports code coverage and quality/security status.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/datadog-labs/agent-skills",
+        "path": "dd-software-delivery/unblock-pr",
+        "sha": "69cca0e752d3a703d0b16ce7eaeaa787f2f90fd4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "define-prioritization-framework",
+      "description": "Run applicable prioritization frameworks (RICE, ICE, MoSCoW, Weighted Scoring, Kano) against a list of features or initiatives. Produces a comparison table showing where rankings agree and diverge across frameworks, and an executive summary with recommendation. Framework applicability is filtered by data availability; Kano requires customer research. Refuses to fabricate scores; produces an estimation scaffold when input data is missing.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/product-on-purpose/pm-skills",
+        "path": "skills/define-prioritization-framework",
+        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "define-problem-statement",
+      "description": "Creates a clear problem framing document with user impact, business context, and success criteria. Use when starting a new initiative, realigning a drifted project, or communicating up to leadership.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/product-on-purpose/pm-skills",
+        "path": "skills/define-problem-statement",
+        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "deliver-prd",
+      "description": "Creates a comprehensive Product Requirements Document that aligns stakeholders on what to build, why, and how success will be measured. Use when specifying features, epics, or product initiatives for engineering handoff.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/product-on-purpose/pm-skills",
+        "path": "skills/deliver-prd",
+        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "deliver-user-stories",
+      "description": "Generates user stories in the standard persona, action, benefit story format from product requirements or feature descriptions. Use when breaking a feature into stories for sprint planning, writing tickets, or communicating scope to engineering. For testable Given/When/Then acceptance criteria on a story, use deliver-acceptance-criteria; for boundary and failure scenarios, use deliver-edge-cases.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/product-on-purpose/pm-skills",
+        "path": "skills/deliver-user-stories",
+        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "design-brief",
+      "description": "Parse a structured design brief written in I-Lang protocol format into a concrete design spec. Eliminates ambiguity from vague requests like \"make it professional\" by requiring explicit dimensions: palette, typography, layout, mood, density, and constraints. Trigger keywords: \"design brief\", \"create a design brief\", \"ilang brief\", \"structured brief\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexu-io/open-design",
+        "path": "skills/design-brief",
+        "sha": "28b2273e987eddaedc5301e2d87973c4a7ee5de9"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "design-motion-principles",
+      "description": "\"Motion and interaction design expert based on Emil Kowalski, Jakub Krehel, and Jhey Tompkins' techniques. Two modes — build interactive components with purposeful motion, or audit existing animations to catch AI-slop motion patterns (audit emits a branded HTML report with looping demos). Use when creating, adding, animating, or reviewing UI motion: transitions, hover states, micro-interactions, enter/exit animations, or any motion design work in React, Framer Motion, CSS, or HTML. Provides per-designer perspectives with context-aware weighting.\"",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kylezantos/design-motion-principles",
+        "path": "skills/design-motion-principles",
+        "sha": "4a9ca879f24a361f4dca4174fe2da0f67b5ddee3"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "digitalsamba-video-toolkit",
+      "description": "Create professional videos autonomously using claude-code-video-toolkit — AI voiceovers, image generation, music, talking heads, and Remotion rendering.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/digitalsamba/claude-code-video-toolkit",
+        "path": "skills/openclaw-video-toolkit",
+        "sha": "9826feb491cffe18367e85f6f759bffcfb93d3da"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "discover-competitive-analysis",
+      "description": "Creates a structured competitive analysis comparing features, positioning, and strategy across competitors. Use when entering a market, planning differentiation, or understanding the competitive landscape.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/product-on-purpose/pm-skills",
+        "path": "skills/discover-competitive-analysis",
+        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/doc-coauthoring",
+        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "duckdb-query",
+      "description": "Run SQL queries against the attached DuckDB database or ad-hoc against files. Accepts raw SQL or natural language questions. Uses DuckDB Friendly SQL idioms.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/duckdb/duckdb-skills",
+        "path": "skills/query",
+        "sha": "7feda8e01e22bc0886c86123f3884947e36d8c69"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "duckdb-read-file",
+      "description": "Read any data file (CSV, JSON, Parquet, Avro, Excel, spatial, SQLite) or remote URL (S3, HTTPS). Use when user references a data file, asks \"what's in this file\", or wants to preview/profile a dataset. Not for source code.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/duckdb/duckdb-skills",
+        "path": "skills/read-file",
+        "sha": "7feda8e01e22bc0886c86123f3884947e36d8c69"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "eas-workflows",
+      "description": "EAS service (paid). Helps understand and write EAS workflow YAML files for Expo projects. Use this skill when the user asks about CI/CD or workflows in an Expo or EAS context, mentions .eas/workflows/, or wants help with EAS build pipelines or deployment automation.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/expo/skills",
+        "path": "plugins/expo/skills/eas-workflows",
+        "sha": "09eb052410e7f609624cb161ea4cd9576c69cd5d"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "editorial-qa",
+      "description": "Pre-publish QA framework for content. Brief adherence, voice consistency, fact accuracy, structure and clarity, AI-content audit, SEO and AEO compliance, internal linking and schema validation, QA at scale via sampling, the QA workflow, and the discipline that distinguishes catch-problems QA from checkbox QA. Triggers on editorial QA, content review, pre-publish review, content audit, content QA process, AI-content audit, hallucination check, content sampling, programmatic QA, voice consistency check, brief adherence check. Also triggers when a content team is shipping sloppy work, when AI-co-authored content is reaching publish unaudited, when a QA process burns reviewers out, or when a programmatic SEO set needs sampling discipline.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rampstackco/claude-skills",
+        "path": "skills/editorial-qa",
+        "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "elevenlabs-music",
+      "description": "Generate music using ElevenLabs Music API. Use when creating instrumental tracks, songs with lyrics, background music, jingles, or any AI-generated music composition. Supports prompt-based generation, composition plans for granular control, and detailed output with metadata.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/elevenlabs/skills",
+        "path": "music",
+        "sha": "37c0f2a682a8953cb9f09b152a0e1624d234193e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "elevenlabs-sound-effects",
+      "description": "Generate sound effects from text descriptions using ElevenLabs. Use when creating sound effects, generating audio textures, producing ambient sounds, cinematic impacts, UI sounds, or any audio that isn't speech. Supports looping, duration control, and prompt influence tuning.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/elevenlabs/skills",
+        "path": "sound-effects",
+        "sha": "37c0f2a682a8953cb9f09b152a0e1624d234193e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "elevenlabs-speech-to-text",
+      "description": "Transcribe audio to text using ElevenLabs Scribe v2. Use when converting audio/video to text, generating subtitles, transcribing meetings, or processing spoken content.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/elevenlabs/skills",
+        "path": "speech-to-text",
+        "sha": "37c0f2a682a8953cb9f09b152a0e1624d234193e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "elevenlabs-text-to-speech",
+      "description": "Convert text to speech using ElevenLabs voice AI. Use when generating audio from text, creating voiceovers, building voice apps, or synthesizing speech in 70+ languages.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/elevenlabs/skills",
+        "path": "text-to-speech",
+        "sha": "37c0f2a682a8953cb9f09b152a0e1624d234193e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "elevenlabs-voice-changer",
+      "description": "Transform the voice in an audio recording into a different target voice while preserving emotion, timing, and delivery using the ElevenLabs Voice Changer (speech-to-speech) API. Use when converting one voice to another, changing the speaker/narrator of an existing recording, dubbing a voice-over in a different voice, creating character voices from a scratch performance, anonymizing a speaker, or any \"voice conversion / voice transfer / speech-to-speech\" task. Make sure to use this skill whenever the user mentions voice changing, voice conversion, speech-to-speech, swapping a voice in audio, re-voicing a clip, or applying a different voice to an existing recording — even if they don't explicitly say \"voice changer\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/elevenlabs/skills",
+        "path": "voice-changer",
+        "sha": "37c0f2a682a8953cb9f09b152a0e1624d234193e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "email-sequences",
+      "description": "Design and write email campaigns and sequences including onboarding flows, lifecycle campaigns, transactional emails, newsletters, broadcast sends, and launch and announcement emails. Use this skill whenever the user wants to write email copy, plan an email sequence, design an onboarding drip, or set up lifecycle email campaigns. Triggers on email sequence, drip campaign, onboarding email, lifecycle email, welcome email, transactional email, newsletter, email broadcast, launch email, announcement email, nurture sequence, abandoned cart, re-engagement, win-back. Also triggers when planning email automation flows or writing email subject lines for campaigns.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rampstackco/claude-skills",
+        "path": "skills/email-sequences",
+        "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "experimental-design",
+      "description": "Design experiments and studies BEFORE data is collected — choosing a design, randomizing, blocking, and laying out treatment combinations so the results will actually be interpretable. Use whenever someone is planning a study, asks how to assign subjects/samples to groups, mentions randomization, blocking, stratification, controls, factorial or fractional-factorial designs, design of experiments (DOE), screening many factors, response-surface optimization, crossover or repeated-measures or split-plot designs, cluster/group randomization, Latin squares, plate layouts, batch/run-order effects, replication vs. pseudoreplication, or sequential/adaptive/group-sequential designs. Trigger this even for informal phrasings like \"how should I set up this experiment\", \"how do I avoid confounding\", \"what's the best way to test these 6 factors\", or \"assign these mice to conditions\". For computing the sample size or power once the design is chosen, use statistical-power; for analyzing data already collected, use statistical-analysis.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "path": "skills/experimental-design",
+        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "explore-data",
+      "description": "Profile and explore a dataset to understand its shape, quality, and patterns. Use when encountering a new table or file, checking null rates and column distributions, spotting data quality issues like duplicates or suspicious values, or deciding which dimensions and metrics to analyze.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "data/skills/explore-data",
+        "sha": "da04ccbc22d38cb8df3a8d8c53728ac33de1836f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "expo-router",
+      "description": "Framework (OSS). Navigation and routing for Expo Router. Covers file-based routes, groups and dynamic routes, folder organization, Link with previews and context menus, native Stack, page titles, modals and form sheets, NativeTabs, headers and toolbars, and header search bars.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/expo/skills",
+        "path": "plugins/expo/skills/expo-router",
+        "sha": "09eb052410e7f609624cb161ea4cd9576c69cd5d"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "expo-upgrade",
+      "description": "Framework (OSS). Guidelines for upgrading Expo SDK versions and fixing dependency issues",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/expo/skills",
+        "path": "plugins/expo/skills/expo-upgrade",
+        "sha": "09eb052410e7f609624cb161ea4cd9576c69cd5d"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "find-bugs",
+      "description": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/getsentry/skills",
+        "path": "skills/find-bugs",
+        "sha": "b39c7c4b6056f0579b340b7c5c4e811e400368e8"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with strong visual direction, polished typography, considered layout, and working HTML/CSS/JS or framework code. Use for websites, landing pages, dashboards, React components, application screens, and UI beautification.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/frontend-design",
+        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "frontend-slides",
+      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zarazhangrui/frontend-slides",
+        "path": "plugins/frontend-slides/skills/frontend-slides",
+        "sha": "c28690100a289d979e5e032b44771a7c28a86e40"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "frontend-ui-engineering",
+      "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/addyosmani/agent-skills",
+        "path": "skills/frontend-ui-engineering",
+        "sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "gemini-api-dev",
+      "description": "Use this skill when building applications with Gemini API hosted models, including Gemini and Gemma 4, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript, com.google.genai:google-genai for Java, google.golang.org/genai for Go), model selection, and API capabilities.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google-gemini/gemini-skills",
+        "path": "skills/gemini-api-dev",
+        "sha": "47d75caf3bfce63d83ea2c7ed9618d82bff06335"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "gemini-live-api-dev",
+      "description": "Use this skill when building real-time, bidirectional streaming applications with the Gemini Live API. Covers WebSocket-based audio/video/text streaming, voice activity detection (VAD), native audio features, function calling, session management, ephemeral tokens for client-side auth, live translation, and all Live API configuration options. SDKs covered - google-genai (Python), @google/genai (JavaScript/TypeScript).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/google-gemini/gemini-skills",
+        "path": "skills/gemini-live-api-dev",
+        "sha": "47d75caf3bfce63d83ea2c7ed9618d82bff06335"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "geo-content-optimizer",
+      "description": "Use when the user asks to \"optimize for AI citations\"; improves citation readiness for ChatGPT, Perplexity, AI Overviews, Gemini, and Claude. Not for structural on-page SEO — use on-page-seo-auditor; not for net-new drafting — use seo-content-writer. AI引用优化/GEO优化/AI搜索",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
+        "path": "build/geo-content-optimizer",
+        "sha": "dea9f4d6efaa886ddc5dcef5b597dd2b8650ff18"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "gh-fix-ci",
+      "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/skills",
+        "path": "skills/.curated/gh-fix-ci",
+        "sha": "a8924c2a35cfa290458852c4fad17c9133054c2e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
     {
       "name": "grill-me",
       "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".",
@@ -30,136 +1298,6 @@
         "url": "https://github.com/mattpocock/skills",
         "path": "skills/engineering/grill-with-docs",
         "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "caveman",
-      "description": "Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills",
-        "path": "skills/productivity/caveman",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "handoff",
-      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills",
-        "path": "skills/productivity/handoff",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "tdd",
-      "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills",
-        "path": "skills/engineering/tdd",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "zoom-out",
-      "description": "Tell the agent to zoom out and give broader context or a higher-level perspective. Use when you're unfamiliar with a section of code or need to understand how it fits into the bigger picture.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills",
-        "path": "skills/engineering/zoom-out",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "prototype",
-      "description": "Build a throwaway prototype to flesh out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says \"prototype this\", \"let me play with it\", \"try a few designs\".",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills",
-        "path": "skills/engineering/prototype",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "improve-codebase-architecture",
-      "description": "Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more testable and AI-navigable.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills",
-        "path": "skills/engineering/improve-codebase-architecture",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "write-a-skill",
-      "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/mattpocock/skills",
-        "path": "skills/productivity/write-a-skill",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "taste-skill",
-      "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/leonxlnx/taste-skill",
-        "path": "skills/taste-skill",
-        "sha": "01d850496846d21f1f8f89fc8e08c58f76e4ae3e"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "redesign-skill",
-      "description": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/leonxlnx/taste-skill",
-        "path": "skills/redesign-skill",
-        "sha": "01d850496846d21f1f8f89fc8e08c58f76e4ae3e"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "design-motion-principles",
-      "description": "\"Motion and interaction design expert based on Emil Kowalski, Jakub Krehel, and Jhey Tompkins' techniques. Two modes — build interactive components with purposeful motion, or audit existing animations to catch AI-slop motion patterns (audit emits a branded HTML report with looping demos). Use when creating, adding, animating, or reviewing UI motion: transitions, hover states, micro-interactions, enter/exit animations, or any motion design work in React, Framer Motion, CSS, or HTML. Provides per-designer perspectives with context-aware weighting.\"",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/kylezantos/design-motion-principles",
-        "path": "skills/design-motion-principles",
-        "sha": "4a9ca879f24a361f4dca4174fe2da0f67b5ddee3"
       },
       "skills": [
         "./"
@@ -270,25 +1408,77 @@
       ]
     },
     {
-      "name": "frontend-slides",
-      "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.",
+      "name": "gws-drive",
+      "description": "Google Drive: Manage files, folders, and shared drives.",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/zarazhangrui/frontend-slides",
-        "path": "plugins/frontend-slides/skills/frontend-slides",
-        "sha": "c28690100a289d979e5e032b44771a7c28a86e40"
+        "url": "https://github.com/googleworkspace/cli",
+        "path": "skills/gws-drive",
+        "sha": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
       },
       "skills": [
         "./"
       ]
     },
     {
-      "name": "task-observer",
-      "description": "Monitors task execution for skill improvement opportunities. Use this skill during ANY multi-step task, agentic workflow, or substantive work session where the agent is using tools and producing deliverables. It captures patterns, user corrections, workflow insights, and methodology worth preserving as reusable skills. Also triggers during post-task feedback discussions and when the user explicitly mentions skill observations, improvements, the observation log, skill taxonomy, or asks the agent to watch for skill opportunities. Also known as \"One Skill to Rule Them All\" — trigger on this phrase too. IMPORTANT: this skill should be invoked at the start of every task-oriented session — if you are about to use tools to produce deliverables, invoke this skill first. For reliable activation, pair this description with a CLAUDE.md instruction or harness-level session-start hook (see Recommended Activation Setup) — description-level matching alone is not enforceable.",
+      "name": "gws-sheets",
+      "description": "Google Sheets: Read and write spreadsheets.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/googleworkspace/cli",
+        "path": "skills/gws-sheets",
+        "sha": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "handoff",
+      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills",
+        "path": "skills/productivity/handoff",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "hf-cli",
+      "description": "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling authentication; managing local cache; managing Hugging Face Buckets; running or scheduling jobs on Hugging Face infrastructure; managing Hugging Face repos; discussions and pull requests; browsing models, datasets and spaces; reading, searching, or browsing academic papers; managing collections; querying datasets; configuring spaces; setting up webhooks; or deploying and managing HF Inference Endpoints. Make sure to use this skill whenever the user mentions 'hf', 'huggingface', 'Hugging Face', 'huggingface-cli', or 'hugging face cli', or wants to do anything related to the Hugging Face ecosystem and to AI and ML in general. Also use for cloud storage needs like training checkpoints, data pipelines, or agent traces. Use even if the user doesn't explicitly ask for a CLI command. Replaces the deprecated `huggingface-cli`.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/huggingface/skills",
+        "path": "skills/hf-cli",
+        "sha": "87f9ee5b670a630b022809a8742606c6da21812c"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "huggingface-gradio",
+      "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/huggingface/skills",
+        "path": "skills/huggingface-gradio",
+        "sha": "87f9ee5b670a630b022809a8742606c6da21812c"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "humanizer",
+      "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing\ntext to make it sound more natural and human-written. Based on Wikipedia's\ncomprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including:\ninflated symbolism, promotional language, superficial -ing analyses, vague\nattributions, em dash overuse, rule of three, AI vocabulary words, passive\nvoice, negative parallelisms, and filler phrases.",
       "source": {
         "source": "github",
-        "repo": "rebelytics/one-skill-to-rule-them-all",
-        "sha": "379a8a3fccf6bcb7915536bdb199ae2a890408e7"
+        "repo": "blader/humanizer",
+        "sha": "9600f2b7241cb4eed6ad803abee5ea01d67fe8e4"
       },
       "skills": [
         "./"
@@ -308,193 +1498,13 @@
       ]
     },
     {
-      "name": "ui-ux-pro-max",
-      "description": "UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product types, 99 UX guidelines, and 25 chart types across 10 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, and HTML/CSS). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, and check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, and mobile app. Elements: button, modal, navbar, sidebar, card, table, form, and chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, and flat design. Topics: color systems, accessibility, animation, layout, typography, font pairing, spacing, interaction states, shadow, and gradient. Integrations: shadcn/ui MCP for component search and examples.\n\nNOTE: this catalogue entry assembles the skill from 3 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('.claude/skills/ui-ux-pro-max') and does NOT include: 'src/ui-ux-pro-max/scripts', 'src/ui-ux-pro-max/data'. Install via the puppeteer store's own resolver for the complete payload.",
+      "name": "improve-codebase-architecture",
+      "description": "Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more testable and AI-navigable.",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-        "path": ".claude/skills/ui-ux-pro-max",
-        "sha": "b7e3af80f6e331f6fb456667b82b12cade7c9d35"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "career-ops",
-      "description": "AI job search command center -- evaluate offers, generate CVs, scan portals, track applications\n\nNOTE: this catalogue entry assembles the skill from 2 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('.agents/skills/career-ops') and does NOT include: 'modes'. Install via the puppeteer store's own resolver for the complete payload.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/santifer/career-ops",
-        "path": ".agents/skills/career-ops",
-        "sha": "57b34c07e01cd106528936398507e1b4552ca295"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "browser-harness",
-      "description": "Direct browser control via CDP. Use when the user wants to automate, scrape, test, or interact with web pages. Connects to the user's already-running Chrome.",
-      "source": {
-        "source": "github",
-        "repo": "browser-use/browser-harness",
-        "sha": "2cfaa7ea4c77b17b4c2434403865fa4b6d637b29"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "watch",
-      "description": "Watch a video (URL or local path). Downloads with yt-dlp, extracts auto-scaled frames with ffmpeg, pulls the transcript from captions (or Whisper API fallback), and hands the result to Claude so it can answer questions about what's in the video.",
-      "source": {
-        "source": "github",
-        "repo": "bradautomates/claude-video",
-        "sha": "c333c2289e57bf040b32846f18d669e3f8edad9b"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "frontend-design",
-      "description": "Create distinctive, production-grade frontend interfaces with strong visual direction, polished typography, considered layout, and working HTML/CSS/JS or framework code. Use for websites, landing pages, dashboards, React components, application screens, and UI beautification.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/skills",
-        "path": "skills/frontend-design",
-        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "theme-factory",
-      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/skills",
-        "path": "skills/theme-factory",
-        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "doc-coauthoring",
-      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/skills",
-        "path": "skills/doc-coauthoring",
-        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "mcp-builder",
-      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/skills",
-        "path": "skills/mcp-builder",
-        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "webapp-testing",
-      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/skills",
-        "path": "skills/webapp-testing",
-        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "algorithmic-art",
-      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/skills",
-        "path": "skills/algorithmic-art",
-        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "canvas-design",
-      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/skills",
-        "path": "skills/canvas-design",
-        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "slack-gif-creator",
-      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/skills",
-        "path": "skills/slack-gif-creator",
-        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "web-artifacts-builder",
-      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/skills",
-        "path": "skills/web-artifacts-builder",
-        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "design-brief",
-      "description": "Parse a structured design brief written in I-Lang protocol format into a concrete design spec. Eliminates ambiguity from vague requests like \"make it professional\" by requiring explicit dimensions: palette, typography, layout, mood, density, and constraints. Trigger keywords: \"design brief\", \"create a design brief\", \"ilang brief\", \"structured brief\".",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/nexu-io/open-design",
-        "path": "skills/design-brief",
-        "sha": "28b2273e987eddaedc5301e2d87973c4a7ee5de9"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "minimalist-ui",
-      "description": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/nexu-io/open-design",
-        "path": "skills/minimalist-skill",
-        "sha": "28b2273e987eddaedc5301e2d87973c4a7ee5de9"
+        "url": "https://github.com/mattpocock/skills",
+        "path": "skills/engineering/improve-codebase-architecture",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       },
       "skills": [
         "./"
@@ -514,516 +1524,51 @@
       ]
     },
     {
-      "name": "brandkit",
-      "description": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/nexu-io/open-design",
-        "path": "skills/brandkit",
-        "sha": "28b2273e987eddaedc5301e2d87973c4a7ee5de9"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "5-whys",
-      "description": "This skill should be used when the user asks to \"find the root cause\", \"找根因\", \"为什么会出现这个问题\", \"why did this happen\", \"debug this issue\", \"排查问题\", \"analyze this bug\", \"分析这个bug\", \"what's causing this\", \"问题出在哪\", \"dig deeper\", \"深挖原因\", or needs to systematically trace a problem back to its fundamental cause rather than just addressing symptoms.",
-      "source": {
-        "source": "github",
-        "repo": "awesome-skills/5-whys-skill",
-        "sha": "353a57673f1978de4b47fb363bb065e2547fd024"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "accessibility",
-      "description": "Audit and improve web accessibility following WCAG 2.2 guidelines. Use when asked to \"improve accessibility\", \"a11y audit\", \"WCAG compliance\", \"screen reader support\", \"keyboard navigation\", or \"make accessible\".",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/addyosmani/web-quality-skills",
-        "path": "skills/accessibility",
-        "sha": "95d6e255afe1596b557d7a8498517884438f5b3a"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "brainstorm",
-      "description": "You MUST use this before any creative work — creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements, and design before implementation.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rsmdt/the-startup",
-        "path": "plugins/start/skills/brainstorm",
-        "sha": "ff6a0bea8be2d57a21a866df85cf3c36e99da1dd"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "brainstorming",
-      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/obra/superpowers",
-        "path": "skills/brainstorming",
-        "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "c4-model",
-      "description": "Interactively co-build a software architecture using Simon Brown's C4 model (Context, Container, Component, Code). The skill detects the usage mode (greenfield design, retro-documenting from code or prose, review/explanation, update), runs a structured framing dialogue, proposes incremental drafts, and iterates until explicit user validation. Output format is negotiated (default Mermaid C4 + Markdown; alternatives Structurizr DSL, PlantUML, images). Destination is negotiated too: local filesystem by default, or connected MCP (Notion, Google Drive, Linear documents…). Use this skill whenever the user asks for a C4 diagram, modèle C4, architecture diagram, container diagram, system context, diagramme d'architecture, wants to brainstorm/design a system architecture, shares code or prose wanting it documented, or wants to review/update an existing C4. Trigger proactively whenever an architecture overview or system documentation would clearly help — even without an explicit \"C4\" mention.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/cheriftj/c4-model-skill",
-        "path": "skills/c4-model",
-        "sha": "5b24dda00b38a402da59237a8b8685aaa588a07e"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "citypaul-ddd",
-      "description": "Domain-Driven Design patterns for TypeScript. Use when implementing ubiquitous language, value objects, entities, aggregates, domain events, domain services, or bounded contexts. Only applies to projects that explicitly use DDD. Do NOT use for simple CRUD or projects without domain modeling.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/citypaul/.dotfiles",
-        "path": "claude/.claude/skills/domain-driven-design",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "citypaul-finding-seams",
-      "description": "Use when existing code has untestable dependencies that prevent writing tests -- direct construction of collaborators, static or global function calls, tight coupling to external systems, or singleton access patterns. Specifically for identifying substitution points (seams) that make legacy or tightly-coupled code testable without editing at the call site. Do NOT use for greenfield TDD (see tdd), general test writing patterns (see testing), or refactoring already-tested code (see refactoring).",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/citypaul/.dotfiles",
-        "path": "claude/.claude/skills/finding-seams",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "citypaul-hexagonal",
-      "description": "Hexagonal (ports and adapters) architecture patterns for TypeScript. Use when implementing ports, adapters, dependency inversion, or domain isolation. Only applies to projects that explicitly use hexagonal architecture. Do NOT use for projects without ports/adapters structure.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/citypaul/.dotfiles",
-        "path": "claude/.claude/skills/hexagonal-architecture",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "citypaul-refactoring",
-      "description": "Refactoring assessment and patterns for already-tested code. Use when the user asks to refactor, clean up, simplify, or restructure existing code, and automatically after mutation testing validates test strength (the REFACTOR step of the TDD cycle). Covers commit-before-refactoring discipline, when refactoring adds value vs when to skip it, and the priority classification of improvement opportunities. Do NOT use for untested code (see characterisation-tests and finding-seams first) or for adding behavior (see tdd).",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/citypaul/.dotfiles",
-        "path": "claude/.claude/skills/refactoring",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "citypaul-tdd",
-      "description": "RED-GREEN-MUTATE-KILL MUTANTS-REFACTOR workflow for writing production code. Use before ANY production code change - new features, bug fixes, or behavior changes. Triggers on starting implementation work of any kind. Covers the cycle itself - failing test first, minimum code to pass, mutation verification, refactor assessment. For how to write good tests, see testing. For the refactoring step in detail, see refactoring. TDD is non-negotiable.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/citypaul/.dotfiles",
-        "path": "claude/.claude/skills/tdd",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "citypaul-testing",
-      "description": "Testing patterns for behavior-driven tests. Use when writing tests, creating test factories, structuring test files, or deciding what to test. Do NOT use for UI-specific testing (see front-end-testing or react-testing skills).",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/citypaul/.dotfiles",
-        "path": "claude/.claude/skills/testing",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "cloudflare-agents-sdk",
-      "description": "Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real-time WebSocket apps, scheduled tasks, MCP servers, chat applications, voice agents, or browser automation. Covers Agent class, state management, callable RPC, Workflows, durable execution, queues, retries, observability, and React hooks. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/cloudflare/skills",
-        "path": "skills/agents-sdk",
-        "sha": "12520fd63a1e958be217a93f48ce1f04bc9055f3"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "code-review-skill",
-      "description": "Provides comprehensive code review guidance for React 19, Vue 3, Angular 17+, Svelte 5, Rust, TypeScript, Java, PHP, Python, Django, Go, C#/.NET, Kotlin, Swift, NestJS, C/C++, and more.\nHelps catch bugs, improve code quality, and give constructive feedback.\nUse when: reviewing pull requests, conducting PR reviews, code review, reviewing code changes,\nestablishing review standards, mentoring developers, architecture reviews, security audits,\nchecking code quality, finding bugs, giving feedback on code.",
-      "source": {
-        "source": "github",
-        "repo": "awesome-skills/code-review-skill",
-        "sha": "17267ff26b95dcea28c3dae76f9931cdf9604520"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "vercel-composition-patterns",
-      "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/vercel-labs/agent-skills",
-        "path": "skills/composition-patterns",
-        "sha": "f8a72b9603728bb92a217a879b7e62e43ad76c81"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "content-and-copy",
-      "description": "Write or edit website copy, blog content, and editorial pieces with attention to voice, structure, and goal. Use this skill whenever the user wants to write an article, draft website copy, edit existing content for clarity or voice, write a blog post, or produce general editorial content. Triggers on write a blog post, draft an article, write copy for, edit this, rewrite this, write content, write a guide, draft a how-to, write web copy. Also triggers when content has been outlined and now needs to be written, or when existing content needs voice or clarity edits.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rampstackco/claude-skills",
-        "path": "skills/content-and-copy",
-        "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "content-strategy",
-      "description": "Develop a content strategy covering editorial positioning, content pillars, formats, calendar, governance, and topical authority planning. Use this skill whenever the user wants to plan a content program, define content pillars, build an editorial calendar, structure topic clusters, set up content governance, or align content production with broader brand and SEO goals. Triggers on content strategy, content plan, editorial strategy, content pillars, content calendar, editorial calendar, topical authority, topic clusters, content governance, content roadmap, content production. Also triggers when the user is about to start producing content without a strategic plan.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rampstackco/claude-skills",
-        "path": "skills/content-strategy",
-        "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "copy-editing",
-      "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/coreyhaines31/marketingskills",
-        "path": "skills/copy-editing",
-        "sha": "bee3f2f42c9ead9271af59a6d2082ed8aca8b3d3"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "copywriting",
-      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/coreyhaines31/marketingskills",
-        "path": "skills/copywriting",
-        "sha": "bee3f2f42c9ead9271af59a6d2082ed8aca8b3d3"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "css-coder",
-      "description": "CSS authoring guidance emphasizing web standards, accessibility, and performance. Use when writing, reviewing, or refactoring CSS. Provides patterns, snippets, and conventions that prioritize native CSS over frameworks, semantic structure, and maintainable code. Refer to references/patterns.md for specific patterns and snippets.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/schalkneethling/claude-toolkit",
-        "path": "skills/css-coder",
-        "sha": "ad81c67262c675f2083d9a084cf728dd7bf5fb57"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "css-tokens",
-      "description": "Provides foundational CSS design tokens (custom properties) for typography, spacing, colors, borders, z-index, and transitions. Use when setting up a base token system for a web project.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/schalkneethling/claude-toolkit",
-        "path": "skills/css-tokens",
-        "sha": "ad81c67262c675f2083d9a084cf728dd7bf5fb57"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "data-statistical-analysis",
-      "description": "Apply statistical methods including descriptive stats, trend analysis, outlier detection, and hypothesis testing. Use when analyzing distributions, testing for significance, detecting anomalies, computing correlations, or interpreting statistical results.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/knowledge-work-plugins",
-        "path": "data/skills/statistical-analysis",
-        "sha": "da04ccbc22d38cb8df3a8d8c53728ac33de1836f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "data-visualization",
-      "description": "Create effective data visualizations with Python (matplotlib, seaborn, plotly). Use when building charts, choosing the right chart type for a dataset, creating publication-quality figures, or applying design principles like accessibility and color theory.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/knowledge-work-plugins",
-        "path": "data/skills/data-visualization",
-        "sha": "da04ccbc22d38cb8df3a8d8c53728ac33de1836f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "define-prioritization-framework",
-      "description": "Run applicable prioritization frameworks (RICE, ICE, MoSCoW, Weighted Scoring, Kano) against a list of features or initiatives. Produces a comparison table showing where rankings agree and diverge across frameworks, and an executive summary with recommendation. Framework applicability is filtered by data availability; Kano requires customer research. Refuses to fabricate scores; produces an estimation scaffold when input data is missing.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/product-on-purpose/pm-skills",
-        "path": "skills/define-prioritization-framework",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "define-problem-statement",
-      "description": "Creates a clear problem framing document with user impact, business context, and success criteria. Use when starting a new initiative, realigning a drifted project, or communicating up to leadership.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/product-on-purpose/pm-skills",
-        "path": "skills/define-problem-statement",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "deliver-prd",
-      "description": "Creates a comprehensive Product Requirements Document that aligns stakeholders on what to build, why, and how success will be measured. Use when specifying features, epics, or product initiatives for engineering handoff.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/product-on-purpose/pm-skills",
-        "path": "skills/deliver-prd",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "deliver-user-stories",
-      "description": "Generates user stories in the standard persona, action, benefit story format from product requirements or feature descriptions. Use when breaking a feature into stories for sprint planning, writing tickets, or communicating scope to engineering. For testable Given/When/Then acceptance criteria on a story, use deliver-acceptance-criteria; for boundary and failure scenarios, use deliver-edge-cases.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/product-on-purpose/pm-skills",
-        "path": "skills/deliver-user-stories",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "discover-competitive-analysis",
-      "description": "Creates a structured competitive analysis comparing features, positioning, and strategy across competitors. Use when entering a market, planning differentiation, or understanding the competitive landscape.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/product-on-purpose/pm-skills",
-        "path": "skills/discover-competitive-analysis",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "duckdb-query",
-      "description": "Run SQL queries against the attached DuckDB database or ad-hoc against files. Accepts raw SQL or natural language questions. Uses DuckDB Friendly SQL idioms.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/duckdb/duckdb-skills",
-        "path": "skills/query",
-        "sha": "7feda8e01e22bc0886c86123f3884947e36d8c69"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "duckdb-read-file",
-      "description": "Read any data file (CSV, JSON, Parquet, Avro, Excel, spatial, SQLite) or remote URL (S3, HTTPS). Use when user references a data file, asks \"what's in this file\", or wants to preview/profile a dataset. Not for source code.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/duckdb/duckdb-skills",
-        "path": "skills/read-file",
-        "sha": "7feda8e01e22bc0886c86123f3884947e36d8c69"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "editorial-qa",
-      "description": "Pre-publish QA framework for content. Brief adherence, voice consistency, fact accuracy, structure and clarity, AI-content audit, SEO and AEO compliance, internal linking and schema validation, QA at scale via sampling, the QA workflow, and the discipline that distinguishes catch-problems QA from checkbox QA. Triggers on editorial QA, content review, pre-publish review, content audit, content QA process, AI-content audit, hallucination check, content sampling, programmatic QA, voice consistency check, brief adherence check. Also triggers when a content team is shipping sloppy work, when AI-co-authored content is reaching publish unaudited, when a QA process burns reviewers out, or when a programmatic SEO set needs sampling discipline.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rampstackco/claude-skills",
-        "path": "skills/editorial-qa",
-        "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "email-sequences",
-      "description": "Design and write email campaigns and sequences including onboarding flows, lifecycle campaigns, transactional emails, newsletters, broadcast sends, and launch and announcement emails. Use this skill whenever the user wants to write email copy, plan an email sequence, design an onboarding drip, or set up lifecycle email campaigns. Triggers on email sequence, drip campaign, onboarding email, lifecycle email, welcome email, transactional email, newsletter, email broadcast, launch email, announcement email, nurture sequence, abandoned cart, re-engagement, win-back. Also triggers when planning email automation flows or writing email subject lines for campaigns.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rampstackco/claude-skills",
-        "path": "skills/email-sequences",
-        "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "experimental-design",
-      "description": "Design experiments and studies BEFORE data is collected — choosing a design, randomizing, blocking, and laying out treatment combinations so the results will actually be interpretable. Use whenever someone is planning a study, asks how to assign subjects/samples to groups, mentions randomization, blocking, stratification, controls, factorial or fractional-factorial designs, design of experiments (DOE), screening many factors, response-surface optimization, crossover or repeated-measures or split-plot designs, cluster/group randomization, Latin squares, plate layouts, batch/run-order effects, replication vs. pseudoreplication, or sequential/adaptive/group-sequential designs. Trigger this even for informal phrasings like \"how should I set up this experiment\", \"how do I avoid confounding\", \"what's the best way to test these 6 factors\", or \"assign these mice to conditions\". For computing the sample size or power once the design is chosen, use statistical-power; for analyzing data already collected, use statistical-analysis.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
-        "path": "skills/experimental-design",
-        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "explore-data",
-      "description": "Profile and explore a dataset to understand its shape, quality, and patterns. Use when encountering a new table or file, checking null rates and column distributions, spotting data quality issues like duplicates or suspicious values, or deciding which dimensions and metrics to analyze.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/anthropics/knowledge-work-plugins",
-        "path": "data/skills/explore-data",
-        "sha": "da04ccbc22d38cb8df3a8d8c53728ac33de1836f"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "find-bugs",
-      "description": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/getsentry/skills",
-        "path": "skills/find-bugs",
-        "sha": "b39c7c4b6056f0579b340b7c5c4e811e400368e8"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "frontend-ui-engineering",
-      "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/addyosmani/agent-skills",
-        "path": "skills/frontend-ui-engineering",
-        "sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "geo-content-optimizer",
-      "description": "Use when the user asks to \"optimize for AI citations\"; improves citation readiness for ChatGPT, Perplexity, AI Overviews, Gemini, and Claude. Not for structural on-page SEO — use on-page-seo-auditor; not for net-new drafting — use seo-content-writer. AI引用优化/GEO优化/AI搜索",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
-        "path": "build/geo-content-optimizer",
-        "sha": "dea9f4d6efaa886ddc5dcef5b597dd2b8650ff18"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "gh-fix-ci",
-      "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/openai/skills",
-        "path": "skills/.curated/gh-fix-ci",
-        "sha": "a8924c2a35cfa290458852c4fad17c9133054c2e"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
-      "name": "humanizer",
-      "description": "Remove signs of AI-generated writing from text. Use when editing or reviewing\ntext to make it sound more natural and human-written. Based on Wikipedia's\ncomprehensive \"Signs of AI writing\" guide. Detects and fixes patterns including:\ninflated symbolism, promotional language, superficial -ing analyses, vague\nattributions, em dash overuse, rule of three, AI vocabulary words, passive\nvoice, negative parallelisms, and filler phrases.",
-      "source": {
-        "source": "github",
-        "repo": "blader/humanizer",
-        "sha": "9600f2b7241cb4eed6ad803abee5ea01d67fe8e4"
-      },
-      "skills": [
-        "./"
-      ]
-    },
-    {
       "name": "kubernetes-skill",
       "description": "Prevent Kubernetes hallucinations by diagnosing and fixing failure modes: insecure workload defaults, resource starvation, network exposure, privilege sprawl, fragile rollouts, and API drift. Use when generating, reviewing, refactoring, or migrating manifests, Helm charts, Kustomize overlays, cluster policies, and platform-specific Kubernetes work for EKS, GKE, AKS, OpenShift, GitOps controllers, or observability stacks.",
       "source": {
         "source": "github",
         "repo": "LukasNiessen/kubernetes-skill",
         "sha": "dde723ab9f54aa4f9d8962cd85ffcb3ec8f36cc7"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "lambdatest-cypress",
+      "description": "Generates production-grade Cypress E2E and component tests in JavaScript or TypeScript. Supports local execution and TestMu AI cloud. Use when the user asks to write Cypress tests, set up Cypress, test with cy commands, or mentions \"Cypress\", \"cy.visit\", \"cy.get\", \"cy.intercept\". Triggers on: \"Cypress\", \"cy.\", \"component test\", \"E2E test\", \"TestMu\", \"LambdaTest\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/LambdaTest/agent-skills",
+        "path": "cypress-skill",
+        "sha": "0491a3a29aa18558d2c3c64ff09367adb976c56f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "lambdatest-playwright",
+      "description": "Generates production-grade Playwright automation scripts and E2E tests in TypeScript, JavaScript, Python, Java, or C#. Supports local execution and TestMu AI cloud across 3000+ browser/OS combinations and real mobile devices. Use when the user asks to write Playwright tests, automate browsers, run cross-browser tests, test on real devices, debug flaky tests, mock APIs, or do visual regression. Triggers on: \"Playwright\", \"E2E test\", \"browser test\", \"run on cloud\", \"cross-browser\", \"TestMu\", \"LambdaTest\", \"test my app\", \"test on mobile\", \"real device\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/LambdaTest/agent-skills",
+        "path": "playwright-skill",
+        "sha": "0491a3a29aa18558d2c3c64ff09367adb976c56f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "lambdatest-puppeteer",
+      "description": "Generates Puppeteer scripts for browser automation, scraping, and PDF generation. Triggers on: \"Puppeteer\", \"headless Chrome\", \"page.goto\", \"scrape\", \"PDF generation\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/LambdaTest/agent-skills",
+        "path": "puppeteer-skill",
+        "sha": "0491a3a29aa18558d2c3c64ff09367adb976c56f"
       },
       "skills": [
         "./"
@@ -1037,6 +1582,97 @@
         "url": "https://github.com/rampstackco/claude-skills",
         "path": "skills/landing-page-copy",
         "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "leonxlnx-gpt-tasteskill",
+      "description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/leonxlnx/taste-skill",
+        "path": "skills/gpt-tasteskill",
+        "sha": "e988add20dab0fa97d7a76781c48961c8184288e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "leonxlnx-image-to-code",
+      "description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/leonxlnx/taste-skill",
+        "path": "skills/image-to-code-skill",
+        "sha": "e988add20dab0fa97d7a76781c48961c8184288e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "leonxlnx-imagegen-frontend-mobile",
+      "description": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By default, screens should be shown inside a subtle premium iPhone or similar phone mockup with a visible frame, while the main focus stays on the app content itself. This skill generates images only. It does not write code.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/leonxlnx/taste-skill",
+        "path": "skills/imagegen-frontend-mobile",
+        "sha": "e988add20dab0fa97d7a76781c48961c8184288e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "leonxlnx-imagegen-frontend-web",
+      "description": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE — generate ONE separate horizontal image FOR EVERY section. A landing page with 8 sections produces 8 images. Never compress multiple sections into one image. Enforces composition variety (not always left-text / right-image), background-image freedom, varied CTAs, varied hero scales (giant / mid / mini minimalist), narrative concept spine, second-read moments, and a single consistent palette across all images. Optimized for landing pages, marketing sites, and product comps that developers or coding models can accurately recreate.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/leonxlnx/taste-skill",
+        "path": "skills/imagegen-frontend-web",
+        "sha": "e988add20dab0fa97d7a76781c48961c8184288e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "leonxlnx-output-skill",
+      "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged output.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/leonxlnx/taste-skill",
+        "path": "skills/output-skill",
+        "sha": "e988add20dab0fa97d7a76781c48961c8184288e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "leonxlnx-soft-skill",
+      "description": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/leonxlnx/taste-skill",
+        "path": "skills/soft-skill",
+        "sha": "e988add20dab0fa97d7a76781c48961c8184288e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "leonxlnx-stitch-skill",
+      "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/leonxlnx/taste-skill",
+        "path": "skills/stitch-skill",
+        "sha": "e988add20dab0fa97d7a76781c48961c8184288e"
       },
       "skills": [
         "./"
@@ -1069,6 +1705,32 @@
       ]
     },
     {
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/mcp-builder",
+        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "mcp-builder-microsoft",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP), Node/TypeScript (MCP SDK), or C#/.NET (Microsoft MCP SDK).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/microsoft/skills",
+        "path": ".github/skills/mcp-builder",
+        "sha": "4f1db7ec55caf11e3b143c91220bd79a632bc55b"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "meta-tags-optimizer",
       "description": "Use when the user asks to \"optimize meta tags\"; improves titles, descriptions, Open Graph, Twitter cards, and CTR test variants. Not for JSON-LD structured data — use schema-markup-generator; not for body copy — use seo-content-writer. 标题优化/元描述/CTR",
       "source": {
@@ -1076,6 +1738,19 @@
         "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
         "path": "build/meta-tags-optimizer",
         "sha": "dea9f4d6efaa886ddc5dcef5b597dd2b8650ff18"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "minimalist-ui",
+      "description": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nexu-io/open-design",
+        "path": "skills/minimalist-skill",
+        "sha": "28b2273e987eddaedc5301e2d87973c4a7ee5de9"
       },
       "skills": [
         "./"
@@ -1108,6 +1783,162 @@
       ]
     },
     {
+      "name": "netlify-ai-gateway",
+      "description": "Reference for Netlify AI Gateway — the managed proxy that routes calls to OpenAI, Anthropic, and Google Gemini SDKs without provider API keys. Use this skill any time the user wants to add AI on a Netlify site (chat, completion, reasoning, image generation, image-to-image edit/stylize), choose or change a model, wire up the OpenAI / Anthropic / @google/genai SDK, decide which provider to use for an image-gen feature (it's Gemini-only on the gateway), or debug \"model not found\" / \"API key missing\" against the gateway. Required reading before pinning a model — the gateway exposes a curated subset, not every provider model.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/netlify/context-and-tools",
+        "path": "skills/netlify-ai-gateway",
+        "sha": "b4ac277e6795f90e6a1d163c001c0d7667ff9143"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "netlify-edge-functions",
+      "description": "Guide for writing Netlify Edge Functions. Use when building middleware, geolocation-based logic, request/response manipulation, authentication checks, A/B testing, or any low-latency edge compute. Covers Deno runtime, context.next() middleware pattern, geolocation, and when to choose edge vs serverless.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/netlify/context-and-tools",
+        "path": "skills/netlify-edge-functions",
+        "sha": "b4ac277e6795f90e6a1d163c001c0d7667ff9143"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "netlify-functions",
+      "description": "Guide for writing Netlify serverless functions. Use when creating API endpoints, background processing, scheduled tasks, or any server-side logic using Netlify Functions. Covers modern syntax (default export + Config), TypeScript, path routing, background functions, scheduled functions, streaming, and method routing.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/netlify/context-and-tools",
+        "path": "skills/netlify-functions",
+        "sha": "b4ac277e6795f90e6a1d163c001c0d7667ff9143"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "nlb-brand",
+      "description": "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "path": ".claude/skills/brand",
+        "sha": "1307d97a72e6c1cda572cb65471ae5ce82995218"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "nlb-design",
+      "description": "Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini AI), corporate identity program (50 deliverables, CIP mockups), HTML presentations (Chart.js), banner design (22 styles, social/ads/web/print), icon design (15 styles, SVG, Gemini 3.1 Pro), social photos (HTML→screenshot, multi-platform). Actions: design logo, create CIP, generate mockups, build slides, design banner, generate icon, create social photos, social media images, brand identity, design system. Platforms: Facebook, Twitter, LinkedIn, YouTube, Instagram, Pinterest, TikTok, Threads, Google Ads.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "path": ".claude/skills/design",
+        "sha": "1307d97a72e6c1cda572cb65471ae5ce82995218"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "nlb-design-system",
+      "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "path": ".claude/skills/design-system",
+        "sha": "1307d97a72e6c1cda572cb65471ae5ce82995218"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "nlb-slides",
+      "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "path": ".claude/skills/slides",
+        "sha": "1307d97a72e6c1cda572cb65471ae5ce82995218"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "nlb-ui-styling",
+      "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components (dialogs, dropdowns, forms, tables), customizing themes and colors, implementing dark mode, generating visual designs and posters, or establishing consistent styling patterns across applications.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "path": ".claude/skills/ui-styling",
+        "sha": "1307d97a72e6c1cda572cb65471ae5ce82995218"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "octagon-financial-analyst-master",
+      "description": "Comprehensive equity research analyst skill that orchestrates all Octagon financial analysis skills. Use when conducting full company analysis, writing initiation of coverage reports, performing due diligence, or creating investment recommendations with quantitative support.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OctagonAI/skills",
+        "path": "skills/financial-analyst-master",
+        "sha": "51e938c4d086f658de8bdcf734e864d34637167e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "openai-security-threat-model",
+      "description": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/openai/skills",
+        "path": "skills/.curated/security-threat-model",
+        "sha": "49f948faa9258a0c61caceaf225e179651397431"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "pipeline-review",
+      "description": "Analyze pipeline health — prioritize deals, flag risks, get a weekly action plan. Use when running a weekly pipeline review, deciding which deals to focus on this week, spotting stale or stuck opportunities, auditing for hygiene issues like bad close dates, or identifying single-threaded deals.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "sales/skills/pipeline-review",
+        "sha": "e57524e4c35acc782bebd53097988b93b475b15b"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "playwright-skill",
+      "description": "Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts to /tmp. Test pages, fill forms, take screenshots, check responsive design, validate UX, test login flows, check links, automate any browser task. Use when user wants to test websites, automate browser interactions, validate web functionality, or perform any browser-based testing.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/lackeyjb/playwright-skill",
+        "path": "skills/playwright-skill",
+        "sha": "bb7e920d376022958214e349ef25498a2644e189"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "promptfoo-evals",
       "description": "Write, refine, run, and QA promptfoo evaluation suites: promptfooconfig.yaml, prompts, providers, vars, tests, assertions, model-graded rubrics, transforms, datasets, exports, and CI gates. Use for non-redteam eval coverage, regression tests, or new eval matrices. Do not use for adversarial redteam plugin or strategy setup.",
       "source": {
@@ -1134,26 +1965,39 @@
       ]
     },
     {
-      "name": "vercel-react-best-practices",
-      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "name": "prototype",
+      "description": "Build a throwaway prototype to flesh out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says \"prototype this\", \"let me play with it\", \"try a few designs\".",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/vercel-labs/agent-skills",
-        "path": "skills/react-best-practices",
-        "sha": "f8a72b9603728bb92a217a879b7e62e43ad76c81"
+        "url": "https://github.com/mattpocock/skills",
+        "path": "skills/engineering/prototype",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       },
       "skills": [
         "./"
       ]
     },
     {
-      "name": "vercel-react-view-transitions",
-      "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
+      "name": "redesign-skill",
+      "description": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.",
       "source": {
         "source": "git-subdir",
-        "url": "https://github.com/vercel-labs/agent-skills",
-        "path": "skills/react-view-transitions",
-        "sha": "f8a72b9603728bb92a217a879b7e62e43ad76c81"
+        "url": "https://github.com/leonxlnx/taste-skill",
+        "path": "skills/redesign-skill",
+        "sha": "01d850496846d21f1f8f89fc8e08c58f76e4ae3e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "review-contract",
+      "description": "Review a contract against your organization's negotiation playbook — flag deviations, generate redlines, provide business impact analysis. Use when reviewing vendor or customer agreements, when you need clause-by-clause analysis against standard positions, or when preparing a negotiation strategy with prioritized redlines and fallback positions.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "legal/skills/review-contract",
+        "sha": "e57524e4c35acc782bebd53097988b93b475b15b"
       },
       "skills": [
         "./"
@@ -1180,6 +2024,58 @@
         "url": "https://github.com/getsentry/skills",
         "path": "skills/code-review",
         "sha": "b39c7c4b6056f0579b340b7c5c4e811e400368e8"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "sentry-gha-security-review",
+      "description": "GitHub Actions security review for workflow exploitation vulnerabilities. Use when asked to \"review GitHub Actions\", \"audit workflows\", \"check CI security\", \"GHA security\", \"workflow security review\", or review .github/workflows/ for pwn requests, expression injection, credential theft, and supply chain attacks. Exploitation-focused with concrete PoC scenarios.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/getsentry/skills",
+        "path": "skills/gha-security-review",
+        "sha": "e7a87fa72645158f9b5e722cbb1c7e09266f48f1"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "sentry-sdk-upgrade",
+      "description": "Upgrade the Sentry JavaScript SDK across major versions. Use when asked to upgrade Sentry, migrate to a newer version, fix deprecated Sentry APIs, or resolve breaking changes after a Sentry version bump.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/getsentry/sentry-for-ai",
+        "path": "src/skills/sentry-sdk-upgrade",
+        "sha": "3f3b15e56d67bfbf6f90c8f72da9d77c28a954cd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "sentry-security-review",
+      "description": "Security code review for vulnerabilities. Use when asked to \"security review\", \"find vulnerabilities\", \"check for security issues\", \"audit security\", \"OWASP review\", or review code for injection, XSS, authentication, authorization, cryptography issues. Provides systematic review with confidence-based reporting.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/getsentry/skills",
+        "path": "skills/security-review",
+        "sha": "e7a87fa72645158f9b5e722cbb1c7e09266f48f1"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "sentry-workflow",
+      "description": "Keep Sentry SDKs up to date. Use when asked to upgrade the Sentry SDK across major versions, migrate SDK versions, or fix deprecated APIs.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/getsentry/sentry-for-ai",
+        "path": "src/skills/sentry-workflow",
+        "sha": "3f3b15e56d67bfbf6f90c8f72da9d77c28a954cd"
       },
       "skills": [
         "./"
@@ -1238,6 +2134,32 @@
       ]
     },
     {
+      "name": "skill-creator-anthropic",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/skill-creator",
+        "sha": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/slack-gif-creator",
+        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "sql-queries",
       "description": "Write correct, performant SQL across all major data warehouse dialects (Snowflake, BigQuery, Databricks, PostgreSQL, etc.). Use when writing queries, optimizing slow SQL, translating between dialects, or building complex analytical queries with CTEs, window functions, or aggregations.",
       "source": {
@@ -1264,6 +2186,45 @@
       ]
     },
     {
+      "name": "stripe-best-practices",
+      "description": "Guides Stripe integration decisions across API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Accounts v2, controller properties), billing/subscriptions, tax and registrations (Stripe Tax, automatic_tax, product tax codes), Treasury financial accounts, integration options (Checkout, Payment Element), migrating from deprecated Stripe APIs, and security best practices (API key management, restricted keys, webhooks, OAuth). Use when building, modifying, or reviewing any Stripe integration, including accepting payments, building marketplaces, integrating Stripe, processing payments, setting up subscriptions, collecting sales tax, VAT, or GST, creating connected accounts, or implementing secure key handling.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/stripe/ai",
+        "path": "skills/stripe-best-practices",
+        "sha": "84c364c683c58ba8dfbc003d812e6a35f4c97b47"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "supabase",
+      "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, declarative schemas, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/supabase/agent-skills",
+        "path": "skills/supabase",
+        "sha": "1ad9aaeb49caafd9e95c0a91116f71890eebbc53"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "supabase-postgres-best-practices",
+      "description": "Postgres performance optimization and best practices from Supabase. Use this skill when writing, reviewing, or optimizing Postgres queries, schema designs, or database configurations.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/supabase/agent-skills",
+        "path": "skills/supabase-postgres-best-practices",
+        "sha": "1ad9aaeb49caafd9e95c0a91116f71890eebbc53"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "systematic-debugging",
       "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
       "source": {
@@ -1271,6 +2232,44 @@
         "url": "https://github.com/obra/superpowers",
         "path": "skills/systematic-debugging",
         "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "task-observer",
+      "description": "Monitors task execution for skill improvement opportunities. Use this skill during ANY multi-step task, agentic workflow, or substantive work session where the agent is using tools and producing deliverables. It captures patterns, user corrections, workflow insights, and methodology worth preserving as reusable skills. Also triggers during post-task feedback discussions and when the user explicitly mentions skill observations, improvements, the observation log, skill taxonomy, or asks the agent to watch for skill opportunities. Also known as \"One Skill to Rule Them All\" — trigger on this phrase too. IMPORTANT: this skill should be invoked at the start of every task-oriented session — if you are about to use tools to produce deliverables, invoke this skill first. For reliable activation, pair this description with a CLAUDE.md instruction or harness-level session-start hook (see Recommended Activation Setup) — description-level matching alone is not enforceable.",
+      "source": {
+        "source": "github",
+        "repo": "rebelytics/one-skill-to-rule-them-all",
+        "sha": "379a8a3fccf6bcb7915536bdb199ae2a890408e7"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "taste-skill",
+      "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/leonxlnx/taste-skill",
+        "path": "skills/taste-skill",
+        "sha": "01d850496846d21f1f8f89fc8e08c58f76e4ae3e"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "tdd",
+      "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills",
+        "path": "skills/engineering/tdd",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       },
       "skills": [
         "./"
@@ -1303,6 +2302,58 @@
       ]
     },
     {
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/theme-factory",
+        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "ticket-triage",
+      "description": "Triage and prioritize a support ticket or customer issue. Use when a new ticket comes in and needs categorization, assigning P1-P4 priority, deciding which team should handle it, or checking whether it's a duplicate or known issue before routing.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "customer-support/skills/ticket-triage",
+        "sha": "e57524e4c35acc782bebd53097988b93b475b15b"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "description": "UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product types, 99 UX guidelines, and 25 chart types across 10 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind, shadcn/ui, and HTML/CSS). Actions: plan, build, create, design, implement, review, fix, improve, optimize, enhance, refactor, and check UI/UX code. Projects: website, landing page, dashboard, admin panel, e-commerce, SaaS, portfolio, blog, and mobile app. Elements: button, modal, navbar, sidebar, card, table, form, and chart. Styles: glassmorphism, claymorphism, minimalism, brutalism, neumorphism, bento grid, dark mode, responsive, skeuomorphism, and flat design. Topics: color systems, accessibility, animation, layout, typography, font pairing, spacing, interaction states, shadow, and gradient. Integrations: shadcn/ui MCP for component search and examples.\n\nNOTE: this catalogue entry assembles the skill from 3 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('.claude/skills/ui-ux-pro-max') and does NOT include: 'src/ui-ux-pro-max/scripts', 'src/ui-ux-pro-max/data'. Install via the puppeteer store's own resolver for the complete payload.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "path": ".claude/skills/ui-ux-pro-max",
+        "sha": "b7e3af80f6e331f6fb456667b82b12cade7c9d35"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "upgrade-stripe",
+      "description": "Guide for upgrading Stripe API versions and SDKs",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/stripe/ai",
+        "path": "skills/upgrade-stripe",
+        "sha": "84c364c683c58ba8dfbc003d812e6a35f4c97b47"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "ux-designer",
       "description": "Applies modern UX/UI best practices to interface design and review. Use for UI design and critique; accessibility audits (WCAG, EAA); microcopy; forms, navigation, and onboarding; internationalization and RTL; voice, multimodal, and AI interfaces; design systems; and frontend code review.",
       "source": {
@@ -1322,6 +2373,135 @@
         "url": "https://github.com/anthropics/knowledge-work-plugins",
         "path": "data/skills/validate-data",
         "sha": "da04ccbc22d38cb8df3a8d8c53728ac33de1836f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "variance-analysis",
+      "description": "Decompose financial variances into drivers with narrative explanations and waterfall analysis. Use when analyzing budget vs. actual, period-over-period changes, revenue or expense variances, or preparing variance commentary for leadership.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "path": "finance/skills/variance-analysis",
+        "sha": "e57524e4c35acc782bebd53097988b93b475b15b"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "venice-api-overview",
+      "description": "High-level map of the Venice.ai API - base URL, authentication modes, endpoint categories, response headers, pricing model, error shape, and versioning. Load this first when starting any Venice integration.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/veniceai/skills",
+        "path": "skills/venice-api-overview",
+        "sha": "9eba8894b819531a4a8b65a1ac5e06560391bb00"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "venice-chat",
+      "description": "Call POST /chat/completions on Venice. Covers the OpenAI-compatible request shape, Venice-only venice_parameters (web search, E2EE, characters, thinking control, X search), multimodal inputs (images/audio/video), tool calls, reasoning controls, streaming, prompt caching, structured output, and model feature suffixes.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/veniceai/skills",
+        "path": "skills/venice-chat",
+        "sha": "9eba8894b819531a4a8b65a1ac5e06560391bb00"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vercel-labs/agent-skills",
+        "path": "skills/composition-patterns",
+        "sha": "f8a72b9603728bb92a217a879b7e62e43ad76c81"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "vercel-deploy-to-vercel",
+      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vercel-labs/agent-skills",
+        "path": "skills/deploy-to-vercel",
+        "sha": "7c180d9044c9ae2b442b567aad4e42a28dd5ed62"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "vercel-optimize",
+      "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vercel-labs/agent-skills",
+        "path": "skills/vercel-optimize",
+        "sha": "7c180d9044c9ae2b442b567aad4e42a28dd5ed62"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vercel-labs/agent-skills",
+        "path": "skills/react-best-practices",
+        "sha": "f8a72b9603728bb92a217a879b7e62e43ad76c81"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "vercel-react-view-transitions",
+      "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vercel-labs/agent-skills",
+        "path": "skills/react-view-transitions",
+        "sha": "f8a72b9603728bb92a217a879b7e62e43ad76c81"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "watch",
+      "description": "Watch a video (URL or local path). Downloads with yt-dlp, extracts auto-scaled frames with ffmpeg, pulls the transcript from captions (or Whisper API fallback), and hands the result to Claude so it can answer questions about what's in the video.",
+      "source": {
+        "source": "github",
+        "repo": "bradautomates/claude-video",
+        "sha": "c333c2289e57bf040b32846f18d669e3f8edad9b"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "web-artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/web-artifacts-builder",
+        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
       },
       "skills": [
         "./"
@@ -1348,6 +2528,32 @@
         "url": "https://github.com/addyosmani/web-quality-skills",
         "path": "skills/performance",
         "sha": "95d6e255afe1596b557d7a8498517884438f5b3a"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills",
+        "path": "skills/webapp-testing",
+        "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "write-a-skill",
+      "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills",
+        "path": "skills/productivity/write-a-skill",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       },
       "skills": [
         "./"
@@ -1393,12 +2599,13 @@
       ]
     },
     {
-      "name": "awwwards-3d",
-      "description": "Build production-grade Awwwards-style scroll-driven 3D websites in the visual language of Active Theory, Lusion, 14islands, Bonhomme, Resn, Studio Freight, Locomotive, and Igloo Inc. Use when the user asks for an \"Awwwards-style\", \"scroll-driven 3D\", \"WebGL hero\", \"3D landing page\", \"interactive product showcase\", \"scroll storytelling site\", \"cinematic web experience\", \"creative dev portfolio\", \"premium 3D site\", \"Lusion-style\", \"Active Theory-style\", \"scroll 3D animation\", or mentions Three.js + GSAP + Lenis together. Also triggers on Mongolian phrases like \"3D вэб\", \"scroll-тэй 3D\", \"premium вэбсайт\", \"cinematic вэб\", \"Awwwards маягтай\", \"3D landing\", \"интерактив 3D\". Locks tech stack to Three.js r170 + GSAP 3.12.5 + Lenis 1.1.0 with three's built-in `EffectComposer` for post-processing. Produces single-file HTML deliverables when possible. Do NOT use for: static marketing sites without 3D, plain React/Next.js apps, dashboards, admin UIs, or simple landing pages where 3D would be decorative noise.",
+      "name": "zoom-out",
+      "description": "Tell the agent to zoom out and give broader context or a higher-level perspective. Use when you're unfamiliar with a section of code or need to understand how it fits into the bigger picture.",
       "source": {
-        "source": "github",
-        "repo": "tsogjavklann/awwwards-3d",
-        "sha": "01072bd4a16f2936633b6209ee3b2aa3fb3b2e4f"
+        "source": "git-subdir",
+        "url": "https://github.com/mattpocock/skills",
+        "path": "skills/engineering/zoom-out",
+        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
       },
       "skills": [
         "./"
