@@ -1,876 +1,1043 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T07:02:32.560Z",
+  "generatedAt": "2026-07-26T12:59:36.496Z",
   "date": "2026-07-26",
   "entries": {
-    "grill-me": {
-      "stars": 188616,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "grill-with-docs": {
-      "stars": 188616,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "caveman": {
-      "stars": 188616,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "handoff": {
-      "stars": 188616,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "tdd": {
-      "stars": 188616,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "zoom-out": {
-      "stars": 188616,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "prototype": {
-      "stars": 188616,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "improve-codebase-architecture": {
-      "stars": 188616,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "write-a-skill": {
-      "stars": 188616,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "taste-skill": {
-      "stars": 67691,
-      "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "redesign-skill": {
-      "stars": 67691,
-      "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "design-motion-principles": {
-      "stars": 859,
-      "pushedAt": "2026-05-30T23:17:35Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "gsap-core": {
-      "stars": 12388,
-      "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "gsap-frameworks": {
-      "stars": 12388,
-      "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "gsap-performance": {
-      "stars": 12388,
-      "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "gsap-plugins": {
-      "stars": 12388,
-      "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "gsap-react": {
-      "stars": 12388,
-      "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "gsap-scrolltrigger": {
-      "stars": 12388,
-      "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "gsap-timeline": {
-      "stars": 12388,
-      "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "gsap-utils": {
-      "stars": 12388,
-      "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "frontend-slides": {
-      "stars": 26348,
-      "pushedAt": "2026-06-23T20:08:19Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "task-observer": {
-      "stars": 1252,
-      "pushedAt": "2026-07-17T09:48:22Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "impeccable": {
-      "stars": 50200,
-      "pushedAt": "2026-07-26T03:26:44Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "ui-ux-pro-max": {
-      "stars": 110175,
-      "pushedAt": "2026-07-21T15:51:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "career-ops": {
-      "stars": 61572,
-      "pushedAt": "2026-07-26T02:22:44Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "browser-harness": {
-      "stars": 16260,
-      "pushedAt": "2026-07-26T03:16:13Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "watch": {
-      "stars": 10127,
-      "pushedAt": "2026-07-01T01:26:49Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "frontend-design": {
-      "stars": 164196,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "theme-factory": {
-      "stars": 164196,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "doc-coauthoring": {
-      "stars": 164196,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "mcp-builder": {
-      "stars": 164196,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "webapp-testing": {
-      "stars": 164196,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "algorithmic-art": {
-      "stars": 164196,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "canvas-design": {
-      "stars": 164196,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "slack-gif-creator": {
-      "stars": 164196,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "web-artifacts-builder": {
-      "stars": 164196,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "design-brief": {
-      "stars": 81586,
-      "pushedAt": "2026-07-26T06:40:44Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "minimalist-ui": {
-      "stars": 81586,
-      "pushedAt": "2026-07-26T06:40:44Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "industrial-brutalist-ui": {
-      "stars": 81586,
-      "pushedAt": "2026-07-26T06:40:44Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "brandkit": {
-      "stars": 81586,
-      "pushedAt": "2026-07-26T06:40:44Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
     "5-whys": {
       "stars": 44,
       "pushedAt": "2025-12-03T05:02:19Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "academic-pptx": {
+      "stars": 720,
+      "pushedAt": "2026-07-14T23:54:54Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
     },
     "accessibility": {
-      "stars": 2541,
+      "stars": 2545,
       "pushedAt": "2026-06-14T09:08:35Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "brainstorm": {
-      "stars": 304,
-      "pushedAt": "2026-05-07T18:57:45Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "brainstorming": {
-      "stars": 261228,
-      "pushedAt": "2026-07-24T21:21:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "c4-model": {
-      "stars": 32,
-      "pushedAt": "2026-04-25T08:23:10Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "citypaul-ddd": {
-      "stars": 693,
-      "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "citypaul-finding-seams": {
-      "stars": 693,
-      "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "citypaul-hexagonal": {
-      "stars": 693,
-      "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "citypaul-refactoring": {
-      "stars": 693,
-      "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "citypaul-tdd": {
-      "stars": 693,
-      "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "citypaul-testing": {
-      "stars": 693,
-      "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "cloudflare-agents-sdk": {
-      "stars": 2482,
-      "pushedAt": "2026-07-24T18:42:34Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "code-review-skill": {
-      "stars": 1512,
-      "pushedAt": "2026-07-16T06:13:07Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "vercel-composition-patterns": {
-      "stars": 29483,
-      "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "content-and-copy": {
-      "stars": 493,
-      "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "content-strategy": {
-      "stars": 493,
-      "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "copy-editing": {
-      "stars": 41714,
-      "pushedAt": "2026-07-23T19:41:45Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "copywriting": {
-      "stars": 41714,
-      "pushedAt": "2026-07-23T19:41:45Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "css-coder": {
-      "stars": 3,
-      "pushedAt": "2026-07-02T20:47:28Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "css-tokens": {
-      "stars": 3,
-      "pushedAt": "2026-07-02T20:47:28Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "data-statistical-analysis": {
-      "stars": 23042,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "data-visualization": {
-      "stars": 23042,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "define-prioritization-framework": {
-      "stars": 501,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "define-problem-statement": {
-      "stars": 501,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "deliver-prd": {
-      "stars": 501,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "deliver-user-stories": {
-      "stars": 501,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "discover-competitive-analysis": {
-      "stars": 501,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "duckdb-query": {
-      "stars": 520,
-      "pushedAt": "2026-04-23T13:56:22Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "duckdb-read-file": {
-      "stars": 520,
-      "pushedAt": "2026-04-23T13:56:22Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "editorial-qa": {
-      "stars": 493,
-      "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "email-sequences": {
-      "stars": 493,
-      "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "experimental-design": {
-      "stars": 31779,
-      "pushedAt": "2026-07-26T03:37:07Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "explore-data": {
-      "stars": 23042,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "find-bugs": {
-      "stars": 885,
-      "pushedAt": "2026-07-25T15:44:43Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "frontend-ui-engineering": {
-      "stars": 80401,
-      "pushedAt": "2026-07-26T02:22:17Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "geo-content-optimizer": {
-      "stars": 111,
-      "pushedAt": "2026-07-13T00:14:34Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "gh-fix-ci": {
-      "stars": 24179,
-      "pushedAt": "2026-07-14T16:47:46Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "humanizer": {
-      "stars": 31079,
-      "pushedAt": "2026-07-22T06:26:25Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "kubernetes-skill": {
-      "stars": 334,
-      "pushedAt": "2026-07-19T15:32:27Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "landing-page-copy": {
-      "stars": 493,
-      "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "long-form-content-frameworks": {
-      "stars": 493,
-      "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "marketing-psychology": {
-      "stars": 41714,
-      "pushedAt": "2026-07-23T19:41:45Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "meta-tags-optimizer": {
-      "stars": 111,
-      "pushedAt": "2026-07-13T00:14:34Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "motherduck-duckdb-sql": {
-      "stars": 53,
-      "pushedAt": "2026-07-13T15:16:31Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "motherduck-query": {
-      "stars": 53,
-      "pushedAt": "2026-07-13T15:16:31Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "promptfoo-evals": {
-      "stars": 23602,
-      "pushedAt": "2026-07-26T01:59:27Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "promptfoo-redteam-plugin-development": {
-      "stars": 23602,
-      "pushedAt": "2026-07-26T01:59:27Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "vercel-react-best-practices": {
-      "stars": 29483,
-      "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "vercel-react-view-transitions": {
-      "stars": 29483,
-      "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "semantic-html": {
-      "stars": 3,
-      "pushedAt": "2026-07-02T20:47:28Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "sentry-code-review": {
-      "stars": 885,
-      "pushedAt": "2026-07-25T15:44:43Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "seo": {
-      "stars": 2541,
-      "pushedAt": "2026-06-14T09:08:35Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "seo-content-writer": {
-      "stars": 111,
-      "pushedAt": "2026-07-13T00:14:34Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "shadcn-component-discovery": {
-      "stars": 14,
-      "pushedAt": "2026-04-27T08:26:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "shadcn-component-review": {
-      "stars": 14,
-      "pushedAt": "2026-04-27T08:26:59Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "sql-queries": {
-      "stars": 23042,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "statistical-power": {
-      "stars": 31779,
-      "pushedAt": "2026-07-26T03:37:07Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "systematic-debugging": {
-      "stars": 261228,
-      "pushedAt": "2026-07-24T21:21:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "terraform-skill": {
-      "stars": 2208,
-      "pushedAt": "2026-07-03T05:56:41Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "test-driven-development": {
-      "stars": 261228,
-      "pushedAt": "2026-07-24T21:21:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "ux-designer": {
-      "stars": 39,
-      "pushedAt": "2026-06-06T21:19:47Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "validate-data": {
-      "stars": 23042,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "web-design-guidelines": {
-      "stars": 29483,
-      "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "web-performance": {
-      "stars": 2541,
-      "pushedAt": "2026-06-14T09:08:35Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "writing-plans": {
-      "stars": 261228,
-      "pushedAt": "2026-07-24T21:21:36Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "xiaolai-anthropic-api": {
-      "stars": 15,
-      "pushedAt": "2026-07-25T12:22:51Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
-    },
-    "xiaolai-claude-code": {
-      "stars": 15,
-      "pushedAt": "2026-07-25T12:22:51Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-api-design-patterns": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-authentication-patterns": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-ci-cd-pipelines": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-data-engineering": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-database-optimization": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-devops-automation": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-django-patterns": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-docker-best-practices": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-golang-idioms": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-graphql-design": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-kubernetes-operations": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-microservices-design": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-postgres-optimization": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-python-best-practices": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-redis-patterns": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-rust-systems": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-security-hardening": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-springboot-patterns": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-typescript-advanced": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "actk-websocket-realtime": {
+      "stars": 2384,
+      "pushedAt": "2026-05-12T07:18:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "algorithmic-art": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "anthropic-claude-api": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "anthropic-internal-comms": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
     },
     "awwwards-3d": {
       "stars": 6,
       "pushedAt": "2026-05-08T18:20:22Z",
-      "snapshotAt": "2026-07-26T07:02:32.559Z"
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "brainstorm": {
+      "stars": 304,
+      "pushedAt": "2026-05-07T18:57:45Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "brainstorming": {
+      "stars": 261383,
+      "pushedAt": "2026-07-24T21:21:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "brandkit": {
+      "stars": 81640,
+      "pushedAt": "2026-07-26T12:49:04Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "browser-harness": {
+      "stars": 16263,
+      "pushedAt": "2026-07-26T03:16:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "browser-use-cloud": {
+      "stars": 106842,
+      "pushedAt": "2026-07-26T03:17:39Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "browser-use-core": {
+      "stars": 106842,
+      "pushedAt": "2026-07-26T03:17:39Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "browser-use-open-source": {
+      "stars": 106842,
+      "pushedAt": "2026-07-26T03:17:39Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "browser-use-qa": {
+      "stars": 106842,
+      "pushedAt": "2026-07-26T03:17:39Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "browser-use-remote-browser": {
+      "stars": 106842,
+      "pushedAt": "2026-07-26T03:17:39Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "browser-use-x402": {
+      "stars": 106842,
+      "pushedAt": "2026-07-26T03:17:39Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "c4-model": {
+      "stars": 32,
+      "pushedAt": "2026-04-25T08:23:10Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "canvas-design": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "career-ops": {
+      "stars": 61616,
+      "pushedAt": "2026-07-26T02:22:44Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "caveman": {
+      "stars": 189037,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "citypaul-ddd": {
+      "stars": 693,
+      "pushedAt": "2026-07-20T22:07:48Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "citypaul-finding-seams": {
+      "stars": 693,
+      "pushedAt": "2026-07-20T22:07:48Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "citypaul-hexagonal": {
+      "stars": 693,
+      "pushedAt": "2026-07-20T22:07:48Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "citypaul-refactoring": {
+      "stars": 693,
+      "pushedAt": "2026-07-20T22:07:48Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "citypaul-tdd": {
+      "stars": 693,
+      "pushedAt": "2026-07-20T22:07:48Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "citypaul-testing": {
+      "stars": 693,
+      "pushedAt": "2026-07-20T22:07:48Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "claude-deep-research-skill": {
+      "stars": 956,
+      "pushedAt": "2026-04-11T22:18:08Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "cloud-solution-architect": {
+      "stars": 2819,
+      "pushedAt": "2026-07-24T23:34:51Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "cloudflare-agents-sdk": {
+      "stars": 2484,
+      "pushedAt": "2026-07-24T18:42:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "cloudflare-wrangler": {
+      "stars": 2484,
+      "pushedAt": "2026-07-24T18:42:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "code-review-skill": {
+      "stars": 1514,
+      "pushedAt": "2026-07-16T06:13:07Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "content-and-copy": {
+      "stars": 493,
+      "pushedAt": "2026-07-21T22:57:58Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "content-strategy": {
+      "stars": 493,
+      "pushedAt": "2026-07-21T22:57:58Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "copy-editing": {
+      "stars": 41748,
+      "pushedAt": "2026-07-23T19:41:45Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "copywriting": {
+      "stars": 41748,
+      "pushedAt": "2026-07-23T19:41:45Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "courier": {
+      "stars": 13,
+      "pushedAt": "2026-07-25T16:31:26Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "css-coder": {
+      "stars": 3,
+      "pushedAt": "2026-07-02T20:47:28Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "css-tokens": {
+      "stars": 3,
+      "pushedAt": "2026-07-02T20:47:28Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "data-statistical-analysis": {
+      "stars": 23050,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "data-visualization": {
+      "stars": 23050,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "dd-apm": {
+      "stars": 146,
+      "pushedAt": "2026-07-23T19:16:15Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "dd-docs": {
+      "stars": 146,
+      "pushedAt": "2026-07-23T19:16:15Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "dd-logs": {
+      "stars": 146,
+      "pushedAt": "2026-07-23T19:16:15Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "dd-monitors": {
+      "stars": 146,
+      "pushedAt": "2026-07-23T19:16:15Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "dd-triage-flaky-test": {
+      "stars": 146,
+      "pushedAt": "2026-07-23T19:16:15Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "dd-unblock-pr": {
+      "stars": 146,
+      "pushedAt": "2026-07-23T19:16:15Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "define-prioritization-framework": {
+      "stars": 501,
+      "pushedAt": "2026-07-24T18:31:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "define-problem-statement": {
+      "stars": 501,
+      "pushedAt": "2026-07-24T18:31:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "deliver-prd": {
+      "stars": 501,
+      "pushedAt": "2026-07-24T18:31:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "deliver-user-stories": {
+      "stars": 501,
+      "pushedAt": "2026-07-24T18:31:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "design-brief": {
+      "stars": 81640,
+      "pushedAt": "2026-07-26T12:49:04Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "design-motion-principles": {
+      "stars": 859,
+      "pushedAt": "2026-05-30T23:17:35Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "digitalsamba-video-toolkit": {
+      "stars": 1818,
+      "pushedAt": "2026-07-06T12:52:48Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "discover-competitive-analysis": {
+      "stars": 501,
+      "pushedAt": "2026-07-24T18:31:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "doc-coauthoring": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "duckdb-query": {
+      "stars": 521,
+      "pushedAt": "2026-04-23T13:56:22Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "duckdb-read-file": {
+      "stars": 521,
+      "pushedAt": "2026-04-23T13:56:22Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "eas-workflows": {
+      "stars": 2321,
+      "pushedAt": "2026-07-24T11:38:55Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "editorial-qa": {
+      "stars": 493,
+      "pushedAt": "2026-07-21T22:57:58Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "elevenlabs-music": {
+      "stars": 394,
+      "pushedAt": "2026-07-23T16:59:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "elevenlabs-sound-effects": {
+      "stars": 394,
+      "pushedAt": "2026-07-23T16:59:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "elevenlabs-speech-to-text": {
+      "stars": 394,
+      "pushedAt": "2026-07-23T16:59:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "elevenlabs-text-to-speech": {
+      "stars": 394,
+      "pushedAt": "2026-07-23T16:59:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "elevenlabs-voice-changer": {
+      "stars": 394,
+      "pushedAt": "2026-07-23T16:59:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "email-sequences": {
+      "stars": 493,
+      "pushedAt": "2026-07-21T22:57:58Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "explore-data": {
+      "stars": 23050,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "expo-router": {
+      "stars": 2321,
+      "pushedAt": "2026-07-24T11:38:55Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "expo-upgrade": {
+      "stars": 2321,
+      "pushedAt": "2026-07-24T11:38:55Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "find-bugs": {
+      "stars": 886,
+      "pushedAt": "2026-07-25T15:44:43Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "frontend-design": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "frontend-slides": {
+      "stars": 26368,
+      "pushedAt": "2026-06-23T20:08:19Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "frontend-ui-engineering": {
+      "stars": 80425,
+      "pushedAt": "2026-07-26T12:51:12Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gemini-api-dev": {
+      "stars": 3850,
+      "pushedAt": "2026-07-24T12:07:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gemini-live-api-dev": {
+      "stars": 3850,
+      "pushedAt": "2026-07-24T12:07:13Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "geo-content-optimizer": {
+      "stars": 111,
+      "pushedAt": "2026-07-13T00:14:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gh-fix-ci": {
+      "stars": 24191,
+      "pushedAt": "2026-07-14T16:47:46Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "grill-me": {
+      "stars": 189037,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "grill-with-docs": {
+      "stars": 189037,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gsap-core": {
+      "stars": 12402,
+      "pushedAt": "2026-04-21T23:47:09Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gsap-frameworks": {
+      "stars": 12402,
+      "pushedAt": "2026-04-21T23:47:09Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gsap-performance": {
+      "stars": 12402,
+      "pushedAt": "2026-04-21T23:47:09Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gsap-plugins": {
+      "stars": 12402,
+      "pushedAt": "2026-04-21T23:47:09Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gsap-react": {
+      "stars": 12402,
+      "pushedAt": "2026-04-21T23:47:09Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gsap-scrolltrigger": {
+      "stars": 12402,
+      "pushedAt": "2026-04-21T23:47:09Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gsap-timeline": {
+      "stars": 12402,
+      "pushedAt": "2026-04-21T23:47:09Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gsap-utils": {
+      "stars": 12402,
+      "pushedAt": "2026-04-21T23:47:09Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gws-drive": {
+      "stars": 30011,
+      "pushedAt": "2026-07-22T11:35:50Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "gws-sheets": {
+      "stars": 30011,
+      "pushedAt": "2026-07-22T11:35:50Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "handoff": {
+      "stars": 189037,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "hf-cli": {
+      "stars": 10873,
+      "pushedAt": "2026-07-25T04:31:32Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "huggingface-gradio": {
+      "stars": 10873,
+      "pushedAt": "2026-07-25T04:31:32Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "humanizer": {
+      "stars": 31134,
+      "pushedAt": "2026-07-22T06:26:25Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "impeccable": {
+      "stars": 50301,
+      "pushedAt": "2026-07-26T08:37:29Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "improve-codebase-architecture": {
+      "stars": 189037,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "industrial-brutalist-ui": {
+      "stars": 81640,
+      "pushedAt": "2026-07-26T12:49:04Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "kubernetes-skill": {
+      "stars": 334,
+      "pushedAt": "2026-07-19T15:32:27Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "lambdatest-cypress": {
+      "stars": 336,
+      "pushedAt": "2026-07-24T15:13:07Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "lambdatest-playwright": {
+      "stars": 336,
+      "pushedAt": "2026-07-24T15:13:07Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "lambdatest-puppeteer": {
+      "stars": 336,
+      "pushedAt": "2026-07-24T15:13:07Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "landing-page-copy": {
+      "stars": 493,
+      "pushedAt": "2026-07-21T22:57:58Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "leonxlnx-gpt-tasteskill": {
+      "stars": 67780,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "leonxlnx-image-to-code": {
+      "stars": 67780,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "leonxlnx-imagegen-frontend-mobile": {
+      "stars": 67780,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "leonxlnx-imagegen-frontend-web": {
+      "stars": 67780,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "leonxlnx-output-skill": {
+      "stars": 67780,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "leonxlnx-soft-skill": {
+      "stars": 67780,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "leonxlnx-stitch-skill": {
+      "stars": 67780,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "long-form-content-frameworks": {
+      "stars": 493,
+      "pushedAt": "2026-07-21T22:57:58Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "marketing-psychology": {
+      "stars": 41748,
+      "pushedAt": "2026-07-23T19:41:45Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "mcp-builder": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "mcp-builder-microsoft": {
+      "stars": 2819,
+      "pushedAt": "2026-07-24T23:34:51Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "meta-tags-optimizer": {
+      "stars": 111,
+      "pushedAt": "2026-07-13T00:14:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "minimalist-ui": {
+      "stars": 81640,
+      "pushedAt": "2026-07-26T12:49:04Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "motherduck-duckdb-sql": {
+      "stars": 53,
+      "pushedAt": "2026-07-13T15:16:31Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "motherduck-query": {
+      "stars": 53,
+      "pushedAt": "2026-07-13T15:16:31Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "netlify-ai-gateway": {
+      "stars": 27,
+      "pushedAt": "2026-07-24T16:28:44Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "netlify-edge-functions": {
+      "stars": 27,
+      "pushedAt": "2026-07-24T16:28:44Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "netlify-functions": {
+      "stars": 27,
+      "pushedAt": "2026-07-24T16:28:44Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "nlb-brand": {
+      "stars": 110277,
+      "pushedAt": "2026-07-21T15:51:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "nlb-design": {
+      "stars": 110277,
+      "pushedAt": "2026-07-21T15:51:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "nlb-design-system": {
+      "stars": 110277,
+      "pushedAt": "2026-07-21T15:51:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "nlb-slides": {
+      "stars": 110277,
+      "pushedAt": "2026-07-21T15:51:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "nlb-ui-styling": {
+      "stars": 110277,
+      "pushedAt": "2026-07-21T15:51:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "octagon-financial-analyst-master": {
+      "stars": 133,
+      "pushedAt": "2026-06-05T18:06:01Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "openai-security-threat-model": {
+      "stars": 24191,
+      "pushedAt": "2026-07-14T16:47:46Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "pipeline-review": {
+      "stars": 23050,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "playwright-skill": {
+      "stars": 2948,
+      "pushedAt": "2025-12-19T16:23:38Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "promptfoo-evals": {
+      "stars": 23614,
+      "pushedAt": "2026-07-26T12:52:53Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "promptfoo-redteam-plugin-development": {
+      "stars": 23614,
+      "pushedAt": "2026-07-26T12:52:53Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "prototype": {
+      "stars": 189037,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "redesign-skill": {
+      "stars": 67780,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "review-contract": {
+      "stars": 23050,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "semantic-html": {
+      "stars": 3,
+      "pushedAt": "2026-07-02T20:47:28Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "sentry-code-review": {
+      "stars": 886,
+      "pushedAt": "2026-07-25T15:44:43Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "sentry-gha-security-review": {
+      "stars": 886,
+      "pushedAt": "2026-07-25T15:44:43Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "sentry-sdk-upgrade": {
+      "stars": 243,
+      "pushedAt": "2026-07-23T07:24:51Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "sentry-security-review": {
+      "stars": 886,
+      "pushedAt": "2026-07-25T15:44:43Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "sentry-workflow": {
+      "stars": 243,
+      "pushedAt": "2026-07-23T07:24:51Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "seo": {
+      "stars": 2545,
+      "pushedAt": "2026-06-14T09:08:35Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "seo-content-writer": {
+      "stars": 111,
+      "pushedAt": "2026-07-13T00:14:34Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "shadcn-component-discovery": {
+      "stars": 14,
+      "pushedAt": "2026-04-27T08:26:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "shadcn-component-review": {
+      "stars": 14,
+      "pushedAt": "2026-04-27T08:26:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "skill-creator-anthropic": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "slack-gif-creator": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "sql-queries": {
+      "stars": 23050,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "stripe-best-practices": {
+      "stars": 1710,
+      "pushedAt": "2026-07-25T00:54:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "supabase": {
+      "stars": 2425,
+      "pushedAt": "2026-07-21T09:41:00Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "supabase-postgres-best-practices": {
+      "stars": 2425,
+      "pushedAt": "2026-07-21T09:41:00Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "systematic-debugging": {
+      "stars": 261383,
+      "pushedAt": "2026-07-24T21:21:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "task-observer": {
+      "stars": 1262,
+      "pushedAt": "2026-07-17T09:48:22Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "taste-skill": {
+      "stars": 67780,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "tdd": {
+      "stars": 189037,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "terraform-skill": {
+      "stars": 2209,
+      "pushedAt": "2026-07-03T05:56:41Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "test-driven-development": {
+      "stars": 261383,
+      "pushedAt": "2026-07-24T21:21:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "theme-factory": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "ticket-triage": {
+      "stars": 23050,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "ui-ux-pro-max": {
+      "stars": 110277,
+      "pushedAt": "2026-07-21T15:51:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "upgrade-stripe": {
+      "stars": 1710,
+      "pushedAt": "2026-07-25T00:54:24Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "ux-designer": {
+      "stars": 39,
+      "pushedAt": "2026-06-06T21:19:47Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "validate-data": {
+      "stars": 23050,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "variance-analysis": {
+      "stars": 23050,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "venice-api-overview": {
+      "stars": 122,
+      "pushedAt": "2026-07-20T14:00:39Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "venice-chat": {
+      "stars": 122,
+      "pushedAt": "2026-07-20T14:00:39Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "vercel-composition-patterns": {
+      "stars": 29491,
+      "pushedAt": "2026-07-24T10:25:29Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "vercel-deploy-to-vercel": {
+      "stars": 29491,
+      "pushedAt": "2026-07-24T10:25:29Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "vercel-optimize": {
+      "stars": 29491,
+      "pushedAt": "2026-07-24T10:25:29Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "vercel-react-best-practices": {
+      "stars": 29491,
+      "pushedAt": "2026-07-24T10:25:29Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "vercel-react-view-transitions": {
+      "stars": 29491,
+      "pushedAt": "2026-07-24T10:25:29Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "watch": {
+      "stars": 10240,
+      "pushedAt": "2026-07-01T01:26:49Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "web-artifacts-builder": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "web-design-guidelines": {
+      "stars": 29491,
+      "pushedAt": "2026-07-24T10:25:29Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "web-performance": {
+      "stars": 2545,
+      "pushedAt": "2026-06-14T09:08:35Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "webapp-testing": {
+      "stars": 164261,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "write-a-skill": {
+      "stars": 189037,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "writing-plans": {
+      "stars": 261383,
+      "pushedAt": "2026-07-24T21:21:36Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
+    },
+    "xiaolai-anthropic-api": {
+      "stars": 15,
+      "pushedAt": "2026-07-26T12:27:08Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "xiaolai-claude-code": {
+      "stars": 15,
+      "pushedAt": "2026-07-26T12:27:08Z",
+      "snapshotAt": "2026-07-26T12:59:36.495Z"
+    },
+    "zoom-out": {
+      "stars": 189037,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "snapshotAt": "2026-07-26T12:59:36.494Z"
     }
   },
   "repos": {
-    "mattpocock/skills": {
-      "stargazerCount": 188616,
-      "forkCount": 16207,
-      "pushedAt": "2026-07-23T14:29:59Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "leonxlnx/taste-skill": {
-      "stargazerCount": 67691,
-      "forkCount": 4686,
-      "pushedAt": "2026-07-23T16:01:24Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "kylezantos/design-motion-principles": {
-      "stargazerCount": 859,
-      "forkCount": 60,
-      "pushedAt": "2026-05-30T23:17:35Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "greensock/gsap-skills": {
-      "stargazerCount": 12388,
-      "forkCount": 732,
-      "pushedAt": "2026-04-21T23:47:09Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "zarazhangrui/frontend-slides": {
-      "stargazerCount": 26348,
-      "forkCount": 2138,
-      "pushedAt": "2026-06-23T20:08:19Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "rebelytics/one-skill-to-rule-them-all": {
-      "stargazerCount": 1252,
-      "forkCount": 124,
-      "pushedAt": "2026-07-17T09:48:22Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "pbakaus/impeccable": {
-      "stargazerCount": 50200,
-      "forkCount": 2963,
-      "pushedAt": "2026-07-26T03:26:44Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "nextlevelbuilder/ui-ux-pro-max-skill": {
-      "stargazerCount": 110175,
-      "forkCount": 11752,
-      "pushedAt": "2026-07-21T15:51:36Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "santifer/career-ops": {
-      "stargazerCount": 61572,
-      "forkCount": 12131,
-      "pushedAt": "2026-07-26T02:22:44Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "browser-use/browser-harness": {
-      "stargazerCount": 16260,
-      "forkCount": 1540,
-      "pushedAt": "2026-07-26T03:16:13Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "bradautomates/claude-video": {
-      "stargazerCount": 10127,
-      "forkCount": 1069,
-      "pushedAt": "2026-07-01T01:26:49Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "anthropics/skills": {
-      "stargazerCount": 164196,
-      "forkCount": 19498,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "nexu-io/open-design": {
-      "stargazerCount": 81586,
-      "forkCount": 9432,
-      "pushedAt": "2026-07-26T06:40:44Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
     "awesome-skills/5-whys-skill": {
       "stargazerCount": 44,
       "forkCount": 6,
       "pushedAt": "2025-12-03T05:02:19Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "Gabberflast/academic-pptx-skill": {
+      "stargazerCount": 720,
+      "forkCount": 87,
+      "pushedAt": "2026-07-14T23:54:54Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
       "trending": {}
     },
     "addyosmani/web-quality-skills": {
-      "stargazerCount": 2541,
+      "stargazerCount": 2545,
       "forkCount": 231,
       "pushedAt": "2026-06-14T09:08:35Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
       "trending": {}
     },
-    "rsmdt/the-startup": {
-      "stargazerCount": 304,
-      "forkCount": 42,
-      "pushedAt": "2026-05-07T18:57:45Z",
+    "rohitg00/awesome-claude-code-toolkit": {
+      "stargazerCount": 2384,
+      "forkCount": 846,
+      "pushedAt": "2026-05-12T07:18:34Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
       "trending": {}
     },
-    "obra/superpowers": {
-      "stargazerCount": 261228,
-      "forkCount": 23314,
-      "pushedAt": "2026-07-24T21:21:36Z",
+    "anthropics/skills": {
+      "stargazerCount": 164261,
+      "forkCount": 19511,
+      "pushedAt": "2026-07-24T20:12:36Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "cheriftj/c4-model-skill": {
-      "stargazerCount": 32,
-      "forkCount": 2,
-      "pushedAt": "2026-04-25T08:23:10Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "citypaul/.dotfiles": {
-      "stargazerCount": 693,
-      "forkCount": 88,
-      "pushedAt": "2026-07-20T22:07:48Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "cloudflare/skills": {
-      "stargazerCount": 2482,
-      "forkCount": 232,
-      "pushedAt": "2026-07-24T18:42:34Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "awesome-skills/code-review-skill": {
-      "stargazerCount": 1512,
-      "forkCount": 164,
-      "pushedAt": "2026-07-16T06:13:07Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "vercel-labs/agent-skills": {
-      "stargazerCount": 29483,
-      "forkCount": 2644,
-      "pushedAt": "2026-07-24T10:25:29Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "rampstackco/claude-skills": {
-      "stargazerCount": 493,
-      "forkCount": 63,
-      "pushedAt": "2026-07-21T22:57:58Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "coreyhaines31/marketingskills": {
-      "stargazerCount": 41714,
-      "forkCount": 6565,
-      "pushedAt": "2026-07-23T19:41:45Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "schalkneethling/claude-toolkit": {
-      "stargazerCount": 3,
-      "forkCount": 0,
-      "pushedAt": "2026-07-02T20:47:28Z",
-      "isArchived": true,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "anthropics/knowledge-work-plugins": {
-      "stargazerCount": 23042,
-      "forkCount": 2768,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "product-on-purpose/pm-skills": {
-      "stargazerCount": 501,
-      "forkCount": 66,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "duckdb/duckdb-skills": {
-      "stargazerCount": 520,
-      "forkCount": 25,
-      "pushedAt": "2026-04-23T13:56:22Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "K-Dense-AI/claude-scientific-skills": {
-      "stargazerCount": 31779,
-      "forkCount": 3161,
-      "pushedAt": "2026-07-26T03:37:07Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "getsentry/skills": {
-      "stargazerCount": 885,
-      "forkCount": 45,
-      "pushedAt": "2026-07-25T15:44:43Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "addyosmani/agent-skills": {
-      "stargazerCount": 80401,
-      "forkCount": 8663,
-      "pushedAt": "2026-07-26T02:22:17Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "aaron-he-zhu/seo-geo-claude-skills": {
-      "stargazerCount": 111,
-      "forkCount": 9,
-      "pushedAt": "2026-07-13T00:14:34Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "openai/skills": {
-      "stargazerCount": 24179,
-      "forkCount": 1638,
-      "pushedAt": "2026-07-14T16:47:46Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "blader/humanizer": {
-      "stargazerCount": 31079,
-      "forkCount": 2844,
-      "pushedAt": "2026-07-22T06:26:25Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "LukasNiessen/kubernetes-skill": {
-      "stargazerCount": 334,
-      "forkCount": 58,
-      "pushedAt": "2026-07-19T15:32:27Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "motherduckdb/agent-skills": {
-      "stargazerCount": 53,
-      "forkCount": 3,
-      "pushedAt": "2026-07-13T15:16:31Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "promptfoo/promptfoo": {
-      "stargazerCount": 23602,
-      "forkCount": 2121,
-      "pushedAt": "2026-07-26T01:59:27Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "mattbx/shadcn-skills": {
-      "stargazerCount": 14,
-      "forkCount": 1,
-      "pushedAt": "2026-04-27T08:26:59Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "antonbabenko/terraform-skill": {
-      "stargazerCount": 2208,
-      "forkCount": 197,
-      "pushedAt": "2026-07-03T05:56:41Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "szilu/ux-designer-skill": {
-      "stargazerCount": 39,
-      "forkCount": 6,
-      "pushedAt": "2026-06-06T21:19:47Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
-      "trending": {}
-    },
-    "xiaolai/anthropic-docs": {
-      "stargazerCount": 15,
-      "forkCount": 7,
-      "pushedAt": "2026-07-25T12:22:51Z",
-      "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
       "trending": {}
     },
     "tsogjavklann/awwwards-3d": {
@@ -878,550 +1045,1466 @@
       "forkCount": 1,
       "pushedAt": "2026-05-08T18:20:22Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T07:02:32.559Z",
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "rsmdt/the-startup": {
+      "stargazerCount": 304,
+      "forkCount": 42,
+      "pushedAt": "2026-05-07T18:57:45Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "obra/superpowers": {
+      "stargazerCount": 261383,
+      "forkCount": 23326,
+      "pushedAt": "2026-07-24T21:21:36Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "nexu-io/open-design": {
+      "stargazerCount": 81640,
+      "forkCount": 9439,
+      "pushedAt": "2026-07-26T12:49:04Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "browser-use/browser-harness": {
+      "stargazerCount": 16263,
+      "forkCount": 1541,
+      "pushedAt": "2026-07-26T03:16:13Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "browser-use/browser-use": {
+      "stargazerCount": 106842,
+      "forkCount": 11739,
+      "pushedAt": "2026-07-26T03:17:39Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "cheriftj/c4-model-skill": {
+      "stargazerCount": 32,
+      "forkCount": 2,
+      "pushedAt": "2026-04-25T08:23:10Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "santifer/career-ops": {
+      "stargazerCount": 61616,
+      "forkCount": 12137,
+      "pushedAt": "2026-07-26T02:22:44Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "mattpocock/skills": {
+      "stargazerCount": 189037,
+      "forkCount": 16233,
+      "pushedAt": "2026-07-23T14:29:59Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "citypaul/.dotfiles": {
+      "stargazerCount": 693,
+      "forkCount": 88,
+      "pushedAt": "2026-07-20T22:07:48Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "199-biotechnologies/claude-deep-research-skill": {
+      "stargazerCount": 956,
+      "forkCount": 100,
+      "pushedAt": "2026-04-11T22:18:08Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "microsoft/skills": {
+      "stargazerCount": 2819,
+      "forkCount": 317,
+      "pushedAt": "2026-07-24T23:34:51Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "cloudflare/skills": {
+      "stargazerCount": 2484,
+      "forkCount": 232,
+      "pushedAt": "2026-07-24T18:42:34Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "awesome-skills/code-review-skill": {
+      "stargazerCount": 1514,
+      "forkCount": 164,
+      "pushedAt": "2026-07-16T06:13:07Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "rampstackco/claude-skills": {
+      "stargazerCount": 493,
+      "forkCount": 63,
+      "pushedAt": "2026-07-21T22:57:58Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "coreyhaines31/marketingskills": {
+      "stargazerCount": 41748,
+      "forkCount": 6572,
+      "pushedAt": "2026-07-23T19:41:45Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "trycourier/courier-skills": {
+      "stargazerCount": 13,
+      "forkCount": 2,
+      "pushedAt": "2026-07-25T16:31:26Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "schalkneethling/claude-toolkit": {
+      "stargazerCount": 3,
+      "forkCount": 0,
+      "pushedAt": "2026-07-02T20:47:28Z",
+      "isArchived": true,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "anthropics/knowledge-work-plugins": {
+      "stargazerCount": 23050,
+      "forkCount": 2769,
+      "pushedAt": "2026-07-26T00:05:37Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "datadog-labs/agent-skills": {
+      "stargazerCount": 146,
+      "forkCount": 19,
+      "pushedAt": "2026-07-23T19:16:15Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "product-on-purpose/pm-skills": {
+      "stargazerCount": 501,
+      "forkCount": 66,
+      "pushedAt": "2026-07-24T18:31:13Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "kylezantos/design-motion-principles": {
+      "stargazerCount": 859,
+      "forkCount": 60,
+      "pushedAt": "2026-05-30T23:17:35Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "digitalsamba/claude-code-video-toolkit": {
+      "stargazerCount": 1818,
+      "forkCount": 301,
+      "pushedAt": "2026-07-06T12:52:48Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "duckdb/duckdb-skills": {
+      "stargazerCount": 521,
+      "forkCount": 25,
+      "pushedAt": "2026-04-23T13:56:22Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "expo/skills": {
+      "stargazerCount": 2321,
+      "forkCount": 119,
+      "pushedAt": "2026-07-24T11:38:55Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "elevenlabs/skills": {
+      "stargazerCount": 394,
+      "forkCount": 56,
+      "pushedAt": "2026-07-23T16:59:13Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "getsentry/skills": {
+      "stargazerCount": 886,
+      "forkCount": 45,
+      "pushedAt": "2026-07-25T15:44:43Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "zarazhangrui/frontend-slides": {
+      "stargazerCount": 26368,
+      "forkCount": 2140,
+      "pushedAt": "2026-06-23T20:08:19Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "addyosmani/agent-skills": {
+      "stargazerCount": 80425,
+      "forkCount": 8670,
+      "pushedAt": "2026-07-26T12:51:12Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "google-gemini/gemini-skills": {
+      "stargazerCount": 3850,
+      "forkCount": 388,
+      "pushedAt": "2026-07-24T12:07:13Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "aaron-he-zhu/seo-geo-claude-skills": {
+      "stargazerCount": 111,
+      "forkCount": 9,
+      "pushedAt": "2026-07-13T00:14:34Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "openai/skills": {
+      "stargazerCount": 24191,
+      "forkCount": 1638,
+      "pushedAt": "2026-07-14T16:47:46Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "greensock/gsap-skills": {
+      "stargazerCount": 12402,
+      "forkCount": 732,
+      "pushedAt": "2026-04-21T23:47:09Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "googleworkspace/cli": {
+      "stargazerCount": 30011,
+      "forkCount": 1753,
+      "pushedAt": "2026-07-22T11:35:50Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "huggingface/skills": {
+      "stargazerCount": 10873,
+      "forkCount": 721,
+      "pushedAt": "2026-07-25T04:31:32Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "blader/humanizer": {
+      "stargazerCount": 31134,
+      "forkCount": 2848,
+      "pushedAt": "2026-07-22T06:26:25Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "pbakaus/impeccable": {
+      "stargazerCount": 50301,
+      "forkCount": 2967,
+      "pushedAt": "2026-07-26T08:37:29Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "LukasNiessen/kubernetes-skill": {
+      "stargazerCount": 334,
+      "forkCount": 58,
+      "pushedAt": "2026-07-19T15:32:27Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "LambdaTest/agent-skills": {
+      "stargazerCount": 336,
+      "forkCount": 68,
+      "pushedAt": "2026-07-24T15:13:07Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "leonxlnx/taste-skill": {
+      "stargazerCount": 67780,
+      "forkCount": 4689,
+      "pushedAt": "2026-07-23T16:01:24Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "motherduckdb/agent-skills": {
+      "stargazerCount": 53,
+      "forkCount": 3,
+      "pushedAt": "2026-07-13T15:16:31Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "netlify/context-and-tools": {
+      "stargazerCount": 27,
+      "forkCount": 8,
+      "pushedAt": "2026-07-24T16:28:44Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "nextlevelbuilder/ui-ux-pro-max-skill": {
+      "stargazerCount": 110277,
+      "forkCount": 11761,
+      "pushedAt": "2026-07-21T15:51:36Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "OctagonAI/skills": {
+      "stargazerCount": 133,
+      "forkCount": 13,
+      "pushedAt": "2026-06-05T18:06:01Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "lackeyjb/playwright-skill": {
+      "stargazerCount": 2948,
+      "forkCount": 219,
+      "pushedAt": "2025-12-19T16:23:38Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "promptfoo/promptfoo": {
+      "stargazerCount": 23614,
+      "forkCount": 2121,
+      "pushedAt": "2026-07-26T12:52:53Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "getsentry/sentry-for-ai": {
+      "stargazerCount": 243,
+      "forkCount": 30,
+      "pushedAt": "2026-07-23T07:24:51Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "mattbx/shadcn-skills": {
+      "stargazerCount": 14,
+      "forkCount": 1,
+      "pushedAt": "2026-04-27T08:26:59Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "stripe/ai": {
+      "stargazerCount": 1710,
+      "forkCount": 315,
+      "pushedAt": "2026-07-25T00:54:24Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "trending": {}
+    },
+    "supabase/agent-skills": {
+      "stargazerCount": 2425,
+      "forkCount": 175,
+      "pushedAt": "2026-07-21T09:41:00Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.495Z",
+      "trending": {}
+    },
+    "rebelytics/one-skill-to-rule-them-all": {
+      "stargazerCount": 1262,
+      "forkCount": 124,
+      "pushedAt": "2026-07-17T09:48:22Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.495Z",
+      "trending": {}
+    },
+    "antonbabenko/terraform-skill": {
+      "stargazerCount": 2209,
+      "forkCount": 197,
+      "pushedAt": "2026-07-03T05:56:41Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.495Z",
+      "trending": {}
+    },
+    "szilu/ux-designer-skill": {
+      "stargazerCount": 39,
+      "forkCount": 6,
+      "pushedAt": "2026-06-06T21:19:47Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.495Z",
+      "trending": {}
+    },
+    "veniceai/skills": {
+      "stargazerCount": 122,
+      "forkCount": 15,
+      "pushedAt": "2026-07-20T14:00:39Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.495Z",
+      "trending": {}
+    },
+    "vercel-labs/agent-skills": {
+      "stargazerCount": 29491,
+      "forkCount": 2644,
+      "pushedAt": "2026-07-24T10:25:29Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.495Z",
+      "trending": {}
+    },
+    "bradautomates/claude-video": {
+      "stargazerCount": 10240,
+      "forkCount": 1079,
+      "pushedAt": "2026-07-01T01:26:49Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.495Z",
+      "trending": {}
+    },
+    "xiaolai/anthropic-docs": {
+      "stargazerCount": 15,
+      "forkCount": 7,
+      "pushedAt": "2026-07-26T12:27:08Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-26T12:59:36.495Z",
       "trending": {}
     }
   },
   "tarballReachability": {
-    "grill-me": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:18.309Z"
-    },
-    "grill-with-docs": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:18.771Z"
-    },
-    "caveman": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:19.197Z"
-    },
-    "handoff": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:19.625Z"
-    },
-    "tdd": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:20.052Z"
-    },
-    "zoom-out": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:20.503Z"
-    },
-    "prototype": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:20.935Z"
-    },
-    "improve-codebase-architecture": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:21.362Z"
-    },
-    "write-a-skill": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:21.786Z"
-    },
-    "taste-skill": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:22.213Z"
-    },
-    "redesign-skill": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:22.663Z"
-    },
-    "design-motion-principles": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:23.089Z"
-    },
-    "gsap-core": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:23.538Z"
-    },
-    "gsap-frameworks": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:23.985Z"
-    },
-    "gsap-performance": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:24.409Z"
-    },
-    "gsap-plugins": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:24.841Z"
-    },
-    "gsap-react": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:25.274Z"
-    },
-    "gsap-scrolltrigger": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:25.699Z"
-    },
-    "gsap-timeline": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:26.125Z"
-    },
-    "gsap-utils": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:26.551Z"
-    },
-    "frontend-slides": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:26.976Z"
-    },
-    "task-observer": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:27.425Z"
-    },
-    "impeccable": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:27.875Z"
-    },
-    "ui-ux-pro-max": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:28.324Z"
-    },
-    "career-ops": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:28.773Z"
-    },
-    "browser-harness": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:29.228Z"
-    },
-    "watch": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:29.674Z"
-    },
-    "frontend-design": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:30.126Z"
-    },
-    "theme-factory": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:30.575Z"
-    },
-    "doc-coauthoring": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:31.001Z"
-    },
-    "mcp-builder": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:31.426Z"
-    },
-    "webapp-testing": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:31.853Z"
-    },
-    "algorithmic-art": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:32.278Z"
-    },
-    "canvas-design": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:32.707Z"
-    },
-    "slack-gif-creator": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:33.131Z"
-    },
-    "web-artifacts-builder": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:33.559Z"
-    },
-    "design-brief": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:33.983Z"
-    },
-    "minimalist-ui": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:34.431Z"
-    },
-    "industrial-brutalist-ui": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:34.856Z"
-    },
-    "brandkit": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:35.282Z"
-    },
     "5-whys": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:35.708Z"
+      "checkedAt": "2026-07-26T12:58:10.018Z"
+    },
+    "academic-pptx": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:10.469Z"
     },
     "accessibility": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:36.162Z"
+      "checkedAt": "2026-07-26T12:58:10.911Z"
     },
-    "brainstorm": {
+    "actk-api-design-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:36.610Z"
+      "checkedAt": "2026-07-26T12:58:11.344Z"
     },
-    "brainstorming": {
+    "actk-authentication-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:37.066Z"
+      "checkedAt": "2026-07-26T12:58:11.786Z"
     },
-    "c4-model": {
+    "actk-ci-cd-pipelines": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:37.513Z"
+      "checkedAt": "2026-07-26T12:58:12.203Z"
     },
-    "citypaul-ddd": {
+    "actk-data-engineering": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:37.967Z"
+      "checkedAt": "2026-07-26T12:58:12.621Z"
     },
-    "citypaul-finding-seams": {
+    "actk-database-optimization": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:38.413Z"
+      "checkedAt": "2026-07-26T12:58:13.038Z"
     },
-    "citypaul-hexagonal": {
+    "actk-devops-automation": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:38.841Z"
+      "checkedAt": "2026-07-26T12:58:13.456Z"
     },
-    "citypaul-refactoring": {
+    "actk-django-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:39.267Z"
+      "checkedAt": "2026-07-26T12:58:13.875Z"
     },
-    "citypaul-tdd": {
+    "actk-docker-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:39.693Z"
+      "checkedAt": "2026-07-26T12:58:14.295Z"
     },
-    "citypaul-testing": {
+    "actk-golang-idioms": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:40.119Z"
+      "checkedAt": "2026-07-26T12:58:14.713Z"
     },
-    "cloudflare-agents-sdk": {
+    "actk-graphql-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:40.546Z"
+      "checkedAt": "2026-07-26T12:58:15.132Z"
     },
-    "code-review-skill": {
+    "actk-kubernetes-operations": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:41.000Z"
+      "checkedAt": "2026-07-26T12:58:15.550Z"
     },
-    "vercel-composition-patterns": {
+    "actk-microservices-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:41.449Z"
+      "checkedAt": "2026-07-26T12:58:15.967Z"
     },
-    "content-and-copy": {
+    "actk-postgres-optimization": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:41.897Z"
+      "checkedAt": "2026-07-26T12:58:16.384Z"
     },
-    "content-strategy": {
+    "actk-python-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:42.344Z"
+      "checkedAt": "2026-07-26T12:58:16.802Z"
     },
-    "copy-editing": {
+    "actk-redis-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:42.776Z"
+      "checkedAt": "2026-07-26T12:58:17.224Z"
     },
-    "copywriting": {
+    "actk-rust-systems": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:43.225Z"
+      "checkedAt": "2026-07-26T12:58:17.642Z"
     },
-    "css-coder": {
+    "actk-security-hardening": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:43.649Z"
+      "checkedAt": "2026-07-26T12:58:18.061Z"
     },
-    "css-tokens": {
+    "actk-springboot-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:44.102Z"
+      "checkedAt": "2026-07-26T12:58:18.478Z"
     },
-    "data-statistical-analysis": {
+    "actk-typescript-advanced": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:44.528Z"
+      "checkedAt": "2026-07-26T12:58:18.897Z"
     },
-    "data-visualization": {
+    "actk-websocket-realtime": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:44.981Z"
+      "checkedAt": "2026-07-26T12:58:19.314Z"
     },
-    "define-prioritization-framework": {
+    "algorithmic-art": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:45.410Z"
+      "checkedAt": "2026-07-26T12:58:19.732Z"
     },
-    "define-problem-statement": {
+    "anthropic-claude-api": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:45.862Z"
+      "checkedAt": "2026-07-26T12:58:20.174Z"
     },
-    "deliver-prd": {
+    "anthropic-internal-comms": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:01:46.289Z"
-    },
-    "deliver-user-stories": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:46.715Z"
-    },
-    "discover-competitive-analysis": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:47.140Z"
-    },
-    "duckdb-query": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:47.568Z"
-    },
-    "duckdb-read-file": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:48.015Z"
-    },
-    "editorial-qa": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:48.443Z"
-    },
-    "email-sequences": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:48.868Z"
-    },
-    "experimental-design": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:49.294Z"
-    },
-    "explore-data": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:49.752Z"
-    },
-    "find-bugs": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:50.179Z"
-    },
-    "frontend-ui-engineering": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:50.639Z"
-    },
-    "geo-content-optimizer": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:51.082Z"
-    },
-    "gh-fix-ci": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:51.527Z"
-    },
-    "humanizer": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:51.978Z"
-    },
-    "kubernetes-skill": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:52.426Z"
-    },
-    "landing-page-copy": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:52.872Z"
-    },
-    "long-form-content-frameworks": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:53.300Z"
-    },
-    "marketing-psychology": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:53.725Z"
-    },
-    "meta-tags-optimizer": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:54.149Z"
-    },
-    "motherduck-duckdb-sql": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:54.576Z"
-    },
-    "motherduck-query": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:55.030Z"
-    },
-    "promptfoo-evals": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:55.457Z"
-    },
-    "promptfoo-redteam-plugin-development": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:55.908Z"
-    },
-    "vercel-react-best-practices": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:56.335Z"
-    },
-    "vercel-react-view-transitions": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:56.761Z"
-    },
-    "semantic-html": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:57.187Z"
-    },
-    "sentry-code-review": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:57.627Z"
-    },
-    "seo": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:58.054Z"
-    },
-    "seo-content-writer": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:58.481Z"
-    },
-    "shadcn-component-discovery": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:58.907Z"
-    },
-    "shadcn-component-review": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:59.362Z"
-    },
-    "sql-queries": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:01:59.790Z"
-    },
-    "statistical-power": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:00.215Z"
-    },
-    "systematic-debugging": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:00.643Z"
-    },
-    "terraform-skill": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:01.069Z"
-    },
-    "test-driven-development": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:01.526Z"
-    },
-    "ux-designer": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:01.952Z"
-    },
-    "validate-data": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:02.401Z"
-    },
-    "web-design-guidelines": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:02.826Z"
-    },
-    "web-performance": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:03.251Z"
-    },
-    "writing-plans": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:03.676Z"
-    },
-    "xiaolai-anthropic-api": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:04.101Z"
-    },
-    "xiaolai-claude-code": {
-      "reachable": true,
-      "status": 200,
-      "checkedAt": "2026-07-26T07:02:04.560Z"
+      "checkedAt": "2026-07-26T12:58:20.614Z"
     },
     "awwwards-3d": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T07:02:04.988Z"
+      "checkedAt": "2026-07-26T12:58:21.032Z"
+    },
+    "brainstorm": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:21.483Z"
+    },
+    "brainstorming": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:21.926Z"
+    },
+    "brandkit": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:22.369Z"
+    },
+    "browser-harness": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:22.811Z"
+    },
+    "browser-use-cloud": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:23.259Z"
+    },
+    "browser-use-core": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:23.701Z"
+    },
+    "browser-use-open-source": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:24.119Z"
+    },
+    "browser-use-qa": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:24.538Z"
+    },
+    "browser-use-remote-browser": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:24.956Z"
+    },
+    "browser-use-x402": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:25.373Z"
+    },
+    "c4-model": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:25.790Z"
+    },
+    "canvas-design": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:26.230Z"
+    },
+    "career-ops": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:26.648Z"
+    },
+    "caveman": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:27.092Z"
+    },
+    "citypaul-ddd": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:27.535Z"
+    },
+    "citypaul-finding-seams": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:27.974Z"
+    },
+    "citypaul-hexagonal": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:28.391Z"
+    },
+    "citypaul-refactoring": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:28.808Z"
+    },
+    "citypaul-tdd": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:29.227Z"
+    },
+    "citypaul-testing": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:29.647Z"
+    },
+    "claude-deep-research-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:30.065Z"
+    },
+    "cloud-solution-architect": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:30.504Z"
+    },
+    "cloudflare-agents-sdk": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:30.959Z"
+    },
+    "cloudflare-wrangler": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:31.402Z"
+    },
+    "code-review-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:31.845Z"
+    },
+    "content-and-copy": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:32.284Z"
+    },
+    "content-strategy": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:32.732Z"
+    },
+    "copy-editing": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:33.150Z"
+    },
+    "copywriting": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:33.592Z"
+    },
+    "courier": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:34.008Z"
+    },
+    "css-coder": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:34.453Z"
+    },
+    "css-tokens": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:34.897Z"
+    },
+    "data-statistical-analysis": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:35.316Z"
+    },
+    "data-visualization": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:35.758Z"
+    },
+    "dd-apm": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:36.176Z"
+    },
+    "dd-docs": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:36.614Z"
+    },
+    "dd-logs": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:37.030Z"
+    },
+    "dd-monitors": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:37.449Z"
+    },
+    "dd-triage-flaky-test": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:37.870Z"
+    },
+    "dd-unblock-pr": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:38.287Z"
+    },
+    "define-prioritization-framework": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:38.704Z"
+    },
+    "define-problem-statement": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:39.147Z"
+    },
+    "deliver-prd": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:39.565Z"
+    },
+    "deliver-user-stories": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:39.981Z"
+    },
+    "design-brief": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:40.396Z"
+    },
+    "design-motion-principles": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:40.814Z"
+    },
+    "digitalsamba-video-toolkit": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:41.249Z"
+    },
+    "discover-competitive-analysis": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:41.687Z"
+    },
+    "doc-coauthoring": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:42.104Z"
+    },
+    "duckdb-query": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:42.522Z"
+    },
+    "duckdb-read-file": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:42.981Z"
+    },
+    "eas-workflows": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:43.398Z"
+    },
+    "editorial-qa": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:43.837Z"
+    },
+    "elevenlabs-music": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:44.255Z"
+    },
+    "elevenlabs-sound-effects": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:44.696Z"
+    },
+    "elevenlabs-speech-to-text": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:45.114Z"
+    },
+    "elevenlabs-text-to-speech": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:45.529Z"
+    },
+    "elevenlabs-voice-changer": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:45.945Z"
+    },
+    "email-sequences": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:46.361Z"
+    },
+    "experimental-design": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:46.778Z"
+    },
+    "explore-data": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:47.220Z"
+    },
+    "expo-router": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:47.637Z"
+    },
+    "expo-upgrade": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:48.060Z"
+    },
+    "find-bugs": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:48.476Z"
+    },
+    "frontend-design": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:48.922Z"
+    },
+    "frontend-slides": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:49.338Z"
+    },
+    "frontend-ui-engineering": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:49.777Z"
+    },
+    "gemini-api-dev": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:50.220Z"
+    },
+    "gemini-live-api-dev": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:50.671Z"
+    },
+    "geo-content-optimizer": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:51.089Z"
+    },
+    "gh-fix-ci": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:51.527Z"
+    },
+    "grill-me": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:51.968Z"
+    },
+    "grill-with-docs": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:52.383Z"
+    },
+    "gsap-core": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:52.800Z"
+    },
+    "gsap-frameworks": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:53.246Z"
+    },
+    "gsap-performance": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:53.664Z"
+    },
+    "gsap-plugins": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:54.081Z"
+    },
+    "gsap-react": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:54.498Z"
+    },
+    "gsap-scrolltrigger": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:54.914Z"
+    },
+    "gsap-timeline": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:55.329Z"
+    },
+    "gsap-utils": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:55.744Z"
+    },
+    "gws-drive": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:56.160Z"
+    },
+    "gws-sheets": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:56.595Z"
+    },
+    "handoff": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:57.012Z"
+    },
+    "hf-cli": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:57.433Z"
+    },
+    "huggingface-gradio": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:57.868Z"
+    },
+    "humanizer": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:58.288Z"
+    },
+    "impeccable": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:58.739Z"
+    },
+    "improve-codebase-architecture": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:59.179Z"
+    },
+    "industrial-brutalist-ui": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:58:59.593Z"
+    },
+    "kubernetes-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:00.011Z"
+    },
+    "lambdatest-cypress": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:00.451Z"
+    },
+    "lambdatest-playwright": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:00.895Z"
+    },
+    "lambdatest-puppeteer": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:01.314Z"
+    },
+    "landing-page-copy": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:01.737Z"
+    },
+    "leonxlnx-gpt-tasteskill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:02.153Z"
+    },
+    "leonxlnx-image-to-code": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:02.585Z"
+    },
+    "leonxlnx-imagegen-frontend-mobile": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:03.004Z"
+    },
+    "leonxlnx-imagegen-frontend-web": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:03.421Z"
+    },
+    "leonxlnx-output-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:03.838Z"
+    },
+    "leonxlnx-soft-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:04.256Z"
+    },
+    "leonxlnx-stitch-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:04.671Z"
+    },
+    "long-form-content-frameworks": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:05.089Z"
+    },
+    "marketing-psychology": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:05.507Z"
+    },
+    "mcp-builder": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:05.925Z"
+    },
+    "mcp-builder-microsoft": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:06.342Z"
+    },
+    "meta-tags-optimizer": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:06.759Z"
+    },
+    "minimalist-ui": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:07.177Z"
+    },
+    "motherduck-duckdb-sql": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:07.599Z"
+    },
+    "motherduck-query": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:08.043Z"
+    },
+    "netlify-ai-gateway": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:08.465Z"
+    },
+    "netlify-edge-functions": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:08.905Z"
+    },
+    "netlify-functions": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:09.330Z"
+    },
+    "nlb-brand": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:09.747Z"
+    },
+    "nlb-design": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:10.191Z"
+    },
+    "nlb-design-system": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:10.605Z"
+    },
+    "nlb-slides": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:11.023Z"
+    },
+    "nlb-ui-styling": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:11.439Z"
+    },
+    "octagon-financial-analyst-master": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:11.854Z"
+    },
+    "openai-security-threat-model": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:12.312Z"
+    },
+    "pipeline-review": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:12.746Z"
+    },
+    "playwright-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:13.187Z"
+    },
+    "promptfoo-evals": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:13.634Z"
+    },
+    "promptfoo-redteam-plugin-development": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:14.082Z"
+    },
+    "prototype": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:14.501Z"
+    },
+    "redesign-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:14.916Z"
+    },
+    "review-contract": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:15.358Z"
+    },
+    "semantic-html": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:15.774Z"
+    },
+    "sentry-code-review": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:16.192Z"
+    },
+    "sentry-gha-security-review": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:16.609Z"
+    },
+    "sentry-sdk-upgrade": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:17.052Z"
+    },
+    "sentry-security-review": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:17.490Z"
+    },
+    "sentry-workflow": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:17.908Z"
+    },
+    "seo": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:18.322Z"
+    },
+    "seo-content-writer": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:18.759Z"
+    },
+    "shadcn-component-discovery": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:19.175Z"
+    },
+    "shadcn-component-review": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:19.622Z"
+    },
+    "skill-creator-anthropic": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:20.038Z"
+    },
+    "slack-gif-creator": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:20.454Z"
+    },
+    "sql-queries": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:20.888Z"
+    },
+    "statistical-power": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:21.306Z"
+    },
+    "stripe-best-practices": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:21.720Z"
+    },
+    "supabase": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:22.162Z"
+    },
+    "supabase-postgres-best-practices": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:22.599Z"
+    },
+    "systematic-debugging": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:23.016Z"
+    },
+    "task-observer": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:23.448Z"
+    },
+    "taste-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:23.896Z"
+    },
+    "tdd": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:24.314Z"
+    },
+    "terraform-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:24.731Z"
+    },
+    "test-driven-development": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:25.171Z"
+    },
+    "theme-factory": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:25.588Z"
+    },
+    "ticket-triage": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:26.006Z"
+    },
+    "ui-ux-pro-max": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:26.422Z"
+    },
+    "upgrade-stripe": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:26.863Z"
+    },
+    "ux-designer": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:27.280Z"
+    },
+    "validate-data": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:27.725Z"
+    },
+    "variance-analysis": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:28.142Z"
+    },
+    "venice-api-overview": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:28.558Z"
+    },
+    "venice-chat": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:29.012Z"
+    },
+    "vercel-composition-patterns": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:29.430Z"
+    },
+    "vercel-deploy-to-vercel": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:29.870Z"
+    },
+    "vercel-optimize": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:30.302Z"
+    },
+    "vercel-react-best-practices": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:30.721Z"
+    },
+    "vercel-react-view-transitions": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:31.138Z"
+    },
+    "watch": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:31.555Z"
+    },
+    "web-artifacts-builder": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:31.993Z"
+    },
+    "web-design-guidelines": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:32.410Z"
+    },
+    "web-performance": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:32.825Z"
+    },
+    "webapp-testing": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:33.244Z"
+    },
+    "write-a-skill": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:33.662Z"
+    },
+    "writing-plans": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:34.101Z"
+    },
+    "xiaolai-anthropic-api": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:34.514Z"
+    },
+    "xiaolai-claude-code": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:34.957Z"
+    },
+    "zoom-out": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-26T12:59:35.383Z"
     }
-  }
+  },
+  "graphqlErrors": [
+    "repo identity mismatch: requested K-Dense-AI/claude-scientific-skills, GitHub returned K-Dense-AI/scientific-agent-skills — the catalogue row points at a renamed/transferred repo; no stats recorded for K-Dense-AI/claude-scientific-skills"
+  ]
 }
