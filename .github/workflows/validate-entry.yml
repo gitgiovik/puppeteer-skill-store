@@ -1,0 +1,40 @@
+name: validate-entry
+
+# PR CI gate. Validates ONLY the catalog.json rows that changed in the PR
+# (bounded network cost — see scripts/validate-entry.mjs's header for why a
+# full-catalogue audit is a separate, manual/scheduled thing, not every-PR
+# work) and that .claude-plugin/marketplace.json is regenerated from
+# catalog.json (never hand-edited and left to drift).
+on:
+  pull_request:
+    paths:
+      - 'catalog.json'
+      - '.claude-plugin/marketplace.json'
+      - 'scripts/**'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history — validate-entry.mjs diffs catalog.json against the PR base ref.
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate every catalog.json JSON file parses
+        run: |
+          node -e "JSON.parse(require('fs').readFileSync('catalog.json','utf8')); console.log('catalog.json: valid JSON')"
+
+      - name: Regenerate + validate .claude-plugin/marketplace.json is in sync
+        run: node scripts/generate-marketplace.mjs --check
+
+      - name: Validate changed/added catalog entries against upstream
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: node scripts/validate-entry.mjs --base-ref "origin/$BASE_REF"

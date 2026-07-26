@@ -1,0 +1,68 @@
+name: weekly-discovery
+
+# Candidate-finding, separate from daily-snapshot because it spends the
+# GitHub Search API's own 30-req/min budget (see scripts/discover.mjs's
+# header). Output is discovery.json at the root of the `data` branch — candidates
+# only, never an auto-add to catalog.json.
+on:
+  schedule:
+    - cron: '0 5 * * 1' # weekly, Monday 05:00 UTC.
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main (catalog.json + scripts)
+        uses: actions/checkout@v4
+        with:
+          path: main
+          # FULL history, not the default shallow fetch-depth:1 — this job pushes
+          # the `data` branch from a worktree, and git refuses a push from a
+          # shallow clone ("shallow update not allowed"). Same reason as
+          # daily-snapshot.yml.
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Checkout (or create) the orphan data branch
+        working-directory: main
+        run: |
+          set -euo pipefail
+          git config --global user.name 'puppeteer-skill-store-bot'
+          git config --global user.email 'actions@users.noreply.github.com'
+          git fetch origin data || true
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git worktree add ../data-branch data
+          else
+            echo "data branch does not exist yet — creating an orphan branch."
+            git worktree add --detach ../data-branch
+            (cd ../data-branch && git checkout --orphan data && git rm -rf . >/dev/null 2>&1 || true)
+          fi
+
+      - name: Run discovery
+        working-directory: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/discover.mjs --out ../data-branch/discovery.json
+
+      - name: Commit + push data branch (only if something changed)
+        working-directory: data-branch
+        run: |
+          set -euo pipefail
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no discovery changes this week — nothing to commit."
+            exit 0
+          fi
+          git commit -m "chore(data): weekly discovery $(date -u +%Y-%m-%d)"
+          git push origin HEAD:data
