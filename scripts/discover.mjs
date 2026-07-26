@@ -28,6 +28,21 @@
  *    `anthropics/skills` growing a 10th skill directory gets surfaced without
  *    re-running the expensive Search queries against it.
  *
+ * THE OUTPUT CONTRACT (fixed 2026-07-26, Task D verification — same class of
+ * bug the popularity overlay already paid for once, see collect-snapshot.mjs /
+ * store-index-client.test.ts's "producer-shape regression guard"): the app's
+ * consumer (`StoreDiscoveryDocument` in packages/skills/src/store-index-client.ts,
+ * and the dashboard's "Novità dallo store" card behind it) reads a single
+ * top-level `candidates: {repo, path?, stars?, note?}[]` array. This script's
+ * two passes internally track richer, DIFFERENTLY-SHAPED rows (`searchCandidates`
+ * with `matchedQuery`/`matchedPath`/`htmlUrl`/`description`, and
+ * `newSkillDirsInKnownRepos` with `branch`) — those are kept in the output
+ * for debugging/back-compat, but `buildDiscoveryCandidates` below ALSO flattens
+ * both into the one `candidates` array the consumer actually reads. Without it,
+ * the consumer's `.passthrough()` + `.default([])` schema parses this document
+ * CLEANLY into zero candidates every single week — a permanently-empty "Novità"
+ * feed that looks healthy from every angle (exactly the popularity bug's shape).
+ *
  * `--dry-run` skips every network call and prints the query/repo plan.
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
@@ -195,6 +210,33 @@ export async function runKnownRepoEnumeration(catalog, token) {
   return { newSkillDirsInKnownRepos: results, errors };
 }
 
+/**
+ * Flatten the two internal-shaped passes into the ONE `candidates` array the
+ * app's `StoreDiscoveryDocument` schema actually reads (see the file header's
+ * "THE OUTPUT CONTRACT" note). `repo` is the only required field; `path`/
+ * `stars` are carried through when known, and `note` is a short human-readable
+ * provenance string (which pass surfaced it, and why) since the consumer's
+ * dashboard card renders exactly `{repo, path?, stars?, note?}` — see
+ * `catalog-skill-logic.ts`'s "Ispeziona" action and `API.catalogSkillsDiscovery`'s
+ * doc comment in packages/shared/src/api.ts.
+ */
+export function buildDiscoveryCandidates(search, enumeration) {
+  const fromSearch = search.candidates.map((c) => ({
+    repo: c.repo,
+    ...(c.matchedPath ? { path: c.matchedPath } : {}),
+    ...(c.stars !== undefined ? { stars: c.stars } : {}),
+    note: c.matchedPath
+      ? `code match: ${c.matchedPath} (query: ${c.matchedQuery})`
+      : `repo match (query: ${c.matchedQuery})`,
+  }));
+  const fromKnownRepos = enumeration.newSkillDirsInKnownRepos.map((d) => ({
+    repo: d.repo,
+    path: d.path,
+    note: `new SKILL.md in a known collection repo (branch: ${d.branch})`,
+  }));
+  return [...fromSearch, ...fromKnownRepos];
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const catalog = loadCatalog(args.catalogPath);
@@ -217,6 +259,11 @@ async function main() {
   mkdirSync(dirname(args.outPath), { recursive: true });
   const doc = {
     generatedAt: new Date().toISOString(),
+    // THE CONSUMER-FACING FIELD — see "THE OUTPUT CONTRACT" in the file header.
+    candidates: buildDiscoveryCandidates(search, enumeration),
+    // Kept for debugging/back-compat (richer per-pass detail); the app's
+    // StoreDiscoveryDocument schema is `.passthrough()` so these ride along
+    // harmlessly without being read by anything downstream.
     searchCandidates: search.candidates,
     newSkillDirsInKnownRepos: enumeration.newSkillDirsInKnownRepos,
     errors: [...search.errors, ...enumeration.errors],
@@ -224,8 +271,8 @@ async function main() {
   writeFileSync(args.outPath, JSON.stringify(doc, null, 2) + '\n', 'utf8');
   console.log(
     `discover: wrote ${args.outPath.replace(REPO_ROOT + '/', '')} — ` +
-      `${doc.searchCandidates.length} new repo candidate(s), ${doc.newSkillDirsInKnownRepos.length} new dir(s) in known repos, ` +
-      `${doc.errors.length} error(s).`,
+      `${doc.candidates.length} candidate(s) for review (${doc.searchCandidates.length} from search, ` +
+      `${doc.newSkillDirsInKnownRepos.length} new dir(s) in known repos), ${doc.errors.length} error(s).`,
   );
 }
 

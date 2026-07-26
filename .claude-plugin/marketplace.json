@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Community-curated Claude Code skills, re-pinned to their upstream commit and byte-audited against what was actually reviewed. See README.md for the trust model — signals here are unaudited heuristics, not a security guarantee.",
-    "catalogGeneratedAt": "2026-07-26T13:11:56+02:00"
+    "catalogGeneratedAt": "2026-07-26T18:11:33+02:00"
   },
   "plugins": [
     {
@@ -533,6 +533,19 @@
         "url": "https://github.com/mattpocock/skills",
         "path": "skills/productivity/caveman",
         "sha": "694fa30311e02c2639942308513555e61ee84a6f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "citation-management",
+      "description": "Comprehensive citation management for academic research. Search Google Scholar and PubMed for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "path": "skills/citation-management",
+        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
       },
       "skills": [
         "./"
@@ -1122,6 +1135,19 @@
       ]
     },
     {
+      "name": "exa-search",
+      "description": "Web toolkit powered by Exa, tuned for scientific and technical content. Use this skill when the user needs to search the web or fetch/extract URL content. Covers: web search (semantic lookups, research, current info — with optional research-paper category and academic domain filtering) and URL extraction (fetching pages, articles, academic PDFs in batch). Use this skill for web-related tasks when the user wants high-quality search or scholarly filtering via category=research paper. Triggers on requests to search, look up, fetch a page, or extract an article.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "path": "skills/exa-search",
+        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "experimental-design",
       "description": "Design experiments and studies BEFORE data is collected — choosing a design, randomizing, blocking, and laying out treatment combinations so the results will actually be interpretable. Use whenever someone is planning a study, asks how to assign subjects/samples to groups, mentions randomization, blocking, stratification, controls, factorial or fractional-factorial designs, design of experiments (DOE), screening many factors, response-surface optimization, crossover or repeated-measures or split-plot designs, cluster/group randomization, Latin squares, plate layouts, batch/run-order effects, replication vs. pseudoreplication, or sequential/adaptive/group-sequential designs. Trigger this even for informal phrasings like \"how should I set up this experiment\", \"how do I avoid confounding\", \"what's the best way to test these 6 factors\", or \"assign these mice to conditions\". For computing the sample size or power once the design is chosen, use statistical-power; for analyzing data already collected, use statistical-analysis.",
       "source": {
@@ -1485,6 +1511,19 @@
       ]
     },
     {
+      "name": "hypothesis-generation",
+      "description": "Structured hypothesis formulation from observations. Use when you have experimental observations or data and need to formulate testable hypotheses with predictions, propose mechanisms, and design experiments to test them. Follows scientific method framework. For open-ended ideation use scientific-brainstorming; for automated LLM-driven hypothesis testing on datasets use hypogenic.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "path": "skills/hypothesis-generation",
+        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "impeccable",
       "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, clarify, distill, harden, optimize, adapt, animate, colorize, extract, or otherwise improve a frontend interface. Covers websites, landing pages, dashboards, product UI, app shells, components, forms, settings, onboarding, and empty states. Handles UX review, visual hierarchy, information architecture, cognitive load, accessibility, performance, responsive behavior, theming, anti-patterns, typography, fonts, spacing, layout, alignment, color, motion, micro-interactions, UX copy, error states, edge cases, i18n, and reusable design systems or tokens. Also use for bland designs that need to become bolder or more delightful, loud designs that should become quieter, live browser iteration on UI elements, or ambitious visual effects that should feel technically extraordinary. Not for backend-only or non-UI tasks.",
       "source": {
@@ -1679,6 +1718,19 @@
       ]
     },
     {
+      "name": "literature-review",
+      "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "path": "skills/literature-review",
+        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "long-form-content-frameworks",
       "description": "Patterns for individual long-form content pieces. Case studies, whitepapers, research reports, definitive guides, manifestos, ebooks, long-form tutorials. The structural disciplines that distinguish publication-quality long-form from bloggy-long padding or academic bloat. Different from pillar-content-architecture (which covers hub structure); this skill covers individual deep-dive pieces. Triggers on long-form content, case study writing, whitepaper, research report, definitive guide, ebook, manifesto, long-form tutorial, deep-dive article, anchor piece, foundational article, structural archetypes. Also triggers when a piece is over 3,000 words and the team is unsure how to structure it, when a long-form draft feels padded or saggy, or when a flagship asset needs the depth to actually earn the length.",
       "source": {
@@ -1686,6 +1738,19 @@
         "url": "https://github.com/rampstackco/claude-skills",
         "path": "skills/long-form-content-frameworks",
         "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "market-research-reports",
+      "description": "Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics and generate-image, deep integration with research-lookup for data gathering, and multi-framework strategic analysis including Porter Five Forces, PESTLE, SWOT, TAM/SAM/SOM, and BCG Matrix.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "path": "skills/market-research-reports",
+        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
       },
       "skills": [
         "./"
@@ -1913,6 +1978,32 @@
       ]
     },
     {
+      "name": "paper-lookup",
+      "description": "Search 10 academic paper databases via REST APIs for research papers, preprints, and scholarly articles. Covers PubMed, PMC (full text), bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching for papers, citations, DOI/PMID lookups, abstracts, full text, open access, preprints, citation graphs, author search, or any scholarly literature query. Triggers on mentions of any supported database or requests like \"find papers on X\" or \"look up this DOI\".",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "path": "skills/paper-lookup",
+        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "peer-review",
+      "description": "Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer reviews with specific criteria methodology assessment, statistical validity, reporting standards compliance (CONSORT/STROBE), and constructive feedback. Best for actual review writing, manuscript revision. For evaluating claims/evidence quality use scientific-critical-thinking; for quantitative scoring frameworks use scholar-evaluation.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "path": "skills/peer-review",
+        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
       "name": "pipeline-review",
       "description": "Analyze pipeline health — prioritize deals, flag risks, get a weekly action plan. Use when running a weekly pipeline review, deciding which deals to focus on this week, spotting stale or stuck opportunities, auditing for hygiene issues like bad close dates, or identifying single-threaded deals.",
       "source": {
@@ -1998,6 +2089,19 @@
         "url": "https://github.com/anthropics/knowledge-work-plugins",
         "path": "legal/skills/review-contract",
         "sha": "e57524e4c35acc782bebd53097988b93b475b15b"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "scholar-evaluation",
+      "description": "Systematically evaluate scholarly work using the ScholarEval framework, providing structured assessment across research quality dimensions including problem formulation, methodology, analysis, and writing with quantitative scoring and actionable feedback.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+        "path": "skills/scholar-evaluation",
+        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
       },
       "skills": [
         "./"
