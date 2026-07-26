@@ -154,18 +154,39 @@ export async function fetchRepoStats(repos, token) {
   }
   const json = await res.json();
   const byKey = new Map();
+  const identityErrors = [];
   repos.forEach((r, i) => {
     const node = json.data?.[`r${i}`];
-    if (node) {
-      byKey.set(`${r.owner}/${r.repo}`, {
-        stargazerCount: node.stargazerCount,
-        forkCount: node.forkCount,
-        pushedAt: node.pushedAt,
-        isArchived: node.isArchived,
-      });
+    if (!node) return;
+    // IDENTITY CHECK — the reason `nameWithOwner` is in the selection set at all.
+    // GitHub silently FOLLOWS renames and transfers: query `oldOwner/oldName` for
+    // a repo that moved and you get the new repo's node back, HTTP 200, no error.
+    // Keying purely off the `r${i}` alias would then credit a catalogue row with a
+    // DIFFERENT repository's stars and pushedAt — a measurement that looks real,
+    // drives the leaderboard, and has no symptom anyone could notice. So we
+    // compare what we asked for against what came back (case-insensitively: the
+    // catalogue's casing need not match GitHub's canonical casing, which is not a
+    // rename) and, on a mismatch, record an ERROR and emit NO row. That is the
+    // collector's existing "no data ⇒ no row, never stars: 0" contract: the
+    // absence is reported honestly, and the stale catalogue row gets fixed rather
+    // than quietly wearing someone else's numbers.
+    const key = `${r.owner}/${r.repo}`;
+    const returned = node.nameWithOwner ?? '';
+    if (returned.toLowerCase() !== key.toLowerCase()) {
+      identityErrors.push(
+        `repo identity mismatch: requested ${key}, GitHub returned ${returned || '(no nameWithOwner)'} ` +
+          `— the catalogue row points at a renamed/transferred repo; no stats recorded for ${key}`,
+      );
+      return;
     }
+    byKey.set(key, {
+      stargazerCount: node.stargazerCount,
+      forkCount: node.forkCount,
+      pushedAt: node.pushedAt,
+      isArchived: node.isArchived,
+    });
   });
-  const errors = (json.errors ?? []).map((e) => e.message ?? String(e));
+  const errors = [...(json.errors ?? []).map((e) => e.message ?? String(e)), ...identityErrors];
   return { byKey, errors };
 }
 
@@ -389,7 +410,11 @@ async function main() {
   console.log(`collect-snapshot: fetching stats for ${repos.length} repos...`);
   const { byKey: repoStats, errors: repoErrors } = await fetchRepoStats(repos, token);
   if (repoErrors.length > 0) {
-    console.warn(`collect-snapshot: ${repoErrors.length} GraphQL error(s) (partial data still used):`);
+    // GraphQL's own errors PLUS our identity-mismatch rejections (a catalogue row
+    // pointing at a renamed/transferred repo — see fetchRepoStats). Both mean the
+    // same thing downstream: that repo contributes NO row, so the data stays
+    // honest and the cause is printed for whoever fixes the catalogue.
+    console.warn(`collect-snapshot: ${repoErrors.length} repo-stat error(s) (partial data still used):`);
     for (const e of repoErrors) console.warn(`  - ${e}`);
   }
 
