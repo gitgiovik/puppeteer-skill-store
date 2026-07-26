@@ -17,9 +17,33 @@
  *   4. checks the FULL fetched repo (not just the mapped skill subset — most
  *      curated entries live in a subdirectory that never carried its own
  *      LICENSE file; the license lives at the repo root) for a top-level
- *      LICENSE file.
- * A mismatch, an unresolvable path, or a missing license FAILS the entry with
- * a precise reason — nothing is silently skipped or downgraded to a warning.
+ *      LICENSE file;
+ *   5. enforces the BYTE-REVIEW INVARIANT (below) — the one check that is pure
+ *      data, needs no network, and would otherwise be provable by nobody.
+ * A mismatch, an unresolvable path, a missing license, or a broken invariant
+ * FAILS the entry with a precise reason — nothing is silently skipped or
+ * downgraded to a warning.
+ *
+ * THE BYTE-REVIEW INVARIANT (T3 closer, 2026-07-26):
+ *
+ *     reviewed.sha === upstreamCommit  ||  byteAudit === 'upstream-differs'
+ *
+ * `byteAudit: 'vendored-match'` is the SOLE grant of install tier 'auto' in
+ * the app ("the wizard may install unattended", no owner confirmation —
+ * `packages/skills/src/skill-tier.ts`), and the audit summary an owner reads
+ * for such a row says literally "byte-identical to the payload reviewed at
+ * curation time". That claim is only true of the bytes at the sha a human
+ * ACTUALLY read. Checks 1-3 cannot detect a violation: they verify
+ * `contentHash` against the bytes at the CURRENT pin, so anyone (a bot, a
+ * hurried hand-edit) who moves `upstreamCommit` and recomputes `contentHash`
+ * from the new bytes makes them pass by construction while silently carrying a
+ * byte-review verdict onto bytes nobody has read. Since `vendored/` is no
+ * longer kept on disk, `byteAudit` is not re-derivable from anything — this
+ * invariant is the ONLY mechanical thing standing between a moved pin and a
+ * fabricated verdict, so it is a hard error, not a warning. Legitimately
+ * re-reviewing bytes satisfies it by updating `reviewed` in the same edit;
+ * moving a pin without a review satisfies it by demoting `byteAudit` (which is
+ * exactly what `propose-pin-bumps.mjs` does).
  *
  * WHICH ENTRIES GET CHECKED. Default: diff `catalog.json` between
  * `--base-ref` (a git ref/sha the workflow's `actions/checkout` made
@@ -134,8 +158,39 @@ function hasRootLicense(entries) {
   return false;
 }
 
-async function validateOne(entry, archiveCache) {
+/**
+ * The byte-review invariant — pure data, no network, run on EVERY targeted
+ * entry (including `unavailable` ones, which make no fetchable claim but can
+ * still carry a stale `vendored-match`). See the module header for why this is
+ * the only mechanical guard left once `vendored/` stopped being kept on disk.
+ * Absent/unknown `byteAudit` is an ERROR, not a pass: silence must never be the
+ * permissive answer for the field that grants unattended installs.
+ */
+function byteReviewInvariantErrors(entry) {
   const errors = [];
+  const byteAudit = entry.byteAudit;
+  if (byteAudit !== 'vendored-match' && byteAudit !== 'upstream-differs') {
+    errors.push(
+      `byteAudit is '${byteAudit ?? 'absent'}' — every entry must state 'vendored-match' or 'upstream-differs' ` +
+        `(it is what decides whether the app may install this skill unattended)`,
+    );
+    return errors;
+  }
+  if (byteAudit !== 'vendored-match') return errors;
+  const pin = (entry.upstreamCommit ?? '').trim();
+  const reviewedSha = (entry.reviewed?.sha ?? '').trim();
+  if (reviewedSha !== pin) {
+    errors.push(
+      `byteAudit is 'vendored-match' but reviewed.sha is '${reviewedSha || 'absent'}' while upstreamCommit is '${pin || 'absent'}' — ` +
+        `'vendored-match' grants UNATTENDED install and asserts the shipped bytes are the reviewed ones, so it may only stand at the sha a human actually reviewed. ` +
+        `Either re-review the bytes at the new pin and update 'reviewed' in the same edit, or set byteAudit to 'upstream-differs' (the skill still installs, with one owner confirmation)`,
+    );
+  }
+  return errors;
+}
+
+async function validateOne(entry, archiveCache) {
+  const errors = [...byteReviewInvariantErrors(entry)];
   const parsed = parseGithubOwnerRepo(entry.sourceUrl ?? '');
   const sha = (entry.upstreamCommit ?? '').trim();
   if (!parsed) {

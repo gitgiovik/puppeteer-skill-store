@@ -205,7 +205,10 @@ for it.
    slug your PR added or changed: it fetches the pinned tarball, resolves
    `upstreamPath`/`upstreamPaths`, re-hashes the raw bytes, and requires the
    result to equal your `contentHash`. It also checks the upstream repo for a
-   top-level LICENSE file. Both must pass.
+   top-level LICENSE file, and enforces the byte-review invariant
+   `reviewed.sha === upstreamCommit || byteAudit === "upstream-differs"` —
+   `vendored-match` may only stand at the sha a human actually read, because it
+   is what grants unattended installs. All three must pass.
 3. `generate-marketplace.mjs --check` must show the marketplace manifest as
    up to date with your `catalog.json` change.
 4. A human reviews the PR like any other change to reviewed content.
@@ -214,6 +217,62 @@ for it.
 candidates — it lists repos matching a small set of GitHub topic searches and
 new `SKILL.md` directories appearing in already-known collection repos, with
 no auto-add.
+
+## Weekly pin-bump bot
+
+A `winget`/Scoop-style version-bump bot, not a discovery tool: every Wednesday,
+`weekly-pin-bump.yml` runs `scripts/propose-pin-bumps.mjs` against every
+already-curated entry and proposes moving stale pins forward — it never adds a
+new entry, only re-pins existing ones.
+
+For each **distinct repo** in `catalog.json` it resolves the current
+default-branch HEAD once, then for every entry pinned to that repo whose
+`upstreamCommit` is behind HEAD it diffs `oldPin...HEAD` and checks whether any
+changed file falls under **that entry's own resolved subtree** — a repo-wide
+commit that never touches a given skill's directory bumps nothing for that
+skill. (GitHub's compare API caps the file list at ~300 with no explicit
+truncation flag; hitting that cap fails OPEN — the entry is proposed anyway
+rather than silently skipped, and the PR flags it for closer human look. The
+compare result is cached per repo+pin, so that fail-open is a per-*repo*
+verdict every entry sharing the pin inherits; the PR body names the affected
+rows grouped by repo rather than flagging "at least one".)
+
+Entries that clear the subtree check are bumped **up to `--max`** (default 20 —
+a bound on one PR's size, not a priority order) in one cumulative PR per run;
+anything past the bound is logged as deferred and picked up next week, never
+partially applied. Each bumped row gets exactly four field changes —
+`upstreamCommit`, `contentHash` (recomputed from the bytes fetched at the new
+pin with the same canonical hash `validate-entry.mjs` re-checks),
+`catalogRevision += 1`, and **`byteAudit` demoted to `upstream-differs`**.
+`reviewed`, `author`, `license`, and `description` are left untouched, and the
+PR body says explicitly that `reviewed.sha` on a bumped row still refers to the
+*old* pin — a bot cannot re-review new bytes.
+
+**Why the demotion is mandatory.** `byteAudit: "vendored-match"` is the only
+thing that earns install tier `auto` (unattended install, no confirmation), and
+the audit summary the user reads for such an entry says the bytes are
+byte-identical to what was reviewed. A bump moves the pin to an unreviewed HEAD
+*and* recomputes `contentHash` from exactly those unread bytes — so keeping
+`vendored-match` would carry a byte-review verdict onto bytes nobody read, and
+CI could not catch it (`contentHash` matches by construction). Bumped skills
+therefore drop to `one-click` until a human re-reads the bytes and restores
+`vendored-match` together with `reviewed`. `validate-entry.mjs` enforces the
+invariant `reviewed.sha === upstreamCommit || byteAudit === "upstream-differs"`
+on every checked entry, so the same shortcut is refused from a hand-edit too.
+
+The existing `validate-entry.yml` gate re-verifies every bumped row exactly like
+a human-authored PR; **nothing here is ever auto-merged.**
+
+```
+node scripts/propose-pin-bumps.mjs --dry-run          # print the report, touch nothing
+node scripts/propose-pin-bumps.mjs --dry-run --max 5  # same, capped for a quick check
+node scripts/propose-pin-bumps.mjs --max 20           # real run: writes catalog.json, branches, opens the PR
+```
+
+`--dry-run` still makes the real GitHub API calls (HEAD resolution + compare)
+so its report reflects the actual catalogue state — it only skips the
+catalog.json write, the branch, and `gh pr create`. Also runnable on demand via
+the workflow's `workflow_dispatch` inputs (`dry_run`, `max`).
 
 ## Repo layout
 
@@ -225,6 +284,7 @@ scripts/
   collect-snapshot.mjs                # daily: GraphQL stats + tarball reachability + MCP registry sync
   discover.mjs                        # weekly: Search API + known-repo enumeration -> candidates
   validate-entry.mjs                  # PR CI: re-fetch + re-hash + license check for changed entries
+  propose-pin-bumps.mjs               # weekly: subtree-scoped pin bumps -> one cumulative PR (never auto-merged)
   lib/
     tar.mjs                           # standalone USTAR reader (ported from packages/skills/src/pack/tar.ts)
     upstream.mjs                      # standalone upstream-fetch + hash primitives (ported, see file header)
@@ -232,6 +292,7 @@ scripts/
   validate-entry.yml                  # on every PR touching catalog.json / marketplace.json / scripts/
   daily-snapshot.yml                  # cron: writes to the `data` branch
   weekly-discovery.yml                # cron: writes to the `data` branch
+  weekly-pin-bump.yml                 # cron: opens a PR against main (human-reviewed, gated by validate-entry.yml)
 data/                                 # NOT in this branch — lives on the orphan `data` branch (see above)
 ```
 
@@ -247,11 +308,20 @@ data/                                 # NOT in this branch — lives on the orph
   budget.
 - **PR validation**: bounded to the entries a PR actually changes, not the
   whole catalogue.
+- **Weekly pin-bump**: one HEAD resolution + one commits call per distinct
+  repo (~63), plus one compare call per stale-pinned entry (cached per
+  repo+base+head pin, so entries sharing a pin cost one call, not N) — same
+  core REST budget as the daily snapshot, on a different day. Only entries
+  that clear the subtree check (bounded by `--max`) go on to a tarball
+  fetch + re-hash, the actually expensive step.
 
 `collect-snapshot.mjs` and `discover.mjs` accept `--dry-run` to print the
 exact plan (which repos, which queries) without spending any network budget.
 `validate-entry.mjs` accepts `--slugs a,b,c` to check an explicit list on
 demand, or `--all` for a full-catalogue audit (expensive — not run on every PR).
+`propose-pin-bumps.mjs --dry-run` spends the real HEAD-resolution + compare
+budget (so its report is accurate) but skips the tarball-fetch/re-hash step
+and never writes, branches, or opens a PR.
 
 ## Changelog
 

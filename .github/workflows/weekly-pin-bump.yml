@@ -1,0 +1,66 @@
+name: weekly-pin-bump
+
+# winget/Scoop-style version-bump bot for the curated catalogue. Finds
+# entries whose pinned upstreamCommit is stale AND whose OWN upstream
+# subtree (not just the repo) changed since the pin, re-hashes at the new
+# pin, and opens ONE cumulative PR for a human to review — see
+# scripts/propose-pin-bumps.mjs's header for the full algorithm and the
+# fail-open truncation rule. NEVER merges automatically: the existing
+# validate-entry.yml PR gate re-verifies every bumped row exactly like a
+# human-authored PR.
+on:
+  schedule:
+    - cron: '30 5 * * 3' # weekly, Wednesday 05:30 UTC — offset from weekly-discovery's Monday 05:00 and daily-snapshot's 06:17, so the three never contend for the Search/REST API budget on the same morning.
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Print the would-be bump report without opening a PR (--dry-run)'
+        type: boolean
+        default: false
+      max:
+        description: 'Max entries to bump in this run (bounds one PR''s size)'
+        type: string
+        default: '20'
+
+permissions:
+  contents: write # pushes the bot's bump branch.
+  pull-requests: write # opens the cumulative PR.
+
+concurrency:
+  group: weekly-pin-bump
+  cancel-in-progress: false # never abandon a partially-computed bump mid-write.
+
+jobs:
+  pin-bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history — the script creates and pushes a new branch off main.
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run propose-pin-bumps (dry-run)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_BUMPS: ${{ inputs.max }}
+        run: |
+          set -euo pipefail
+          # MAX_BUMPS is a workflow_dispatch string input — validate it's a bare
+          # positive integer before it ever reaches a shell/argv boundary.
+          [[ "$MAX_BUMPS" =~ ^[1-9][0-9]*$ ]] || { echo "invalid max '$MAX_BUMPS' — must be a positive integer" >&2; exit 1; }
+          node scripts/propose-pin-bumps.mjs --dry-run --max "$MAX_BUMPS"
+
+      - name: Run propose-pin-bumps (open PR)
+        if: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run == 'true') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} # `gh pr create` reads this, not GITHUB_TOKEN.
+          MAX_BUMPS: ${{ github.event_name == 'workflow_dispatch' && inputs.max || '20' }}
+        run: |
+          set -euo pipefail
+          [[ "$MAX_BUMPS" =~ ^[1-9][0-9]*$ ]] || { echo "invalid max '$MAX_BUMPS' — must be a positive integer" >&2; exit 1; }
+          node scripts/propose-pin-bumps.mjs --max "$MAX_BUMPS"
