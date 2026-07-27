@@ -1,2507 +1,3671 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-26T12:59:36.496Z",
-  "date": "2026-07-26",
+  "generatedAt": "2026-07-27T10:14:08.692Z",
+  "date": "2026-07-27",
   "entries": {
     "5-whys": {
-      "stars": 44,
+      "stars": 45,
       "pushedAt": "2025-12-03T05:02:19Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "academic-pptx": {
-      "stars": 720,
+      "stars": 722,
       "pushedAt": "2026-07-14T23:54:54Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "accessibility": {
-      "stars": 2545,
+      "stars": 2549,
       "pushedAt": "2026-06-14T09:08:35Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 4,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-api-design-patterns": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-authentication-patterns": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-ci-cd-pipelines": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-data-engineering": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-database-optimization": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-devops-automation": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-django-patterns": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-docker-best-practices": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-golang-idioms": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-graphql-design": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-kubernetes-operations": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-microservices-design": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-postgres-optimization": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-python-best-practices": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-redis-patterns": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-rust-systems": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-security-hardening": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-springboot-patterns": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-typescript-advanced": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "actk-websocket-realtime": {
-      "stars": 2384,
+      "stars": 2390,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "algorithmic-art": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "anthropic-claude-api": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "anthropic-internal-comms": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "awwwards-3d": {
       "stars": 6,
       "pushedAt": "2026-05-08T18:20:22Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "brainstorm": {
-      "stars": 304,
+      "stars": 305,
       "pushedAt": "2026-05-07T18:57:45Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "brainstorming": {
-      "stars": 261383,
+      "stars": 261841,
       "pushedAt": "2026-07-24T21:21:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 458,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "brandkit": {
-      "stars": 81640,
-      "pushedAt": "2026-07-26T12:49:04Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 81854,
+      "pushedAt": "2026-07-27T10:11:50Z",
+      "starsDelta1d": 214,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "browser-harness": {
-      "stars": 16263,
+      "stars": 16285,
       "pushedAt": "2026-07-26T03:16:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 22,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "browser-use-cloud": {
-      "stars": 106842,
+      "stars": 106962,
       "pushedAt": "2026-07-26T03:17:39Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 120,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "browser-use-core": {
-      "stars": 106842,
+      "stars": 106962,
       "pushedAt": "2026-07-26T03:17:39Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 120,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "browser-use-open-source": {
-      "stars": 106842,
+      "stars": 106962,
       "pushedAt": "2026-07-26T03:17:39Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 120,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "browser-use-qa": {
-      "stars": 106842,
+      "stars": 106962,
       "pushedAt": "2026-07-26T03:17:39Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 120,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "browser-use-remote-browser": {
-      "stars": 106842,
+      "stars": 106962,
       "pushedAt": "2026-07-26T03:17:39Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 120,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "browser-use-x402": {
-      "stars": 106842,
+      "stars": 106962,
       "pushedAt": "2026-07-26T03:17:39Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 120,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "c4-model": {
       "stars": 32,
       "pushedAt": "2026-04-25T08:23:10Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "canvas-design": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "career-ops": {
-      "stars": 61616,
-      "pushedAt": "2026-07-26T02:22:44Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 61767,
+      "pushedAt": "2026-07-27T10:11:09Z",
+      "starsDelta1d": 151,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "caveman": {
-      "stars": 189037,
+      "stars": 190598,
       "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1561,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "citypaul-ddd": {
       "stars": 693,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "citypaul-finding-seams": {
       "stars": 693,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "citypaul-hexagonal": {
       "stars": 693,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "citypaul-refactoring": {
       "stars": 693,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "citypaul-tdd": {
       "stars": 693,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "citypaul-testing": {
       "stars": 693,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "claude-deep-research-skill": {
-      "stars": 956,
+      "stars": 960,
       "pushedAt": "2026-04-11T22:18:08Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 4,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "cloud-solution-architect": {
-      "stars": 2819,
+      "stars": 2825,
       "pushedAt": "2026-07-24T23:34:51Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "cloudflare-agents-sdk": {
-      "stars": 2484,
+      "stars": 2491,
       "pushedAt": "2026-07-24T18:42:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 7,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "cloudflare-wrangler": {
-      "stars": 2484,
+      "stars": 2491,
       "pushedAt": "2026-07-24T18:42:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 7,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "code-review-skill": {
-      "stars": 1514,
+      "stars": 1525,
       "pushedAt": "2026-07-16T06:13:07Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 11,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "content-and-copy": {
-      "stars": 493,
+      "stars": 496,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "content-strategy": {
-      "stars": 493,
+      "stars": 496,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "copy-editing": {
-      "stars": 41748,
+      "stars": 41877,
       "pushedAt": "2026-07-23T19:41:45Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 129,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "copywriting": {
-      "stars": 41748,
+      "stars": 41877,
       "pushedAt": "2026-07-23T19:41:45Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 129,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "courier": {
       "stars": 13,
       "pushedAt": "2026-07-25T16:31:26Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "css-coder": {
       "stars": 3,
       "pushedAt": "2026-07-02T20:47:28Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "css-tokens": {
       "stars": 3,
       "pushedAt": "2026-07-02T20:47:28Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "data-statistical-analysis": {
-      "stars": 23050,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23077,
+      "pushedAt": "2026-07-27T08:33:40Z",
+      "starsDelta1d": 27,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "data-visualization": {
-      "stars": 23050,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23077,
+      "pushedAt": "2026-07-27T08:33:40Z",
+      "starsDelta1d": 27,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "dd-apm": {
-      "stars": 146,
+      "stars": 147,
       "pushedAt": "2026-07-23T19:16:15Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "dd-docs": {
-      "stars": 146,
+      "stars": 147,
       "pushedAt": "2026-07-23T19:16:15Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "dd-logs": {
-      "stars": 146,
+      "stars": 147,
       "pushedAt": "2026-07-23T19:16:15Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "dd-monitors": {
-      "stars": 146,
+      "stars": 147,
       "pushedAt": "2026-07-23T19:16:15Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "dd-triage-flaky-test": {
-      "stars": 146,
+      "stars": 147,
       "pushedAt": "2026-07-23T19:16:15Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "dd-unblock-pr": {
-      "stars": 146,
+      "stars": 147,
       "pushedAt": "2026-07-23T19:16:15Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "define-prioritization-framework": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "define-problem-statement": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "deliver-prd": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "deliver-user-stories": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "design-brief": {
-      "stars": 81640,
-      "pushedAt": "2026-07-26T12:49:04Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 81854,
+      "pushedAt": "2026-07-27T10:11:50Z",
+      "starsDelta1d": 214,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "design-motion-principles": {
-      "stars": 859,
+      "stars": 862,
       "pushedAt": "2026-05-30T23:17:35Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "digitalsamba-video-toolkit": {
-      "stars": 1818,
+      "stars": 1838,
       "pushedAt": "2026-07-06T12:52:48Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 20,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "discover-competitive-analysis": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-24T18:31:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "doc-coauthoring": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "duckdb-query": {
       "stars": 521,
       "pushedAt": "2026-04-23T13:56:22Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "duckdb-read-file": {
       "stars": 521,
       "pushedAt": "2026-04-23T13:56:22Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "eas-workflows": {
-      "stars": 2321,
+      "stars": 2334,
       "pushedAt": "2026-07-24T11:38:55Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 13,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "editorial-qa": {
-      "stars": 493,
+      "stars": 496,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "elevenlabs-music": {
       "stars": 394,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "elevenlabs-sound-effects": {
       "stars": 394,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "elevenlabs-speech-to-text": {
       "stars": 394,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "elevenlabs-text-to-speech": {
       "stars": 394,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "elevenlabs-voice-changer": {
       "stars": 394,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "email-sequences": {
-      "stars": 493,
+      "stars": 496,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "explore-data": {
-      "stars": 23050,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23077,
+      "pushedAt": "2026-07-27T08:33:40Z",
+      "starsDelta1d": 27,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "expo-router": {
-      "stars": 2321,
+      "stars": 2334,
       "pushedAt": "2026-07-24T11:38:55Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 13,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "expo-upgrade": {
-      "stars": 2321,
+      "stars": 2334,
       "pushedAt": "2026-07-24T11:38:55Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 13,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "find-bugs": {
-      "stars": 886,
+      "stars": 889,
       "pushedAt": "2026-07-25T15:44:43Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "frontend-design": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "frontend-slides": {
-      "stars": 26368,
+      "stars": 26405,
       "pushedAt": "2026-06-23T20:08:19Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 37,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "frontend-ui-engineering": {
-      "stars": 80425,
+      "stars": 80576,
       "pushedAt": "2026-07-26T12:51:12Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 151,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gemini-api-dev": {
-      "stars": 3850,
+      "stars": 3853,
       "pushedAt": "2026-07-24T12:07:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gemini-live-api-dev": {
-      "stars": 3850,
+      "stars": 3853,
       "pushedAt": "2026-07-24T12:07:13Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "geo-content-optimizer": {
-      "stars": 111,
+      "stars": 113,
       "pushedAt": "2026-07-13T00:14:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gh-fix-ci": {
-      "stars": 24191,
+      "stars": 24222,
       "pushedAt": "2026-07-14T16:47:46Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 31,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "grill-me": {
-      "stars": 189037,
+      "stars": 190598,
       "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1561,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "grill-with-docs": {
-      "stars": 189037,
+      "stars": 190598,
       "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1561,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gsap-core": {
-      "stars": 12402,
+      "stars": 12443,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 41,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gsap-frameworks": {
-      "stars": 12402,
+      "stars": 12443,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 41,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gsap-performance": {
-      "stars": 12402,
+      "stars": 12443,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 41,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gsap-plugins": {
-      "stars": 12402,
+      "stars": 12443,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 41,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gsap-react": {
-      "stars": 12402,
+      "stars": 12443,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 41,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gsap-scrolltrigger": {
-      "stars": 12402,
+      "stars": 12443,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 41,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gsap-timeline": {
-      "stars": 12402,
+      "stars": 12443,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 41,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gsap-utils": {
-      "stars": 12402,
+      "stars": 12443,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 41,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gws-drive": {
-      "stars": 30011,
+      "stars": 30022,
       "pushedAt": "2026-07-22T11:35:50Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 11,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "gws-sheets": {
-      "stars": 30011,
+      "stars": 30022,
       "pushedAt": "2026-07-22T11:35:50Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 11,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "handoff": {
-      "stars": 189037,
+      "stars": 190598,
       "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1561,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "hf-cli": {
-      "stars": 10873,
-      "pushedAt": "2026-07-25T04:31:32Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 10876,
+      "pushedAt": "2026-07-27T09:19:45Z",
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "huggingface-gradio": {
-      "stars": 10873,
-      "pushedAt": "2026-07-25T04:31:32Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 10876,
+      "pushedAt": "2026-07-27T09:19:45Z",
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "humanizer": {
-      "stars": 31134,
+      "stars": 31376,
       "pushedAt": "2026-07-22T06:26:25Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 242,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "impeccable": {
-      "stars": 50301,
-      "pushedAt": "2026-07-26T08:37:29Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 51031,
+      "pushedAt": "2026-07-27T02:04:49Z",
+      "starsDelta1d": 730,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "improve-codebase-architecture": {
-      "stars": 189037,
+      "stars": 190598,
       "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1561,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "industrial-brutalist-ui": {
-      "stars": 81640,
-      "pushedAt": "2026-07-26T12:49:04Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 81854,
+      "pushedAt": "2026-07-27T10:11:50Z",
+      "starsDelta1d": 214,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "kubernetes-skill": {
-      "stars": 334,
+      "stars": 338,
       "pushedAt": "2026-07-19T15:32:27Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 4,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "lambdatest-cypress": {
-      "stars": 336,
+      "stars": 338,
       "pushedAt": "2026-07-24T15:13:07Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "lambdatest-playwright": {
-      "stars": 336,
+      "stars": 338,
       "pushedAt": "2026-07-24T15:13:07Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "lambdatest-puppeteer": {
-      "stars": 336,
+      "stars": 338,
       "pushedAt": "2026-07-24T15:13:07Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "landing-page-copy": {
-      "stars": 493,
+      "stars": 496,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "leonxlnx-gpt-tasteskill": {
-      "stars": 67780,
+      "stars": 68093,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 313,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "leonxlnx-image-to-code": {
-      "stars": 67780,
+      "stars": 68093,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 313,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "leonxlnx-imagegen-frontend-mobile": {
-      "stars": 67780,
+      "stars": 68093,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 313,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "leonxlnx-imagegen-frontend-web": {
-      "stars": 67780,
+      "stars": 68093,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 313,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "leonxlnx-output-skill": {
-      "stars": 67780,
+      "stars": 68093,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 313,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "leonxlnx-soft-skill": {
-      "stars": 67780,
+      "stars": 68093,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 313,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "leonxlnx-stitch-skill": {
-      "stars": 67780,
+      "stars": 68093,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 313,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "long-form-content-frameworks": {
-      "stars": 493,
+      "stars": 496,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "marketing-psychology": {
-      "stars": 41748,
+      "stars": 41877,
       "pushedAt": "2026-07-23T19:41:45Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 129,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "mcp-builder": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "mcp-builder-microsoft": {
-      "stars": 2819,
+      "stars": 2825,
       "pushedAt": "2026-07-24T23:34:51Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "meta-tags-optimizer": {
-      "stars": 111,
+      "stars": 113,
       "pushedAt": "2026-07-13T00:14:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "minimalist-ui": {
-      "stars": 81640,
-      "pushedAt": "2026-07-26T12:49:04Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 81854,
+      "pushedAt": "2026-07-27T10:11:50Z",
+      "starsDelta1d": 214,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "motherduck-duckdb-sql": {
       "stars": 53,
       "pushedAt": "2026-07-13T15:16:31Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "motherduck-query": {
       "stars": 53,
       "pushedAt": "2026-07-13T15:16:31Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "netlify-ai-gateway": {
       "stars": 27,
-      "pushedAt": "2026-07-24T16:28:44Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "pushedAt": "2026-07-27T03:06:47Z",
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "netlify-edge-functions": {
       "stars": 27,
-      "pushedAt": "2026-07-24T16:28:44Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "pushedAt": "2026-07-27T03:06:47Z",
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "netlify-functions": {
       "stars": 27,
-      "pushedAt": "2026-07-24T16:28:44Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "pushedAt": "2026-07-27T03:06:47Z",
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "nlb-brand": {
-      "stars": 110277,
-      "pushedAt": "2026-07-21T15:51:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 110591,
+      "pushedAt": "2026-07-27T06:30:54Z",
+      "starsDelta1d": 314,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "nlb-design": {
-      "stars": 110277,
-      "pushedAt": "2026-07-21T15:51:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 110591,
+      "pushedAt": "2026-07-27T06:30:54Z",
+      "starsDelta1d": 314,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "nlb-design-system": {
-      "stars": 110277,
-      "pushedAt": "2026-07-21T15:51:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 110591,
+      "pushedAt": "2026-07-27T06:30:54Z",
+      "starsDelta1d": 314,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "nlb-slides": {
-      "stars": 110277,
-      "pushedAt": "2026-07-21T15:51:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 110591,
+      "pushedAt": "2026-07-27T06:30:54Z",
+      "starsDelta1d": 314,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "nlb-ui-styling": {
-      "stars": 110277,
-      "pushedAt": "2026-07-21T15:51:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 110591,
+      "pushedAt": "2026-07-27T06:30:54Z",
+      "starsDelta1d": 314,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "octagon-financial-analyst-master": {
       "stars": 133,
       "pushedAt": "2026-06-05T18:06:01Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "openai-security-threat-model": {
-      "stars": 24191,
+      "stars": 24222,
       "pushedAt": "2026-07-14T16:47:46Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 31,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "pipeline-review": {
-      "stars": 23050,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23077,
+      "pushedAt": "2026-07-27T08:33:40Z",
+      "starsDelta1d": 27,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "playwright-skill": {
-      "stars": 2948,
+      "stars": 2952,
       "pushedAt": "2025-12-19T16:23:38Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 4,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "promptfoo-evals": {
-      "stars": 23614,
-      "pushedAt": "2026-07-26T12:52:53Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23647,
+      "pushedAt": "2026-07-27T09:52:47Z",
+      "starsDelta1d": 33,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "promptfoo-redteam-plugin-development": {
-      "stars": 23614,
-      "pushedAt": "2026-07-26T12:52:53Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23647,
+      "pushedAt": "2026-07-27T09:52:47Z",
+      "starsDelta1d": 33,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "prototype": {
-      "stars": 189037,
+      "stars": 190598,
       "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1561,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "redesign-skill": {
-      "stars": 67780,
+      "stars": 68093,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 313,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "review-contract": {
-      "stars": 23050,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23077,
+      "pushedAt": "2026-07-27T08:33:40Z",
+      "starsDelta1d": 27,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
+    },
+    "scroll-world": {
+      "stars": 5415,
+      "pushedAt": "2026-07-16T01:23:39Z",
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "semantic-html": {
       "stars": 3,
       "pushedAt": "2026-07-02T20:47:28Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "sentry-code-review": {
-      "stars": 886,
+      "stars": 889,
       "pushedAt": "2026-07-25T15:44:43Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "sentry-gha-security-review": {
-      "stars": 886,
+      "stars": 889,
       "pushedAt": "2026-07-25T15:44:43Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "sentry-sdk-upgrade": {
       "stars": 243,
-      "pushedAt": "2026-07-23T07:24:51Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "pushedAt": "2026-07-26T17:37:41Z",
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "sentry-security-review": {
-      "stars": 886,
+      "stars": 889,
       "pushedAt": "2026-07-25T15:44:43Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "sentry-workflow": {
       "stars": 243,
-      "pushedAt": "2026-07-23T07:24:51Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "pushedAt": "2026-07-26T17:37:41Z",
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "seo": {
-      "stars": 2545,
+      "stars": 2549,
       "pushedAt": "2026-06-14T09:08:35Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 4,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "seo-content-writer": {
-      "stars": 111,
+      "stars": 113,
       "pushedAt": "2026-07-13T00:14:34Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "shadcn-component-discovery": {
       "stars": 14,
       "pushedAt": "2026-04-27T08:26:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "shadcn-component-review": {
       "stars": 14,
       "pushedAt": "2026-04-27T08:26:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "skill-creator-anthropic": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "slack-gif-creator": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "sql-queries": {
-      "stars": 23050,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23077,
+      "pushedAt": "2026-07-27T08:33:40Z",
+      "starsDelta1d": 27,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "stripe-best-practices": {
       "stars": 1710,
-      "pushedAt": "2026-07-25T00:54:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "pushedAt": "2026-07-26T17:50:37Z",
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "supabase": {
-      "stars": 2425,
+      "stars": 2429,
       "pushedAt": "2026-07-21T09:41:00Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 4,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "supabase-postgres-best-practices": {
-      "stars": 2425,
+      "stars": 2429,
       "pushedAt": "2026-07-21T09:41:00Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 4,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "systematic-debugging": {
-      "stars": 261383,
+      "stars": 261841,
       "pushedAt": "2026-07-24T21:21:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 458,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "task-observer": {
-      "stars": 1262,
+      "stars": 1268,
       "pushedAt": "2026-07-17T09:48:22Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 6,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "taste-skill": {
-      "stars": 67780,
+      "stars": 68093,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 313,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "tdd": {
-      "stars": 189037,
+      "stars": 190598,
       "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1561,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "terraform-skill": {
-      "stars": 2209,
+      "stars": 2213,
       "pushedAt": "2026-07-03T05:56:41Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 4,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "test-driven-development": {
-      "stars": 261383,
+      "stars": 261841,
       "pushedAt": "2026-07-24T21:21:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 458,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "theme-factory": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "ticket-triage": {
-      "stars": 23050,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23077,
+      "pushedAt": "2026-07-27T08:33:40Z",
+      "starsDelta1d": 27,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "ui-ux-pro-max": {
-      "stars": 110277,
-      "pushedAt": "2026-07-21T15:51:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 110591,
+      "pushedAt": "2026-07-27T06:30:54Z",
+      "starsDelta1d": 314,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "upgrade-stripe": {
       "stars": 1710,
-      "pushedAt": "2026-07-25T00:54:24Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "pushedAt": "2026-07-26T17:50:37Z",
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "ux-designer": {
       "stars": 39,
       "pushedAt": "2026-06-06T21:19:47Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "validate-data": {
-      "stars": 23050,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23077,
+      "pushedAt": "2026-07-27T08:33:40Z",
+      "starsDelta1d": 27,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "variance-analysis": {
-      "stars": 23050,
-      "pushedAt": "2026-07-26T00:05:37Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "stars": 23077,
+      "pushedAt": "2026-07-27T08:33:40Z",
+      "starsDelta1d": 27,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "venice-api-overview": {
       "stars": 122,
       "pushedAt": "2026-07-20T14:00:39Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "venice-chat": {
       "stars": 122,
       "pushedAt": "2026-07-20T14:00:39Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "vercel-composition-patterns": {
-      "stars": 29491,
+      "stars": 29517,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 26,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "vercel-deploy-to-vercel": {
-      "stars": 29491,
+      "stars": 29517,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 26,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "vercel-optimize": {
-      "stars": 29491,
+      "stars": 29517,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 26,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "vercel-react-best-practices": {
-      "stars": 29491,
+      "stars": 29517,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 26,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "vercel-react-view-transitions": {
-      "stars": 29491,
+      "stars": 29517,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 26,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "watch": {
-      "stars": 10240,
+      "stars": 10591,
       "pushedAt": "2026-07-01T01:26:49Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 351,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "web-artifacts-builder": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "web-design-guidelines": {
-      "stars": 29491,
+      "stars": 29517,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 26,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "web-performance": {
-      "stars": 2545,
+      "stars": 2549,
       "pushedAt": "2026-06-14T09:08:35Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 4,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "webapp-testing": {
-      "stars": 164261,
+      "stars": 164464,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 203,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "write-a-skill": {
-      "stars": 189037,
+      "stars": 190598,
       "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1561,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "writing-plans": {
-      "stars": 261383,
+      "stars": 261841,
       "pushedAt": "2026-07-24T21:21:36Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 458,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "xiaolai-anthropic-api": {
       "stars": 15,
       "pushedAt": "2026-07-26T12:27:08Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "xiaolai-claude-code": {
       "stars": 15,
       "pushedAt": "2026-07-26T12:27:08Z",
-      "snapshotAt": "2026-07-26T12:59:36.495Z"
+      "starsDelta1d": 0,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     },
     "zoom-out": {
-      "stars": 189037,
+      "stars": 190598,
       "pushedAt": "2026-07-23T14:29:59Z",
-      "snapshotAt": "2026-07-26T12:59:36.494Z"
+      "starsDelta1d": 1561,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-26"
+      },
+      "snapshotAt": "2026-07-27T10:14:08.688Z"
     }
   },
   "repos": {
     "awesome-skills/5-whys-skill": {
-      "stargazerCount": 44,
+      "stargazerCount": 45,
       "forkCount": 6,
       "pushedAt": "2025-12-03T05:02:19Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 1,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "Gabberflast/academic-pptx-skill": {
-      "stargazerCount": 720,
-      "forkCount": 87,
+      "stargazerCount": 722,
+      "forkCount": 88,
       "pushedAt": "2026-07-14T23:54:54Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 2,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "addyosmani/web-quality-skills": {
-      "stargazerCount": 2545,
-      "forkCount": 231,
+      "stargazerCount": 2549,
+      "forkCount": 233,
       "pushedAt": "2026-06-14T09:08:35Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 4,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "rohitg00/awesome-claude-code-toolkit": {
-      "stargazerCount": 2384,
-      "forkCount": 846,
+      "stargazerCount": 2390,
+      "forkCount": 849,
       "pushedAt": "2026-05-12T07:18:34Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 6,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "anthropics/skills": {
-      "stargazerCount": 164261,
-      "forkCount": 19511,
+      "stargazerCount": 164464,
+      "forkCount": 19543,
       "pushedAt": "2026-07-24T20:12:36Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 203,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "tsogjavklann/awwwards-3d": {
       "stargazerCount": 6,
       "forkCount": 1,
       "pushedAt": "2026-05-08T18:20:22Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "rsmdt/the-startup": {
-      "stargazerCount": 304,
+      "stargazerCount": 305,
       "forkCount": 42,
       "pushedAt": "2026-05-07T18:57:45Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 1,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "obra/superpowers": {
-      "stargazerCount": 261383,
-      "forkCount": 23326,
+      "stargazerCount": 261841,
+      "forkCount": 23380,
       "pushedAt": "2026-07-24T21:21:36Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 458,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "nexu-io/open-design": {
-      "stargazerCount": 81640,
-      "forkCount": 9439,
-      "pushedAt": "2026-07-26T12:49:04Z",
+      "stargazerCount": 81854,
+      "forkCount": 9467,
+      "pushedAt": "2026-07-27T10:11:50Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 214,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "browser-use/browser-harness": {
-      "stargazerCount": 16263,
-      "forkCount": 1541,
+      "stargazerCount": 16285,
+      "forkCount": 1542,
       "pushedAt": "2026-07-26T03:16:13Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 22,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "browser-use/browser-use": {
-      "stargazerCount": 106842,
-      "forkCount": 11739,
+      "stargazerCount": 106962,
+      "forkCount": 11752,
       "pushedAt": "2026-07-26T03:17:39Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 120,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "cheriftj/c4-model-skill": {
       "stargazerCount": 32,
       "forkCount": 2,
       "pushedAt": "2026-04-25T08:23:10Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "santifer/career-ops": {
-      "stargazerCount": 61616,
-      "forkCount": 12137,
-      "pushedAt": "2026-07-26T02:22:44Z",
+      "stargazerCount": 61767,
+      "forkCount": 12163,
+      "pushedAt": "2026-07-27T10:11:09Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 151,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "mattpocock/skills": {
-      "stargazerCount": 189037,
-      "forkCount": 16233,
+      "stargazerCount": 190598,
+      "forkCount": 16376,
       "pushedAt": "2026-07-23T14:29:59Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 1561,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "citypaul/.dotfiles": {
       "stargazerCount": 693,
       "forkCount": 88,
       "pushedAt": "2026-07-20T22:07:48Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "199-biotechnologies/claude-deep-research-skill": {
-      "stargazerCount": 956,
-      "forkCount": 100,
+      "stargazerCount": 960,
+      "forkCount": 99,
       "pushedAt": "2026-04-11T22:18:08Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 4,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "microsoft/skills": {
-      "stargazerCount": 2819,
-      "forkCount": 317,
+      "stargazerCount": 2825,
+      "forkCount": 318,
       "pushedAt": "2026-07-24T23:34:51Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 6,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "cloudflare/skills": {
-      "stargazerCount": 2484,
-      "forkCount": 232,
+      "stargazerCount": 2491,
+      "forkCount": 234,
       "pushedAt": "2026-07-24T18:42:34Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 7,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "awesome-skills/code-review-skill": {
-      "stargazerCount": 1514,
-      "forkCount": 164,
+      "stargazerCount": 1525,
+      "forkCount": 165,
       "pushedAt": "2026-07-16T06:13:07Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 11,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "rampstackco/claude-skills": {
-      "stargazerCount": 493,
+      "stargazerCount": 496,
       "forkCount": 63,
       "pushedAt": "2026-07-21T22:57:58Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 3,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "coreyhaines31/marketingskills": {
-      "stargazerCount": 41748,
-      "forkCount": 6572,
+      "stargazerCount": 41877,
+      "forkCount": 6596,
       "pushedAt": "2026-07-23T19:41:45Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 129,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "trycourier/courier-skills": {
       "stargazerCount": 13,
       "forkCount": 2,
       "pushedAt": "2026-07-25T16:31:26Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "schalkneethling/claude-toolkit": {
       "stargazerCount": 3,
       "forkCount": 0,
       "pushedAt": "2026-07-02T20:47:28Z",
       "isArchived": true,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "anthropics/knowledge-work-plugins": {
-      "stargazerCount": 23050,
-      "forkCount": 2769,
-      "pushedAt": "2026-07-26T00:05:37Z",
+      "stargazerCount": 23077,
+      "forkCount": 2770,
+      "pushedAt": "2026-07-27T08:33:40Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 27,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "datadog-labs/agent-skills": {
-      "stargazerCount": 146,
+      "stargazerCount": 147,
       "forkCount": 19,
       "pushedAt": "2026-07-23T19:16:15Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 1,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "product-on-purpose/pm-skills": {
-      "stargazerCount": 501,
+      "stargazerCount": 503,
       "forkCount": 66,
       "pushedAt": "2026-07-24T18:31:13Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 2,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "kylezantos/design-motion-principles": {
-      "stargazerCount": 859,
+      "stargazerCount": 862,
       "forkCount": 60,
       "pushedAt": "2026-05-30T23:17:35Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 3,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "digitalsamba/claude-code-video-toolkit": {
-      "stargazerCount": 1818,
-      "forkCount": 301,
+      "stargazerCount": 1838,
+      "forkCount": 303,
       "pushedAt": "2026-07-06T12:52:48Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 20,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "duckdb/duckdb-skills": {
       "stargazerCount": 521,
       "forkCount": 25,
       "pushedAt": "2026-04-23T13:56:22Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "expo/skills": {
-      "stargazerCount": 2321,
-      "forkCount": 119,
+      "stargazerCount": 2334,
+      "forkCount": 120,
       "pushedAt": "2026-07-24T11:38:55Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 13,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "elevenlabs/skills": {
       "stargazerCount": 394,
       "forkCount": 56,
       "pushedAt": "2026-07-23T16:59:13Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "getsentry/skills": {
-      "stargazerCount": 886,
-      "forkCount": 45,
+      "stargazerCount": 889,
+      "forkCount": 46,
       "pushedAt": "2026-07-25T15:44:43Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 3,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "zarazhangrui/frontend-slides": {
-      "stargazerCount": 26368,
-      "forkCount": 2140,
+      "stargazerCount": 26405,
+      "forkCount": 2143,
       "pushedAt": "2026-06-23T20:08:19Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 37,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "addyosmani/agent-skills": {
-      "stargazerCount": 80425,
-      "forkCount": 8670,
+      "stargazerCount": 80576,
+      "forkCount": 8690,
       "pushedAt": "2026-07-26T12:51:12Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 151,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "google-gemini/gemini-skills": {
-      "stargazerCount": 3850,
+      "stargazerCount": 3853,
       "forkCount": 388,
       "pushedAt": "2026-07-24T12:07:13Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 3,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "aaron-he-zhu/seo-geo-claude-skills": {
-      "stargazerCount": 111,
-      "forkCount": 9,
+      "stargazerCount": 113,
+      "forkCount": 10,
       "pushedAt": "2026-07-13T00:14:34Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 2,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "openai/skills": {
-      "stargazerCount": 24191,
-      "forkCount": 1638,
+      "stargazerCount": 24222,
+      "forkCount": 1639,
       "pushedAt": "2026-07-14T16:47:46Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 31,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "greensock/gsap-skills": {
-      "stargazerCount": 12402,
-      "forkCount": 732,
+      "stargazerCount": 12443,
+      "forkCount": 733,
       "pushedAt": "2026-04-21T23:47:09Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 41,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "googleworkspace/cli": {
-      "stargazerCount": 30011,
+      "stargazerCount": 30022,
       "forkCount": 1753,
       "pushedAt": "2026-07-22T11:35:50Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 11,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "huggingface/skills": {
-      "stargazerCount": 10873,
+      "stargazerCount": 10876,
       "forkCount": 721,
-      "pushedAt": "2026-07-25T04:31:32Z",
+      "pushedAt": "2026-07-27T09:19:45Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 3,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "blader/humanizer": {
-      "stargazerCount": 31134,
-      "forkCount": 2848,
+      "stargazerCount": 31376,
+      "forkCount": 2870,
       "pushedAt": "2026-07-22T06:26:25Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 242,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "pbakaus/impeccable": {
-      "stargazerCount": 50301,
-      "forkCount": 2967,
-      "pushedAt": "2026-07-26T08:37:29Z",
+      "stargazerCount": 51031,
+      "forkCount": 3005,
+      "pushedAt": "2026-07-27T02:04:49Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 730,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "LukasNiessen/kubernetes-skill": {
-      "stargazerCount": 334,
+      "stargazerCount": 338,
       "forkCount": 58,
       "pushedAt": "2026-07-19T15:32:27Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 4,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "LambdaTest/agent-skills": {
-      "stargazerCount": 336,
+      "stargazerCount": 338,
       "forkCount": 68,
       "pushedAt": "2026-07-24T15:13:07Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 2,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "leonxlnx/taste-skill": {
-      "stargazerCount": 67780,
-      "forkCount": 4689,
+      "stargazerCount": 68093,
+      "forkCount": 4708,
       "pushedAt": "2026-07-23T16:01:24Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 313,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "motherduckdb/agent-skills": {
       "stargazerCount": 53,
       "forkCount": 3,
       "pushedAt": "2026-07-13T15:16:31Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "netlify/context-and-tools": {
       "stargazerCount": 27,
       "forkCount": 8,
-      "pushedAt": "2026-07-24T16:28:44Z",
+      "pushedAt": "2026-07-27T03:06:47Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "nextlevelbuilder/ui-ux-pro-max-skill": {
-      "stargazerCount": 110277,
-      "forkCount": 11761,
-      "pushedAt": "2026-07-21T15:51:36Z",
+      "stargazerCount": 110591,
+      "forkCount": 11795,
+      "pushedAt": "2026-07-27T06:30:54Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 314,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "OctagonAI/skills": {
       "stargazerCount": 133,
       "forkCount": 13,
       "pushedAt": "2026-06-05T18:06:01Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "lackeyjb/playwright-skill": {
-      "stargazerCount": 2948,
+      "stargazerCount": 2952,
       "forkCount": 219,
       "pushedAt": "2025-12-19T16:23:38Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 4,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "promptfoo/promptfoo": {
-      "stargazerCount": 23614,
-      "forkCount": 2121,
-      "pushedAt": "2026-07-26T12:52:53Z",
+      "stargazerCount": 23647,
+      "forkCount": 2123,
+      "pushedAt": "2026-07-27T09:52:47Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 33,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
+    },
+    "oso95/scroll-world": {
+      "stargazerCount": 5415,
+      "forkCount": 625,
+      "pushedAt": "2026-07-16T01:23:39Z",
+      "isArchived": false,
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
       "trending": {}
     },
     "getsentry/sentry-for-ai": {
       "stargazerCount": 243,
       "forkCount": 30,
-      "pushedAt": "2026-07-23T07:24:51Z",
+      "pushedAt": "2026-07-26T17:37:41Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "mattbx/shadcn-skills": {
       "stargazerCount": 14,
       "forkCount": 1,
       "pushedAt": "2026-04-27T08:26:59Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "stripe/ai": {
       "stargazerCount": 1710,
       "forkCount": 315,
-      "pushedAt": "2026-07-25T00:54:24Z",
+      "pushedAt": "2026-07-26T17:50:37Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.494Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "supabase/agent-skills": {
-      "stargazerCount": 2425,
+      "stargazerCount": 2429,
       "forkCount": 175,
       "pushedAt": "2026-07-21T09:41:00Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.495Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 4,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "rebelytics/one-skill-to-rule-them-all": {
-      "stargazerCount": 1262,
-      "forkCount": 124,
+      "stargazerCount": 1268,
+      "forkCount": 125,
       "pushedAt": "2026-07-17T09:48:22Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.495Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 6,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "antonbabenko/terraform-skill": {
-      "stargazerCount": 2209,
+      "stargazerCount": 2213,
       "forkCount": 197,
       "pushedAt": "2026-07-03T05:56:41Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.495Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 4,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "szilu/ux-designer-skill": {
       "stargazerCount": 39,
       "forkCount": 6,
       "pushedAt": "2026-06-06T21:19:47Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.495Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "veniceai/skills": {
       "stargazerCount": 122,
       "forkCount": 15,
       "pushedAt": "2026-07-20T14:00:39Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.495Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "vercel-labs/agent-skills": {
-      "stargazerCount": 29491,
-      "forkCount": 2644,
+      "stargazerCount": 29517,
+      "forkCount": 2646,
       "pushedAt": "2026-07-24T10:25:29Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.495Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 26,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "bradautomates/claude-video": {
-      "stargazerCount": 10240,
-      "forkCount": 1079,
+      "stargazerCount": 10591,
+      "forkCount": 1107,
       "pushedAt": "2026-07-01T01:26:49Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.495Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 351,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     },
     "xiaolai/anthropic-docs": {
       "stargazerCount": 15,
       "forkCount": 7,
       "pushedAt": "2026-07-26T12:27:08Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-26T12:59:36.495Z",
-      "trending": {}
+      "fetchedAt": "2026-07-27T10:14:08.688Z",
+      "trending": {
+        "starsDelta1d": {
+          "stars": 0,
+          "sinceSnapshot": "2026-07-26"
+        }
+      }
     }
   },
   "tarballReachability": {
     "5-whys": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:10.018Z"
+      "checkedAt": "2026-07-27T10:11:53.687Z"
     },
     "academic-pptx": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:10.469Z"
+      "checkedAt": "2026-07-27T10:11:54.293Z"
     },
     "accessibility": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:10.911Z"
+      "checkedAt": "2026-07-27T10:11:54.890Z"
     },
     "actk-api-design-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:11.344Z"
+      "checkedAt": "2026-07-27T10:11:55.476Z"
     },
     "actk-authentication-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:11.786Z"
+      "checkedAt": "2026-07-27T10:11:56.064Z"
     },
     "actk-ci-cd-pipelines": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:12.203Z"
+      "checkedAt": "2026-07-27T10:11:56.638Z"
     },
     "actk-data-engineering": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:12.621Z"
+      "checkedAt": "2026-07-27T10:11:57.198Z"
     },
     "actk-database-optimization": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:13.038Z"
+      "checkedAt": "2026-07-27T10:11:57.759Z"
     },
     "actk-devops-automation": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:13.456Z"
+      "checkedAt": "2026-07-27T10:11:58.315Z"
     },
     "actk-django-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:13.875Z"
+      "checkedAt": "2026-07-27T10:11:58.878Z"
     },
     "actk-docker-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:14.295Z"
+      "checkedAt": "2026-07-27T10:11:59.438Z"
     },
     "actk-golang-idioms": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:14.713Z"
+      "checkedAt": "2026-07-27T10:12:00.000Z"
     },
     "actk-graphql-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:15.132Z"
+      "checkedAt": "2026-07-27T10:12:00.562Z"
     },
     "actk-kubernetes-operations": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:15.550Z"
+      "checkedAt": "2026-07-27T10:12:01.125Z"
     },
     "actk-microservices-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:15.967Z"
+      "checkedAt": "2026-07-27T10:12:01.685Z"
     },
     "actk-postgres-optimization": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:16.384Z"
+      "checkedAt": "2026-07-27T10:12:02.247Z"
     },
     "actk-python-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:16.802Z"
+      "checkedAt": "2026-07-27T10:12:02.810Z"
     },
     "actk-redis-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:17.224Z"
+      "checkedAt": "2026-07-27T10:12:03.369Z"
     },
     "actk-rust-systems": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:17.642Z"
+      "checkedAt": "2026-07-27T10:12:03.928Z"
     },
     "actk-security-hardening": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:18.061Z"
+      "checkedAt": "2026-07-27T10:12:04.481Z"
     },
     "actk-springboot-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:18.478Z"
+      "checkedAt": "2026-07-27T10:12:05.042Z"
     },
     "actk-typescript-advanced": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:18.897Z"
+      "checkedAt": "2026-07-27T10:12:05.592Z"
     },
     "actk-websocket-realtime": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:19.314Z"
+      "checkedAt": "2026-07-27T10:12:06.139Z"
     },
     "algorithmic-art": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:19.732Z"
+      "checkedAt": "2026-07-27T10:12:06.702Z"
     },
     "anthropic-claude-api": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:20.174Z"
+      "checkedAt": "2026-07-27T10:12:07.289Z"
     },
     "anthropic-internal-comms": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:20.614Z"
+      "checkedAt": "2026-07-27T10:12:07.874Z"
     },
     "awwwards-3d": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:21.032Z"
+      "checkedAt": "2026-07-27T10:12:08.429Z"
     },
     "brainstorm": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:21.483Z"
+      "checkedAt": "2026-07-27T10:12:09.042Z"
     },
     "brainstorming": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:21.926Z"
+      "checkedAt": "2026-07-27T10:12:09.640Z"
     },
     "brandkit": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:22.369Z"
+      "checkedAt": "2026-07-27T10:12:10.220Z"
     },
     "browser-harness": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:22.811Z"
+      "checkedAt": "2026-07-27T10:12:10.811Z"
     },
     "browser-use-cloud": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:23.259Z"
+      "checkedAt": "2026-07-27T10:12:11.398Z"
     },
     "browser-use-core": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:23.701Z"
+      "checkedAt": "2026-07-27T10:12:11.989Z"
     },
     "browser-use-open-source": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:24.119Z"
+      "checkedAt": "2026-07-27T10:12:12.550Z"
     },
     "browser-use-qa": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:24.538Z"
+      "checkedAt": "2026-07-27T10:12:13.105Z"
     },
     "browser-use-remote-browser": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:24.956Z"
+      "checkedAt": "2026-07-27T10:12:13.666Z"
     },
     "browser-use-x402": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:25.373Z"
+      "checkedAt": "2026-07-27T10:12:14.227Z"
     },
     "c4-model": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:25.790Z"
+      "checkedAt": "2026-07-27T10:12:14.784Z"
     },
     "canvas-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:26.230Z"
+      "checkedAt": "2026-07-27T10:12:15.375Z"
     },
     "career-ops": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:26.648Z"
+      "checkedAt": "2026-07-27T10:12:15.944Z"
     },
     "caveman": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:27.092Z"
+      "checkedAt": "2026-07-27T10:12:16.539Z"
+    },
+    "citation-management": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-27T10:12:17.139Z"
     },
     "citypaul-ddd": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:27.535Z"
+      "checkedAt": "2026-07-27T10:12:17.736Z"
     },
     "citypaul-finding-seams": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:27.974Z"
+      "checkedAt": "2026-07-27T10:12:18.323Z"
     },
     "citypaul-hexagonal": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:28.391Z"
+      "checkedAt": "2026-07-27T10:12:18.885Z"
     },
     "citypaul-refactoring": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:28.808Z"
+      "checkedAt": "2026-07-27T10:12:19.448Z"
     },
     "citypaul-tdd": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:29.227Z"
+      "checkedAt": "2026-07-27T10:12:20.005Z"
     },
     "citypaul-testing": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:29.647Z"
+      "checkedAt": "2026-07-27T10:12:20.573Z"
     },
     "claude-deep-research-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:30.065Z"
+      "checkedAt": "2026-07-27T10:12:21.135Z"
     },
     "cloud-solution-architect": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:30.504Z"
+      "checkedAt": "2026-07-27T10:12:21.718Z"
     },
     "cloudflare-agents-sdk": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:30.959Z"
+      "checkedAt": "2026-07-27T10:12:22.312Z"
     },
     "cloudflare-wrangler": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:31.402Z"
+      "checkedAt": "2026-07-27T10:12:22.898Z"
     },
     "code-review-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:31.845Z"
+      "checkedAt": "2026-07-27T10:12:23.485Z"
     },
     "content-and-copy": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:32.284Z"
+      "checkedAt": "2026-07-27T10:12:24.077Z"
     },
     "content-strategy": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:32.732Z"
+      "checkedAt": "2026-07-27T10:12:24.665Z"
     },
     "copy-editing": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:33.150Z"
+      "checkedAt": "2026-07-27T10:12:25.211Z"
     },
     "copywriting": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:33.592Z"
+      "checkedAt": "2026-07-27T10:12:25.801Z"
     },
     "courier": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:34.008Z"
+      "checkedAt": "2026-07-27T10:12:26.360Z"
     },
     "css-coder": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:34.453Z"
+      "checkedAt": "2026-07-27T10:12:26.950Z"
     },
     "css-tokens": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:34.897Z"
+      "checkedAt": "2026-07-27T10:12:27.550Z"
     },
     "data-statistical-analysis": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:35.316Z"
+      "checkedAt": "2026-07-27T10:12:28.105Z"
     },
     "data-visualization": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:35.758Z"
+      "checkedAt": "2026-07-27T10:12:28.706Z"
     },
     "dd-apm": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:36.176Z"
+      "checkedAt": "2026-07-27T10:12:29.281Z"
     },
     "dd-docs": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:36.614Z"
+      "checkedAt": "2026-07-27T10:12:29.865Z"
     },
     "dd-logs": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:37.030Z"
+      "checkedAt": "2026-07-27T10:12:30.425Z"
     },
     "dd-monitors": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:37.449Z"
+      "checkedAt": "2026-07-27T10:12:30.979Z"
     },
     "dd-triage-flaky-test": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:37.870Z"
+      "checkedAt": "2026-07-27T10:12:31.534Z"
     },
     "dd-unblock-pr": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:38.287Z"
+      "checkedAt": "2026-07-27T10:12:32.094Z"
     },
     "define-prioritization-framework": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:38.704Z"
+      "checkedAt": "2026-07-27T10:12:32.654Z"
     },
     "define-problem-statement": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:39.147Z"
+      "checkedAt": "2026-07-27T10:12:33.238Z"
     },
     "deliver-prd": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:39.565Z"
+      "checkedAt": "2026-07-27T10:12:33.830Z"
     },
     "deliver-user-stories": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:39.981Z"
+      "checkedAt": "2026-07-27T10:12:34.398Z"
     },
     "design-brief": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:40.396Z"
+      "checkedAt": "2026-07-27T10:12:34.958Z"
     },
     "design-motion-principles": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:40.814Z"
+      "checkedAt": "2026-07-27T10:12:35.514Z"
     },
     "digitalsamba-video-toolkit": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:41.249Z"
+      "checkedAt": "2026-07-27T10:12:36.094Z"
     },
     "discover-competitive-analysis": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:41.687Z"
+      "checkedAt": "2026-07-27T10:12:36.676Z"
     },
     "doc-coauthoring": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:42.104Z"
+      "checkedAt": "2026-07-27T10:12:37.237Z"
     },
     "duckdb-query": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:42.522Z"
+      "checkedAt": "2026-07-27T10:12:37.784Z"
     },
     "duckdb-read-file": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:42.981Z"
+      "checkedAt": "2026-07-27T10:12:38.369Z"
     },
     "eas-workflows": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:43.398Z"
+      "checkedAt": "2026-07-27T10:12:38.925Z"
     },
     "editorial-qa": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:43.837Z"
+      "checkedAt": "2026-07-27T10:12:39.512Z"
     },
     "elevenlabs-music": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:44.255Z"
+      "checkedAt": "2026-07-27T10:12:40.073Z"
     },
     "elevenlabs-sound-effects": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:44.696Z"
+      "checkedAt": "2026-07-27T10:12:40.641Z"
     },
     "elevenlabs-speech-to-text": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:45.114Z"
+      "checkedAt": "2026-07-27T10:12:41.188Z"
     },
     "elevenlabs-text-to-speech": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:45.529Z"
+      "checkedAt": "2026-07-27T10:12:41.742Z"
     },
     "elevenlabs-voice-changer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:45.945Z"
+      "checkedAt": "2026-07-27T10:12:42.302Z"
     },
     "email-sequences": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:46.361Z"
+      "checkedAt": "2026-07-27T10:12:42.865Z"
+    },
+    "exa-search": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-27T10:12:43.421Z"
     },
     "experimental-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:46.778Z"
+      "checkedAt": "2026-07-27T10:12:43.981Z"
     },
     "explore-data": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:47.220Z"
+      "checkedAt": "2026-07-27T10:12:44.537Z"
     },
     "expo-router": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:47.637Z"
+      "checkedAt": "2026-07-27T10:12:45.098Z"
     },
     "expo-upgrade": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:48.060Z"
+      "checkedAt": "2026-07-27T10:12:45.655Z"
     },
     "find-bugs": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:48.476Z"
+      "checkedAt": "2026-07-27T10:12:46.214Z"
     },
     "frontend-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:48.922Z"
+      "checkedAt": "2026-07-27T10:12:46.790Z"
     },
     "frontend-slides": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:49.338Z"
+      "checkedAt": "2026-07-27T10:12:47.352Z"
     },
     "frontend-ui-engineering": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:49.777Z"
+      "checkedAt": "2026-07-27T10:12:47.946Z"
     },
     "gemini-api-dev": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:50.220Z"
+      "checkedAt": "2026-07-27T10:12:48.526Z"
     },
     "gemini-live-api-dev": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:50.671Z"
+      "checkedAt": "2026-07-27T10:12:49.116Z"
     },
     "geo-content-optimizer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:51.089Z"
+      "checkedAt": "2026-07-27T10:12:49.665Z"
     },
     "gh-fix-ci": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:51.527Z"
+      "checkedAt": "2026-07-27T10:12:50.235Z"
     },
     "grill-me": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:51.968Z"
+      "checkedAt": "2026-07-27T10:12:50.825Z"
     },
     "grill-with-docs": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:52.383Z"
+      "checkedAt": "2026-07-27T10:12:51.384Z"
     },
     "gsap-core": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:52.800Z"
+      "checkedAt": "2026-07-27T10:12:51.947Z"
     },
     "gsap-frameworks": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:53.246Z"
+      "checkedAt": "2026-07-27T10:12:52.532Z"
     },
     "gsap-performance": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:53.664Z"
+      "checkedAt": "2026-07-27T10:12:53.134Z"
     },
     "gsap-plugins": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:54.081Z"
+      "checkedAt": "2026-07-27T10:12:53.701Z"
     },
     "gsap-react": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:54.498Z"
+      "checkedAt": "2026-07-27T10:12:54.259Z"
     },
     "gsap-scrolltrigger": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:54.914Z"
+      "checkedAt": "2026-07-27T10:12:54.826Z"
     },
     "gsap-timeline": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:55.329Z"
+      "checkedAt": "2026-07-27T10:12:55.367Z"
     },
     "gsap-utils": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:55.744Z"
+      "checkedAt": "2026-07-27T10:12:55.928Z"
     },
     "gws-drive": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:56.160Z"
+      "checkedAt": "2026-07-27T10:12:56.475Z"
     },
     "gws-sheets": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:56.595Z"
+      "checkedAt": "2026-07-27T10:12:57.054Z"
     },
     "handoff": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:57.012Z"
+      "checkedAt": "2026-07-27T10:12:57.616Z"
     },
     "hf-cli": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:57.433Z"
+      "checkedAt": "2026-07-27T10:12:58.198Z"
     },
     "huggingface-gradio": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:57.868Z"
+      "checkedAt": "2026-07-27T10:12:58.777Z"
     },
     "humanizer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:58.288Z"
+      "checkedAt": "2026-07-27T10:12:59.326Z"
+    },
+    "hypothesis-generation": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-27T10:12:59.949Z"
     },
     "impeccable": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:58.739Z"
+      "checkedAt": "2026-07-27T10:13:00.532Z"
     },
     "improve-codebase-architecture": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:59.179Z"
+      "checkedAt": "2026-07-27T10:13:01.128Z"
     },
     "industrial-brutalist-ui": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:58:59.593Z"
+      "checkedAt": "2026-07-27T10:13:01.687Z"
     },
     "kubernetes-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:00.011Z"
+      "checkedAt": "2026-07-27T10:13:02.281Z"
     },
     "lambdatest-cypress": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:00.451Z"
+      "checkedAt": "2026-07-27T10:13:02.866Z"
     },
     "lambdatest-playwright": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:00.895Z"
+      "checkedAt": "2026-07-27T10:13:03.458Z"
     },
     "lambdatest-puppeteer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:01.314Z"
+      "checkedAt": "2026-07-27T10:13:04.023Z"
     },
     "landing-page-copy": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:01.737Z"
+      "checkedAt": "2026-07-27T10:13:04.582Z"
     },
     "leonxlnx-gpt-tasteskill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:02.153Z"
+      "checkedAt": "2026-07-27T10:13:05.170Z"
     },
     "leonxlnx-image-to-code": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:02.585Z"
+      "checkedAt": "2026-07-27T10:13:05.763Z"
     },
     "leonxlnx-imagegen-frontend-mobile": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:03.004Z"
+      "checkedAt": "2026-07-27T10:13:06.324Z"
     },
     "leonxlnx-imagegen-frontend-web": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:03.421Z"
+      "checkedAt": "2026-07-27T10:13:06.879Z"
     },
     "leonxlnx-output-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:03.838Z"
+      "checkedAt": "2026-07-27T10:13:07.426Z"
     },
     "leonxlnx-soft-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:04.256Z"
+      "checkedAt": "2026-07-27T10:13:07.972Z"
     },
     "leonxlnx-stitch-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:04.671Z"
+      "checkedAt": "2026-07-27T10:13:08.536Z"
+    },
+    "literature-review": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-27T10:13:09.078Z"
     },
     "long-form-content-frameworks": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:05.089Z"
+      "checkedAt": "2026-07-27T10:13:09.640Z"
+    },
+    "market-research-reports": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-27T10:13:10.201Z"
     },
     "marketing-psychology": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:05.507Z"
+      "checkedAt": "2026-07-27T10:13:10.774Z"
     },
     "mcp-builder": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:05.925Z"
+      "checkedAt": "2026-07-27T10:13:11.338Z"
     },
     "mcp-builder-microsoft": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:06.342Z"
+      "checkedAt": "2026-07-27T10:13:11.950Z"
     },
     "meta-tags-optimizer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:06.759Z"
+      "checkedAt": "2026-07-27T10:13:12.521Z"
     },
     "minimalist-ui": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:07.177Z"
+      "checkedAt": "2026-07-27T10:13:13.111Z"
     },
     "motherduck-duckdb-sql": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:07.599Z"
+      "checkedAt": "2026-07-27T10:13:13.665Z"
     },
     "motherduck-query": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:08.043Z"
+      "checkedAt": "2026-07-27T10:13:14.258Z"
     },
     "netlify-ai-gateway": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:08.465Z"
+      "checkedAt": "2026-07-27T10:13:14.813Z"
     },
     "netlify-edge-functions": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:08.905Z"
+      "checkedAt": "2026-07-27T10:13:15.401Z"
     },
     "netlify-functions": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:09.330Z"
+      "checkedAt": "2026-07-27T10:13:15.960Z"
     },
     "nlb-brand": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:09.747Z"
+      "checkedAt": "2026-07-27T10:13:16.514Z"
     },
     "nlb-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:10.191Z"
+      "checkedAt": "2026-07-27T10:13:17.091Z"
     },
     "nlb-design-system": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:10.605Z"
+      "checkedAt": "2026-07-27T10:13:17.645Z"
     },
     "nlb-slides": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:11.023Z"
+      "checkedAt": "2026-07-27T10:13:18.200Z"
     },
     "nlb-ui-styling": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:11.439Z"
+      "checkedAt": "2026-07-27T10:13:18.747Z"
     },
     "octagon-financial-analyst-master": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:11.854Z"
+      "checkedAt": "2026-07-27T10:13:19.295Z"
     },
     "openai-security-threat-model": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:12.312Z"
+      "checkedAt": "2026-07-27T10:13:19.885Z"
+    },
+    "paper-lookup": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-27T10:13:20.468Z"
+    },
+    "peer-review": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-27T10:13:21.029Z"
     },
     "pipeline-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:12.746Z"
+      "checkedAt": "2026-07-27T10:13:21.589Z"
     },
     "playwright-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:13.187Z"
+      "checkedAt": "2026-07-27T10:13:22.170Z"
     },
     "promptfoo-evals": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:13.634Z"
+      "checkedAt": "2026-07-27T10:13:22.760Z"
     },
     "promptfoo-redteam-plugin-development": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:14.082Z"
+      "checkedAt": "2026-07-27T10:13:23.330Z"
     },
     "prototype": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:14.501Z"
+      "checkedAt": "2026-07-27T10:13:23.891Z"
     },
     "redesign-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:14.916Z"
+      "checkedAt": "2026-07-27T10:13:24.446Z"
     },
     "review-contract": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:15.358Z"
+      "checkedAt": "2026-07-27T10:13:25.026Z"
+    },
+    "scholar-evaluation": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-27T10:13:25.580Z"
+    },
+    "scroll-world": {
+      "reachable": true,
+      "status": 200,
+      "checkedAt": "2026-07-27T10:13:26.143Z"
     },
     "semantic-html": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:15.774Z"
+      "checkedAt": "2026-07-27T10:13:26.741Z"
     },
     "sentry-code-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:16.192Z"
+      "checkedAt": "2026-07-27T10:13:27.328Z"
     },
     "sentry-gha-security-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:16.609Z"
+      "checkedAt": "2026-07-27T10:13:27.919Z"
     },
     "sentry-sdk-upgrade": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:17.052Z"
+      "checkedAt": "2026-07-27T10:13:28.490Z"
     },
     "sentry-security-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:17.490Z"
+      "checkedAt": "2026-07-27T10:13:29.085Z"
     },
     "sentry-workflow": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:17.908Z"
+      "checkedAt": "2026-07-27T10:13:29.639Z"
     },
     "seo": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:18.322Z"
+      "checkedAt": "2026-07-27T10:13:30.200Z"
     },
     "seo-content-writer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:18.759Z"
+      "checkedAt": "2026-07-27T10:13:30.779Z"
     },
     "shadcn-component-discovery": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:19.175Z"
+      "checkedAt": "2026-07-27T10:13:31.338Z"
     },
     "shadcn-component-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:19.622Z"
+      "checkedAt": "2026-07-27T10:13:31.932Z"
     },
     "skill-creator-anthropic": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:20.038Z"
+      "checkedAt": "2026-07-27T10:13:32.487Z"
     },
     "slack-gif-creator": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:20.454Z"
+      "checkedAt": "2026-07-27T10:13:33.083Z"
     },
     "sql-queries": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:20.888Z"
+      "checkedAt": "2026-07-27T10:13:33.644Z"
     },
     "statistical-power": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:21.306Z"
+      "checkedAt": "2026-07-27T10:13:34.226Z"
     },
     "stripe-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:21.720Z"
+      "checkedAt": "2026-07-27T10:13:34.772Z"
     },
     "supabase": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:22.162Z"
+      "checkedAt": "2026-07-27T10:13:35.350Z"
     },
     "supabase-postgres-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:22.599Z"
+      "checkedAt": "2026-07-27T10:13:35.918Z"
     },
     "systematic-debugging": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:23.016Z"
+      "checkedAt": "2026-07-27T10:13:36.475Z"
     },
     "task-observer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:23.448Z"
+      "checkedAt": "2026-07-27T10:13:37.055Z"
     },
     "taste-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:23.896Z"
+      "checkedAt": "2026-07-27T10:13:37.638Z"
     },
     "tdd": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:24.314Z"
+      "checkedAt": "2026-07-27T10:13:38.198Z"
     },
     "terraform-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:24.731Z"
+      "checkedAt": "2026-07-27T10:13:38.745Z"
     },
     "test-driven-development": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:25.171Z"
+      "checkedAt": "2026-07-27T10:13:39.331Z"
     },
     "theme-factory": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:25.588Z"
+      "checkedAt": "2026-07-27T10:13:39.890Z"
     },
     "ticket-triage": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:26.006Z"
+      "checkedAt": "2026-07-27T10:13:40.438Z"
     },
     "ui-ux-pro-max": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:26.422Z"
+      "checkedAt": "2026-07-27T10:13:40.992Z"
     },
     "upgrade-stripe": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:26.863Z"
+      "checkedAt": "2026-07-27T10:13:41.573Z"
     },
     "ux-designer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:27.280Z"
+      "checkedAt": "2026-07-27T10:13:42.132Z"
     },
     "validate-data": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:27.725Z"
+      "checkedAt": "2026-07-27T10:13:42.710Z"
     },
     "variance-analysis": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:28.142Z"
+      "checkedAt": "2026-07-27T10:13:43.253Z"
     },
     "venice-api-overview": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:28.558Z"
+      "checkedAt": "2026-07-27T10:13:43.808Z"
     },
     "venice-chat": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:29.012Z"
+      "checkedAt": "2026-07-27T10:13:44.393Z"
     },
     "vercel-composition-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:29.430Z"
+      "checkedAt": "2026-07-27T10:13:44.935Z"
     },
     "vercel-deploy-to-vercel": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:29.870Z"
+      "checkedAt": "2026-07-27T10:13:45.521Z"
     },
     "vercel-optimize": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:30.302Z"
+      "checkedAt": "2026-07-27T10:13:46.103Z"
     },
     "vercel-react-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:30.721Z"
+      "checkedAt": "2026-07-27T10:13:46.656Z"
     },
     "vercel-react-view-transitions": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:31.138Z"
+      "checkedAt": "2026-07-27T10:13:47.222Z"
     },
     "watch": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:31.555Z"
+      "checkedAt": "2026-07-27T10:13:47.783Z"
     },
     "web-artifacts-builder": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:31.993Z"
+      "checkedAt": "2026-07-27T10:13:48.369Z"
     },
     "web-design-guidelines": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:32.410Z"
+      "checkedAt": "2026-07-27T10:13:48.924Z"
     },
     "web-performance": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:32.825Z"
+      "checkedAt": "2026-07-27T10:13:49.471Z"
     },
     "webapp-testing": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:33.244Z"
+      "checkedAt": "2026-07-27T10:13:50.033Z"
     },
     "write-a-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:33.662Z"
+      "checkedAt": "2026-07-27T10:13:50.594Z"
     },
     "writing-plans": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:34.101Z"
+      "checkedAt": "2026-07-27T10:13:51.149Z"
     },
     "xiaolai-anthropic-api": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:34.514Z"
+      "checkedAt": "2026-07-27T10:13:51.709Z"
     },
     "xiaolai-claude-code": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:34.957Z"
+      "checkedAt": "2026-07-27T10:13:52.290Z"
     },
     "zoom-out": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-26T12:59:35.383Z"
+      "checkedAt": "2026-07-27T10:13:52.850Z"
     }
   },
   "graphqlErrors": [
