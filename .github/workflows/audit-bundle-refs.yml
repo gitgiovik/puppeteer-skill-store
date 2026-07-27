@@ -1,0 +1,115 @@
+name: audit-bundle-refs
+
+# Catalog-wide audit for "references outside the pinned subtree" — see
+# scripts/audit-bundle-refs.mjs's header for the full algorithm and the
+# digitalsamba-video-toolkit bug this hunts for pre-install. SCHEDULED, NOT a
+# PR gate: it fetches ~one archive per UNIQUE upstream repo+sha in the whole
+# catalogue (72 at the time this was written, 211 entries) — too expensive to
+# run on every PR, and it is explicitly NON-BLOCKING (see below) because a
+# FIXABLE finding is a real catalogue defect worth a human's attention, not a
+# regression THIS PR introduced, so it must never fail someone else's PR.
+on:
+  schedule:
+    - cron: '45 5 * * 4' # weekly, Thursday 05:45 UTC — offset from the other three
+      # scheduled jobs (daily-snapshot 06:17, weekly-discovery Monday 05:00,
+      # weekly-pin-bump Wednesday 05:30) so none contend for GitHub API budget
+      # on the same morning.
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: 'Comma-separated slugs to audit (omit for the full catalogue)'
+        type: string
+        default: ''
+
+permissions:
+  contents: read
+
+concurrency:
+  group: audit-bundle-refs
+  cancel-in-progress: false # never abandon a partially-fetched cache mid-run.
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run the catalog-wide bundle-refs audit
+        id: audit
+        # NON-BLOCKING BY DESIGN: the script's own exit code is 1 when FIXABLE
+        # findings exist (see its header) — that is a real, actionable signal
+        # for a human, but this job must still go GREEN so it never reads as
+        # "CI is broken" and never blocks anything else. FIXABLE > 0 is the
+        # STEADY STATE of this catalogue, not an anomaly (there are standing,
+        # deliberately-unfixed findings — see the README's promptfoo /
+        # xiaolai-claude-code note), so a bare `node …` here would fail EVERY
+        # scheduled run: GitHub runs each `run:` block as `bash -e {0}`, and the
+        # `set -uo pipefail` below adds `u` and `pipefail` WITHOUT clearing that
+        # `-e`. `|| audit_exit=$?` both suppresses the `-e` abort and captures
+        # the REAL exit code (a bare `|| true` would leave `$?` at 0 and publish
+        # a fabricated success code to the summary step) — verified by
+        # simulating both shapes under `bash -e` before this was written.
+        #
+        # SLUGS_INPUT is passed via `env:`, not interpolated into the `run:`
+        # script — a workflow_dispatch string input still passes through the
+        # shell, so it must be quoted data, never spliced into the command
+        # (see https://github.blog/security/vulnerability-research/how-to-catch-github-actions-workflow-injections-before-attackers-do/).
+        env:
+          SLUGS_INPUT: ${{ inputs.slugs }}
+        run: |
+          set -uo pipefail
+          args=(--json-out audit-bundle-refs-report.json)
+          if [ -n "$SLUGS_INPUT" ]; then
+            args+=(--slugs "$SLUGS_INPUT")
+          fi
+          audit_exit=0
+          node scripts/audit-bundle-refs.mjs "${args[@]}" || audit_exit=$?
+          echo "exit_code=$audit_exit" >> "$GITHUB_OUTPUT"
+
+      - name: Write job summary
+        if: always()
+        # Same rule as the step above: the exit code reaches the script as quoted
+        # DATA via `env:`, never spliced into the shell command line.
+        env:
+          AUDIT_EXIT_CODE: ${{ steps.audit.outputs.exit_code }}
+        run: |
+          {
+            echo "## audit-bundle-refs"
+            echo
+            # The script's REAL exit code, captured by the step above (1 = at least
+            # one FIXABLE finding). Surfaced here because the step itself is green
+            # by design, so this line is the only place the signal is visible.
+            echo "- script exit code: \`${AUDIT_EXIT_CODE:-unknown}\` (1 = FIXABLE findings exist; the step is green on purpose)"
+            if [ -f audit-bundle-refs-report.json ]; then
+              node -e "
+                const r = JSON.parse(require('fs').readFileSync('audit-bundle-refs-report.json','utf8'));
+                console.log('- entries audited: **' + r.entriesAudited + '** (errored: ' + r.entriesErrored + ')');
+                console.log('- **FIXABLE: ' + r.counts.fixable + '**   UPSTREAM-MISSING: ' + r.counts.upstreamMissing + '   FALSE-POSITIVE: ' + r.counts.falsePositive);
+                console.log('- R1/R2/R3 (narrow) findings: ' + r.heuristics.r1r2r3FindingCount + ', of them false-positive: ' + r.heuristics.r1r2r3FalsePositiveCount);
+                console.log('- R4 (heuristic) findings: ' + r.heuristics.r4FindingCount + ', of them false-positive: ' + r.heuristics.r4FalsePositiveCount);
+                if (r.fixable.length > 0) {
+                  console.log();
+                  console.log('| slug | SKILL.md | ref | basis | found at |');
+                  console.log('|---|---|---|---|---|');
+                  for (const f of r.fixable) {
+                    console.log('| ' + f.slug + ' | ' + f.skillMdPath + ' | \`' + f.ref + '\` | ' + f.basis + ' | \`' + f.foundAt + '\` |');
+                  }
+                }
+              " >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "audit did not produce a report (see the step log above)." >> "$GITHUB_STEP_SUMMARY"
+            fi
+          }
+
+      - name: Upload full JSON report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-bundle-refs-report
+          path: audit-bundle-refs-report.json
+          retention-days: 90
+          if-no-files-found: warn

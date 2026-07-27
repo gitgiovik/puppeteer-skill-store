@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Community-curated Claude Code skills, re-pinned to their upstream commit and byte-audited against what was actually reviewed. See README.md for the trust model — signals here are unaudited heuristics, not a security guarantee.",
-    "catalogGeneratedAt": "2026-07-27T04:13:24+02:00"
+    "catalogGeneratedAt": "2026-07-27T03:28:17.007Z"
   },
   "plugins": [
     {
@@ -372,7 +372,7 @@
     },
     {
       "name": "brainstorming",
-      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.\n\nNOTE: this catalogue entry assembles the skill from 2 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('skills/brainstorming') and does NOT include: 'skills/brainstorming/visual-companion.md'. Install via the puppeteer store's own resolver for the complete payload.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/obra/superpowers",
@@ -1239,7 +1239,7 @@
     },
     {
       "name": "frontend-ui-engineering",
-      "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+      "description": "Builds production-quality UIs. Use when building or modifying user-facing interfaces. Use when creating components, implementing layouts, managing state, or when the output needs to look and feel production-quality rather than AI-generated.\n\nNOTE: this catalogue entry assembles the skill from 2 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('skills/frontend-ui-engineering') and does NOT include: 'references'. Install via the puppeteer store's own resolver for the complete payload.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/addyosmani/agent-skills",
@@ -1278,7 +1278,7 @@
     },
     {
       "name": "geo-content-optimizer",
-      "description": "Use when the user asks to \"optimize for AI citations\"; improves citation readiness for ChatGPT, Perplexity, AI Overviews, Gemini, and Claude. Not for structural on-page SEO — use on-page-seo-auditor; not for net-new drafting — use seo-content-writer. AI引用优化/GEO优化/AI搜索",
+      "description": "Use when the user asks to \"optimize for AI citations\"; improves citation readiness for ChatGPT, Perplexity, AI Overviews, Gemini, and Claude. Not for structural on-page SEO — use on-page-seo-auditor; not for net-new drafting — use seo-content-writer. AI引用优化/GEO优化/AI搜索\n\nNOTE: this catalogue entry assembles the skill from 2 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('build/geo-content-optimizer') and does NOT include: 'memory'. Install via the puppeteer store's own resolver for the complete payload.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
@@ -1439,6 +1439,19 @@
         "source": "git-subdir",
         "url": "https://github.com/googleworkspace/cli",
         "path": "skills/gws-drive",
+        "sha": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
+      },
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "gws-shared",
+      "description": "gws CLI: Shared patterns for authentication, global flags, and output formatting.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/googleworkspace/cli",
+        "path": "skills/gws-shared",
         "sha": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd"
       },
       "skills": [
@@ -1744,7 +1757,7 @@
     },
     {
       "name": "market-research-reports",
-      "description": "Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics and generate-image, deep integration with research-lookup for data gathering, and multi-framework strategic analysis including Porter Five Forces, PESTLE, SWOT, TAM/SAM/SOM, and BCG Matrix.",
+      "description": "Generate comprehensive market research reports (50+ pages) in the style of top consulting firms (McKinsey, BCG, Gartner). Features professional LaTeX formatting, extensive visual generation with scientific-schematics and generate-image, deep integration with research-lookup for data gathering, and multi-framework strategic analysis including Porter Five Forces, PESTLE, SWOT, TAM/SAM/SOM, and BCG Matrix.\n\nNOTE: this catalogue entry assembles the skill from 5 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('skills/market-research-reports') and does NOT include: 'skills/market-research-reports/scripts', 'skills/scientific-schematics/scripts', 'skills/generate-image/scripts', 'skills/research-lookup/scripts'. Install via the puppeteer store's own resolver for the complete payload.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
@@ -1796,7 +1809,7 @@
     },
     {
       "name": "meta-tags-optimizer",
-      "description": "Use when the user asks to \"optimize meta tags\"; improves titles, descriptions, Open Graph, Twitter cards, and CTR test variants. Not for JSON-LD structured data — use schema-markup-generator; not for body copy — use seo-content-writer. 标题优化/元描述/CTR",
+      "description": "Use when the user asks to \"optimize meta tags\"; improves titles, descriptions, Open Graph, Twitter cards, and CTR test variants. Not for JSON-LD structured data — use schema-markup-generator; not for body copy — use seo-content-writer. 标题优化/元描述/CTR\n\nNOTE: this catalogue entry assembles the skill from 2 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('build/meta-tags-optimizer') and does NOT include: 'memory'. Install via the puppeteer store's own resolver for the complete payload.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
@@ -1991,7 +2004,7 @@
     },
     {
       "name": "peer-review",
-      "description": "Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer reviews with specific criteria methodology assessment, statistical validity, reporting standards compliance (CONSORT/STROBE), and constructive feedback. Best for actual review writing, manuscript revision. For evaluating claims/evidence quality use scientific-critical-thinking; for quantitative scoring frameworks use scholar-evaluation.",
+      "description": "Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer reviews with specific criteria methodology assessment, statistical validity, reporting standards compliance (CONSORT/STROBE), and constructive feedback. Best for actual review writing, manuscript revision. For evaluating claims/evidence quality use scientific-critical-thinking; for quantitative scoring frameworks use scholar-evaluation.\n\nNOTE: this catalogue entry assembles the skill from 2 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('skills/peer-review') and does NOT include: 'skills/scientific-slides/scripts'. Install via the puppeteer store's own resolver for the complete payload.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
@@ -2212,7 +2225,7 @@
     },
     {
       "name": "seo-content-writer",
-      "description": "Use when the user asks to \"write SEO content\"; drafts new posts, articles, and landing pages with keywords, headers, snippets, and evidence boundaries. Not for AI-citation/GEO readiness scoring — use geo-content-optimizer; not for updating decaying existing content — use content-refresher. SEO文章写作/内容优化",
+      "description": "Use when the user asks to \"write SEO content\"; drafts new posts, articles, and landing pages with keywords, headers, snippets, and evidence boundaries. Not for AI-citation/GEO readiness scoring — use geo-content-optimizer; not for updating decaying existing content — use content-refresher. SEO文章写作/内容优化\n\nNOTE: this catalogue entry assembles the skill from 2 upstream paths; this marketplace listing can only fetch one directory via git-subdir ('build/seo-content-writer') and does NOT include: 'memory'. Install via the puppeteer store's own resolver for the complete payload.",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",

@@ -722,15 +722,25 @@
    "upstreamCommit": "6fd4507659784c351abbd2bc264c7162cfd386dc",
    "upstreamPath": "skills/brainstorming",
    "topics": [],
-   "contentHash": "07183aa341b3f3c0119840da585306edeb8199587a7b17421f58ab9e17e752e7",
+   "contentHash": "16884b76ad9eeb6e7a46d0853ce10b9bc2016ba88ee0ed8cda6850bd08162c74",
    "byteAudit": "upstream-differs",
-   "catalogRevision": 2,
+   "catalogRevision": 3,
    "reviewed": {
     "by": "owner",
     "date": "2026-07-26",
     "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc",
-    "verdict": "upstream-at-pin"
-   }
+    "verdict": "upstream-at-pin · repinned-self-ref-duplicate-2026-07-27 (SKILL.md cita se stesso come 'skills/brainstorming/visual-companion.md', il path pre-flattening del repo — il file ESISTE già nel payload flattenato come 'visual-companion.md'; aggiunta una mappatura identity che lo duplica anche al path letterale citato, 0 byte di contenuto nuovo)"
+   },
+   "upstreamPaths": [
+    {
+     "from": "skills/brainstorming",
+     "to": ""
+    },
+    {
+     "from": "skills/brainstorming/visual-companion.md",
+     "to": "skills/brainstorming"
+    }
+   ]
   },
   {
    "slug": "brandkit",
@@ -762,15 +772,33 @@
    "upstreamCommit": "2cfaa7ea4c77b17b4c2434403865fa4b6d637b29",
    "upstreamPath": "SKILL.md",
    "topics": [],
-   "contentHash": "b3d2a32ec5d21d99a0627523347847590356a04d140985f60ae19ca5577559bf",
-   "byteAudit": "vendored-match",
-   "catalogRevision": 2,
+   "contentHash": "c57f9440e91f7e2848574b2573b31a1bb3c6d4e6a7deae2a98b3266218dae5d3",
+   "byteAudit": "upstream-differs",
+   "catalogRevision": 3,
    "reviewed": {
     "by": "owner",
     "date": "2026-07-26",
     "sha": "2cfaa7ea4c77b17b4c2434403865fa4b6d637b29",
-    "verdict": "reproduces-vendored-audit"
-   }
+    "verdict": "reproduces-vendored-audit · repinned-4-path-set-2026-07-27 (upstreamPath 'SKILL.md' installava UN file mentre il proprio SKILL.md richiede anche agent-workspace/agent_helpers.py, install.md e i 17 file di interaction-skills/ (14.019 byte misurati — il \"72KB\" del primo giro era du a blocchi, non byte) — pin esteso a questi 4 path. agent-workspace/domain-skills/ ESCLUSO deliberatamente: 1.321.372 byte su 109 file di 99 playbook community per-sito, feature dormiente/opt-in dietro BH_DOMAIN_SKILLS=1 per lo stesso SKILL.md — eccezione dimensionale documentata, non pinnato)"
+   },
+   "upstreamPaths": [
+    {
+     "from": "SKILL.md",
+     "to": ""
+    },
+    {
+     "from": "install.md",
+     "to": ""
+    },
+    {
+     "from": "agent-workspace/agent_helpers.py",
+     "to": "agent-workspace"
+    },
+    {
+     "from": "interaction-skills",
+     "to": "interaction-skills"
+    }
+   ]
   },
   {
    "slug": "browser-use-cloud",
@@ -2352,15 +2380,25 @@
    "upstreamCommit": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
    "upstreamPath": "skills/frontend-ui-engineering",
    "topics": [],
-   "contentHash": "93af20d0b4ee5bf41be96d48be1726394d1215cd37436e22d8d6c0cb3c8ca3c1",
-   "byteAudit": "vendored-match",
-   "catalogRevision": 2,
+   "contentHash": "139757136d332421df6a7b6683279d6229b7f43ffb81f2ea7b86952262a90ba7",
+   "byteAudit": "upstream-differs",
+   "catalogRevision": 3,
    "reviewed": {
     "by": "owner",
     "date": "2026-07-26",
     "sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
-    "verdict": "reproduces-vendored-audit"
-   }
+    "verdict": "reproduces-vendored-audit · repinned-shared-references-2026-07-27 (references/accessibility-checklist.md è condiviso a repo-root con altri 4 checklist dello stesso repo, 52KB totali; mappatura identity aggiunta references->references)"
+   },
+   "upstreamPaths": [
+    {
+     "from": "skills/frontend-ui-engineering",
+     "to": ""
+    },
+    {
+     "from": "references",
+     "to": "references"
+    }
+   ]
   },
   {
    "slug": "gemini-api-dev",
@@ -2416,15 +2454,25 @@
    "upstreamCommit": "dea9f4d6efaa886ddc5dcef5b597dd2b8650ff18",
    "upstreamPath": "build/geo-content-optimizer",
    "topics": [],
-   "contentHash": "6d9359cb71126af81103a01fb9173e4ef919fb803ec378bcefa447e49e67751a",
-   "byteAudit": "vendored-match",
-   "catalogRevision": 2,
+   "contentHash": "8d807e0db5a7b3d38ebb592a0c80ec32ddcec2f5399b80bf58af74fc1eef6b5d",
+   "byteAudit": "upstream-differs",
+   "catalogRevision": 3,
    "reviewed": {
     "by": "owner",
     "date": "2026-07-26",
     "sha": "dea9f4d6efaa886ddc5dcef5b597dd2b8650ff18",
-    "verdict": "reproduces-vendored-audit"
-   }
+    "verdict": "reproduces-vendored-audit · repinned-shared-memory-2026-07-27 (memory/hot-cache.md e memory/open-loops.md sono lo skeleton di stato-sessione condiviso a repo-root, 1.9KB totali (governato da un cross-cutting/memory-management non catalogato, ma il file esiste davvero al pin); mappatura identity aggiunta memory->memory)"
+   },
+   "upstreamPaths": [
+    {
+     "from": "build/geo-content-optimizer",
+     "to": ""
+    },
+    {
+     "from": "memory",
+     "to": "memory"
+    }
+   ]
   },
   {
    "slug": "gh-fix-ci",
@@ -2660,12 +2708,34 @@
    ],
    "contentHash": "0d42cbad6164ae29ffb2fe2147cb93109c78fe532345d71c7be61a8a3d9f165b",
    "byteAudit": "upstream-differs",
-   "catalogRevision": 1,
+   "catalogRevision": 2,
    "reviewed": {
     "by": "owner-selection",
     "date": "2026-07-26",
     "sha": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
-    "verdict": "imported-owner-selection"
+    "verdict": "imported-owner-selection · prereq-sibling-published-2026-07-27 (il SKILL.md si apre con «PREREQUISITE: Read `../gws-shared/SKILL.md`»: è un riferimento a una skill SORELLA, non a un file di bundle — nessun mapping su questa entry può soddisfarlo, perché `../` esce dalla directory installata della skill. Pubblicata `gws-shared` come entry propria allo stesso pin: le due si installano affiancate in `<root>/.puppeteer/skills/<slug>/` e il path relativo risolve alla lettera. Emerso da audit-bundle-refs solo dopo il fix della normalizzazione `..`, che prima faceva cadere il ref in UPSTREAM-MISSING — cioè \"non esiste da nessuna parte nel repo\" detto di un file una directory più in là)"
+   }
+  },
+  {
+   "slug": "gws-shared",
+   "name": "gws-shared",
+   "description": "gws CLI: Shared patterns for authentication, global flags, and output formatting.",
+   "author": "googleworkspace",
+   "license": "Apache-2.0",
+   "sourceUrl": "https://github.com/googleworkspace/cli",
+   "upstreamCommit": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+   "upstreamPath": "skills/gws-shared",
+   "topics": [
+    "work"
+   ],
+   "contentHash": "a4ad0f9a2f3758a5cddc5cf1c90a6078a78cbeb8221b7ec795021be137808a32",
+   "byteAudit": "upstream-differs",
+   "catalogRevision": 1,
+   "reviewed": {
+    "by": "owner-selection",
+    "date": "2026-07-27",
+    "sha": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
+    "verdict": "imported-gws-shared-prereq-2026-07-27 · prerequisito condiviso, dichiarato PREREQUISITE da gws-sheets e gws-drive (auth OAuth/service-account, flag globali, regole di sicurezza e trappole shell del CLI gws): senza questa entry entrambe installavano UN file che ordinava di leggerne uno assente. Stesso repo, stesso pin, stessa licenza"
    }
   },
   {
@@ -2682,12 +2752,12 @@
    ],
    "contentHash": "bc9ba47db8f8ca80992819cf931a1879c606dc8e30ecbe1386e847f48b0e289d",
    "byteAudit": "upstream-differs",
-   "catalogRevision": 1,
+   "catalogRevision": 2,
    "reviewed": {
     "by": "owner-selection",
     "date": "2026-07-26",
     "sha": "a3768d0e82ad83cca2da97724e46bea4ff0e6dbd",
-    "verdict": "imported-owner-selection"
+    "verdict": "imported-owner-selection · prereq-sibling-published-2026-07-27 (il SKILL.md si apre con «PREREQUISITE: Read `../gws-shared/SKILL.md`»: è un riferimento a una skill SORELLA, non a un file di bundle — nessun mapping su questa entry può soddisfarlo, perché `../` esce dalla directory installata della skill. Pubblicata `gws-shared` come entry propria allo stesso pin: le due si installano affiancate in `<root>/.puppeteer/skills/<slug>/` e il path relativo risolve alla lettera. Emerso da audit-bundle-refs solo dopo il fix della normalizzazione `..`, che prima faceva cadere il ref in UPSTREAM-MISSING — cioè \"non esiste da nessuna parte nel repo\" detto di un file una directory più in là)"
    }
   },
   {
@@ -3225,15 +3295,37 @@
    "topics": [
     "research"
    ],
-   "contentHash": "c940bd82e30947be2c1e08a771c9dff479ce04047a8d4464698a844c4aac629f",
+   "contentHash": "45595990ebf3736ddf2ac5f35a7b887152aa3fd16f16903806f5c9402b628367",
    "byteAudit": "upstream-differs",
-   "catalogRevision": 1,
+   "catalogRevision": 2,
    "reviewed": {
     "by": "owner-selection",
     "date": "2026-07-26",
     "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f",
-    "verdict": "imported-b3-research-gapfill"
-   }
+    "verdict": "imported-b3-research-gapfill · repinned-sibling-scripts-2026-07-27 (4 riferimenti verificati script-per-script: 1 self-reference al proprio scripts/generate_market_visuals.py citato col path pre-flattening (stesso bug di brainstorming), 3 verso skill sorelle NON catalogate dello stesso repo (scientific-schematics, generate-image, research-lookup) — tutti CLI standalone senza import locali (verificato leggendo i sorgenti); mappature identity aggiunte per i 4 scripts/ citati)"
+   },
+   "upstreamPaths": [
+    {
+     "from": "skills/market-research-reports",
+     "to": ""
+    },
+    {
+     "from": "skills/market-research-reports/scripts",
+     "to": "skills/market-research-reports/scripts"
+    },
+    {
+     "from": "skills/scientific-schematics/scripts",
+     "to": "skills/scientific-schematics/scripts"
+    },
+    {
+     "from": "skills/generate-image/scripts",
+     "to": "skills/generate-image/scripts"
+    },
+    {
+     "from": "skills/research-lookup/scripts",
+     "to": "skills/research-lookup/scripts"
+    }
+   ]
   },
   {
    "slug": "marketing-psychology",
@@ -3307,15 +3399,25 @@
    "upstreamCommit": "dea9f4d6efaa886ddc5dcef5b597dd2b8650ff18",
    "upstreamPath": "build/meta-tags-optimizer",
    "topics": [],
-   "contentHash": "68bc4366d537d40a3a48f98035435b6f9395755a663c79ba68b15d5c9690c22b",
-   "byteAudit": "vendored-match",
-   "catalogRevision": 2,
+   "contentHash": "4da0b5d23b88d4172e6e33853d7ca92805804f2a07926e052b5b4d18dc5d52eb",
+   "byteAudit": "upstream-differs",
+   "catalogRevision": 3,
    "reviewed": {
     "by": "owner",
     "date": "2026-07-26",
     "sha": "dea9f4d6efaa886ddc5dcef5b597dd2b8650ff18",
-    "verdict": "reproduces-vendored-audit"
-   }
+    "verdict": "reproduces-vendored-audit · repinned-shared-memory-2026-07-27 (stesso skeleton condiviso di geo-content-optimizer/seo-content-writer, 1.9KB totali; mappatura identity aggiunta memory->memory)"
+   },
+   "upstreamPaths": [
+    {
+     "from": "build/meta-tags-optimizer",
+     "to": ""
+    },
+    {
+     "from": "memory",
+     "to": "memory"
+    }
+   ]
   },
   {
    "slug": "minimalist-ui",
@@ -3634,15 +3736,25 @@
    "topics": [
     "research"
    ],
-   "contentHash": "126ded0f30b935d11ae716f4f03396983caec573fdc4490bdfebeaf47e81a0d2",
+   "contentHash": "3519f9e3aedf2bd974458959762a85a37605018545bc1e9b60b88ebc9eb8e4c7",
    "byteAudit": "upstream-differs",
-   "catalogRevision": 1,
+   "catalogRevision": 2,
    "reviewed": {
     "by": "owner-selection",
     "date": "2026-07-26",
     "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f",
-    "verdict": "imported-b3-research-gapfill"
-   }
+    "verdict": "imported-b3-research-gapfill · repinned-sibling-script-2026-07-27 (pdf_to_images.py vive in skills/scientific-slides/scripts/, skill sorella NON catalogata dello stesso repo; script standalone senza import locali (verificato leggendo il sorgente); mappatura identity aggiunta skills/scientific-slides/scripts)"
+   },
+   "upstreamPaths": [
+    {
+     "from": "skills/peer-review",
+     "to": ""
+    },
+    {
+     "from": "skills/scientific-slides/scripts",
+     "to": "skills/scientific-slides/scripts"
+    }
+   ]
   },
   {
    "slug": "pipeline-review",
@@ -3720,12 +3832,12 @@
    "topics": [],
    "contentHash": "b2cb76cb3e4e25e294d5788eb821cda29aa1325e11d56ddfefa8a0f7c8f2eb6d",
    "byteAudit": "vendored-match",
-   "catalogRevision": 2,
+   "catalogRevision": 3,
    "reviewed": {
     "by": "owner",
     "date": "2026-07-26",
     "sha": "23bee7c90cffe118653d03767124256afd6008ef",
-    "verdict": "reproduces-vendored-audit"
+    "verdict": "reproduces-vendored-audit · audit-exception-2026-07-27 (10 refs verificati manualmente uno per uno — A1's report said 9 by prose slip, il re-audit misura 10: sono percorsi nel sorgente TypeScript DEL PRODOTTO promptfoo stesso (src/redteam/*, src/prompts/grading.ts, site/docs/_shared/data/plugins.ts — ~300KB su 10 file, 6-76KB ciascuno), citati come guida-CONTRIBUTOR (\"crea il file plugin qui\"), non come dipendenze del bundle che questo skill usa/esegue — pinnarli gonfierebbe il payload con codice applicativo estraneo per zero beneficio funzionale. Lasciato FIXABLE nel classificatore meccanico (nessun filtro-intent generico aggiunto, per lo stesso motivo per cui A1 non lo ha aggiunto: rischio di sopprimere futuri finding reali)"
    }
   },
   {
@@ -3992,15 +4104,25 @@
    "upstreamCommit": "dea9f4d6efaa886ddc5dcef5b597dd2b8650ff18",
    "upstreamPath": "build/seo-content-writer",
    "topics": [],
-   "contentHash": "2474a4c19576fb88de16e594c7e3052689f501ecbf497ae5c9df36dca2382b73",
-   "byteAudit": "vendored-match",
-   "catalogRevision": 2,
+   "contentHash": "fb5e9457349c68918ba9826cca494699437c79decfc37b50a9b0b64024eb33a3",
+   "byteAudit": "upstream-differs",
+   "catalogRevision": 3,
    "reviewed": {
     "by": "owner",
     "date": "2026-07-26",
     "sha": "dea9f4d6efaa886ddc5dcef5b597dd2b8650ff18",
-    "verdict": "reproduces-vendored-audit"
-   }
+    "verdict": "reproduces-vendored-audit · repinned-shared-memory-2026-07-27 (stesso skeleton condiviso di geo-content-optimizer/meta-tags-optimizer, 1.9KB totali; mappatura identity aggiunta memory->memory)"
+   },
+   "upstreamPaths": [
+    {
+     "from": "build/seo-content-writer",
+     "to": ""
+    },
+    {
+     "from": "memory",
+     "to": "memory"
+    }
+   ]
   },
   {
    "slug": "shadcn-component-discovery",
@@ -4824,12 +4946,12 @@
    "topics": [],
    "contentHash": "2c9f99fbde0c81208a3eeec012dd0df8b73575028f092164c8dc64a045130623",
    "byteAudit": "upstream-differs",
-   "catalogRevision": 2,
+   "catalogRevision": 3,
    "reviewed": {
     "by": "owner",
     "date": "2026-07-26",
     "sha": "d2d069d2a605c74b78485bddb7a340db826135de",
-    "verdict": "upstream-at-pin"
+    "verdict": "upstream-at-pin · audit-exception-2026-07-27 (.claude-plugin/plugin.json esiste al pin (632B) ma è il manifest dell'INTERO repo ombrello a 8 skill (anthropic-docs), tutt'altro scope — citato in una tabella come esempio della convenzione plugin.json di Claude Code, non un file che questo sub-skill 'claude-code' legge o esegue; pinnarlo produrrebbe un file morto e semanticamente fuorviante nel payload. Lasciato FIXABLE nel classificatore meccanico, stessa ragione di promptfoo (nessun filtro-intent generico aggiunto)"
    }
   },
   {

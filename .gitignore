@@ -1,0 +1,4 @@
+# audit-bundle-refs.mjs's disk cache of upstream tarballs, keyed by owner/repo@sha.
+# Safe to delete any time — it only saves re-fetching archives already downloaded once.
+.audit-cache/
+node_modules/

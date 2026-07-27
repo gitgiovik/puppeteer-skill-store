@@ -62,7 +62,7 @@ failing.
 }
 ```
 
-GitHub measures **repos** (63 of them); the catalogue is keyed by **slug** (210
+GitHub measures **repos** (63 of them); the catalogue is keyed by **slug** (211
 of them), and several slugs routinely share one upstream repo — `entries` is
 that fan-out, and it mirrors the app's `SkillPopularity` shape field-for-field.
 A repo the GraphQL query could not resolve contributes no `entries` row at all.
@@ -128,10 +128,10 @@ drifted from the catalogue (`generate-marketplace.mjs --check`).
 Each catalogue entry becomes one `plugins[]` row, sourced straight off its
 pin:
 
-- **Whole-repo skills** (11 entries: `upstreamPath: "."` rows, plus rows
+- **Whole-repo skills** (12 entries: `upstreamPath: "."` rows, plus rows
   whose SKILL.md sits at the repo root) use
   `{ source: "github", repo: "owner/repo", sha }`.
-- **Everything else** (191 entries) uses
+- **Everything else** (199 entries) uses
   `{ source: "git-subdir", url, path, sha }`, where `path` is the
   **directory** containing the SKILL.md.
 
@@ -142,18 +142,20 @@ so without that override every plugin would install with zero skills. `"./"`
 declares "the plugin root **is** the skill directory", which is true for both
 source shapes above.
 
-`path` is always a directory, never a file. 13 catalogue rows record the
+`path` is always a directory, never a file. 22 catalogue rows record the
 SKILL.md file itself in `upstreamPath` (or in a multi-path `from`); the
 generator folds those up to the containing directory, and a path that folds all
 the way to the repo root is emitted as a `github` whole-repo source instead —
 `git-subdir` with `path: "."` is not a thing.
 
-**Known limitation — multi-path entries.** 2 catalogue entries
-(`ui-ux-pro-max`, `career-ops`) are assembled from more than one upstream
+**Known limitation — multi-path entries.** 9 catalogue entries
+(`brainstorming`, `career-ops`, `frontend-ui-engineering`, `geo-content-optimizer`,
+`market-research-reports`, `meta-tags-optimizer`, `peer-review`,
+`seo-content-writer`, `ui-ux-pro-max`) are assembled from more than one upstream
 directory that a single `git-subdir` source cannot express (e.g.
 `ui-ux-pro-max`'s SKILL.md lives at `.claude/skills/ui-ux-pro-max/`, but its
 `scripts/` and `data/` live under `src/ui-ux-pro-max/` — a different subtree
-entirely). Those 2 plugin listings install just the SKILL.md's own directory;
+entirely). Those 9 plugin listings install just the SKILL.md's own directory;
 the rest of the payload is not fetched by `/plugin marketplace add`, and each
 affected plugin's `description` says so explicitly. (`watch` used to be in this
 group; its SKILL.md is at the repo root, so it now resolves to a whole-repo
@@ -274,6 +276,114 @@ so its report reflects the actual catalogue state — it only skips the
 catalog.json write, the branch, and `gh pr create`. Also runnable on demand via
 the workflow's `workflow_dispatch` inputs (`dry_run`, `max`).
 
+## Bundle-refs audit (pre-install "references outside the pinned subtree")
+
+`scripts/audit-bundle-refs.mjs` hunts the bug class that shipped as
+`digitalsamba-video-toolkit`: an entry whose `upstreamPath`/`upstreamPaths`
+pinned a narrow subtree while its SKILL.md's own text pointed at sibling
+files that live OUTSIDE that subtree — so the install produces a truncated
+payload that breaks on first real invocation. The app repo's
+`packages/skill-runtime/src/skill-vendoring-lint.ts` catches this same shape
+of bug, but only on skills a user has ALREADY installed — too late, and not
+this repo's problem to fix at that point. This script runs the equivalent
+check **pre-install**, catalog-wide, against the real upstream tarball at
+each entry's pin, so a broken mapping is caught here, before anyone installs
+it.
+
+For every `catalog.json` entry it: fetches the upstream tarball (codeload,
+cached on disk per `owner/repo@sha` — many entries share a repo+pin, so this
+turns an O(211) fetch into O(unique archives), 72 at the time this was
+written); resolves `curatedUpstreamMappings` + the same `mapUpstreamTarEntries`
+algorithm the real install uses to get the exact payload an install would
+produce; reads every `SKILL.md` in that payload (a multi-skill/plugin bundle
+like digitalsamba's has no single root one); and extracts every path-like
+reference the body makes, using the runtime lint's own bundle-prefix rules
+(`scripts|assets|reference|references|resources`, `.claude/skills/<own>/…`,
+`skill_run_script`/`skill_read` helper calls) **plus one heuristic this audit
+adds** for refs an author writes WITHOUT a recognised bundle prefix at all —
+exactly digitalsamba's `python3 tools/generate_voice.py` shape (an
+interpreter command, or a backtick-quoted inline-code path, naming a
+relative path with a known code/doc/asset extension).
+
+Every ref not already present in the resolved payload is classified, ground
+truth first:
+
+- **FIXABLE** — the file exists somewhere else in the fetched repo at the
+  pinned sha; a mapping (or root-expansion) would include it. The report
+  names the exact repo path found and proposes the mapping.
+- **UPSTREAM-MISSING** — the file does not exist ANYWHERE in the repo at the
+  pin (a placeholder the author expects the end user to supply later, e.g.
+  `assets/voices/reference.m4a`).
+- **FALSE-POSITIVE** — the "ref" is very likely prose, a template variable, an
+  absolute/generated-output path, or — the two filters that run BEFORE the
+  ground-truth search, because they encode the AUTHOR explicitly saying "this
+  is someone else's file" — a named reference to a **different** skill
+  (`the \`mutation-testing\` skill's …`) or to `<x>/SKILL.md` (structurally
+  always another skill's manifest) — plus one filter that runs AFTER it,
+  because it needs the hit to decide: a `../<x>/SKILL.md` whose sibling is
+  **already published as its own catalogue entry** (same repo, pinned exactly
+  at that directory, slug equal to that directory's name). Installs land at
+  `<root>/.puppeteer/skills/<slug>/`, so the two sit side by side and the
+  relative path resolves literally — and no mapping on the referencing entry
+  could ever satisfy it, since a mapping only places files *inside* that
+  skill's own directory. Nothing is ever silently dropped: every
+  candidate that doesn't survive lands in one of these three buckets, with
+  the rule (`r1`-`r4`) and reason that put it there, so a reviewer can filter
+  by confidence instead of trusting a flat count.
+
+`..` segments are POSIX-normalised against the referencing SKILL.md's own
+directory before any of this — both when checking the payload and when
+searching the repo. Skipping that step is how the first version of this script
+filed `gws-sheets`'s `../gws-shared/SKILL.md` as UPSTREAM-MISSING ("exists
+nowhere in the repo") while the file sat one directory over: a false negative
+on FIXABLE, the one direction this tool must never fail in.
+
+The heuristic's honesty is measured, not asserted: the report's
+`heuristics.r1r2r3FalsePositiveCount` / `r4FalsePositiveCount` fields count
+how many of each rule's **findings** ended up FALSE-POSITIVE on the actual
+catalogue, so the false-positive rate is a number from a real run, not a
+claim. Mind that denominator — it is `*FindingCount`, and the fields are named
+for it: a candidate that resolved inside the payload never becomes a finding
+and is never counted, so the published ratio is "false positives per REPORTED
+finding of that rule", not the rule's precision over everything it matched in
+the SKILL.md text (a much larger, much more flattering denominator).
+
+Recall is bounded too, and stated rather than implied: a ref written **only**
+as a markdown link target (`[label](some/path.md)`) with no bundle prefix is
+extracted by no rule — widening the heuristic to link targets would drag in
+every documentation URL authors write in link form. A clean run therefore means
+"no findings by these rules", never "no refs outside the subtree".
+
+**Read every FIXABLE finding before repinning anything** — this audit
+surfaces candidates well; it does not replace a human deciding whether the
+right fix is a mapping, a root-expansion, a new sibling entry, or nothing at
+all (a checklist-style skill vendored from inside the very product repo it
+documents, e.g. citing `src/redteam/plugins/base.ts` as a contributor's
+checklist item, legitimately names real files in that repo without needing any
+of them bundled — that entry, `promptfoo-redteam-plugin-development`, plus
+`xiaolai-claude-code`'s `.claude-plugin/plugin.json`, are the catalogue's
+standing, deliberately-unfixed FIXABLE findings).
+
+```
+node scripts/audit-bundle-refs.mjs                        # full catalogue, network fetch
+node scripts/audit-bundle-refs.mjs --slugs a,b,c          # just these slugs
+node scripts/audit-bundle-refs.mjs --json-out report.json # full JSON report
+AUDIT_TARBALL_CACHE=<dir> node scripts/audit-bundle-refs.mjs   # override the disk cache (default .audit-cache/, gitignored)
+```
+
+Exit code is 1 iff at least one FIXABLE finding exists. `audit-bundle-refs.yml`
+runs it weekly (Thursday 05:45 UTC, offset from the other three scheduled
+jobs) and is **non-blocking by design** — a FIXABLE finding is a real
+catalogue defect worth attention, not something a PR should be failed over —
+so the job goes green and posts a summary table + the full JSON as a
+workflow artifact instead of failing. That is not automatic: FIXABLE > 0 is
+this catalogue's steady state (the two standing findings above), GitHub runs
+each `run:` block as `bash -e`, and `set -uo pipefail` does **not** clear that
+`-e` — so the step catches the exit code with `|| audit_exit=$?` (which both
+suppresses the abort and preserves the REAL code; a bare `|| true` would leave
+`$?` at 0 and publish a fabricated success) and republishes it as the first
+line of the job summary, where the signal is actually readable.
+
 ## Repo layout
 
 ```
@@ -285,6 +395,7 @@ scripts/
   discover.mjs                        # weekly: Search API + known-repo enumeration -> candidates
   validate-entry.mjs                  # PR CI: re-fetch + re-hash + license check for changed entries
   propose-pin-bumps.mjs               # weekly: subtree-scoped pin bumps -> one cumulative PR (never auto-merged)
+  audit-bundle-refs.mjs               # weekly (non-blocking): catalog-wide "refs outside the pinned subtree" audit
   lib/
     tar.mjs                           # standalone USTAR reader (ported from packages/skills/src/pack/tar.ts)
     upstream.mjs                      # standalone upstream-fetch + hash primitives (ported, see file header)
@@ -293,6 +404,7 @@ scripts/
   daily-snapshot.yml                  # cron: writes to the `data` branch
   weekly-discovery.yml                # cron: writes to the `data` branch
   weekly-pin-bump.yml                 # cron: opens a PR against main (human-reviewed, gated by validate-entry.yml)
+  audit-bundle-refs.yml               # cron: non-blocking, posts a summary + JSON artifact (never opens a PR)
 data/                                 # NOT in this branch — lives on the orphan `data` branch (see above)
 ```
 
@@ -325,6 +437,18 @@ and never writes, branches, or opens a PR.
 
 ## Changelog
 
+- **2026-07-27** — `gws-shared` imported (`googleworkspace/cli`, Apache-2.0,
+  pinned at `skills/gws-shared`, same pin as its two siblings): 210 → **211**
+  entries. Not a discretionary import: `gws-sheets` and `gws-drive` both open
+  with "**PREREQUISITE:** Read `../gws-shared/SKILL.md`" and both shipped a
+  ONE-file payload, so each installed a skill that ordered the agent to read a
+  file nobody had. `../` walks out of a skill's own installed directory, so no
+  mapping on those entries could ever satisfy it — only publishing the sibling
+  can, because the install layout (`<root>/.puppeteer/skills/<slug>/`) puts the
+  two side by side and makes the relative path resolve literally. Found by
+  `audit-bundle-refs.mjs` only after its `..`-normalisation fix landed (before
+  that it called the ref UPSTREAM-MISSING — "exists nowhere in the repo" — about
+  a file one directory over).
 - **2026-07-27** — `scroll-world` imported (`oso95/scroll-world`, MIT, pinned at
   `skills/scroll-world`): 209 → **210** entries. Catalogue-only — deliberately
   not a member of any curated pack.
