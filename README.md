@@ -62,7 +62,7 @@ failing.
 }
 ```
 
-GitHub measures **repos** (63 of them); the catalogue is keyed by **slug** (201
+GitHub measures **repos** (63 of them); the catalogue is keyed by **slug** (210
 of them), and several slugs routinely share one upstream repo — `entries` is
 that fan-out, and it mirrors the app's `SkillPopularity` shape field-for-field.
 A repo the GraphQL query could not resolve contributes no `entries` row at all.
@@ -325,6 +325,14 @@ and never writes, branches, or opens a PR.
 
 ## Changelog
 
+- **2026-07-27** — `scroll-world` imported (`oso95/scroll-world`, MIT, pinned at
+  `skills/scroll-world`): 209 → **210** entries. Catalogue-only — deliberately
+  not a member of any curated pack.
+- **2026-07-26** — verified imports (`sentry-security-review`,
+  `stripe-best-practices`, `expo-router`, `gemini-api-dev`, `gemini-live-api-dev`
+  + 3): 201 → 209 entries; `marketplace.json` regenerated to match. This line was
+  missing from the changelog until 2026-07-27 — it is backfilled here, which is
+  also why the count above read a stale `201` for a day.
 - **2026-07-26** — catalogue extended (owner selection + aggregators): 108 → 201
   entries. The owner-approved batch was 94; at close, 6 `nlb-*` rows were found
   pinned to `<skill-dir>/SKILL.md` instead of `<skill-dir>`, which shipped a
