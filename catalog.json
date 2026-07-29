@@ -1021,6 +1021,9 @@
       "contentHash": "a05825ef43d31b8dbb937fa99b4dfc65b150688f72af67cc8000745ad38e0461",
       "byteAudit": "vendored-match",
       "catalogRevision": 2,
+      "unavailable": {
+        "reason": "Removed upstream: mattpocock/skills deleted skills/productivity/caveman (commit 7d3ada97, 'Remove caveman skill documentation to streamline productivity skills'). Pin frozen at 694fa303 — the last commit where it existed — and excluded from the weekly pin bump so it no longer fails re-hash; listed with this reason, refused at install."
+      },
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
