@@ -1,1816 +1,1816 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T09:11:16.002Z",
-  "date": "2026-07-28",
+  "generatedAt": "2026-07-29T09:15:51.269Z",
+  "date": "2026-07-29",
   "entries": {
     "5-whys": {
       "stars": 45,
       "pushedAt": "2025-12-03T05:02:19Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "academic-pptx": {
-      "stars": 722,
+      "stars": 723,
       "pushedAt": "2026-07-14T23:54:54Z",
-      "starsDelta1d": 0,
+      "starsDelta1d": 1,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "accessibility": {
-      "stars": 2551,
+      "stars": 2560,
       "pushedAt": "2026-06-14T09:08:35Z",
-      "starsDelta1d": 2,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-api-design-patterns": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-authentication-patterns": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-ci-cd-pipelines": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-data-engineering": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-database-optimization": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-devops-automation": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-django-patterns": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-docker-best-practices": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-golang-idioms": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-graphql-design": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-kubernetes-operations": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-microservices-design": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-postgres-optimization": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-python-best-practices": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-redis-patterns": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-rust-systems": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-security-hardening": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-springboot-patterns": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-typescript-advanced": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "actk-websocket-realtime": {
-      "stars": 2398,
+      "stars": 2407,
       "pushedAt": "2026-05-12T07:18:34Z",
-      "starsDelta1d": 8,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "algorithmic-art": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "anthropic-claude-api": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "anthropic-internal-comms": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "awwwards-3d": {
-      "stars": 6,
+      "stars": 7,
       "pushedAt": "2026-05-08T18:20:22Z",
-      "starsDelta1d": 0,
+      "starsDelta1d": 1,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "brainstorm": {
       "stars": 305,
       "pushedAt": "2026-05-07T18:57:45Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "brainstorming": {
-      "stars": 262390,
-      "pushedAt": "2026-07-24T21:21:36Z",
-      "starsDelta1d": 549,
+      "stars": 262965,
+      "pushedAt": "2026-07-28T19:25:36Z",
+      "starsDelta1d": 575,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "brandkit": {
-      "stars": 82092,
-      "pushedAt": "2026-07-28T08:51:17Z",
-      "starsDelta1d": 238,
+      "stars": 82395,
+      "pushedAt": "2026-07-29T09:06:50Z",
+      "starsDelta1d": 303,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "browser-harness": {
-      "stars": 16306,
+      "stars": 16331,
       "pushedAt": "2026-07-26T03:16:13Z",
-      "starsDelta1d": 21,
+      "starsDelta1d": 25,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "browser-use-cloud": {
-      "stars": 107071,
+      "stars": 107171,
       "pushedAt": "2026-07-27T17:25:46Z",
-      "starsDelta1d": 109,
+      "starsDelta1d": 100,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "browser-use-core": {
-      "stars": 107071,
+      "stars": 107171,
       "pushedAt": "2026-07-27T17:25:46Z",
-      "starsDelta1d": 109,
+      "starsDelta1d": 100,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "browser-use-open-source": {
-      "stars": 107071,
+      "stars": 107171,
       "pushedAt": "2026-07-27T17:25:46Z",
-      "starsDelta1d": 109,
+      "starsDelta1d": 100,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "browser-use-qa": {
-      "stars": 107071,
+      "stars": 107171,
       "pushedAt": "2026-07-27T17:25:46Z",
-      "starsDelta1d": 109,
+      "starsDelta1d": 100,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "browser-use-remote-browser": {
-      "stars": 107071,
+      "stars": 107171,
       "pushedAt": "2026-07-27T17:25:46Z",
-      "starsDelta1d": 109,
+      "starsDelta1d": 100,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "browser-use-x402": {
-      "stars": 107071,
+      "stars": 107171,
       "pushedAt": "2026-07-27T17:25:46Z",
-      "starsDelta1d": 109,
+      "starsDelta1d": 100,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "c4-model": {
       "stars": 32,
       "pushedAt": "2026-04-25T08:23:10Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "canvas-design": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "career-ops": {
-      "stars": 61933,
-      "pushedAt": "2026-07-28T09:08:05Z",
-      "starsDelta1d": 166,
+      "stars": 62088,
+      "pushedAt": "2026-07-29T07:24:10Z",
+      "starsDelta1d": 155,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "caveman": {
-      "stars": 192104,
-      "pushedAt": "2026-07-28T09:05:41Z",
-      "starsDelta1d": 1506,
+      "stars": 193721,
+      "pushedAt": "2026-07-28T11:18:20Z",
+      "starsDelta1d": 1617,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "citypaul-ddd": {
       "stars": 694,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "citypaul-finding-seams": {
       "stars": 694,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "citypaul-hexagonal": {
       "stars": 694,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "citypaul-refactoring": {
       "stars": 694,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "citypaul-tdd": {
       "stars": 694,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "citypaul-testing": {
       "stars": 694,
       "pushedAt": "2026-07-20T22:07:48Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "claude-deep-research-skill": {
-      "stars": 963,
+      "stars": 964,
       "pushedAt": "2026-04-11T22:18:08Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 1,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "cloud-solution-architect": {
-      "stars": 2830,
-      "pushedAt": "2026-07-27T22:49:58Z",
-      "starsDelta1d": 5,
+      "stars": 2834,
+      "pushedAt": "2026-07-28T23:00:54Z",
+      "starsDelta1d": 4,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "cloudflare-agents-sdk": {
-      "stars": 2501,
+      "stars": 2507,
       "pushedAt": "2026-07-24T18:42:34Z",
-      "starsDelta1d": 10,
+      "starsDelta1d": 6,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "cloudflare-wrangler": {
-      "stars": 2501,
+      "stars": 2507,
       "pushedAt": "2026-07-24T18:42:34Z",
-      "starsDelta1d": 10,
+      "starsDelta1d": 6,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "code-review-skill": {
-      "stars": 1540,
+      "stars": 1546,
       "pushedAt": "2026-07-16T06:13:07Z",
-      "starsDelta1d": 15,
+      "starsDelta1d": 6,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "content-and-copy": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "starsDelta1d": 5,
+      "starsDelta1d": 2,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "content-strategy": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "starsDelta1d": 5,
+      "starsDelta1d": 2,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "copy-editing": {
-      "stars": 42027,
-      "pushedAt": "2026-07-27T19:00:31Z",
-      "starsDelta1d": 150,
+      "stars": 42215,
+      "pushedAt": "2026-07-29T05:41:15Z",
+      "starsDelta1d": 188,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "copywriting": {
-      "stars": 42027,
-      "pushedAt": "2026-07-27T19:00:31Z",
-      "starsDelta1d": 150,
+      "stars": 42215,
+      "pushedAt": "2026-07-29T05:41:15Z",
+      "starsDelta1d": 188,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "courier": {
       "stars": 13,
       "pushedAt": "2026-07-25T16:31:26Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "css-coder": {
       "stars": 3,
       "pushedAt": "2026-07-02T20:47:28Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "css-tokens": {
       "stars": 3,
       "pushedAt": "2026-07-02T20:47:28Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "data-statistical-analysis": {
-      "stars": 23113,
-      "pushedAt": "2026-07-28T08:08:07Z",
-      "starsDelta1d": 36,
+      "stars": 23150,
+      "pushedAt": "2026-07-29T08:11:09Z",
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "data-visualization": {
-      "stars": 23113,
-      "pushedAt": "2026-07-28T08:08:07Z",
-      "starsDelta1d": 36,
+      "stars": 23150,
+      "pushedAt": "2026-07-29T08:11:09Z",
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "dd-apm": {
       "stars": 147,
-      "pushedAt": "2026-07-27T21:13:40Z",
+      "pushedAt": "2026-07-28T18:19:36Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "dd-docs": {
       "stars": 147,
-      "pushedAt": "2026-07-27T21:13:40Z",
+      "pushedAt": "2026-07-28T18:19:36Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "dd-logs": {
       "stars": 147,
-      "pushedAt": "2026-07-27T21:13:40Z",
+      "pushedAt": "2026-07-28T18:19:36Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "dd-monitors": {
       "stars": 147,
-      "pushedAt": "2026-07-27T21:13:40Z",
+      "pushedAt": "2026-07-28T18:19:36Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "dd-triage-flaky-test": {
       "stars": 147,
-      "pushedAt": "2026-07-27T21:13:40Z",
+      "pushedAt": "2026-07-28T18:19:36Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "dd-unblock-pr": {
       "stars": 147,
-      "pushedAt": "2026-07-27T21:13:40Z",
+      "pushedAt": "2026-07-28T18:19:36Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "define-prioritization-framework": {
-      "stars": 506,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "starsDelta1d": 3,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "define-problem-statement": {
-      "stars": 506,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "starsDelta1d": 3,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "deliver-prd": {
-      "stars": 506,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "starsDelta1d": 3,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "deliver-user-stories": {
-      "stars": 506,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "starsDelta1d": 3,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "design-brief": {
-      "stars": 82092,
-      "pushedAt": "2026-07-28T08:51:17Z",
-      "starsDelta1d": 238,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "design-motion-principles": {
-      "stars": 867,
-      "pushedAt": "2026-05-30T23:17:35Z",
-      "starsDelta1d": 5,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "digitalsamba-video-toolkit": {
-      "stars": 1852,
-      "pushedAt": "2026-07-06T12:52:48Z",
-      "starsDelta1d": 14,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "discover-competitive-analysis": {
-      "stars": 506,
-      "pushedAt": "2026-07-24T18:31:13Z",
-      "starsDelta1d": 3,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "doc-coauthoring": {
-      "stars": 164691,
-      "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "duckdb-query": {
-      "stars": 524,
-      "pushedAt": "2026-04-23T13:56:22Z",
-      "starsDelta1d": 3,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "duckdb-read-file": {
-      "stars": 524,
-      "pushedAt": "2026-04-23T13:56:22Z",
-      "starsDelta1d": 3,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "eas-workflows": {
-      "stars": 2336,
-      "pushedAt": "2026-07-27T21:46:42Z",
+      "stars": 508,
+      "pushedAt": "2026-07-28T13:04:22Z",
       "starsDelta1d": 2,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "define-problem-statement": {
+      "stars": 508,
+      "pushedAt": "2026-07-28T13:04:22Z",
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "deliver-prd": {
+      "stars": 508,
+      "pushedAt": "2026-07-28T13:04:22Z",
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "deliver-user-stories": {
+      "stars": 508,
+      "pushedAt": "2026-07-28T13:04:22Z",
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "design-brief": {
+      "stars": 82395,
+      "pushedAt": "2026-07-29T09:06:50Z",
+      "starsDelta1d": 303,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "design-motion-principles": {
+      "stars": 869,
+      "pushedAt": "2026-05-30T23:17:35Z",
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "digitalsamba-video-toolkit": {
+      "stars": 1860,
+      "pushedAt": "2026-07-06T12:52:48Z",
+      "starsDelta1d": 8,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "discover-competitive-analysis": {
+      "stars": 508,
+      "pushedAt": "2026-07-28T13:04:22Z",
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "doc-coauthoring": {
+      "stars": 164934,
+      "pushedAt": "2026-07-24T20:12:36Z",
+      "starsDelta1d": 243,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "duckdb-query": {
+      "stars": 526,
+      "pushedAt": "2026-04-23T13:56:22Z",
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "duckdb-read-file": {
+      "stars": 526,
+      "pushedAt": "2026-04-23T13:56:22Z",
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
+    },
+    "eas-workflows": {
+      "stars": 2339,
+      "pushedAt": "2026-07-28T20:54:49Z",
+      "starsDelta1d": 3,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "editorial-qa": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "starsDelta1d": 5,
+      "starsDelta1d": 2,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "elevenlabs-music": {
       "stars": 395,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "elevenlabs-sound-effects": {
       "stars": 395,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "elevenlabs-speech-to-text": {
       "stars": 395,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "elevenlabs-text-to-speech": {
       "stars": 395,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "elevenlabs-voice-changer": {
       "stars": 395,
       "pushedAt": "2026-07-23T16:59:13Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "email-sequences": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "starsDelta1d": 5,
+      "starsDelta1d": 2,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "explore-data": {
-      "stars": 23113,
-      "pushedAt": "2026-07-28T08:08:07Z",
-      "starsDelta1d": 36,
+      "stars": 23150,
+      "pushedAt": "2026-07-29T08:11:09Z",
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "expo-router": {
-      "stars": 2336,
-      "pushedAt": "2026-07-27T21:46:42Z",
-      "starsDelta1d": 2,
+      "stars": 2339,
+      "pushedAt": "2026-07-28T20:54:49Z",
+      "starsDelta1d": 3,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "expo-upgrade": {
-      "stars": 2336,
-      "pushedAt": "2026-07-27T21:46:42Z",
-      "starsDelta1d": 2,
+      "stars": 2339,
+      "pushedAt": "2026-07-28T20:54:49Z",
+      "starsDelta1d": 3,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "find-bugs": {
       "stars": 892,
       "pushedAt": "2026-07-27T23:23:06Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "frontend-design": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "frontend-slides": {
-      "stars": 26462,
+      "stars": 26558,
       "pushedAt": "2026-06-23T20:08:19Z",
-      "starsDelta1d": 57,
+      "starsDelta1d": 96,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "frontend-ui-engineering": {
-      "stars": 80696,
+      "stars": 80846,
       "pushedAt": "2026-07-26T12:51:12Z",
-      "starsDelta1d": 120,
+      "starsDelta1d": 150,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gemini-api-dev": {
-      "stars": 3856,
+      "stars": 3857,
       "pushedAt": "2026-07-24T12:07:13Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 1,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gemini-live-api-dev": {
-      "stars": 3856,
+      "stars": 3857,
       "pushedAt": "2026-07-24T12:07:13Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 1,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "geo-content-optimizer": {
-      "stars": 116,
+      "stars": 121,
       "pushedAt": "2026-07-13T00:14:34Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 5,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gh-fix-ci": {
-      "stars": 24265,
+      "stars": 24302,
       "pushedAt": "2026-07-14T16:47:46Z",
-      "starsDelta1d": 43,
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "grill-me": {
-      "stars": 192104,
-      "pushedAt": "2026-07-28T09:05:41Z",
-      "starsDelta1d": 1506,
+      "stars": 193721,
+      "pushedAt": "2026-07-28T11:18:20Z",
+      "starsDelta1d": 1617,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "grill-with-docs": {
-      "stars": 192104,
-      "pushedAt": "2026-07-28T09:05:41Z",
-      "starsDelta1d": 1506,
+      "stars": 193721,
+      "pushedAt": "2026-07-28T11:18:20Z",
+      "starsDelta1d": 1617,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "gsap-core": {
-      "stars": 12512,
+      "stars": 12584,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "starsDelta1d": 69,
+      "starsDelta1d": 72,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gsap-frameworks": {
-      "stars": 12512,
+      "stars": 12584,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "starsDelta1d": 69,
+      "starsDelta1d": 72,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gsap-performance": {
-      "stars": 12512,
+      "stars": 12584,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "starsDelta1d": 69,
+      "starsDelta1d": 72,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gsap-plugins": {
-      "stars": 12512,
+      "stars": 12584,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "starsDelta1d": 69,
+      "starsDelta1d": 72,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gsap-react": {
-      "stars": 12512,
+      "stars": 12584,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "starsDelta1d": 69,
+      "starsDelta1d": 72,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gsap-scrolltrigger": {
-      "stars": 12512,
+      "stars": 12584,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "starsDelta1d": 69,
+      "starsDelta1d": 72,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gsap-timeline": {
-      "stars": 12512,
+      "stars": 12584,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "starsDelta1d": 69,
+      "starsDelta1d": 72,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gsap-utils": {
-      "stars": 12512,
+      "stars": 12584,
       "pushedAt": "2026-04-21T23:47:09Z",
-      "starsDelta1d": 69,
+      "starsDelta1d": 72,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gws-drive": {
-      "stars": 30035,
+      "stars": 30052,
       "pushedAt": "2026-07-28T05:42:01Z",
-      "starsDelta1d": 13,
+      "starsDelta1d": 17,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gws-shared": {
-      "stars": 30035,
+      "stars": 30052,
       "pushedAt": "2026-07-28T05:42:01Z",
-      "starsDelta1d": 13,
+      "starsDelta1d": 17,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "gws-sheets": {
-      "stars": 30035,
+      "stars": 30052,
       "pushedAt": "2026-07-28T05:42:01Z",
-      "starsDelta1d": 13,
+      "starsDelta1d": 17,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "handoff": {
-      "stars": 192104,
-      "pushedAt": "2026-07-28T09:05:41Z",
-      "starsDelta1d": 1506,
+      "stars": 193721,
+      "pushedAt": "2026-07-28T11:18:20Z",
+      "starsDelta1d": 1617,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "hf-cli": {
-      "stars": 10878,
-      "pushedAt": "2026-07-27T09:19:45Z",
+      "stars": 10880,
+      "pushedAt": "2026-07-28T10:43:56Z",
       "starsDelta1d": 2,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "huggingface-gradio": {
-      "stars": 10878,
-      "pushedAt": "2026-07-27T09:19:45Z",
+      "stars": 10880,
+      "pushedAt": "2026-07-28T10:43:56Z",
       "starsDelta1d": 2,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "humanizer": {
-      "stars": 31681,
+      "stars": 31899,
       "pushedAt": "2026-07-22T06:26:25Z",
-      "starsDelta1d": 305,
+      "starsDelta1d": 218,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "impeccable": {
-      "stars": 51928,
-      "pushedAt": "2026-07-28T03:28:16Z",
-      "starsDelta1d": 897,
+      "stars": 52392,
+      "pushedAt": "2026-07-29T01:18:06Z",
+      "starsDelta1d": 464,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "improve-codebase-architecture": {
-      "stars": 192104,
-      "pushedAt": "2026-07-28T09:05:41Z",
-      "starsDelta1d": 1506,
+      "stars": 193721,
+      "pushedAt": "2026-07-28T11:18:20Z",
+      "starsDelta1d": 1617,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "industrial-brutalist-ui": {
-      "stars": 82092,
-      "pushedAt": "2026-07-28T08:51:17Z",
-      "starsDelta1d": 238,
+      "stars": 82395,
+      "pushedAt": "2026-07-29T09:06:50Z",
+      "starsDelta1d": 303,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "kubernetes-skill": {
       "stars": 340,
       "pushedAt": "2026-07-19T15:32:27Z",
-      "starsDelta1d": 2,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "lambdatest-cypress": {
       "stars": 339,
       "pushedAt": "2026-07-24T15:13:07Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "lambdatest-playwright": {
       "stars": 339,
       "pushedAt": "2026-07-24T15:13:07Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "lambdatest-puppeteer": {
       "stars": 339,
       "pushedAt": "2026-07-24T15:13:07Z",
-      "starsDelta1d": 1,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "landing-page-copy": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "starsDelta1d": 5,
+      "starsDelta1d": 2,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "leonxlnx-gpt-tasteskill": {
-      "stars": 68425,
+      "stars": 68787,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "starsDelta1d": 332,
+      "starsDelta1d": 362,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "leonxlnx-image-to-code": {
-      "stars": 68425,
+      "stars": 68787,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "starsDelta1d": 332,
+      "starsDelta1d": 362,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "leonxlnx-imagegen-frontend-mobile": {
-      "stars": 68425,
+      "stars": 68787,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "starsDelta1d": 332,
+      "starsDelta1d": 362,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "leonxlnx-imagegen-frontend-web": {
-      "stars": 68425,
+      "stars": 68787,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "starsDelta1d": 332,
+      "starsDelta1d": 362,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "leonxlnx-output-skill": {
-      "stars": 68425,
+      "stars": 68787,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "starsDelta1d": 332,
+      "starsDelta1d": 362,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "leonxlnx-soft-skill": {
-      "stars": 68425,
+      "stars": 68787,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "starsDelta1d": 332,
+      "starsDelta1d": 362,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "leonxlnx-stitch-skill": {
-      "stars": 68425,
+      "stars": 68787,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "starsDelta1d": 332,
+      "starsDelta1d": 362,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "long-form-content-frameworks": {
-      "stars": 501,
+      "stars": 503,
       "pushedAt": "2026-07-21T22:57:58Z",
-      "starsDelta1d": 5,
+      "starsDelta1d": 2,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "marketing-psychology": {
-      "stars": 42027,
-      "pushedAt": "2026-07-27T19:00:31Z",
-      "starsDelta1d": 150,
+      "stars": 42215,
+      "pushedAt": "2026-07-29T05:41:15Z",
+      "starsDelta1d": 188,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "mcp-builder": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "mcp-builder-microsoft": {
-      "stars": 2830,
-      "pushedAt": "2026-07-27T22:49:58Z",
-      "starsDelta1d": 5,
+      "stars": 2834,
+      "pushedAt": "2026-07-28T23:00:54Z",
+      "starsDelta1d": 4,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "meta-tags-optimizer": {
-      "stars": 116,
+      "stars": 121,
       "pushedAt": "2026-07-13T00:14:34Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 5,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "minimalist-ui": {
-      "stars": 82092,
-      "pushedAt": "2026-07-28T08:51:17Z",
-      "starsDelta1d": 238,
+      "stars": 82395,
+      "pushedAt": "2026-07-29T09:06:50Z",
+      "starsDelta1d": 303,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "motherduck-duckdb-sql": {
       "stars": 53,
       "pushedAt": "2026-07-13T15:16:31Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "motherduck-query": {
       "stars": 53,
       "pushedAt": "2026-07-13T15:16:31Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "netlify-ai-gateway": {
       "stars": 27,
-      "pushedAt": "2026-07-27T17:02:05Z",
+      "pushedAt": "2026-07-28T15:54:15Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "netlify-edge-functions": {
       "stars": 27,
-      "pushedAt": "2026-07-27T17:02:05Z",
+      "pushedAt": "2026-07-28T15:54:15Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "netlify-functions": {
       "stars": 27,
-      "pushedAt": "2026-07-27T17:02:05Z",
+      "pushedAt": "2026-07-28T15:54:15Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "nlb-brand": {
-      "stars": 110949,
+      "stars": 111316,
       "pushedAt": "2026-07-28T05:00:36Z",
-      "starsDelta1d": 358,
+      "starsDelta1d": 367,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "nlb-design": {
-      "stars": 110949,
+      "stars": 111316,
       "pushedAt": "2026-07-28T05:00:36Z",
-      "starsDelta1d": 358,
+      "starsDelta1d": 367,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "nlb-design-system": {
-      "stars": 110949,
+      "stars": 111316,
       "pushedAt": "2026-07-28T05:00:36Z",
-      "starsDelta1d": 358,
+      "starsDelta1d": 367,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "nlb-slides": {
-      "stars": 110949,
+      "stars": 111316,
       "pushedAt": "2026-07-28T05:00:36Z",
-      "starsDelta1d": 358,
+      "starsDelta1d": 367,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "nlb-ui-styling": {
-      "stars": 110949,
+      "stars": 111316,
       "pushedAt": "2026-07-28T05:00:36Z",
-      "starsDelta1d": 358,
+      "starsDelta1d": 367,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "octagon-financial-analyst-master": {
       "stars": 133,
       "pushedAt": "2026-06-05T18:06:01Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "openai-security-threat-model": {
-      "stars": 24265,
+      "stars": 24302,
       "pushedAt": "2026-07-14T16:47:46Z",
-      "starsDelta1d": 43,
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "pipeline-review": {
-      "stars": 23113,
-      "pushedAt": "2026-07-28T08:08:07Z",
-      "starsDelta1d": 36,
+      "stars": 23150,
+      "pushedAt": "2026-07-29T08:11:09Z",
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "playwright-skill": {
-      "stars": 2954,
+      "stars": 2959,
       "pushedAt": "2025-12-19T16:23:38Z",
-      "starsDelta1d": 2,
+      "starsDelta1d": 5,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "promptfoo-evals": {
-      "stars": 23678,
-      "pushedAt": "2026-07-28T01:47:46Z",
-      "starsDelta1d": 31,
+      "stars": 23717,
+      "pushedAt": "2026-07-29T01:30:49Z",
+      "starsDelta1d": 39,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "promptfoo-redteam-plugin-development": {
-      "stars": 23678,
-      "pushedAt": "2026-07-28T01:47:46Z",
-      "starsDelta1d": 31,
+      "stars": 23717,
+      "pushedAt": "2026-07-29T01:30:49Z",
+      "starsDelta1d": 39,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "prototype": {
-      "stars": 192104,
-      "pushedAt": "2026-07-28T09:05:41Z",
-      "starsDelta1d": 1506,
+      "stars": 193721,
+      "pushedAt": "2026-07-28T11:18:20Z",
+      "starsDelta1d": 1617,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "redesign-skill": {
-      "stars": 68425,
+      "stars": 68787,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "starsDelta1d": 332,
+      "starsDelta1d": 362,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "review-contract": {
-      "stars": 23113,
-      "pushedAt": "2026-07-28T08:08:07Z",
-      "starsDelta1d": 36,
+      "stars": 23150,
+      "pushedAt": "2026-07-29T08:11:09Z",
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "scroll-world": {
-      "stars": 5563,
-      "pushedAt": "2026-07-16T01:23:39Z",
-      "starsDelta1d": 148,
+      "stars": 5653,
+      "pushedAt": "2026-07-29T04:44:56Z",
+      "starsDelta1d": 90,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "semantic-html": {
       "stars": 3,
       "pushedAt": "2026-07-02T20:47:28Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "sentry-code-review": {
       "stars": 892,
       "pushedAt": "2026-07-27T23:23:06Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "sentry-gha-security-review": {
       "stars": 892,
       "pushedAt": "2026-07-27T23:23:06Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "sentry-sdk-upgrade": {
       "stars": 244,
-      "pushedAt": "2026-07-28T08:43:18Z",
-      "starsDelta1d": 1,
+      "pushedAt": "2026-07-28T11:04:52Z",
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "sentry-security-review": {
       "stars": 892,
       "pushedAt": "2026-07-27T23:23:06Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "sentry-workflow": {
       "stars": 244,
-      "pushedAt": "2026-07-28T08:43:18Z",
-      "starsDelta1d": 1,
+      "pushedAt": "2026-07-28T11:04:52Z",
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "seo": {
-      "stars": 2551,
+      "stars": 2560,
       "pushedAt": "2026-06-14T09:08:35Z",
-      "starsDelta1d": 2,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "seo-content-writer": {
-      "stars": 116,
+      "stars": 121,
       "pushedAt": "2026-07-13T00:14:34Z",
-      "starsDelta1d": 3,
+      "starsDelta1d": 5,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "shadcn-component-discovery": {
       "stars": 14,
       "pushedAt": "2026-04-27T08:26:59Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "shadcn-component-review": {
       "stars": 14,
       "pushedAt": "2026-04-27T08:26:59Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "skill-creator-anthropic": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "slack-gif-creator": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "sql-queries": {
-      "stars": 23113,
-      "pushedAt": "2026-07-28T08:08:07Z",
-      "starsDelta1d": 36,
+      "stars": 23150,
+      "pushedAt": "2026-07-29T08:11:09Z",
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "stripe-best-practices": {
       "stars": 1711,
-      "pushedAt": "2026-07-27T21:45:35Z",
-      "starsDelta1d": 1,
+      "pushedAt": "2026-07-29T01:54:55Z",
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "supabase": {
-      "stars": 2436,
+      "stars": 2442,
       "pushedAt": "2026-07-27T20:33:07Z",
-      "starsDelta1d": 7,
+      "starsDelta1d": 6,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "supabase-postgres-best-practices": {
-      "stars": 2436,
+      "stars": 2442,
       "pushedAt": "2026-07-27T20:33:07Z",
-      "starsDelta1d": 7,
+      "starsDelta1d": 6,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "systematic-debugging": {
-      "stars": 262390,
-      "pushedAt": "2026-07-24T21:21:36Z",
-      "starsDelta1d": 549,
+      "stars": 262965,
+      "pushedAt": "2026-07-28T19:25:36Z",
+      "starsDelta1d": 575,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "task-observer": {
-      "stars": 1275,
+      "stars": 1286,
       "pushedAt": "2026-07-17T09:48:22Z",
-      "starsDelta1d": 7,
+      "starsDelta1d": 11,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "taste-skill": {
-      "stars": 68425,
+      "stars": 68787,
       "pushedAt": "2026-07-23T16:01:24Z",
-      "starsDelta1d": 332,
+      "starsDelta1d": 362,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "tdd": {
-      "stars": 192104,
-      "pushedAt": "2026-07-28T09:05:41Z",
-      "starsDelta1d": 1506,
+      "stars": 193721,
+      "pushedAt": "2026-07-28T11:18:20Z",
+      "starsDelta1d": 1617,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "terraform-skill": {
-      "stars": 2215,
+      "stars": 2218,
       "pushedAt": "2026-07-03T05:56:41Z",
-      "starsDelta1d": 2,
+      "starsDelta1d": 3,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "test-driven-development": {
-      "stars": 262390,
-      "pushedAt": "2026-07-24T21:21:36Z",
-      "starsDelta1d": 549,
+      "stars": 262965,
+      "pushedAt": "2026-07-28T19:25:36Z",
+      "starsDelta1d": 575,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "theme-factory": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "ticket-triage": {
-      "stars": 23113,
-      "pushedAt": "2026-07-28T08:08:07Z",
-      "starsDelta1d": 36,
+      "stars": 23150,
+      "pushedAt": "2026-07-29T08:11:09Z",
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "ui-ux-pro-max": {
-      "stars": 110949,
+      "stars": 111316,
       "pushedAt": "2026-07-28T05:00:36Z",
-      "starsDelta1d": 358,
+      "starsDelta1d": 367,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "upgrade-stripe": {
       "stars": 1711,
-      "pushedAt": "2026-07-27T21:45:35Z",
-      "starsDelta1d": 1,
-      "deltaSince": {
-        "starsDelta1d": "2026-07-27"
-      },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
-    },
-    "ux-designer": {
-      "stars": 39,
-      "pushedAt": "2026-06-06T21:19:47Z",
+      "pushedAt": "2026-07-29T01:54:55Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
+    },
+    "ux-designer": {
+      "stars": 41,
+      "pushedAt": "2026-06-06T21:19:47Z",
+      "starsDelta1d": 2,
+      "deltaSince": {
+        "starsDelta1d": "2026-07-28"
+      },
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "validate-data": {
-      "stars": 23113,
-      "pushedAt": "2026-07-28T08:08:07Z",
-      "starsDelta1d": 36,
+      "stars": 23150,
+      "pushedAt": "2026-07-29T08:11:09Z",
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "variance-analysis": {
-      "stars": 23113,
-      "pushedAt": "2026-07-28T08:08:07Z",
-      "starsDelta1d": 36,
+      "stars": 23150,
+      "pushedAt": "2026-07-29T08:11:09Z",
+      "starsDelta1d": 37,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "venice-api-overview": {
       "stars": 122,
       "pushedAt": "2026-07-20T14:00:39Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "venice-chat": {
       "stars": 122,
       "pushedAt": "2026-07-20T14:00:39Z",
       "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "vercel-composition-patterns": {
-      "stars": 29553,
+      "stars": 29585,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "starsDelta1d": 36,
+      "starsDelta1d": 32,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "vercel-deploy-to-vercel": {
-      "stars": 29553,
+      "stars": 29585,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "starsDelta1d": 36,
+      "starsDelta1d": 32,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "vercel-optimize": {
-      "stars": 29553,
+      "stars": 29585,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "starsDelta1d": 36,
+      "starsDelta1d": 32,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "vercel-react-best-practices": {
-      "stars": 29553,
+      "stars": 29585,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "starsDelta1d": 36,
+      "starsDelta1d": 32,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "vercel-react-view-transitions": {
-      "stars": 29553,
+      "stars": 29585,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "starsDelta1d": 36,
+      "starsDelta1d": 32,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "watch": {
-      "stars": 11494,
+      "stars": 12424,
       "pushedAt": "2026-07-01T01:26:49Z",
-      "starsDelta1d": 903,
+      "starsDelta1d": 930,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "web-artifacts-builder": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "web-design-guidelines": {
-      "stars": 29553,
+      "stars": 29585,
       "pushedAt": "2026-07-24T10:25:29Z",
-      "starsDelta1d": 36,
+      "starsDelta1d": 32,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "web-performance": {
-      "stars": 2551,
+      "stars": 2560,
       "pushedAt": "2026-06-14T09:08:35Z",
-      "starsDelta1d": 2,
+      "starsDelta1d": 9,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "webapp-testing": {
-      "stars": 164691,
+      "stars": 164934,
       "pushedAt": "2026-07-24T20:12:36Z",
-      "starsDelta1d": 227,
+      "starsDelta1d": 243,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "write-a-skill": {
-      "stars": 192104,
-      "pushedAt": "2026-07-28T09:05:41Z",
-      "starsDelta1d": 1506,
+      "stars": 193721,
+      "pushedAt": "2026-07-28T11:18:20Z",
+      "starsDelta1d": 1617,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "writing-plans": {
-      "stars": 262390,
-      "pushedAt": "2026-07-24T21:21:36Z",
-      "starsDelta1d": 549,
+      "stars": 262965,
+      "pushedAt": "2026-07-28T19:25:36Z",
+      "starsDelta1d": 575,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     },
     "xiaolai-anthropic-api": {
       "stars": 14,
-      "pushedAt": "2026-07-27T13:08:48Z",
-      "starsDelta1d": -1,
+      "pushedAt": "2026-07-28T12:40:53Z",
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "xiaolai-claude-code": {
       "stars": 14,
-      "pushedAt": "2026-07-27T13:08:48Z",
-      "starsDelta1d": -1,
+      "pushedAt": "2026-07-28T12:40:53Z",
+      "starsDelta1d": 0,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.267Z"
     },
     "zoom-out": {
-      "stars": 192104,
-      "pushedAt": "2026-07-28T09:05:41Z",
-      "starsDelta1d": 1506,
+      "stars": 193721,
+      "pushedAt": "2026-07-28T11:18:20Z",
+      "starsDelta1d": 1617,
       "deltaSince": {
-        "starsDelta1d": "2026-07-27"
+        "starsDelta1d": "2026-07-28"
       },
-      "snapshotAt": "2026-07-28T09:11:15.999Z"
+      "snapshotAt": "2026-07-29T09:15:51.266Z"
     }
   },
   "repos": {
@@ -1819,76 +1819,76 @@
       "forkCount": 6,
       "pushedAt": "2025-12-03T05:02:19Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "Gabberflast/academic-pptx-skill": {
-      "stargazerCount": 722,
+      "stargazerCount": 723,
       "forkCount": 88,
       "pushedAt": "2026-07-14T23:54:54Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 1,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "addyosmani/web-quality-skills": {
-      "stargazerCount": 2551,
+      "stargazerCount": 2560,
       "forkCount": 233,
       "pushedAt": "2026-06-14T09:08:35Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 2,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 9,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "rohitg00/awesome-claude-code-toolkit": {
-      "stargazerCount": 2398,
-      "forkCount": 848,
+      "stargazerCount": 2407,
+      "forkCount": 854,
       "pushedAt": "2026-05-12T07:18:34Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 8,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 9,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "anthropics/skills": {
-      "stargazerCount": 164691,
-      "forkCount": 19565,
+      "stargazerCount": 164934,
+      "forkCount": 19593,
       "pushedAt": "2026-07-24T20:12:36Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 227,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 243,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "tsogjavklann/awwwards-3d": {
-      "stargazerCount": 6,
+      "stargazerCount": 7,
       "forkCount": 1,
       "pushedAt": "2026-05-08T18:20:22Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 1,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -1897,63 +1897,63 @@
       "forkCount": 42,
       "pushedAt": "2026-05-07T18:57:45Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "obra/superpowers": {
-      "stargazerCount": 262390,
-      "forkCount": 23430,
-      "pushedAt": "2026-07-24T21:21:36Z",
+      "stargazerCount": 262965,
+      "forkCount": 23488,
+      "pushedAt": "2026-07-28T19:25:36Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 549,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 575,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "nexu-io/open-design": {
-      "stargazerCount": 82092,
-      "forkCount": 9490,
-      "pushedAt": "2026-07-28T08:51:17Z",
+      "stargazerCount": 82395,
+      "forkCount": 9525,
+      "pushedAt": "2026-07-29T09:06:50Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 238,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 303,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "browser-use/browser-harness": {
-      "stargazerCount": 16306,
-      "forkCount": 1543,
+      "stargazerCount": 16331,
+      "forkCount": 1548,
       "pushedAt": "2026-07-26T03:16:13Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 21,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 25,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "browser-use/browser-use": {
-      "stargazerCount": 107071,
-      "forkCount": 11775,
+      "stargazerCount": 107171,
+      "forkCount": 11786,
       "pushedAt": "2026-07-27T17:25:46Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 109,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 100,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -1962,37 +1962,37 @@
       "forkCount": 2,
       "pushedAt": "2026-04-25T08:23:10Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "santifer/career-ops": {
-      "stargazerCount": 61933,
-      "forkCount": 12184,
-      "pushedAt": "2026-07-28T09:08:05Z",
+      "stargazerCount": 62088,
+      "forkCount": 12210,
+      "pushedAt": "2026-07-29T07:24:10Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 166,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 155,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "mattpocock/skills": {
-      "stargazerCount": 192104,
-      "forkCount": 16510,
-      "pushedAt": "2026-07-28T09:05:41Z",
+      "stargazerCount": 193721,
+      "forkCount": 16668,
+      "pushedAt": "2026-07-28T11:18:20Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 1506,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 1617,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -2001,89 +2001,89 @@
       "forkCount": 88,
       "pushedAt": "2026-07-20T22:07:48Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 1,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 0,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "199-biotechnologies/claude-deep-research-skill": {
-      "stargazerCount": 963,
-      "forkCount": 99,
+      "stargazerCount": 964,
+      "forkCount": 101,
       "pushedAt": "2026-04-11T22:18:08Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 3,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 1,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "microsoft/skills": {
-      "stargazerCount": 2830,
-      "forkCount": 318,
-      "pushedAt": "2026-07-27T22:49:58Z",
+      "stargazerCount": 2834,
+      "forkCount": 319,
+      "pushedAt": "2026-07-28T23:00:54Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 5,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 4,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "cloudflare/skills": {
-      "stargazerCount": 2501,
-      "forkCount": 235,
+      "stargazerCount": 2507,
+      "forkCount": 236,
       "pushedAt": "2026-07-24T18:42:34Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 10,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 6,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "awesome-skills/code-review-skill": {
-      "stargazerCount": 1540,
-      "forkCount": 165,
+      "stargazerCount": 1546,
+      "forkCount": 166,
       "pushedAt": "2026-07-16T06:13:07Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 15,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 6,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "rampstackco/claude-skills": {
-      "stargazerCount": 501,
-      "forkCount": 64,
+      "stargazerCount": 503,
+      "forkCount": 65,
       "pushedAt": "2026-07-21T22:57:58Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 5,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 2,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "coreyhaines31/marketingskills": {
-      "stargazerCount": 42027,
-      "forkCount": 6621,
-      "pushedAt": "2026-07-27T19:00:31Z",
+      "stargazerCount": 42215,
+      "forkCount": 6653,
+      "pushedAt": "2026-07-29T05:41:15Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 150,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 188,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -2092,11 +2092,11 @@
       "forkCount": 2,
       "pushedAt": "2026-07-25T16:31:26Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -2105,115 +2105,115 @@
       "forkCount": 0,
       "pushedAt": "2026-07-02T20:47:28Z",
       "isArchived": true,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "anthropics/knowledge-work-plugins": {
-      "stargazerCount": 23113,
-      "forkCount": 2775,
-      "pushedAt": "2026-07-28T08:08:07Z",
+      "stargazerCount": 23150,
+      "forkCount": 2781,
+      "pushedAt": "2026-07-29T08:11:09Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 36,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 37,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "datadog-labs/agent-skills": {
       "stargazerCount": 147,
       "forkCount": 20,
-      "pushedAt": "2026-07-27T21:13:40Z",
+      "pushedAt": "2026-07-28T18:19:36Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "product-on-purpose/pm-skills": {
-      "stargazerCount": 506,
+      "stargazerCount": 508,
       "forkCount": 66,
-      "pushedAt": "2026-07-24T18:31:13Z",
+      "pushedAt": "2026-07-28T13:04:22Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 3,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 2,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "kylezantos/design-motion-principles": {
-      "stargazerCount": 867,
-      "forkCount": 60,
+      "stargazerCount": 869,
+      "forkCount": 61,
       "pushedAt": "2026-05-30T23:17:35Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 5,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 2,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "digitalsamba/claude-code-video-toolkit": {
-      "stargazerCount": 1852,
-      "forkCount": 306,
+      "stargazerCount": 1860,
+      "forkCount": 308,
       "pushedAt": "2026-07-06T12:52:48Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 14,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 8,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "duckdb/duckdb-skills": {
-      "stargazerCount": 524,
+      "stargazerCount": 526,
       "forkCount": 26,
       "pushedAt": "2026-04-23T13:56:22Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 3,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 2,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "expo/skills": {
-      "stargazerCount": 2336,
+      "stargazerCount": 2339,
       "forkCount": 122,
-      "pushedAt": "2026-07-27T21:46:42Z",
+      "pushedAt": "2026-07-28T20:54:49Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 2,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 3,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "elevenlabs/skills": {
       "stargazerCount": 395,
-      "forkCount": 56,
+      "forkCount": 55,
       "pushedAt": "2026-07-23T16:59:13Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.266Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 1,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 0,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -2222,141 +2222,141 @@
       "forkCount": 46,
       "pushedAt": "2026-07-27T23:23:06Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 3,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 0,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "zarazhangrui/frontend-slides": {
-      "stargazerCount": 26462,
-      "forkCount": 2149,
+      "stargazerCount": 26558,
+      "forkCount": 2156,
       "pushedAt": "2026-06-23T20:08:19Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 57,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 96,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "addyosmani/agent-skills": {
-      "stargazerCount": 80696,
-      "forkCount": 8702,
+      "stargazerCount": 80846,
+      "forkCount": 8715,
       "pushedAt": "2026-07-26T12:51:12Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 120,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 150,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "google-gemini/gemini-skills": {
-      "stargazerCount": 3856,
-      "forkCount": 388,
+      "stargazerCount": 3857,
+      "forkCount": 389,
       "pushedAt": "2026-07-24T12:07:13Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 3,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 1,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "aaron-he-zhu/seo-geo-claude-skills": {
-      "stargazerCount": 116,
+      "stargazerCount": 121,
       "forkCount": 11,
       "pushedAt": "2026-07-13T00:14:34Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 3,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 5,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "openai/skills": {
-      "stargazerCount": 24265,
-      "forkCount": 1644,
+      "stargazerCount": 24302,
+      "forkCount": 1650,
       "pushedAt": "2026-07-14T16:47:46Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 43,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 37,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "greensock/gsap-skills": {
-      "stargazerCount": 12512,
-      "forkCount": 737,
+      "stargazerCount": 12584,
+      "forkCount": 739,
       "pushedAt": "2026-04-21T23:47:09Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 69,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 72,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "googleworkspace/cli": {
-      "stargazerCount": 30035,
+      "stargazerCount": 30052,
       "forkCount": 1753,
       "pushedAt": "2026-07-28T05:42:01Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 13,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 17,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "huggingface/skills": {
-      "stargazerCount": 10878,
+      "stargazerCount": 10880,
       "forkCount": 720,
-      "pushedAt": "2026-07-27T09:19:45Z",
+      "pushedAt": "2026-07-28T10:43:56Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
           "stars": 2,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "blader/humanizer": {
-      "stargazerCount": 31681,
-      "forkCount": 2896,
+      "stargazerCount": 31899,
+      "forkCount": 2903,
       "pushedAt": "2026-07-22T06:26:25Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 305,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 218,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "pbakaus/impeccable": {
-      "stargazerCount": 51928,
-      "forkCount": 3050,
-      "pushedAt": "2026-07-28T03:28:16Z",
+      "stargazerCount": 52392,
+      "forkCount": 3100,
+      "pushedAt": "2026-07-29T01:18:06Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 897,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 464,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -2365,11 +2365,11 @@
       "forkCount": 58,
       "pushedAt": "2026-07-19T15:32:27Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 2,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 0,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -2378,24 +2378,24 @@
       "forkCount": 68,
       "pushedAt": "2026-07-24T15:13:07Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 1,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 0,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "leonxlnx/taste-skill": {
-      "stargazerCount": 68425,
-      "forkCount": 4727,
+      "stargazerCount": 68787,
+      "forkCount": 4754,
       "pushedAt": "2026-07-23T16:01:24Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 332,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 362,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -2404,37 +2404,37 @@
       "forkCount": 3,
       "pushedAt": "2026-07-13T15:16:31Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "netlify/context-and-tools": {
       "stargazerCount": 27,
       "forkCount": 8,
-      "pushedAt": "2026-07-27T17:02:05Z",
+      "pushedAt": "2026-07-28T15:54:15Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "nextlevelbuilder/ui-ux-pro-max-skill": {
-      "stargazerCount": 110949,
-      "forkCount": 11828,
+      "stargazerCount": 111316,
+      "forkCount": 11874,
       "pushedAt": "2026-07-28T05:00:36Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 358,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 367,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -2443,63 +2443,63 @@
       "forkCount": 13,
       "pushedAt": "2026-06-05T18:06:01Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "lackeyjb/playwright-skill": {
-      "stargazerCount": 2954,
+      "stargazerCount": 2959,
       "forkCount": 219,
       "pushedAt": "2025-12-19T16:23:38Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 2,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 5,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "promptfoo/promptfoo": {
-      "stargazerCount": 23678,
-      "forkCount": 2128,
-      "pushedAt": "2026-07-28T01:47:46Z",
+      "stargazerCount": 23717,
+      "forkCount": 2131,
+      "pushedAt": "2026-07-29T01:30:49Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 31,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 39,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "oso95/scroll-world": {
-      "stargazerCount": 5563,
-      "forkCount": 640,
-      "pushedAt": "2026-07-16T01:23:39Z",
+      "stargazerCount": 5653,
+      "forkCount": 649,
+      "pushedAt": "2026-07-29T04:44:56Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 148,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 90,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "getsentry/sentry-for-ai": {
       "stargazerCount": 244,
       "forkCount": 30,
-      "pushedAt": "2026-07-28T08:43:18Z",
+      "pushedAt": "2026-07-28T11:04:52Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 1,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 0,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
@@ -2508,128 +2508,128 @@
       "forkCount": 1,
       "pushedAt": "2026-04-27T08:26:59Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "stripe/ai": {
       "stargazerCount": 1711,
-      "forkCount": 315,
-      "pushedAt": "2026-07-27T21:45:35Z",
+      "forkCount": 316,
+      "pushedAt": "2026-07-29T01:54:55Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 1,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 0,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "supabase/agent-skills": {
-      "stargazerCount": 2436,
+      "stargazerCount": 2442,
       "forkCount": 177,
       "pushedAt": "2026-07-27T20:33:07Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 7,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 6,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "rebelytics/one-skill-to-rule-them-all": {
-      "stargazerCount": 1275,
-      "forkCount": 125,
+      "stargazerCount": 1286,
+      "forkCount": 128,
       "pushedAt": "2026-07-17T09:48:22Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 7,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 11,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "antonbabenko/terraform-skill": {
-      "stargazerCount": 2215,
+      "stargazerCount": 2218,
       "forkCount": 197,
       "pushedAt": "2026-07-03T05:56:41Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 2,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 3,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "szilu/ux-designer-skill": {
-      "stargazerCount": 39,
-      "forkCount": 6,
+      "stargazerCount": 41,
+      "forkCount": 7,
       "pushedAt": "2026-06-06T21:19:47Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 2,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "veniceai/skills": {
       "stargazerCount": 122,
-      "forkCount": 15,
+      "forkCount": 14,
       "pushedAt": "2026-07-20T14:00:39Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
           "stars": 0,
-          "sinceSnapshot": "2026-07-27"
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "vercel-labs/agent-skills": {
-      "stargazerCount": 29553,
-      "forkCount": 2649,
+      "stargazerCount": 29585,
+      "forkCount": 2653,
       "pushedAt": "2026-07-24T10:25:29Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 36,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 32,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "bradautomates/claude-video": {
-      "stargazerCount": 11494,
-      "forkCount": 1164,
+      "stargazerCount": 12424,
+      "forkCount": 1235,
       "pushedAt": "2026-07-01T01:26:49Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": 903,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 930,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     },
     "xiaolai/anthropic-docs": {
       "stargazerCount": 14,
       "forkCount": 7,
-      "pushedAt": "2026-07-27T13:08:48Z",
+      "pushedAt": "2026-07-28T12:40:53Z",
       "isArchived": false,
-      "fetchedAt": "2026-07-28T09:11:15.999Z",
+      "fetchedAt": "2026-07-29T09:15:51.267Z",
       "trending": {
         "starsDelta1d": {
-          "stars": -1,
-          "sinceSnapshot": "2026-07-27"
+          "stars": 0,
+          "sinceSnapshot": "2026-07-28"
         }
       }
     }
@@ -2638,1057 +2638,1057 @@
     "5-whys": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:38.067Z"
+      "checkedAt": "2026-07-29T09:13:05.823Z"
     },
     "academic-pptx": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:38.593Z"
+      "checkedAt": "2026-07-29T09:13:06.279Z"
     },
     "accessibility": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:39.096Z"
+      "checkedAt": "2026-07-29T09:13:06.721Z"
     },
     "actk-api-design-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:39.600Z"
+      "checkedAt": "2026-07-29T09:13:07.168Z"
     },
     "actk-authentication-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:40.081Z"
+      "checkedAt": "2026-07-29T09:13:07.619Z"
     },
     "actk-ci-cd-pipelines": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:40.546Z"
+      "checkedAt": "2026-07-29T09:13:08.041Z"
     },
     "actk-data-engineering": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:41.015Z"
+      "checkedAt": "2026-07-29T09:13:08.459Z"
     },
     "actk-database-optimization": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:41.476Z"
+      "checkedAt": "2026-07-29T09:13:08.877Z"
     },
     "actk-devops-automation": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:41.950Z"
+      "checkedAt": "2026-07-29T09:13:09.296Z"
     },
     "actk-django-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:42.418Z"
+      "checkedAt": "2026-07-29T09:13:09.715Z"
     },
     "actk-docker-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:42.898Z"
+      "checkedAt": "2026-07-29T09:13:10.135Z"
     },
     "actk-golang-idioms": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:43.377Z"
+      "checkedAt": "2026-07-29T09:13:10.552Z"
     },
     "actk-graphql-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:43.837Z"
+      "checkedAt": "2026-07-29T09:13:10.971Z"
     },
     "actk-kubernetes-operations": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:44.299Z"
+      "checkedAt": "2026-07-29T09:13:11.389Z"
     },
     "actk-microservices-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:44.766Z"
+      "checkedAt": "2026-07-29T09:13:11.807Z"
     },
     "actk-postgres-optimization": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:45.235Z"
+      "checkedAt": "2026-07-29T09:13:12.227Z"
     },
     "actk-python-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:45.707Z"
+      "checkedAt": "2026-07-29T09:13:12.649Z"
     },
     "actk-redis-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:46.175Z"
+      "checkedAt": "2026-07-29T09:13:13.071Z"
     },
     "actk-rust-systems": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:46.646Z"
+      "checkedAt": "2026-07-29T09:13:13.530Z"
     },
     "actk-security-hardening": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:47.114Z"
+      "checkedAt": "2026-07-29T09:13:13.948Z"
     },
     "actk-springboot-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:47.587Z"
+      "checkedAt": "2026-07-29T09:13:14.364Z"
     },
     "actk-typescript-advanced": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:48.049Z"
+      "checkedAt": "2026-07-29T09:13:14.781Z"
     },
     "actk-websocket-realtime": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:48.506Z"
+      "checkedAt": "2026-07-29T09:13:15.199Z"
     },
     "algorithmic-art": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:48.972Z"
+      "checkedAt": "2026-07-29T09:13:15.614Z"
     },
     "anthropic-claude-api": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:49.456Z"
+      "checkedAt": "2026-07-29T09:13:16.068Z"
     },
     "anthropic-internal-comms": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:49.972Z"
+      "checkedAt": "2026-07-29T09:13:16.510Z"
     },
     "awwwards-3d": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:50.439Z"
+      "checkedAt": "2026-07-29T09:13:16.933Z"
     },
     "brainstorm": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:50.943Z"
+      "checkedAt": "2026-07-29T09:13:17.397Z"
     },
     "brainstorming": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:51.439Z"
+      "checkedAt": "2026-07-29T09:13:17.894Z"
     },
     "brandkit": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:51.939Z"
+      "checkedAt": "2026-07-29T09:13:18.337Z"
     },
     "browser-harness": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:52.428Z"
+      "checkedAt": "2026-07-29T09:13:18.792Z"
     },
     "browser-use-cloud": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:52.916Z"
+      "checkedAt": "2026-07-29T09:13:19.242Z"
     },
     "browser-use-core": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:53.414Z"
+      "checkedAt": "2026-07-29T09:13:19.686Z"
     },
     "browser-use-open-source": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:53.881Z"
+      "checkedAt": "2026-07-29T09:13:20.109Z"
     },
     "browser-use-qa": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:54.344Z"
+      "checkedAt": "2026-07-29T09:13:20.528Z"
     },
     "browser-use-remote-browser": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:54.810Z"
+      "checkedAt": "2026-07-29T09:13:20.944Z"
     },
     "browser-use-x402": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:55.277Z"
+      "checkedAt": "2026-07-29T09:13:21.360Z"
     },
     "c4-model": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:55.752Z"
+      "checkedAt": "2026-07-29T09:13:21.778Z"
     },
     "canvas-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:56.239Z"
+      "checkedAt": "2026-07-29T09:13:22.232Z"
     },
     "career-ops": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:56.706Z"
+      "checkedAt": "2026-07-29T09:13:22.665Z"
     },
     "caveman": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:57.205Z"
+      "checkedAt": "2026-07-29T09:13:23.121Z"
     },
     "citation-management": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:57.703Z"
+      "checkedAt": "2026-07-29T09:13:23.590Z"
     },
     "citypaul-ddd": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:58.203Z"
+      "checkedAt": "2026-07-29T09:13:24.038Z"
     },
     "citypaul-finding-seams": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:58.692Z"
+      "checkedAt": "2026-07-29T09:13:24.495Z"
     },
     "citypaul-hexagonal": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:59.151Z"
+      "checkedAt": "2026-07-29T09:13:24.916Z"
     },
     "citypaul-refactoring": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:08:59.616Z"
+      "checkedAt": "2026-07-29T09:13:25.331Z"
     },
     "citypaul-tdd": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:00.075Z"
+      "checkedAt": "2026-07-29T09:13:25.748Z"
     },
     "citypaul-testing": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:00.538Z"
+      "checkedAt": "2026-07-29T09:13:26.167Z"
     },
     "claude-deep-research-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:01.027Z"
+      "checkedAt": "2026-07-29T09:13:26.584Z"
     },
     "cloud-solution-architect": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:01.518Z"
+      "checkedAt": "2026-07-29T09:13:27.035Z"
     },
     "cloudflare-agents-sdk": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:02.018Z"
+      "checkedAt": "2026-07-29T09:13:27.498Z"
     },
     "cloudflare-wrangler": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:02.500Z"
+      "checkedAt": "2026-07-29T09:13:27.953Z"
     },
     "code-review-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:02.978Z"
+      "checkedAt": "2026-07-29T09:13:28.398Z"
     },
     "content-and-copy": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:03.461Z"
+      "checkedAt": "2026-07-29T09:13:28.865Z"
     },
     "content-strategy": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:03.957Z"
+      "checkedAt": "2026-07-29T09:13:29.312Z"
     },
     "copy-editing": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:04.422Z"
+      "checkedAt": "2026-07-29T09:13:29.736Z"
     },
     "copywriting": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:04.912Z"
+      "checkedAt": "2026-07-29T09:13:30.189Z"
     },
     "courier": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:05.382Z"
+      "checkedAt": "2026-07-29T09:13:30.607Z"
     },
     "css-coder": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:05.881Z"
+      "checkedAt": "2026-07-29T09:13:31.074Z"
     },
     "css-tokens": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:06.387Z"
+      "checkedAt": "2026-07-29T09:13:31.529Z"
     },
     "data-statistical-analysis": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:06.854Z"
+      "checkedAt": "2026-07-29T09:13:31.946Z"
     },
     "data-visualization": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:07.347Z"
+      "checkedAt": "2026-07-29T09:13:32.416Z"
     },
     "dd-apm": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:07.806Z"
+      "checkedAt": "2026-07-29T09:13:32.833Z"
     },
     "dd-docs": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:08.292Z"
+      "checkedAt": "2026-07-29T09:13:33.293Z"
     },
     "dd-logs": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:08.761Z"
+      "checkedAt": "2026-07-29T09:13:33.711Z"
     },
     "dd-monitors": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:09.228Z"
+      "checkedAt": "2026-07-29T09:13:34.139Z"
     },
     "dd-triage-flaky-test": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:09.687Z"
+      "checkedAt": "2026-07-29T09:13:34.555Z"
     },
     "dd-unblock-pr": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:10.147Z"
+      "checkedAt": "2026-07-29T09:13:34.973Z"
     },
     "define-prioritization-framework": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:10.607Z"
+      "checkedAt": "2026-07-29T09:13:35.390Z"
     },
     "define-problem-statement": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:11.093Z"
+      "checkedAt": "2026-07-29T09:13:35.850Z"
     },
     "deliver-prd": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:11.570Z"
+      "checkedAt": "2026-07-29T09:13:36.265Z"
     },
     "deliver-user-stories": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:12.028Z"
+      "checkedAt": "2026-07-29T09:13:36.683Z"
     },
     "design-brief": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:12.493Z"
+      "checkedAt": "2026-07-29T09:13:37.101Z"
     },
     "design-motion-principles": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:12.955Z"
+      "checkedAt": "2026-07-29T09:13:37.519Z"
     },
     "digitalsamba-video-toolkit": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:13.449Z"
+      "checkedAt": "2026-07-29T09:13:37.969Z"
     },
     "discover-competitive-analysis": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:13.939Z"
+      "checkedAt": "2026-07-29T09:13:38.417Z"
     },
     "doc-coauthoring": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:14.400Z"
+      "checkedAt": "2026-07-29T09:13:38.835Z"
     },
     "duckdb-query": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:14.867Z"
+      "checkedAt": "2026-07-29T09:13:39.252Z"
     },
     "duckdb-read-file": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:15.346Z"
+      "checkedAt": "2026-07-29T09:13:39.698Z"
     },
     "eas-workflows": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:15.812Z"
+      "checkedAt": "2026-07-29T09:13:40.116Z"
     },
     "editorial-qa": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:16.303Z"
+      "checkedAt": "2026-07-29T09:13:40.560Z"
     },
     "elevenlabs-music": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:16.771Z"
+      "checkedAt": "2026-07-29T09:13:40.977Z"
     },
     "elevenlabs-sound-effects": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:17.258Z"
+      "checkedAt": "2026-07-29T09:13:41.434Z"
     },
     "elevenlabs-speech-to-text": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:17.716Z"
+      "checkedAt": "2026-07-29T09:13:41.850Z"
     },
     "elevenlabs-text-to-speech": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:18.184Z"
+      "checkedAt": "2026-07-29T09:13:42.268Z"
     },
     "elevenlabs-voice-changer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:18.650Z"
+      "checkedAt": "2026-07-29T09:13:42.684Z"
     },
     "email-sequences": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:19.120Z"
+      "checkedAt": "2026-07-29T09:13:43.100Z"
     },
     "exa-search": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:19.596Z"
+      "checkedAt": "2026-07-29T09:13:43.517Z"
     },
     "experimental-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:20.064Z"
+      "checkedAt": "2026-07-29T09:13:43.935Z"
     },
     "explore-data": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:20.542Z"
+      "checkedAt": "2026-07-29T09:13:44.352Z"
     },
     "expo-router": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:21.012Z"
+      "checkedAt": "2026-07-29T09:13:44.769Z"
     },
     "expo-upgrade": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:21.483Z"
+      "checkedAt": "2026-07-29T09:13:45.188Z"
     },
     "find-bugs": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:21.951Z"
+      "checkedAt": "2026-07-29T09:13:45.605Z"
     },
     "frontend-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:22.433Z"
+      "checkedAt": "2026-07-29T09:13:46.053Z"
     },
     "frontend-slides": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:22.892Z"
+      "checkedAt": "2026-07-29T09:13:46.469Z"
     },
     "frontend-ui-engineering": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:23.386Z"
+      "checkedAt": "2026-07-29T09:13:46.925Z"
     },
     "gemini-api-dev": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:23.911Z"
+      "checkedAt": "2026-07-29T09:13:47.369Z"
     },
     "gemini-live-api-dev": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:24.398Z"
+      "checkedAt": "2026-07-29T09:13:47.819Z"
     },
     "geo-content-optimizer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:24.867Z"
+      "checkedAt": "2026-07-29T09:13:48.248Z"
     },
     "gh-fix-ci": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:25.350Z"
+      "checkedAt": "2026-07-29T09:13:48.685Z"
     },
     "grill-me": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:25.839Z"
+      "checkedAt": "2026-07-29T09:13:49.143Z"
     },
     "grill-with-docs": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:26.306Z"
+      "checkedAt": "2026-07-29T09:13:49.589Z"
     },
     "gsap-core": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:26.771Z"
+      "checkedAt": "2026-07-29T09:13:50.007Z"
     },
     "gsap-frameworks": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:27.259Z"
+      "checkedAt": "2026-07-29T09:13:50.464Z"
     },
     "gsap-performance": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:27.721Z"
+      "checkedAt": "2026-07-29T09:13:50.881Z"
     },
     "gsap-plugins": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:28.211Z"
+      "checkedAt": "2026-07-29T09:13:51.298Z"
     },
     "gsap-react": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:28.673Z"
+      "checkedAt": "2026-07-29T09:13:51.715Z"
     },
     "gsap-scrolltrigger": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:29.141Z"
+      "checkedAt": "2026-07-29T09:13:52.131Z"
     },
     "gsap-timeline": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:29.616Z"
+      "checkedAt": "2026-07-29T09:13:52.547Z"
     },
     "gsap-utils": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:30.074Z"
+      "checkedAt": "2026-07-29T09:13:52.965Z"
     },
     "gws-drive": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:30.548Z"
+      "checkedAt": "2026-07-29T09:13:53.380Z"
     },
     "gws-shared": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:31.046Z"
+      "checkedAt": "2026-07-29T09:13:53.820Z"
     },
     "gws-sheets": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:31.513Z"
+      "checkedAt": "2026-07-29T09:13:54.235Z"
     },
     "handoff": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:31.979Z"
+      "checkedAt": "2026-07-29T09:13:54.649Z"
     },
     "hf-cli": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:32.440Z"
+      "checkedAt": "2026-07-29T09:13:55.069Z"
     },
     "huggingface-gradio": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:32.921Z"
+      "checkedAt": "2026-07-29T09:13:55.526Z"
     },
     "humanizer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:33.391Z"
+      "checkedAt": "2026-07-29T09:13:55.943Z"
     },
     "hypothesis-generation": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:33.902Z"
+      "checkedAt": "2026-07-29T09:13:56.382Z"
     },
     "impeccable": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:34.370Z"
+      "checkedAt": "2026-07-29T09:13:56.840Z"
     },
     "improve-codebase-architecture": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:34.861Z"
+      "checkedAt": "2026-07-29T09:13:57.289Z"
     },
     "industrial-brutalist-ui": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:35.331Z"
+      "checkedAt": "2026-07-29T09:13:57.708Z"
     },
     "kubernetes-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:35.789Z"
+      "checkedAt": "2026-07-29T09:13:58.153Z"
     },
     "lambdatest-cypress": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:36.276Z"
+      "checkedAt": "2026-07-29T09:13:58.591Z"
     },
     "lambdatest-playwright": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:36.778Z"
+      "checkedAt": "2026-07-29T09:13:59.045Z"
     },
     "lambdatest-puppeteer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:37.241Z"
+      "checkedAt": "2026-07-29T09:13:59.462Z"
     },
     "landing-page-copy": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:37.713Z"
+      "checkedAt": "2026-07-29T09:13:59.886Z"
     },
     "leonxlnx-gpt-tasteskill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:38.174Z"
+      "checkedAt": "2026-07-29T09:14:00.344Z"
     },
     "leonxlnx-image-to-code": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:38.666Z"
+      "checkedAt": "2026-07-29T09:14:00.786Z"
     },
     "leonxlnx-imagegen-frontend-mobile": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:39.127Z"
+      "checkedAt": "2026-07-29T09:14:01.202Z"
     },
     "leonxlnx-imagegen-frontend-web": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:39.619Z"
+      "checkedAt": "2026-07-29T09:14:01.617Z"
     },
     "leonxlnx-output-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:40.086Z"
+      "checkedAt": "2026-07-29T09:14:02.033Z"
     },
     "leonxlnx-soft-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:40.545Z"
+      "checkedAt": "2026-07-29T09:14:02.449Z"
     },
     "leonxlnx-stitch-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:41.004Z"
+      "checkedAt": "2026-07-29T09:14:02.873Z"
     },
     "literature-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:41.467Z"
+      "checkedAt": "2026-07-29T09:14:03.293Z"
     },
     "long-form-content-frameworks": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:41.925Z"
+      "checkedAt": "2026-07-29T09:14:03.709Z"
     },
     "market-research-reports": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:42.394Z"
+      "checkedAt": "2026-07-29T09:14:04.125Z"
     },
     "marketing-psychology": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:42.900Z"
+      "checkedAt": "2026-07-29T09:14:04.542Z"
     },
     "mcp-builder": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:43.385Z"
+      "checkedAt": "2026-07-29T09:14:04.996Z"
     },
     "mcp-builder-microsoft": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:43.869Z"
+      "checkedAt": "2026-07-29T09:14:05.435Z"
     },
     "meta-tags-optimizer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:44.362Z"
+      "checkedAt": "2026-07-29T09:14:05.875Z"
     },
     "minimalist-ui": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:44.864Z"
+      "checkedAt": "2026-07-29T09:14:06.300Z"
     },
     "motherduck-duckdb-sql": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:45.368Z"
+      "checkedAt": "2026-07-29T09:14:06.716Z"
     },
     "motherduck-query": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:45.866Z"
+      "checkedAt": "2026-07-29T09:14:07.175Z"
     },
     "netlify-ai-gateway": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:46.334Z"
+      "checkedAt": "2026-07-29T09:14:07.591Z"
     },
     "netlify-edge-functions": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:46.830Z"
+      "checkedAt": "2026-07-29T09:14:08.033Z"
     },
     "netlify-functions": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:47.297Z"
+      "checkedAt": "2026-07-29T09:14:08.450Z"
     },
     "nlb-brand": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:47.764Z"
+      "checkedAt": "2026-07-29T09:14:08.865Z"
     },
     "nlb-design": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:48.269Z"
+      "checkedAt": "2026-07-29T09:14:09.307Z"
     },
     "nlb-design-system": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:48.752Z"
+      "checkedAt": "2026-07-29T09:14:09.723Z"
     },
     "nlb-slides": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:49.217Z"
+      "checkedAt": "2026-07-29T09:14:10.143Z"
     },
     "nlb-ui-styling": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:49.678Z"
+      "checkedAt": "2026-07-29T09:14:10.558Z"
     },
     "octagon-financial-analyst-master": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:50.143Z"
+      "checkedAt": "2026-07-29T09:14:10.975Z"
     },
     "openai-security-threat-model": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:50.639Z"
+      "checkedAt": "2026-07-29T09:14:11.433Z"
     },
     "paper-lookup": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:51.128Z"
+      "checkedAt": "2026-07-29T09:14:11.873Z"
     },
     "peer-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:51.586Z"
+      "checkedAt": "2026-07-29T09:14:12.289Z"
     },
     "pipeline-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:52.054Z"
+      "checkedAt": "2026-07-29T09:14:12.707Z"
     },
     "playwright-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:52.539Z"
+      "checkedAt": "2026-07-29T09:14:13.149Z"
     },
     "promptfoo-evals": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:53.038Z"
+      "checkedAt": "2026-07-29T09:14:13.591Z"
     },
     "promptfoo-redteam-plugin-development": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:53.533Z"
+      "checkedAt": "2026-07-29T09:14:14.034Z"
     },
     "prototype": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:54.001Z"
+      "checkedAt": "2026-07-29T09:14:14.448Z"
     },
     "redesign-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:54.483Z"
+      "checkedAt": "2026-07-29T09:14:14.864Z"
     },
     "review-contract": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:54.999Z"
+      "checkedAt": "2026-07-29T09:14:15.304Z"
     },
     "scholar-evaluation": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:55.465Z"
+      "checkedAt": "2026-07-29T09:14:15.721Z"
     },
     "scroll-world": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:55.924Z"
+      "checkedAt": "2026-07-29T09:14:16.136Z"
     },
     "semantic-html": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:56.414Z"
+      "checkedAt": "2026-07-29T09:14:16.580Z"
     },
     "sentry-code-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:56.917Z"
+      "checkedAt": "2026-07-29T09:14:17.028Z"
     },
     "sentry-gha-security-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:57.415Z"
+      "checkedAt": "2026-07-29T09:14:17.478Z"
     },
     "sentry-sdk-upgrade": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:57.892Z"
+      "checkedAt": "2026-07-29T09:14:17.934Z"
     },
     "sentry-security-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:58.382Z"
+      "checkedAt": "2026-07-29T09:14:18.379Z"
     },
     "sentry-workflow": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:58.843Z"
+      "checkedAt": "2026-07-29T09:14:18.802Z"
     },
     "seo": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:59.303Z"
+      "checkedAt": "2026-07-29T09:14:19.218Z"
     },
     "seo-content-writer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:09:59.809Z"
+      "checkedAt": "2026-07-29T09:14:19.668Z"
     },
     "shadcn-component-discovery": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:00.276Z"
+      "checkedAt": "2026-07-29T09:14:20.082Z"
     },
     "shadcn-component-review": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:00.783Z"
+      "checkedAt": "2026-07-29T09:14:20.531Z"
     },
     "skill-creator-anthropic": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:01.244Z"
+      "checkedAt": "2026-07-29T09:14:20.947Z"
     },
     "slack-gif-creator": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:01.734Z"
+      "checkedAt": "2026-07-29T09:14:21.390Z"
     },
     "sql-queries": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:02.201Z"
+      "checkedAt": "2026-07-29T09:14:21.807Z"
     },
     "statistical-power": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:02.706Z"
+      "checkedAt": "2026-07-29T09:14:22.256Z"
     },
     "stripe-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:03.175Z"
+      "checkedAt": "2026-07-29T09:14:22.673Z"
     },
     "supabase": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:03.658Z"
+      "checkedAt": "2026-07-29T09:14:23.138Z"
     },
     "supabase-postgres-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:04.142Z"
+      "checkedAt": "2026-07-29T09:14:23.591Z"
     },
     "systematic-debugging": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:04.601Z"
+      "checkedAt": "2026-07-29T09:14:24.007Z"
     },
     "task-observer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:05.083Z"
+      "checkedAt": "2026-07-29T09:14:24.736Z"
     },
     "taste-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:05.575Z"
+      "checkedAt": "2026-07-29T09:14:25.184Z"
     },
     "tdd": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:06.049Z"
+      "checkedAt": "2026-07-29T09:14:25.599Z"
     },
     "terraform-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:06.516Z"
+      "checkedAt": "2026-07-29T09:14:26.017Z"
     },
     "test-driven-development": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:07.016Z"
+      "checkedAt": "2026-07-29T09:14:26.461Z"
     },
     "theme-factory": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:07.484Z"
+      "checkedAt": "2026-07-29T09:14:26.876Z"
     },
     "ticket-triage": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:07.946Z"
+      "checkedAt": "2026-07-29T09:14:27.293Z"
     },
     "ui-ux-pro-max": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:08.404Z"
+      "checkedAt": "2026-07-29T09:14:27.708Z"
     },
     "upgrade-stripe": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:08.909Z"
+      "checkedAt": "2026-07-29T09:14:28.155Z"
     },
     "ux-designer": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:09.377Z"
+      "checkedAt": "2026-07-29T09:14:28.574Z"
     },
     "validate-data": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:09.866Z"
+      "checkedAt": "2026-07-29T09:14:29.043Z"
     },
     "variance-analysis": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:10.336Z"
+      "checkedAt": "2026-07-29T09:14:29.461Z"
     },
     "venice-api-overview": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:10.799Z"
+      "checkedAt": "2026-07-29T09:14:29.876Z"
     },
     "venice-chat": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:11.304Z"
+      "checkedAt": "2026-07-29T09:14:30.316Z"
     },
     "vercel-composition-patterns": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:11.764Z"
+      "checkedAt": "2026-07-29T09:14:30.732Z"
     },
     "vercel-deploy-to-vercel": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:12.252Z"
+      "checkedAt": "2026-07-29T09:14:31.178Z"
     },
     "vercel-optimize": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:12.760Z"
+      "checkedAt": "2026-07-29T09:14:31.629Z"
     },
     "vercel-react-best-practices": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:13.217Z"
+      "checkedAt": "2026-07-29T09:14:32.045Z"
     },
     "vercel-react-view-transitions": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:13.683Z"
+      "checkedAt": "2026-07-29T09:14:32.462Z"
     },
     "watch": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:14.191Z"
+      "checkedAt": "2026-07-29T09:14:32.881Z"
     },
     "web-artifacts-builder": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:14.683Z"
+      "checkedAt": "2026-07-29T09:14:33.329Z"
     },
     "web-design-guidelines": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:15.182Z"
+      "checkedAt": "2026-07-29T09:14:33.746Z"
     },
     "web-performance": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:15.651Z"
+      "checkedAt": "2026-07-29T09:14:34.164Z"
     },
     "webapp-testing": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:16.149Z"
+      "checkedAt": "2026-07-29T09:14:34.582Z"
     },
     "write-a-skill": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:16.609Z"
+      "checkedAt": "2026-07-29T09:14:35.000Z"
     },
     "writing-plans": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:17.107Z"
+      "checkedAt": "2026-07-29T09:14:35.418Z"
     },
     "xiaolai-anthropic-api": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:17.613Z"
+      "checkedAt": "2026-07-29T09:14:35.836Z"
     },
     "xiaolai-claude-code": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:18.116Z"
+      "checkedAt": "2026-07-29T09:14:36.302Z"
     },
     "zoom-out": {
       "reachable": true,
       "status": 200,
-      "checkedAt": "2026-07-28T09:10:18.576Z"
+      "checkedAt": "2026-07-29T09:14:36.718Z"
     }
   },
   "graphqlErrors": [
