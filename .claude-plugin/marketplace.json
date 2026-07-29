@@ -377,7 +377,7 @@
         "source": "git-subdir",
         "url": "https://github.com/obra/superpowers",
         "path": "skills/brainstorming",
-        "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc"
+        "sha": "44c9b2d6e889982ac18c27d05a19fefe335194e1"
       },
       "skills": [
         "./"
@@ -390,7 +390,7 @@
         "source": "git-subdir",
         "url": "https://github.com/nexu-io/open-design",
         "path": "skills/brandkit",
-        "sha": "28b2273e987eddaedc5301e2d87973c4a7ee5de9"
+        "sha": "30501a2f12d5584ba2379c0912304f7f3f4fcb97"
       },
       "skills": [
         "./"
@@ -402,7 +402,7 @@
       "source": {
         "source": "github",
         "repo": "browser-use/browser-harness",
-        "sha": "2cfaa7ea4c77b17b4c2434403865fa4b6d637b29"
+        "sha": "dbe6f8f22ba65170e2d4b8f17754c704d008fe49"
       },
       "skills": [
         "./"
@@ -428,7 +428,7 @@
         "source": "git-subdir",
         "url": "https://github.com/browser-use/browser-use",
         "path": "skills/browser-use",
-        "sha": "0964ad452a9f3fe249042a5ffb235e5f98519b2e"
+        "sha": "f0aa3a8bb03779c71a5aa262d389e3bfe6b77cdc"
       },
       "skills": [
         "./"
@@ -519,7 +519,7 @@
         "source": "git-subdir",
         "url": "https://github.com/santifer/career-ops",
         "path": ".agents/skills/career-ops",
-        "sha": "57b34c07e01cd106528936398507e1b4552ca295"
+        "sha": "79ba55d7f66863eb6e7e8ce213fb8dd98b30de49"
       },
       "skills": [
         "./"
@@ -545,7 +545,7 @@
         "source": "git-subdir",
         "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
         "path": "skills/citation-management",
-        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
+        "sha": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92"
       },
       "skills": [
         "./"
@@ -558,7 +558,7 @@
         "source": "git-subdir",
         "url": "https://github.com/citypaul/.dotfiles",
         "path": "claude/.claude/skills/domain-driven-design",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+        "sha": "89702899e3c470eed83a27e45e5773ea09222f4a"
       },
       "skills": [
         "./"
@@ -571,7 +571,7 @@
         "source": "git-subdir",
         "url": "https://github.com/citypaul/.dotfiles",
         "path": "claude/.claude/skills/finding-seams",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+        "sha": "89702899e3c470eed83a27e45e5773ea09222f4a"
       },
       "skills": [
         "./"
@@ -584,7 +584,7 @@
         "source": "git-subdir",
         "url": "https://github.com/citypaul/.dotfiles",
         "path": "claude/.claude/skills/hexagonal-architecture",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+        "sha": "89702899e3c470eed83a27e45e5773ea09222f4a"
       },
       "skills": [
         "./"
@@ -597,7 +597,7 @@
         "source": "git-subdir",
         "url": "https://github.com/citypaul/.dotfiles",
         "path": "claude/.claude/skills/refactoring",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+        "sha": "89702899e3c470eed83a27e45e5773ea09222f4a"
       },
       "skills": [
         "./"
@@ -610,7 +610,7 @@
         "source": "git-subdir",
         "url": "https://github.com/citypaul/.dotfiles",
         "path": "claude/.claude/skills/tdd",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+        "sha": "89702899e3c470eed83a27e45e5773ea09222f4a"
       },
       "skills": [
         "./"
@@ -623,7 +623,7 @@
         "source": "git-subdir",
         "url": "https://github.com/citypaul/.dotfiles",
         "path": "claude/.claude/skills/testing",
-        "sha": "6caba934ba0c43b1ac375ad800b5070b72fe5804"
+        "sha": "89702899e3c470eed83a27e45e5773ea09222f4a"
       },
       "skills": [
         "./"
@@ -686,7 +686,7 @@
       "source": {
         "source": "github",
         "repo": "awesome-skills/code-review-skill",
-        "sha": "17267ff26b95dcea28c3dae76f9931cdf9604520"
+        "sha": "95c707b999295f6c8ee2d0d3d1c61cc0c2e1a52c"
       },
       "skills": [
         "./"
@@ -738,7 +738,7 @@
         "source": "git-subdir",
         "url": "https://github.com/coreyhaines31/marketingskills",
         "path": "skills/copywriting",
-        "sha": "bee3f2f42c9ead9271af59a6d2082ed8aca8b3d3"
+        "sha": "7868cb9251fad80a73d26e488a5ad5f6c4a9f335"
       },
       "skills": [
         "./"
@@ -816,7 +816,7 @@
         "source": "git-subdir",
         "url": "https://github.com/datadog-labs/agent-skills",
         "path": "dd-apm",
-        "sha": "69cca0e752d3a703d0b16ce7eaeaa787f2f90fd4"
+        "sha": "75c9261406f5a153c55944b37054b467bbfd9049"
       },
       "skills": [
         "./"
@@ -894,7 +894,7 @@
         "source": "git-subdir",
         "url": "https://github.com/product-on-purpose/pm-skills",
         "path": "skills/define-prioritization-framework",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+        "sha": "9432e2771eb7c221c9454a210c6ae55b6ee25d54"
       },
       "skills": [
         "./"
@@ -907,7 +907,7 @@
         "source": "git-subdir",
         "url": "https://github.com/product-on-purpose/pm-skills",
         "path": "skills/define-problem-statement",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+        "sha": "9432e2771eb7c221c9454a210c6ae55b6ee25d54"
       },
       "skills": [
         "./"
@@ -920,7 +920,7 @@
         "source": "git-subdir",
         "url": "https://github.com/product-on-purpose/pm-skills",
         "path": "skills/deliver-prd",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+        "sha": "9432e2771eb7c221c9454a210c6ae55b6ee25d54"
       },
       "skills": [
         "./"
@@ -933,7 +933,7 @@
         "source": "git-subdir",
         "url": "https://github.com/product-on-purpose/pm-skills",
         "path": "skills/deliver-user-stories",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+        "sha": "9432e2771eb7c221c9454a210c6ae55b6ee25d54"
       },
       "skills": [
         "./"
