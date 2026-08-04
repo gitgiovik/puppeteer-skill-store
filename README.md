@@ -62,7 +62,7 @@ failing.
 }
 ```
 
-GitHub measures **repos** (63 of them); the catalogue is keyed by **slug** (211
+GitHub measures **repos** (65 of them); the catalogue is keyed by **slug** (302
 of them), and several slugs routinely share one upstream repo — `entries` is
 that fan-out, and it mirrors the app's `SkillPopularity` shape field-for-field.
 A repo the GraphQL query could not resolve contributes no `entries` row at all.
@@ -96,7 +96,8 @@ Each entry:
   "sourceUrl": "https://github.com/mattpocock/skills",
   "upstreamCommit": "694fa30311e02c2639942308513555e61ee84a6f", // PINNED — never a branch/tag.
   "upstreamPath": "skills/productivity/grill-me",
-  "upstreamPaths": [],       // non-empty ONLY for the 3 entries assembled from >1 upstream dir.
+  "upstreamPaths": [],       // set when the payload is assembled from >1 upstream path, or when a
+                             // subtree is pinned child-by-child to leave something out (MengTo's demo/).
   "contentHash": "b9aaa352...", // sha256 over the fetched bytes at the pin — see below.
   "byteAudit": "vendored-match", // or "upstream-differs" — see Trust model.
   "reviewed": { "by": "owner", "date": "2026-07-26", "sha": "...", "verdict": "..." }
@@ -131,7 +132,7 @@ pin:
 - **Whole-repo skills** (12 entries: `upstreamPath: "."` rows, plus rows
   whose SKILL.md sits at the repo root) use
   `{ source: "github", repo: "owner/repo", sha }`.
-- **Everything else** (199 entries) uses
+- **Everything else** (290 entries) uses
   `{ source: "git-subdir", url, path, sha }`, where `path` is the
   **directory** containing the SKILL.md.
 
@@ -142,24 +143,40 @@ so without that override every plugin would install with zero skills. `"./"`
 declares "the plugin root **is** the skill directory", which is true for both
 source shapes above.
 
-`path` is always a directory, never a file. 22 catalogue rows record the
+`path` is always a directory, never a file. 93 catalogue rows record the
 SKILL.md file itself in `upstreamPath` (or in a multi-path `from`); the
 generator folds those up to the containing directory, and a path that folds all
 the way to the repo root is emitted as a `github` whole-repo source instead —
 `git-subdir` with `path: "."` is not a thing.
 
-**Known limitation — multi-path entries.** 9 catalogue entries
-(`brainstorming`, `career-ops`, `frontend-ui-engineering`, `geo-content-optimizer`,
-`market-research-reports`, `meta-tags-optimizer`, `peer-review`,
-`seo-content-writer`, `ui-ux-pro-max`) are assembled from more than one upstream
-directory that a single `git-subdir` source cannot express (e.g.
-`ui-ux-pro-max`'s SKILL.md lives at `.claude/skills/ui-ux-pro-max/`, but its
-`scripts/` and `data/` live under `src/ui-ux-pro-max/` — a different subtree
-entirely). Those 9 plugin listings install just the SKILL.md's own directory;
-the rest of the payload is not fetched by `/plugin marketplace add`, and each
-affected plugin's `description` says so explicitly. (`watch` used to be in this
-group; its SKILL.md is at the repo root, so it now resolves to a whole-repo
-`github` source that *does* include its `scripts/`.) The full, correct
+**Known limitation — multi-path entries.** 36 plugin listings carry a
+multi-path `NOTE:` in their description, and they split into two very
+different cases:
+
+- **Genuinely split payloads (9)** — `brainstorming`, `career-ops`,
+  `frontend-ui-engineering`, `geo-content-optimizer`, `market-research-reports`,
+  `meta-tags-optimizer`, `peer-review`, `seo-content-writer`, `ui-ux-pro-max`
+  are assembled from more than one upstream **directory** that a single
+  `git-subdir` source cannot express (e.g. `ui-ux-pro-max`'s SKILL.md lives at
+  `.claude/skills/ui-ux-pro-max/`, but its `scripts/` and `data/` live under
+  `src/ui-ux-pro-max/` — a different subtree entirely). Those listings install
+  just the SKILL.md's own directory; the rest of the payload really is not
+  fetched by `/plugin marketplace add`.
+- **Subtractive pins (27, all MengTo)** — every `MengTo/Skills` entry
+  enumerates the children of its skill directory it keeps (`SKILL.md`,
+  `REFERENCES.md`/`ARTICLE.md`, `references/`, `scripts/`, `assets/`)
+  specifically to leave out `demo/` (up to 9MB of runnable demos) and
+  `agents/openai.yaml` (a Codex manifest this store does not ship). All those
+  `from` paths sit **inside** the one directory `git-subdir` points at, so the
+  marketplace install is not truncated — it is a *superset* (it also drags in
+  the excluded `demo/` and `agents/`). The generator emits the note anyway: it
+  is mechanical and does not compare the mappings against the derived `path`,
+  so on these rows the note understates what gets installed rather than
+  overstating it.
+
+(`watch` used to be in this group; its SKILL.md is at the repo root, so it now
+resolves to a whole-repo `github` source that *does* include its `scripts/`.)
+The full, correct
 multi-path install already works via the app repo's own curated-skill resolver
 (`curatedUpstreamMappings` / `mapUpstreamTarEntries`) — this is a gap in what
 the *generic marketplace format* can express, not in the catalogue's own data.
@@ -410,7 +427,7 @@ data/                                 # NOT in this branch — lives on the orph
 
 ## Rate-limit posture
 
-- **Daily snapshot**: one aliased GitHub GraphQL query for the ~63 distinct
+- **Daily snapshot**: one aliased GitHub GraphQL query for the ~65 distinct
   upstream repos (a couple of GraphQL points out of 5000/h), plus one
   sequential, paced HEAD request per pinned tarball, plus one MCP registry
   delta sync (`updated_since` cursor, unauthenticated).
@@ -437,6 +454,32 @@ and never writes, branches, or opens a PR.
 
 ## Changelog
 
+- **2026-08-04** — design + engineering import (91 entries): 211 → **302**.
+  **71 from `MengTo/Skills`** (MIT, pinned at `46abf786`) — 8 style presets,
+  25 implementation techniques, 8 doctrine playbooks, 5 page archetypes, 5
+  Codex loops, 2 media/UI helpers and 18 Three.js game-development skills.
+  None of them pins the whole skill directory: each entry enumerates the
+  children it keeps via `upstreamPaths`, leaving out `demo/` (runnable demos,
+  up to 9MB each) and `agents/openai.yaml` (a Codex manifest this store does
+  not ship). Every retained bundle file that a `SKILL.md` actually reads is
+  pinned — `references/`, `scripts/`, `assets/` (13 PNGs for
+  `editorial-portfolio-chapters`) — the defect class the bundle-refs audit
+  exists to catch. Two deliberate exceptions are recorded in the entries'
+  own `reviewed.verdict`: five scroll skills whose `SKILL.md` points at
+  `demo/` as an *optional* working reference, and `build-game-map-editor`,
+  whose entire `references/` was one Vesperfall-specific implementation map
+  that the owner excluded — so that entry pins no `references/` at all and
+  its `SKILL.md` link dangles, stated rather than hidden.
+  **20 from `mattpocock/skills`** (MIT, pinned at `2ab95809`, a newer pin than
+  the 9 rows already in the catalogue) — pinned whole-directory, `agents/`
+  sidecar included, since payloads like `wizard/template.sh`,
+  `git-guardrails-claude-code/scripts/block-dangerous-git.sh` and
+  `setup-matt-pocock-skills`'s tracker docs are load-bearing. 14 of them set
+  `disable-model-invocation: true` upstream, which makes their upstream
+  description deliberately human-facing; the catalogue descriptions for those
+  are written here, model-facing and trigger-rich, or the suggestion matcher
+  would never reach them. Six live under the upstream's `in-progress/` and say
+  so in their description.
 - **2026-07-27** — `gws-shared` imported (`googleworkspace/cli`, Apache-2.0,
   pinned at `skills/gws-shared`, same pin as its two siblings): 210 → **211**
   entries. Not a discretionary import: `gws-sheets` and `gws-drive` both open

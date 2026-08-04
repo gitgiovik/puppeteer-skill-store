@@ -594,6 +594,107 @@
       }
     },
     {
+      "slug": "ambient-section-particles",
+      "name": "ambient-section-particles",
+      "description": "Section-scoped particle atmosphere with configurable shapes, density, gravity, wind, sway, rotation, recycling, pointer disturbance, offscreen pausing, responsive limits and reduced-motion fallbacks. Use for petals, leaves, snow, sparks, confetti or brand fragments that must support a section's mood without swallowing the content.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/ambient-section-particles",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/ambient-section-particles/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/ambient-section-particles/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "00bd8f334b8cd0f2216a277db083c367ab2dbde08a0e14f53b82f6fae5e55d22",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04 · SKILL.md rimanda a demo/index.html e demo/PROMPT.md come riferimento FACOLTATIVO ('use as the working reference'); demo/ è escluso dal pin per ordine owner (le cartelle demo arrivano a 9MB) — il playbook resta autosufficiente senza di esse"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "animation-on-scroll",
+      "name": "animation-on-scroll",
+      "description": "IntersectionObserver scroll-reveal trigger wired to Tailwind-friendly animation classes and keyframes. Use for animate-on-scroll, staged section entrances and sequencing element animations as they enter the viewport, without a scroll library.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/animation-on-scroll",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/animation-on-scroll/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "70b7ba6408471e31b08481ab89d5567db4d8ed94661706665edd178988644a17",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "animation-systems",
+      "name": "animation-systems",
+      "description": "Product-grade motion doctrine in the style of Stripe, Linear, Apple and Vercel: motion principles, easing and duration defaults, choreography patterns, scroll and hover interactions, performance and reduced-motion accessibility. Use when deciding how an interface should move, or when existing animation feels arbitrary, laggy or overdone.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/animation-systems",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/animation-systems/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "0ae1b672f5aed0c81f43ecd1394e40ba6f2caa4f8dc690d4474329b116b2b5ed",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "anthropic-claude-api",
       "name": "claude-api",
       "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse over NL; debugging refusals/cutoffs/streaming/tool-calls/tokens).\nSKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).",
@@ -636,6 +737,143 @@
         "sha": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb",
         "verdict": "imported-owner-selection"
       }
+    },
+    {
+      "slug": "atmosphere-background",
+      "name": "atmosphere-background",
+      "description": "Build only the background layer: a dark atmospheric field of drifting vertical light folds with screen-blended glow and one concentrated corner or lower-edge bloom, canvas/shader-driven. Suggest when a hero needs a moody light-curtain backdrop and the layout, typography and content must stay untouched.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/atmosphere-background",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/atmosphere-background/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "85586fa90f4bdbfc7eafac42c0e589e11c084805d0071d99afef8ce0cb033def",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "audit-reference-originality",
+      "name": "audit-reference-originality",
+      "description": "Audit a website or digital experience against the reference material it was built from and report originality and plagiarism risk: compare copy, brands, numbers, images, assets, layout, motion and code, separate common visual grammar from distinctive copying, raise evidence-backed red flags and propose concrete fixes without making legal claims. Bundles a rubric and an evidence-inventory script.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/codex/audit-reference-originality",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/codex/audit-reference-originality/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/codex/audit-reference-originality/references",
+          "to": "references"
+        },
+        {
+          "from": "agent-skills/codex/audit-reference-originality/scripts",
+          "to": "scripts"
+        }
+      ],
+      "topics": [
+        "research",
+        "design"
+      ],
+      "contentHash": "f871d14f8725717507f6fd2d60732eed8ca6cc5c557908bf18075cca8fe8c247",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "references/audit-rubric.md",
+        "scripts/build_evidence_inventory.py",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "audit-verify-explain-grade-5",
+      "name": "audit-verify-explain-grade-5",
+      "description": "Audit work, verify every claim against concrete evidence, then explain the outcome in plain grade-5 language. Use when the user asks to review, check or validate whether something actually works, or wants a fix, a test run or a technical finding translated for non-technical readers.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/codex/audit-verify-explain-grade-5",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/codex/audit-verify-explain-grade-5/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "meta",
+        "work"
+      ],
+      "contentHash": "da95a6cea4b8f2a8857010efa3dc195a7073af4e93a09b2102fd35b310a707ce",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "author-game-levels",
+      "name": "author-game-levels",
+      "description": "Author or revise readable flat-world Three.js game levels: movement and camera routes, collision and navigation, encounter zones, landmarks, objectives, pickups, motivated lighting, visibility and deterministic level data, verified by desktop and mobile playthrough. Use when a level needs designing, reworking or proving playable.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/author-game-levels",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/author-game-levels/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "d72ba0a186041f47bc6d8e30fc29b29b053654ecf9bd1bd68f46d0141b650bd3",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "awwwards-3d",
@@ -691,6 +929,105 @@
         "sha": "01072bd4a16f2936633b6209ee3b2aa3fb3b2e4f",
         "verdict": "upstream-at-pin"
       }
+    },
+    {
+      "slug": "beam-glow-states",
+      "name": "beam-glow-states",
+      "description": "React loading, processing, selected, current, focus and pressed states built with the border-beam package's animated edge glow, including install, prop selection, state wiring, reduced motion, accessibility and layout guardrails. Use when a card, button, input, tab or agent surface needs a restrained travelling or breathing beam.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/beam-glow-states",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/beam-glow-states/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/beam-glow-states/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "d344414e844b282830527b3041dbda147adc40223a8f06c76972f88d683cae20",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "beautiful-shadows",
+      "name": "beautiful-shadows",
+      "description": "Exact Tailwind arbitrary-value shadow utilities for polished, layered, neutral elevation. Use when cards, controls, popovers, hero media or modal-like containers look flat or cheap under the default Tailwind shadow scale, or when shadows have picked up unwanted colour tinting.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/beautiful-shadows",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/beautiful-shadows/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "059a31421c750215d336b41987d5ff783441b26e100404891006283863b41508",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "book-serif-index",
+      "name": "book-serif-index",
+      "description": "Archival book-reader design system: serif-led reading surface, mono index/catalog navigation, aged paper textures, drop caps and margin notes inside a darker technical shell. Suggest for archives, manuscripts, documentation, lore systems and any reading-centric or story-driven page.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/book-serif-index",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/book-serif-index/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "7baa7d07ab22d5478d4ebb76895ef9004c177fbf56e70ea5f7b22abf0596434d",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "brainstorm",
@@ -939,6 +1276,360 @@
       }
     },
     {
+      "slug": "build-awwwards-quality-sites",
+      "name": "build-awwwards-quality-sites",
+      "description": "Full art-direction and implementation doctrine for distinctive, motion-rich marketing, editorial and portfolio sites: original reference-led imagery, standout heroes, GSAP choreography, one smooth-scroll engine, optional Three.js shaders, honest icon/logo sourcing, accessibility and performance safeguards. Use when the user asks for an Awwwards-quality, premium, cinematic or high-concept website.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/build-awwwards-quality-sites",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/build-awwwards-quality-sites/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "40c94998393d784a68999d2227571e34e17d6b119d413c446ccfb4b992b94dd4",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-game-audio-feedback",
+      "name": "build-game-audio-feedback",
+      "description": "Design and implement responsive audio for a Three.js or web game: action and combat sound layers, music states, spatial audio, mix priorities, mute controls, accessibility, mobile audio unlock and audio performance. Use when a game feels silent or muddy, or when hits and abilities need to read by ear.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-game-audio-feedback",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-game-audio-feedback/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "de00f7e6cca9a243641ec9a63c9748e85f88f05577783a04af70dd0f4a835bfe",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-game-camera-controls",
+      "name": "build-game-camera-controls",
+      "description": "Implement or tune Three.js game cameras: isometric framing, follow behaviour, orbit and zoom limits, occlusion handling, lock-on, camera shake, touch camera controls and camera regression tests. Use when the camera clips geometry, fights the player, or needs a different framing.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-game-camera-controls",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-game-camera-controls/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "93be02ea8098b19cee1094eb5f671d1185ca9d0ecbd9ad7fb063d54bb00eed9a",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-game-changelog",
+      "name": "build-game-changelog",
+      "description": "Design, implement, backfill, audit and release in-game changelogs: contiguous versioning, deployment provenance, menu-state navigation, accessible toggle/close/Escape behaviour and a responsive release ledger. Use to add a version screen, reconstruct release history from Git and deployments, define version-bump rules, or keep the displayed version honest against the live build.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-game-changelog",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-game-changelog/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/game-development/build-game-changelog/references",
+          "to": "references"
+        }
+      ],
+      "topics": [
+        "build",
+        "ops"
+      ],
+      "contentHash": "7d598d58f24e0929966aa9a8a6080dfe8a8fcee8197bcda1ab27b060988c6384",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "references/reference-architecture.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-game-inventory",
+      "name": "build-game-inventory",
+      "description": "Build or repair game inventory, loot, equipment and progression systems: item schemas, pickup flows, stack rules, equipment slots, atomic swaps, tooltips, drag-and-drop, persistence, save migration and no-loss regression testing. Use when items can be duplicated, lost or corrupted, or when inventory is being added from scratch.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-game-inventory",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-game-inventory/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "7b7b764074be930b2ded26c43d9945b8df75b7b261b7ee670f6a7b658ae628c0",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-game-map-editor",
+      "name": "build-game-map-editor",
+      "description": "Build, extend or audit a production-linked browser map editor for Three.js and isometric games: a private director view over a versioned editor document, outliner, layers, selection, drag and snap, inspector and camera controls, enemy aggro/leash/patrol overlays, local draft import/export/undo/reset, and an IP- plus password-gated route — released without ever mutating live gameplay data.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-game-map-editor",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-game-map-editor/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "10514fc7213fd8260ac8212c119b8ac08604aa7c6ee8eb43061c637e6cc1ae88",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04 · references/ conteneva SOLO vesperfall-implementation.md (mappa di implementazione del gioco privato dell'autore), escluso per ordine owner: l'entry non pinna references/ affatto e il rimando in SKILL.md resta senza file — dichiarato qui, non nascosto"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-game-monster-system",
+      "name": "build-game-monster-system",
+      "description": "Build, integrate, audit or refactor rigged monsters for Three.js and web action games: monster asset contracts, procedural or imported creature rigs, semantic joints and sockets, hurtboxes and attack volumes, combat animation states, enemy-runtime adapters, LODs and deterministic review fixtures. Use to make every creature follow one shared system instead of a pile of one-offs.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-game-monster-system",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-game-monster-system/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/game-development/build-game-monster-system/references",
+          "to": "references"
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "3eeb4f7b23421bf376639cec809e3872013f3a49c5adbe239a94b801c6cf31b9",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "references/monster-contract.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-hybrid-game-assets",
+      "name": "build-hybrid-game-assets",
+      "description": "Plan, create, integrate or audit a hybrid asset pipeline for a Three.js or web game, choosing between imported meshes, procedural geometry, AI-generated reference art, 2D UI media, sprites and VFX, with performance-ready runtime delivery. Use when deciding what to model, generate or fake, and how the result should ship.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-hybrid-game-assets",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-hybrid-game-assets/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build",
+        "design"
+      ],
+      "contentHash": "739a69e30ae6deb3a1b02d86611d9fa69c5870bbc2c5589858fd2b25be4511b1",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-isometric-arpg",
+      "name": "build-isometric-arpg",
+      "description": "Build or extend a playable isometric action RPG on Three.js/React: game-loop architecture, camera and movement, zones, combat integration, content data, progression and saves, aimed at a production-ready vertical slice. Use when starting an ARPG or turning a prototype into something with real structure.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-isometric-arpg",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-isometric-arpg/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "b0968464cdfd505ad125bb44efe9ebc0f0078094fb21c824d4e2dce26f6ed9f7",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-mobile-threejs-games",
+      "name": "build-mobile-threejs-games",
+      "description": "Make a Three.js game work on mobile web: touch movement and action controls, target selection, touch inventory, safe areas, portrait and landscape layouts, responsive HUD, battery and performance budgets, and QA on real mobile browsers. Use when a desktop-first game is unplayable on a phone.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-mobile-threejs-games",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-mobile-threejs-games/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "1bb868fcb6915458c08459c71afe31516cefdcb73b677f4f9b994cc481f81aef",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "build-threejs-enemy-systems",
+      "name": "build-threejs-enemy-systems",
+      "description": "Build or refactor reusable data-driven enemy archetype and moveset systems for Three.js action games: enemy content schemas, model and rig conventions, move timing and contact contracts, runtime state boundaries, placeholder fallbacks, deterministic fixtures and playthrough validation. Use when each enemy is currently hand-wired and adding one means touching the runtime.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/build-threejs-enemy-systems",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/build-threejs-enemy-systems/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "5faf9ff72deb5094ca37cdf69eedcafd9563f5fa0a4c25ed61bd1678141d8a69",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "c4-model",
       "name": "c4-model",
       "description": "Interactively co-build a software architecture using Simon Brown's C4 model (Context, Container, Component, Code). The skill detects the usage mode (greenfield design, retro-documenting from code or prose, review/explanation, update), runs a structured framing dialogue, proposes incremental drafts, and iterates until explicit user validation. Output format is negotiated (default Mermaid C4 + Markdown; alternatives Structurizr DSL, PlantUML, images). Destination is negotiated too: local filesystem by default, or connected MCP (Notion, Google Drive, Linear documents…). Use this skill whenever the user asks for a C4 diagram, modèle C4, architecture diagram, container diagram, system context, diagramme d'architecture, wants to brainstorm/design a system architecture, shares code or prose wanting it documented, or wants to review/update an existing C4. Trigger proactively whenever an architecture overview or system documentation would clearly help — even without an explicit \"C4\" mention.",
@@ -1030,6 +1721,80 @@
         "sha": "694fa30311e02c2639942308513555e61ee84a6f",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "cinematic-gsap-lenis-motion-system",
+      "name": "cinematic-gsap-lenis-motion-system",
+      "description": "Premium cinematic web motion system built on GSAP, ScrollTrigger and Lenis: smooth-scroll setup, staggered text, parallax, pinned sections, magnetic hover, custom cursors and mouse-reactive layers. Use for luxury editorial sites, studio portfolios and any brief asking for Awwwards-style interaction quality.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/cinematic-gsap-lenis-motion-system",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/cinematic-gsap-lenis-motion-system/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/cinematic-gsap-lenis-motion-system/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "0adf60d41dfe59225b4e9da1a3e0ddd28d938bb00ebe79c9302a52c30796f459",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "cinematic-scroll-storytelling",
+      "name": "cinematic-scroll-storytelling",
+      "description": "Scroll-driven landing-page choreography: Lenis smooth scrolling, ScrollTrigger progression, staggered reveals, sticky card stacks, parallax backgrounds, scrubbed transitions, footer reveals and immersive preloaders. Use when building or analysing a premium section-by-section scroll narrative or kinetic-typography page.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/cinematic-scroll-storytelling",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/cinematic-scroll-storytelling/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/cinematic-scroll-storytelling/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "349f8a66834eb79f8edd98d9627da435c02d6d4ee0c8dd3f634cc66aa4fd6e65",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "citation-management",
@@ -1298,6 +2063,69 @@
       }
     },
     {
+      "slug": "cobejs",
+      "name": "cobejs",
+      "description": "Add a lightweight interactive globe with cobe: canvas setup, markers, drag/spin interaction, performance budget and React/Next.js integration. Use when the user wants a small WebGL globe in a hero or feature card without pulling in a full Three.js scene.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/cobejs",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/cobejs/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/cobejs/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "9d4c068ef2b66393ffcda18690d8bf78ad0ae075b7c2865f302f8b945473a51e",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "code-review",
+      "name": "code-review",
+      "description": "Two-axis review of everything since a fixed point (commit, branch, tag or merge-base): a Standards pass against the repo's documented conventions plus a Fowler code-smell baseline, and a Spec pass against the originating issue or PRD, run as parallel sub-agents and reported side by side. Use to review a branch, a PR, work in progress, or 'everything since X'.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/code-review",
+      "topics": [
+        "build"
+      ],
+      "contentHash": "380018498a177d47fa4be2ddc78f73e1df273401e444f6065e8b886e8a167669",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "code-review-skill",
       "name": "code-review-skill",
       "description": "Provides comprehensive code review guidance for React 19, Vue 3, Angular 17+, Svelte 5, Rust, TypeScript, Java, PHP, Python, Django, Go, C#/.NET, Kotlin, Swift, NestJS, C/C++, and more.\nHelps catch bugs, improve code quality, and give constructive feedback.\nUse when: reviewing pull requests, conducting PR reviews, code review, reviewing code changes,\nestablishing review standards, mentoring developers, architecture reviews, security audits,\nchecking code quality, finding bugs, giving feedback on code.",
@@ -1362,6 +2190,65 @@
         "sha": "17267ff26b95dcea28c3dae76f9931cdf9604520",
         "verdict": "upstream-at-pin"
       }
+    },
+    {
+      "slug": "codebase-design",
+      "name": "codebase-design",
+      "description": "Shared vocabulary and principles for designing deep modules — module, interface, implementation, depth, seam, adapter, leverage, locality — with the deep-vs-shallow test applied to real code. Use when designing or improving a module's interface, deciding where a seam goes, hunting deepening opportunities, or making code more testable and easier for an agent to navigate.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/codebase-design",
+      "topics": [
+        "build"
+      ],
+      "contentHash": "f96971ba003b0eda6ade6c25f6562903f592adf66cb0dd5fe201a541215180df",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "DEEPENING.md",
+        "DESIGN-IT-TWICE.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "container-lines",
+      "name": "container-lines",
+      "description": "Vertical container-width guide lines with mini corner squares that mark the layout's structure on the page. Use when the user asks for container lines, measured layout guides, editorial grid markers or small corner-square frame details.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/container-lines",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/container-lines/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "d6c5d36d621d3dddb0c063ac17eebfa613660eacfb874acb2bf6f95563045227",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "content-and-copy",
@@ -1444,6 +2331,37 @@
       }
     },
     {
+      "slug": "corner-diagonals",
+      "name": "corner-diagonals",
+      "description": "Diagonal-cut corners and chamfered edges for buttons, cards, panels and container shells. Use when a design calls for sci-fi HUD framing, clipped-corner controls or engineered geometric containers instead of rounded pills and plain rectangles.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/corner-diagonals",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/corner-diagonals/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "c96af2fb7f3bad8b82d3328970453bc1744ecd86eb8c7fbd0c81c545b00e5605",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "courier",
       "name": "courier",
       "description": "Use when building notifications with Courier across email, SMS, push, in-app inbox, Slack, Teams, WhatsApp — sends, templates, Elemental, journeys, preferences, routing, CLI and MCP.",
@@ -1467,6 +2385,100 @@
         "sha": "9faa231930e19b30256558e2b5b1d0f6a20b60c5",
         "verdict": "imported-owner-selection"
       }
+    },
+    {
+      "slug": "create-game-vfx",
+      "name": "create-game-vfx",
+      "description": "Create readable, performance-safe Three.js visual effects: attacks, impacts, damage feedback, status effects, spell trails, particles, shaders, telegraphs, quality tiers and reduced-motion alternatives. Use when combat is hard to read, effects tank the frame rate, or a new ability needs a look.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/create-game-vfx",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/create-game-vfx/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build",
+        "design"
+      ],
+      "contentHash": "3d4b80390ea236c6758ce45d433406790fa8c158e017da615eb3a59af2c2ac92",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "css-alpha-masking",
+      "name": "css-alpha-masking",
+      "description": "CSS alpha masking with linear-gradient mask-image (plus the -webkit- prefix) for horizontal or vertical edge fades. Use when the user asks for fade-out edges on scrollers, marquees, carousels or long lists, or mentions CSS masks/alpha gradients.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/css-alpha-masking",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/css-alpha-masking/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "9ba97103ef53b73585c5fa042e2bc3cd2e4c38e08dab3da934e3d8be1ed4ebe6",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "css-border-gradient",
+      "name": "css-border-gradient",
+      "description": "Subtle gradient-border treatments for premium surfaces, done with masks and pseudo-elements instead of glow. Use when cards, pricing panels, nav bars, modals, buttons or hero surfaces need a refined lit edge that does not shout.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/css-border-gradient",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/css-border-gradient/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "7c42d72e745a27bac2a791c7463df5dc81b8ada67dac231c304efb9896699fe6",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "css-coder",
@@ -1761,6 +2773,37 @@
       }
     },
     {
+      "slug": "design-action-combat",
+      "name": "design-action-combat",
+      "description": "Design, implement, tune and test readable tactical action combat for web games: attack timing, guard and dodge windows, hit contact, posture, lock-on, weapon feel, boss phases, combat feedback and deterministic combat tests. Use when fights feel mushy, unfair or unreadable.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/design-action-combat",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/design-action-combat/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "e91ac3a596436c2e356cf1a6687a0dd61926bcc570853a0a350099532b9a09a1",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "design-brief",
       "name": "design-brief",
       "description": "Parse a structured design brief written in I-Lang protocol format into a concrete design spec. Eliminates ambiguity from vague requests like \"make it professional\" by requiring explicit dimensions: palette, typography, layout, mood, density, and constraints. Trigger keywords: \"design brief\", \"create a design brief\", \"ilang brief\", \"structured brief\".",
@@ -1781,6 +2824,79 @@
       }
     },
     {
+      "slug": "design-first-ui-prompting",
+      "name": "design-first-ui-prompting",
+      "description": "Write design-first, spec-driven, skimmable prompts for UI generation: prompt structure, hard constraints, typography and spacing rules, requesting variations and an iteration workflow that keeps outputs consistent. Use when prompting an image or UI generator (or another agent) and results keep coming back generic or inconsistent.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/ui/design-first-ui-prompting",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/ui/design-first-ui-prompting/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/ui/design-first-ui-prompting/ARTICLE.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/ui/design-first-ui-prompting/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "meta"
+      ],
+      "contentHash": "4c54db72b621d39c7f9ae8c4670cb6af13510ab4e96223f42f67fcce31c2fccf",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "ARTICLE.md",
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "design-game-encounters",
+      "name": "design-game-encounters",
+      "description": "Design, implement, tune and test Three.js action-game encounters: arena layout, enemy composition, spawn pacing, objectives, boss phases, reward cadence, encounter fixtures and difficulty validation. Use when a fight or area needs authoring, rebalancing or proving at more than one skill level.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/design-game-encounters",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/design-game-encounters/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "4331a12aab936e60608696dfe779d8528c92d0fa50c21f10bb67da25da4f78d5",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "design-motion-principles",
       "name": "design-motion-principles",
       "description": "\"Motion and interaction design expert based on Emil Kowalski, Jakub Krehel, and Jhey Tompkins' techniques. Two modes — build interactive components with purposeful motion, or audit existing animations to catch AI-slop motion patterns (audit emits a branded HTML report with looping demos). Use when creating, adding, animating, or reviewing UI motion: transitions, hover states, micro-interactions, enter/exit animations, or any motion design work in React, Framer Motion, CSS, or HTML. Provides per-designer perspectives with context-aware weighting.\"",
@@ -1799,6 +2915,33 @@
         "sha": "4a9ca879f24a361f4dca4174fe2da0f67b5ddee3",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "diagnosing-bugs",
+      "name": "diagnosing-bugs",
+      "description": "Discipline for hard bugs and performance regressions: build a tight, deterministic, red-capable feedback loop FIRST — failing test, curl script, headless-browser driver, replay harness, bisection runner — then hypothesise, instrument and fix against it. Use when the user says debug this, diagnose it, or reports something broken, throwing, flaky or slow.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/diagnosing-bugs",
+      "topics": [
+        "build"
+      ],
+      "contentHash": "d74a415c4930828c02cd54211abbc1fbff8212b38ba2b88cad4fa2dd57928bc0",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "scripts/hitl-loop.template.sh",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "digitalsamba-video-toolkit",
@@ -1958,6 +3101,38 @@
       }
     },
     {
+      "slug": "dither-background",
+      "name": "dither-background",
+      "description": "Dark monochrome procedural background with enlarged square pixels and visible Bayer-style ordered dithering drifting in broad cloud waves. Use when a page needs an atmospheric near-black retro-computed field behind framed UI, hero content or data overlays.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/dither-background",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/dither-background/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "531cadd04229521e2edce5f12b8d48b47e43c2b25121841b3b99818829d4e0fb",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "doc-coauthoring",
       "name": "doc-coauthoring",
       "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
@@ -1976,6 +3151,71 @@
         "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "documentary-brutalist-agency",
+      "name": "documentary-brutalist-agency",
+      "description": "Page archetype for creative agencies, production studios, architecture and culture brands: billboard typography, hard black-and-white chapters, exposed grids, documentary imagery, irregular collages, restrained parallax, brutalist navigation and accessible FAQ controls. Use when the brief asks for something loud, editorial and uncompromising rather than polished-corporate.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/documentary-brutalist-agency",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/documentary-brutalist-agency/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/documentary-brutalist-agency/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "8d79ebf1c279be28f540d727e7c7953b7a27999cd4386b74491bad71fc7a63d6",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "domain-modeling",
+      "name": "domain-modeling",
+      "description": "Actively build and sharpen a project's domain model while you work: challenge terms against the glossary, force precision on overloaded words, stress-test relationships with concrete scenarios, cross-check the code, and write CONTEXT.md and ADRs the moment a decision crystallises. Use when pinning down ubiquitous language or recording an architectural decision.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/domain-modeling",
+      "topics": [
+        "build",
+        "work"
+      ],
+      "contentHash": "118c323f0b511927c204f52d03336066f423f16d293a19ecc36a1c4107afad06",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "ADR-FORMAT.md",
+        "agents/openai.yaml",
+        "CONTEXT-FORMAT.md",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "duckdb-query",
@@ -2040,6 +3280,64 @@
       }
     },
     {
+      "slug": "editorial-portfolio-chapters",
+      "name": "editorial-portfolio-chapters",
+      "description": "Page archetype for studios, agencies, photographers and artists where the work leads: dark editorial shell, full-bleed campaign media, colour-coded case-study chapters, oversized service typography, restrained project reveals and a decisive contact finale. Ships an annotated article and reference screens for the whole chapter system.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/editorial-portfolio-chapters",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/editorial-portfolio-chapters/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/editorial-portfolio-chapters/ARTICLE.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/editorial-portfolio-chapters/REFERENCES.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/editorial-portfolio-chapters/assets",
+          "to": "assets"
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "1b69e843889e5e2aa60e3d0ae0cb7b5d2b881a86f4d1bffc6b9f2b71535cd40d",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "ARTICLE.md",
+        "assets/mara-voss-01-signal-loader.png",
+        "assets/mara-voss-02-decoded-hero.png",
+        "assets/mara-voss-03-split-door-handoff.png",
+        "assets/mara-voss-04-pinned-bio-illumination.png",
+        "assets/mara-voss-05-archive-playhead-player.png",
+        "assets/mara-voss-06-chapter-wipe-ledger.png",
+        "assets/mara-voss-07-pinned-counter-index.png",
+        "assets/mara-voss-08-sticky-recording-stack.png",
+        "assets/mara-voss-09-inspection-light-table.png",
+        "assets/mara-voss-10-final-entry-dissolve.png",
+        "assets/mara-voss-11-silence-dark-room.png",
+        "assets/mara-voss-12-field-log-reveal.png",
+        "assets/mara-voss-13-magnetic-footer-utilities.png",
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "editorial-qa",
       "name": "editorial-qa",
       "description": "Pre-publish QA framework for content. Brief adherence, voice consistency, fact accuracy, structure and clarity, AI-content audit, SEO and AEO compliance, internal linking and schema validation, QA at scale via sampling, the QA workflow, and the discipline that distinguishes catch-problems QA from checkbox QA. Triggers on editorial QA, content review, pre-publish review, content audit, content QA process, AI-content audit, hallucination check, content sampling, programmatic QA, voice consistency check, brief adherence check. Also triggers when a content team is shipping sloppy work, when AI-co-authored content is reaching publish unaudited, when a QA process burns reviewers out, or when a programmatic SEO set needs sampling discipline.",
@@ -2058,6 +3356,43 @@
         "sha": "c0b6ba8004ec12985d0a336197b1800adfb5a9dd",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "editorial-service-booking",
+      "name": "editorial-service-booking",
+      "description": "Page archetype for appointment-based services — salons, barbers, spas, wellness studios, clinics, hospitality: warm editorial layout, serif-led identity, documentary portrait crops, calm treatment selectors, location-aware booking and operational states (fully booked, closed, waitlist) that stay elegant. Use when the site's real job is getting someone into a slot.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/editorial-service-booking",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/editorial-service-booking/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/editorial-service-booking/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "work"
+      ],
+      "contentHash": "abab0cc893044ac4616a2d70dd8d626bed73f71b58a8448e13c98a07f02fdb6a",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "elevenlabs-music",
@@ -2334,6 +3669,68 @@
       }
     },
     {
+      "slug": "framed-grid-layout",
+      "name": "framed-grid-layout",
+      "description": "Minimal framed grid layout: thin visible boundary lines, L-shaped corner brackets, subtle diagonal line texture and strict section alignment. Use when the user asks for clean, precise, structured, editorial or technical guide-border page framing.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/framed-grid-layout",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/framed-grid-layout/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "11bf08a14d25cd50aa13eaa9877e298a4247ab7689aa8e9a15acd3f349f2baf6",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "framed-tech-dark-border-gradient",
+      "name": "framed-tech-dark-border-gradient",
+      "description": "Framed dark technical design system: border-gradient shells, asymmetrical grid panels, mono utility labelling and restrained monochrome atmosphere. Suggest for developer tools, infrastructure and AI product pages that should look engineered rather than decorative.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/framed-tech-dark-border-gradient",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/framed-tech-dark-border-gradient/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "c87a447491248ab4e1410af4c2267cb708cd5b89c6c44a49f81eb8c9bd981677",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "frontend-design",
       "name": "frontend-design",
       "description": "Create distinctive, production-grade frontend interfaces with strong visual direction, polished typography, considered layout, and working HTML/CSS/JS or framework code. Use for websites, landing pages, dashboards, React components, application screens, and UI beautification.",
@@ -2496,6 +3893,128 @@
         "sha": "a8924c2a35cfa290458852c4fad17c9133054c2e",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "git-guardrails-claude-code",
+      "name": "git-guardrails-claude-code",
+      "description": "Install a Claude Code PreToolUse hook that blocks destructive git commands before they run — push (including --force), reset --hard, clean -f, branch -D, checkout ./restore . — project-wide or globally, with the bundled block script. Use when an agent must never be able to push or destroy local work.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/misc/git-guardrails-claude-code",
+      "topics": [
+        "ops"
+      ],
+      "contentHash": "34dad9b31783baf2b62f47f04068ae9bef2ba9284a42386e626a67a1cdd2f6af",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "scripts/block-dangerous-git.sh",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "glass-dark-mode-clock",
+      "name": "glass-dark-mode-clock",
+      "description": "Dark glass design system with frosted shells, soft beam grids, circular clock-like calibration dials and precise sci-fi instrument framing. Suggest for dashboards, control panels, timers or hero sections that should feel like a calibrated instrument.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/glass-dark-mode-clock",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/glass-dark-mode-clock/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "23449c9e0f446d72e7a4cb65c9ddd76690d1f8e622b05b465ca618d953f67f4e",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "glass-dark-ui",
+      "name": "glass-dark-ui",
+      "description": "Dark-mode glassmorphism that stays readable: frosted surfaces, controlled contrast and gradient/glow borders drawn with a pseudo-element mask. Use for glass cards, frosted dark hero sections, blur panels and dark UI systems where legibility usually breaks.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/glass-dark-ui",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/glass-dark-ui/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "8837a7458e6b57df86ba72477bf949a66a2ee72f92450aedf93c6aee88cb55af",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "globe-particles",
+      "name": "globe-particles",
+      "description": "Three.js particle globe: a dense luminous spherical core with a thinner orbital ring or flattened disc, rendered as real WebGL particles. Use when a hero needs a planetary, orbital or synthesized data-globe visual rather than a generic starfield.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/globe-particles",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/globe-particles/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "c9a5946770ead382c59717f0195cac5bd4167f650a7be08b10df2991028cb8d6",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "grill-me",
@@ -2806,6 +4325,37 @@
       }
     },
     {
+      "slug": "high-contrast-skeuomorphic-clean",
+      "name": "high-contrast-skeuomorphic-clean",
+      "description": "High-contrast clean skeuomorphic design system: molded dark surfaces, crisp light separation, tactile inset depth and restrained signal accents. Suggest when the user wants a physical, pressed, machined-feeling interface that still reads clean and modern rather than nostalgic.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/high-contrast-skeuomorphic-clean",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/high-contrast-skeuomorphic-clean/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "fc24e4cf4e01916fd62ef1b160ec94cf378e7682f57a2330c7e90a06f76aa0b8",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "huggingface-gradio",
       "name": "huggingface-gradio",
       "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
@@ -2929,6 +4479,43 @@
         "sha": "28b2273e987eddaedc5301e2d87973c4a7ee5de9",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "iterate-until-verified",
+      "name": "iterate-until-verified",
+      "description": "Prompt-agnostic execution and verification loop that wraps any substantial task while preserving the original request: fan out work, run independent reviewers or a harsh critic, compare candidates blind, benchmark against references, and keep iterating until explicit quality gates pass. Use when the user says loop until done, use subagents, review it properly, or set a bar the result must clear.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/codex/iterate-until-verified",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/codex/iterate-until-verified/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/codex/iterate-until-verified/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "meta",
+        "ops"
+      ],
+      "contentHash": "30ec1cb2725cfd315cc4cfc68c806be572689785082f7dd67cb44d62efe70c26",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "kubernetes-skill",
@@ -3069,6 +4656,43 @@
         "sha": "0491a3a29aa18558d2c3c64ff09367adb976c56f",
         "verdict": "imported-owner-selection"
       }
+    },
+    {
+      "slug": "landing-page",
+      "name": "landing-page",
+      "description": "Playbook for designing or rewriting a high-converting single-offer landing page for SaaS, apps and services: page structure, layout patterns, conversion strategy, copywriting, SEO/AEO and the usual failure modes. Use when the user wants a landing page planned, critiqued or rewritten rather than just styled.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/landing-page",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/landing-page/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/landing-page/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "content"
+      ],
+      "contentHash": "6edd4c33a02e03b4d0b31ec459ec751c4dae8801b49e148e1b8e44313328ee14",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "landing-page-copy",
@@ -3245,6 +4869,43 @@
       }
     },
     {
+      "slug": "liquid-metal-border",
+      "name": "liquid-metal-border",
+      "description": "Animated liquid-metal WebGL borders with the React metal-fx package: presets, themes, strength, glow, reflections, sizing, radius, accessibility, SSR and performance tuning. Use when buttons, chips, tabs, cards or selected surfaces need a metallic active/hover/focus edge, or when metal-fx is misbehaving.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/liquid-metal-border",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/liquid-metal-border/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/liquid-metal-border/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "4781f20a488686bda6a833423c7a933143e05c0fd9b986c957a222ebaa66b55c",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "literature-review",
       "name": "literature-review",
       "description": "Conduct comprehensive, systematic literature reviews using multiple academic databases (PubMed, arXiv, bioRxiv, Semantic Scholar, etc.). This skill should be used when conducting systematic literature reviews, meta-analyses, research synthesis, or comprehensive literature searches across biomedical, scientific, and technical domains. Creates professionally formatted markdown documents and PDFs with verified citations in multiple citation styles (APA, Nature, Vancouver, etc.).",
@@ -3351,6 +5012,38 @@
       }
     },
     {
+      "slug": "masked-reveal",
+      "name": "masked-reveal",
+      "description": "GSAP ScrollTrigger masked reveal: headings and editorial copy come up word by word from behind an overflow mask as they enter the viewport. Use when text should appear to rise out of a clipped line rather than simply fade in.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/masked-reveal",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/masked-reveal/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "d084b2c8930f193853f96d157dc5cfc7f42c896acd2f280a00f40fd3b523bcea",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "mcp-builder",
       "name": "mcp-builder",
       "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
@@ -3391,6 +5084,37 @@
         "sha": "4f1db7ec55caf11e3b143c91220bd79a632bc55b",
         "verdict": "imported-owner-selection"
       }
+    },
+    {
+      "slug": "mesh-gradient-dark-blue-clean",
+      "name": "mesh-gradient-dark-blue-clean",
+      "description": "Dark-blue mesh-gradient design system: near-black navy foundation, procedural blue mesh atmosphere, floating nodes, framed sections, disciplined minimal structure and restrained motion. Suggest when the user wants a premium futuristic look with infrastructural or planetary depth for a landing page, hero or product shell.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/mesh-gradient-dark-blue-clean",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/mesh-gradient-dark-blue-clean/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "7c8c6d473380d5c96698bc04162e8b4766eceb210fb4d66ce83c51b9a8c1cc46",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "meta-tags-optimizer",
@@ -3706,6 +5430,143 @@
       }
     },
     {
+      "slug": "operational-enterprise-ai",
+      "name": "operational-enterprise-ai",
+      "description": "Page archetype for enterprise AI, automation, security and operations products: dark cinematic hero, hairline grids, metric pauses, expandable solution rows, case-study evidence, security proof and a qualified demo or waitlist handoff. Use when the page must explain system boundaries, approvals, auditability, exceptions and rollback to a buying committee.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/operational-enterprise-ai",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/operational-enterprise-ai/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/operational-enterprise-ai/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "content"
+      ],
+      "contentHash": "6cd1974a4c71cb68f95800a945719d57acbb7287f596f032a74283b7a9f7fcf8",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "optimize-threejs-games",
+      "name": "optimize-threejs-games",
+      "description": "Profile, diagnose and improve Three.js or WebGL game performance without regressing gameplay: frame-time drops, CPU/GPU pressure, draw calls, texture and geometry budgets, animation loops, adaptive quality, mobile performance and in-browser verification. Use for stutter, overheating, long-session decay or a frame budget that must be met.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/optimize-threejs-games",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/optimize-threejs-games/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build",
+        "ops"
+      ],
+      "contentHash": "a2f03408235be2f29745ec4cdfb6411476f6801e27579d93ea16bac9d8840559",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "optimize-web-animations",
+      "name": "optimize-web-animations",
+      "description": "Profile and fix frontend performance with the focus on animation: offscreen loops that never pause, memory leaks and long-session slowdown, CSS animations, canvas/WebGL requestAnimationFrame work, marquees, skeletons, GSAP/Three/Matter effects, stray timers, listeners and observers. Use for janky scrolling, pages that heat the machine over time, or a systematic only-play-in-view pass — the examples are written for the Codex browser, but the profiling method is agent-generic.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/codex/optimize-web-animations",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/codex/optimize-web-animations/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/codex/optimize-web-animations/references",
+          "to": "references"
+        }
+      ],
+      "topics": [
+        "build",
+        "ops"
+      ],
+      "contentHash": "d7f39b843e49e83ab9c9680802ec6f06b58cb8d05659c631b3ed0fd8c1bc88e7",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "references/browser-profiling.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "orange-clean-paper-saas",
+      "name": "orange-clean-paper-saas",
+      "description": "Clean paper-toned SaaS design system: warm neutrals, orange accent signals, rounded premium forms and polished product-illustration surfaces. Suggest for approachable SaaS marketing sites, onboarding pages and product tours that need warmth without losing polish.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/orange-clean-paper-saas",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/orange-clean-paper-saas/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "80ca5772ae844aee0e02371e343efd47eba26b4d10ac72fe5639a76d625a9afa",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "paper-lookup",
       "name": "paper-lookup",
       "description": "Search 10 academic paper databases via REST APIs for research papers, preprints, and scholarly articles. Covers PubMed, PMC (full text), bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching for papers, citations, DOI/PMID lookups, abstracts, full text, open access, preprints, citation graphs, author search, or any scholarly literature query. Triggers on mentions of any supported database or requests like \"find papers on X\" or \"look up this DOI\".",
@@ -3804,6 +5665,112 @@
       }
     },
     {
+      "slug": "pricing-page",
+      "name": "pricing-page",
+      "description": "Playbook for a high-converting SaaS pricing page: plan structure and naming, tier design, comparison tables, copywriting, FAQs, SEO/AEO, layout patterns and experiments, with checklists and templates. Use when pricing is being designed, repackaged or rewritten.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/pricing-page",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/pricing-page/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/pricing-page/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "content"
+      ],
+      "contentHash": "f9a1e518530a1d72b1392ee720fb8e315053b59db70ba20e3938a2faf0e77ff6",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "product-proof-saas",
+      "name": "product-proof-saas",
+      "description": "Page archetype for SaaS and AI products whose best argument is the product itself: pale atmospheric shell, real interface or deterministic demo in the hero, prompt-to-output stories, audience tabs, compact feature modules, honest pricing comparison and an FAQ handoff. Use when the brief is a product page that must prove the workflow, not just describe it.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/product-proof-saas",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/product-proof-saas/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/product-proof-saas/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "content"
+      ],
+      "contentHash": "da86ee2fa70ba591ffde0add7afb0d05db258b0d7da5838f6e95ef2b61333fd9",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "progressive-blur",
+      "name": "progressive-blur",
+      "description": "Layered CSS progressive blur built from stacked backdrop-filter masks that fade from the top or bottom edge of the viewport. Use when the user asks for progressive blur, a gradient blur overlay, a stepped blur mask, or a sticky header/footer that dissolves the content behind it.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/progressive-blur",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/progressive-blur/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "6de17ce73390451e5c47fc715161737c7d116aaaf6239223f0139ee2493d9ad0",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "promptfoo-evals",
       "name": "promptfoo-evals",
       "description": "Write, refine, run, and QA promptfoo evaluation suites: promptfooconfig.yaml, prompts, providers, vars, tests, assertions, model-graded rubrics, transforms, datasets, exports, and CI gates. Use for non-redteam eval coverage, regression tests, or new eval matrices. Do not use for adversarial redteam plugin or strategy setup.",
@@ -3884,6 +5851,69 @@
       }
     },
     {
+      "slug": "resolving-merge-conflicts",
+      "name": "resolving-merge-conflicts",
+      "description": "Procedure for finishing an in-progress git merge or rebase: read the state, trace each conflicting hunk back to the intent behind both changes, preserve both where possible, run the project's checks, and complete the merge — never abort, never invent new behaviour. Use whenever conflict markers are in the working tree.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/resolving-merge-conflicts",
+      "topics": [
+        "build"
+      ],
+      "contentHash": "b26ec09c2fbeafc8b13b5d8c929e070d6f96aeeab603d3250b52934a5d5879c6",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "reveal-hover-effect",
+      "name": "reveal-hover-effect",
+      "description": "Cursor-following spotlight that exposes a second, pixel-aligned image through a soft eased radial mask. Use for hover-to-colour, before-and-after, x-ray, material/texture swap and product-detail effects where the base treatment must stay visible around the pointer.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/reveal-hover-effect",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/reveal-hover-effect/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/reveal-hover-effect/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "a4b0ea9dc6ffa07729c768aae4fab2febf760255d8546430582157e819302418",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "review-contract",
       "name": "review-contract",
       "description": "Review a contract against your organization's negotiation playbook — flag deviations, generate redlines, provide business impact analysis. Use when reviewing vendor or customer agreements, when you need clause-by-clause analysis against standard positions, or when preparing a negotiation strategy with prioritized redlines and fallback positions.",
@@ -3928,6 +5958,117 @@
       }
     },
     {
+      "slug": "scroll-progress-timeline",
+      "name": "scroll-progress-timeline",
+      "description": "Turn any ordered process into a data-driven vertical or horizontal scroll story with a base line, progress fill, active step states, responsive collapse, semantic fallback and reduced-motion behaviour. Use for onboarding, checkout, roadmaps, case studies, service processes and histories.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/scroll-progress-timeline",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/scroll-progress-timeline/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/scroll-progress-timeline/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "5e6ec55296654168dae39c673da4a679690a0a2a745660b620c8bbe014bcc7fc",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04 · SKILL.md rimanda a demo/index.html e demo/PROMPT.md come riferimento FACOLTATIVO ('use as the working reference'); demo/ è escluso dal pin per ordine owner (le cartelle demo arrivano a 9MB) — il playbook resta autosufficiente senza di esse"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "scroll-scrubbed-visual-sequence",
+      "name": "scroll-scrubbed-visual-sequence",
+      "description": "Reversible scroll-controlled visual stage: pinned or sticky section, normalized progress, and a pluggable video, image-sequence, canvas, SVG or DOM renderer. Use for hero transformations, product assembly, object rotation, interface walkthroughs and diagrams that must scrub forward and backward with native scrolling.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/scroll-scrubbed-visual-sequence",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/scroll-scrubbed-visual-sequence/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/scroll-scrubbed-visual-sequence/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "56dfb396428d69f38d0acd9b24594a5488e1e4b108508651f6ff0e8ade5327fd",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04 · SKILL.md rimanda a demo/index.html e demo/PROMPT.md come riferimento FACOLTATIVO ('use as the working reference'); demo/ è escluso dal pin per ordine owner (le cartelle demo arrivano a 9MB) — il playbook resta autosufficiente senza di esse"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "scroll-scrubbed-word-reveal",
+      "name": "scroll-scrubbed-word-reveal",
+      "description": "Reveal marked-up text word by word as scroll progress advances, preserving inline links, emphasis, responsive line wrapping and reduced-motion readability. Use for manifestos, quotes, product statements and editorial passages where scrolling should pace comprehension instead of faking a typewriter.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/scroll-scrubbed-word-reveal",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/scroll-scrubbed-word-reveal/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/scroll-scrubbed-word-reveal/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "5a67e0c2d6fe91d35ca0465fe5b2df5cb1474cc67fb7637c557c2b7854552254",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04 · SKILL.md rimanda a demo/index.html e demo/PROMPT.md come riferimento FACOLTATIVO ('use as the working reference'); demo/ è escluso dal pin per ordine owner (le cartelle demo arrivano a 9MB) — il playbook resta autosufficiente senza di esse"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "scroll-world",
       "name": "scroll-world",
       "description": "Build an immersive scroll-scrubbed \"fly through the world\" landing page for any industry or brand using Higgsfield. As the visitor scrolls, a pre-rendered camera flies from outside each scene into its interior, then flows on to the next scene with NO cuts — one continuous connected flight (Emons-style isometric diorama world, or any art direction you pick). The skill interviews the user for the topic, the story beats/sections, and brand kit, then generates cohesive scenes + seamless camera clips with Higgsfield and wires a portable, framework-agnostic scroll-scrub engine. Use when the user wants a \"3D world\" / \"browse-through-the-industry\" hero, a scroll cinematic, a diorama landing, or to turn a business into a scrollable world.",
@@ -3948,6 +6089,43 @@
         "sha": "2912048246d057cdfe134dfc0b4dfb7e6a12f30e",
         "verdict": "imported-scroll-world-2026-07-27"
       }
+    },
+    {
+      "slug": "scroll-world-storytelling",
+      "name": "scroll-world-storytelling",
+      "description": "Turn an article, case study, brand narrative or product journey into a cinematic scroll-driven page using one of three renderers — scrubbed video, a real-time Three.js world, or semantic HTML/SVG data and typography. Use when the user asks for a scroll world, fly-through landing page, article-to-website transformation, animated planet or data scrollytelling.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/scroll-world-storytelling",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/scroll-world-storytelling/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/scroll-world-storytelling/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "c8c856207175b8c1d977d71d10ca0552ee2d7422274904a1067a985129aac015",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04 · SKILL.md rimanda ai tre demo per-renderer (demo/video, demo/threejs, demo/html-data) come riferimento facoltativo; demo/ (4.6MB) è escluso dal pin per ordine owner — le tre rotte sono descritte per intero nel SKILL.md"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "semantic-html",
@@ -4128,6 +6306,92 @@
       ]
     },
     {
+      "slug": "setup-matt-pocock-skills",
+      "name": "setup-matt-pocock-skills",
+      "description": "One-time per-repo setup the sibling engineering skills assume: detect and record the issue tracker (GitHub, GitLab or local markdown), the triage label vocabulary, and where CONTEXT.md and ADRs live, writing the result under docs/agents/. Run before first use of triage, to-spec, to-tickets, code-review or wayfinder.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/setup-matt-pocock-skills",
+      "topics": [
+        "ops",
+        "meta"
+      ],
+      "contentHash": "9bf4ef5d13b6db3599f9a2a106486db5e3ea19456dc29cf5c17dee40aad6b31b",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "domain.md",
+        "issue-tracker-github.md",
+        "issue-tracker-gitlab.md",
+        "issue-tracker-local.md",
+        "SKILL.md",
+        "triage-labels.md"
+      ]
+    },
+    {
+      "slug": "setup-pre-commit",
+      "name": "setup-pre-commit",
+      "description": "Set up Husky pre-commit hooks in the current repo with lint-staged running Prettier on staged files, plus typecheck and test scripts, detecting the package manager first. Use when the user wants pre-commit hooks, Husky, lint-staged, or commit-time formatting, typechecking and tests.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/misc/setup-pre-commit",
+      "topics": [
+        "ops"
+      ],
+      "contentHash": "2b5df016081c1910558322a652678612c27bc2fff2c503c144ed99a3cb2d976b",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "setup-ts-deep-modules",
+      "name": "setup-ts-deep-modules",
+      "description": "Wire dependency-cruiser into a TypeScript repo so every package becomes a deep module: root files are the only entry points, subfolder internals are private to outsiders, tests import through entry points, no cycles — installed, configured and proven to actually fail on a deep import. Use to enforce module boundaries in a monorepo. (upstream marks this in-progress)",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/in-progress/setup-ts-deep-modules",
+      "topics": [
+        "build",
+        "ops"
+      ],
+      "contentHash": "48cd66d9f7bc12de1caaa4ac5d5664d1768c47f7f5e6a11daf15e87a626f0542",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "dependency-cruiser.config.cjs",
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "shadcn-component-discovery",
       "name": "shadcn-component-discovery",
       "description": "Discover shadcn-compatible components and registries across the entire ecosystem before writing any custom UI. Use PROACTIVELY before building tables, forms, modals, animations, dashboards, auth pages, or any UI component. Use when the user says \"find a component for...\", \"is there something for...\", \"search registries\", \"what exists for...\", or asks about shadcn blocks, Magic UI, Aceternity, ReUI, Animate UI, DiceUI, Tailark, AI Elements, or any other shadcn-compatible registry. Complements the official shadcn skill by surfacing registries beyond the user's configured `components.json` — use when exploring what's available to add, not just what's already installed.",
@@ -4166,6 +6430,69 @@
         "sha": "4d6045fc5301b796353e90438a55e8293a55b04a",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "ship-web-games",
+      "name": "ship-web-games",
+      "description": "Package, deploy and verify a playable Three.js or web game: release builds, asset delivery, private or public deployment, production smoke tests, browser proof, release notes, rollback readiness and cleanup of temporary QA resources. Use when a build has to reach real players and be shown to work.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/ship-web-games",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/ship-web-games/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "ops",
+        "build"
+      ],
+      "contentHash": "afc93459f7f61d553c7e48abfbf569109b13fbf201895e73c383fc948a6e58e2",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "skeuomorphic-ui",
+      "name": "skeuomorphic-ui",
+      "description": "Skeuomorphic surface recipes: layered gradients, stacked inner and outer shadows, reflective gradient borders, micro texture and embossed text or icon details. Use when the user asks for pressed, carved, tactile, realistic, soft-plastic, soft-metal or physically premium controls and panels.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/skeuomorphic-ui",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/skeuomorphic-ui/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "cbe608a1f3ef1785653a50012e5eb798bcfb17864daacf862893fe8c25428eb6",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "skill-creator-anthropic",
@@ -4228,6 +6555,38 @@
         "sha": "da04ccbc22d38cb8df3a8d8c53728ac33de1836f",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "staggered-word-reveal",
+      "name": "staggered-word-reveal",
+      "description": "Editorial word-by-word text reveal: each word fades and rises into place when its element enters the viewport, using IntersectionObserver or in-view detection with no scroll library required. Use for hero headlines, section intros and short marketing copy that needs a cinematic staggered entrance.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/staggered-word-reveal",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/staggered-word-reveal/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "cfdd7864e21ea451349bfe01dcd6662b0b834a09aab865e87db9685a879cda14",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "statistical-power",
@@ -4396,6 +6755,68 @@
       }
     },
     {
+      "slug": "teach",
+      "name": "teach",
+      "description": "Turn the current directory into a stateful teaching workspace for a topic the user wants to learn over multiple sessions: a mission document, curated resources, numbered learning records, printable reference sheets and self-contained HTML lessons built for storage strength (retrieval practice, spacing, interleaving) rather than the illusion of fluency. Invoke when the user asks to be taught or coached on something.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/productivity/teach",
+      "topics": [
+        "work",
+        "research"
+      ],
+      "contentHash": "1f7bf9b67a50e017d5881120a63e4e2c8e6c486fe5e2f28342bcd0f0cbcf8859",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "GLOSSARY-FORMAT.md",
+        "LEARNING-RECORD-FORMAT.md",
+        "MISSION-FORMAT.md",
+        "RESOURCES-FORMAT.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "technical-wireframe-info-layout",
+      "name": "technical-wireframe-info-layout",
+      "description": "Monochrome technical-wireframe design system: exploded 3D structure, connector annotations, sparse information labels and precise dark diagnostic framing. Suggest for engineering, hardware, spec-sheet or how-it-works pages that should read like a blueprint.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/technical-wireframe-info-layout",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/technical-wireframe-info-layout/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "f906d9934e8908d2c3a30dda1f9b08d2adf5fe79fdb48ce16b75515faa8f3825",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "terraform-skill",
       "name": "terraform-skill",
       "description": "Use when writing, reviewing, or debugging Terraform/OpenTofu modules, tests, CI, scans, or state ops - diagnoses failure mode (identity churn, secrets, blast radius, CI drift, state corruption) with version-aware guards.",
@@ -4436,6 +6857,38 @@
       }
     },
     {
+      "slug": "test-playable-web-games",
+      "name": "test-playable-web-games",
+      "description": "Test a playable browser game end to end with deterministic fixtures and real browser evidence: gameplay QA, regression passes, controls, accessibility, responsive and mobile testing, save flows, console checks, performance smoke tests and release verification. Use before a release, or when a bug report needs reproducing honestly.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/test-playable-web-games",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/test-playable-web-games/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build",
+        "ops"
+      ],
+      "contentHash": "8555a76fe73c7e2a1e3f75e7c097910d9fd6e18ac12f9b2751dcc1b18a5937a5",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "theme-factory",
       "name": "theme-factory",
       "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
@@ -4454,6 +6907,43 @@
         "sha": "57546260929473d4e0d1c1bb75297be2fdfa1949",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "thinking-orbs",
+      "name": "thinking-orbs",
+      "description": "Accessible animated AI status indicators via the React thinking-orbs library, with semantic working, searching, solving, listening, composing and shaping states. Use when a chat, copilot, voice, search or tool-running interface should show what the agent is doing instead of a generic spinner.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/thinking-orbs",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/thinking-orbs/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/thinking-orbs/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "4a6b5e901156ceb1d40f1e1a4e7ae2bf9ee5d1920f6409d3175a4b7c15532fc9",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "ticket-triage",
@@ -4476,6 +6966,143 @@
         "sha": "e57524e4c35acc782bebd53097988b93b475b15b",
         "verdict": "imported-owner-selection"
       }
+    },
+    {
+      "slug": "to-questionnaire",
+      "name": "to-questionnaire",
+      "description": "Turn a decision the user cannot resolve alone into a Markdown questionnaire aimed at the one person who holds the missing knowledge: interview the user only about the send (who it goes to, what must come back), then write questions targeting that gap, most-important-first, with answer stubs. Use for async discovery with a stakeholder, vendor or specialist. (upstream marks this in-progress)",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/in-progress/to-questionnaire",
+      "topics": [
+        "work"
+      ],
+      "contentHash": "3f80a726e48e062a16d88eb89e0c265bf493bb69b235571bb393e0a25fea64a0",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "to-spec",
+      "name": "to-spec",
+      "description": "Synthesise the current conversation and codebase understanding into a spec or PRD — problem statement, solution, numbered user stories, test seams — and publish it to the configured issue tracker with the ready-for-agent label. No interview: it writes up what has already been discussed. Use when a design conversation should become a tracked document.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/to-spec",
+      "topics": [
+        "work"
+      ],
+      "contentHash": "d5c2eb525d92354f1448bb817ed1a48b1675b159a0b0b45871b663c2cf5d6092",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "to-tickets",
+      "name": "to-tickets",
+      "description": "Break a plan, spec or conversation into tracer-bullet tickets — vertical slices each sized for one fresh context window, each declaring the tickets that block it — published to the configured tracker with real blocking links, including expand-migrate-contract sequencing for wide refactors. Use when a big piece of work needs decomposing into an ordered, agent-runnable queue.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/to-tickets",
+      "topics": [
+        "work"
+      ],
+      "contentHash": "5cdbc38b198214cb95aabb84747ed1bf2da1f25fe1e8f845b15a6f5748a46c1a",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "triage",
+      "name": "triage",
+      "description": "Move issues and external PRs through a state machine of triage roles — categorise as bug or enhancement, verify the report, grill the reporter when information is missing, and write durable agent-ready briefs — every tracker comment carrying an AI-generated disclaimer. Use when an inbox of issues needs sorting into ready-for-agent, ready-for-human, needs-info or wontfix.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/triage",
+      "topics": [
+        "work"
+      ],
+      "contentHash": "8ae68fe2aaead691918b7b19547a0907bec3aa641af8f24eb2ffe58c3629f6a4",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "AGENT-BRIEF.md",
+        "agents/openai.yaml",
+        "OUT-OF-SCOPE.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "tune-enemy-ai",
+      "name": "tune-enemy-ai",
+      "description": "Build, debug, balance and test combat enemy AI for playable action games: aggro, target selection, navigation, spacing, attack choice, telegraphs, retreats, boss behaviour, behaviour-state machines and deterministic AI regression tests. Use when enemies stand still, swarm stupidly, or feel cheap rather than hard.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/game-development/tune-enemy-ai",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/game-development/tune-enemy-ai/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "build"
+      ],
+      "contentHash": "976b6157533d1fd90ec637f39ef1888806d1e2c5efc50f986e073817e5212bfe",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "ui-ux-pro-max",
@@ -4510,6 +7137,38 @@
         "sha": "b7e3af80f6e331f6fb456667b82b12cade7c9d35",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "unsplash-asset-images",
+      "name": "unsplash-asset-images",
+      "description": "Pick high-quality Unsplash imagery for product and design work — avatars, headshots, portraits, large site backgrounds and abstract wallpapers — and emit real Unsplash URLs plus the parameters for the resolutions and aspect ratios you need (1:1, 4:5, 3:4, 16:9, 9:16). Use whenever placeholder people or scenery would otherwise be invented or hotlinked badly.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/media/unsplash-asset-images",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/media/unsplash-asset-images/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "content"
+      ],
+      "contentHash": "1c14e66c0d35d7282e5bde560243c47949f236606e7c0798bc123f1b6a7e6e02",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
     },
     {
       "slug": "upgrade-stripe",
@@ -4768,6 +7427,43 @@
       }
     },
     {
+      "slug": "video-to-superprompt",
+      "name": "video-to-superprompt",
+      "description": "Turn a reference video or screen recording into an extremely detailed recreation or inspiration prompt covering layout, typography, colour, assets, animation, transitions, scroll interactions, WebGL and section-by-section behaviour. Use whenever the user supplies, links or points at a video and wants the page, app or motion system it shows to be rebuilt or described as a prompt.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/codex/video-to-superprompt",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/codex/video-to-superprompt/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/codex/video-to-superprompt/references",
+          "to": "references"
+        }
+      ],
+      "topics": [
+        "design",
+        "content"
+      ],
+      "contentHash": "e3e5a8595412a0f3309669fc96cba3b67fbcca8896854f8878bbe670aa2d71fa",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "references/superprompt-template.md",
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "watch",
       "name": "watch",
       "description": "Watch a video (URL or local path). Downloads with yt-dlp, extracts auto-scaled frames with ffmpeg, pulls the transcript from captions (or Whisper API fallback), and hands the result to Claude so it can answer questions about what's in the video.",
@@ -4796,6 +7492,32 @@
         "sha": "c333c2289e57bf040b32846f18d669e3f8edad9b",
         "verdict": "upstream-at-pin"
       }
+    },
+    {
+      "slug": "wayfinder",
+      "name": "wayfinder",
+      "description": "Plan work too big for one agent session as a shared map on the issue tracker: name the destination, chart decision tickets (questions whose resolution is a decision, not slices to build), then resolve them one at a time until the route is clear. Use when an idea is large and foggy and charging at implementation would be premature.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/engineering/wayfinder",
+      "topics": [
+        "work"
+      ],
+      "contentHash": "059e4dbc6f1830551c201e0bd7dd34a670ef0af85b2636678a6164ddc2fa28e9",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "web-artifacts-builder",
@@ -4878,6 +7600,134 @@
       }
     },
     {
+      "slug": "webgl-3d-object",
+      "name": "webgl-3d-object",
+      "description": "Real WebGL hero object: faceted mesh geometry, physically based material, directional plus ambient lighting, perspective camera and slow float/rotation. Use when a page needs a genuine 3D product-like visual instead of CSS transform tricks.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/webgl-3d-object",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/webgl-3d-object/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "8847518f8d51cb8c5db79d8b0496ab273557dff5ed4c02af9bf0f3f52b7ff19a",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "webgl-landing-steering",
+      "name": "webgl-landing-steering",
+      "description": "Steering guide for WebGL-heavy landing pages: pick and hold a visual direction (premium, technical, playful, cinematic) while balancing conversion clarity, load and runtime performance, and implementation complexity. Use when a 3D/shader hero is being scoped, is drifting off-brief, or is buying spectacle at the cost of the message.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/webgl-landing-steering",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/webgl-landing-steering/SKILL.md",
+          "to": ""
+        },
+        {
+          "from": "agent-skills/web-design/webgl-landing-steering/REFERENCES.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "7dd7e067170eacf175a50ee8e5bb48d564918edb81593c1d09981b53a37f8454",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "REFERENCES.md",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "webgl-laser",
+      "name": "webgl-laser",
+      "description": "Fixed full-screen WebGL laser background: a thin white-hot vertical core with a restrained brand-coloured halo and soft smoky fog. Use only for the laser backdrop itself — not for page layout, copy, generic hero scenes or unrelated particle systems.",
+      "author": "Meng To",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/MengTo/Skills",
+      "upstreamCommit": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+      "upstreamPath": "agent-skills/web-design/webgl-laser",
+      "upstreamPaths": [
+        {
+          "from": "agent-skills/web-design/webgl-laser/SKILL.md",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design",
+        "build"
+      ],
+      "contentHash": "2e01f0e54caaf625c6a965e1bebb7dba5d1ea18e1e43660efc0abf1647d2b0c1",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "46abf7860d716c33de8217b6ff9f75debf28afaf",
+        "verdict": "imported-mengto-2026-08-04"
+      },
+      "_files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "wizard",
+      "name": "wizard",
+      "description": "Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A-to-B state transition — opening each URL, saying exactly what to click, capturing values (hidden entry for secrets), upserting .env files, writing GitHub Actions secrets and confirming before anything irreversible. Ships the proven template.sh library; you only scope and author the stages. (upstream marks this in-progress)",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/in-progress/wizard",
+      "topics": [
+        "ops"
+      ],
+      "contentHash": "7e53e2f30e1a16900d33c6bd56aea47b191cf5ea8137e23d707df66137b93bc0",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md",
+        "template.sh"
+      ]
+    },
+    {
       "slug": "write-a-skill",
       "name": "write-a-skill",
       "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.",
@@ -4898,6 +7748,85 @@
       }
     },
     {
+      "slug": "writing-beats",
+      "name": "writing-beats",
+      "description": "Assemble raw material into an article as a choose-your-own-adventure journey of beats: establish prerequisites, offer two or three candidate beats at each step, write only the one the user picks, and track what each beat grounds so later beats become reachable. Use when the path through the material matters more than a fixed outline. (upstream marks this in-progress)",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/in-progress/writing-beats",
+      "topics": [
+        "content"
+      ],
+      "contentHash": "df781be14cc64c1eb065ea0875d73849daa12afb4afba563b286637e25c8fbe5",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "writing-fragments",
+      "name": "writing-fragments",
+      "description": "The explore half of a writing workflow: interview the user relentlessly about what they want to write and append every usable fragment — sharp sentences, vignettes, half-thoughts, complaints, and above all a leading word that names the idea — to one markdown pile, with no outline or structure imposed yet. Use at the start of an article, talk or post. (upstream marks this in-progress)",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/in-progress/writing-fragments",
+      "topics": [
+        "content"
+      ],
+      "contentHash": "0eac741eb203b6962a5e9bda114e8b99bbfbfa12ca41739e828b3cdb10cad66d",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
+    },
+    {
+      "slug": "writing-great-skills",
+      "name": "writing-great-skills",
+      "description": "Reference for authoring and editing agent skills that behave predictably: model-invoked versus user-invoked and what each costs, how to write a description that triggers on real branches, the information hierarchy (in-skill step, in-skill reference, external reference), progressive disclosure, context pointers, completion criteria and co-location. Use when writing, reviewing or trimming a SKILL.md, or when a skill fires at the wrong times.",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/productivity/writing-great-skills",
+      "topics": [
+        "meta"
+      ],
+      "contentHash": "580b2eedb02421c5de776618d4cee4f0c420c61c550a3ba91504117238a6b77b",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "GLOSSARY.md",
+        "SKILL.md"
+      ]
+    },
+    {
       "slug": "writing-plans",
       "name": "writing-plans",
       "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
@@ -4916,6 +7845,32 @@
         "sha": "6fd4507659784c351abbd2bc264c7162cfd386dc",
         "verdict": "reproduces-vendored-audit"
       }
+    },
+    {
+      "slug": "writing-shape",
+      "name": "writing-shape",
+      "description": "The exploit half of a writing workflow: take a fixed pile of raw material, settle what the reader already knows, draft two or three candidate openings with different theses, then grow the article block by block — arguing the form of each and grounding every concept before something leans on it — appending to the article file as you go. Use when notes must become a finished piece. (upstream marks this in-progress)",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamPath": "skills/in-progress/writing-shape",
+      "topics": [
+        "content"
+      ],
+      "contentHash": "0442e81a4e909b4c0436612ab57be437bf339fb4cea3b560e155def6114c15e4",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "owner",
+        "date": "2026-08-04",
+        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+        "verdict": "imported-pocock-2026-08-04"
+      },
+      "_files": [
+        "agents/openai.yaml",
+        "SKILL.md"
+      ]
     },
     {
       "slug": "xiaolai-anthropic-api",
