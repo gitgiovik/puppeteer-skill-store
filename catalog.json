@@ -1086,12 +1086,12 @@
       "author": "Leonxlnx (curated into Open Design by nexu-io)",
       "license": "MIT",
       "sourceUrl": "https://github.com/nexu-io/open-design",
-      "upstreamCommit": "30501a2f12d5584ba2379c0912304f7f3f4fcb97",
+      "upstreamCommit": "125f3739ea70e99a81666137762d146ab2fd69bd",
       "upstreamPath": "skills/brandkit/SKILL.md",
       "topics": [],
       "contentHash": "20343ea7d800a91fe45c68ecf2dfbc0247d13c9fda2dd2ec5f240ac0f97c54b7",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -1676,7 +1676,7 @@
       "author": "Santiago Fernández de Valderrama (santifer)",
       "license": "MIT",
       "sourceUrl": "https://github.com/santifer/career-ops",
-      "upstreamCommit": "79ba55d7f66863eb6e7e8ce213fb8dd98b30de49",
+      "upstreamCommit": "cf0d011067b27217ca05c546652fa362f5e028df",
       "upstreamPath": ".agents/skills/career-ops/SKILL.md + modes",
       "upstreamPaths": [
         {
@@ -1689,9 +1689,9 @@
         }
       ],
       "topics": [],
-      "contentHash": "c18dc96045c4ea5a83435edc02235565488ae7e68c31c1be2b7a082316182fc7",
+      "contentHash": "fb0ec665733d0220c42fb62edffee85bd6cc0928f186d5b03ed2301e190d5fb3",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -1803,14 +1803,14 @@
       "author": "K-Dense Inc.",
       "license": "MIT",
       "sourceUrl": "https://github.com/K-Dense-AI/claude-scientific-skills",
-      "upstreamCommit": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
+      "upstreamCommit": "d767725c6e93b1d02a220e6be75b261a9833ede5",
       "upstreamPath": "skills/citation-management",
       "topics": [
         "research"
       ],
-      "contentHash": "5b5043e40f5b599922a4dfb236aa4fddd2ba013e9b8efb8e53267f1e1319e75b",
+      "contentHash": "8afaf4ca0532a43ae2eddfd0768d9bdffa4a90b4f784f4efdefc78cb14af375f",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 2,
+      "catalogRevision": 3,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -1885,12 +1885,12 @@
       "author": "Paul Hammond (citypaul)",
       "license": "MIT",
       "sourceUrl": "https://github.com/citypaul/.dotfiles",
-      "upstreamCommit": "89702899e3c470eed83a27e45e5773ea09222f4a",
+      "upstreamCommit": "6220d843058ff33bb7d3dd3af175fd82b1c7965d",
       "upstreamPath": "claude/.claude/skills/refactoring",
       "topics": [],
-      "contentHash": "33b9ba806f5b79abacc611fc050d936b1e1a4baf46ba6ed340162e975bac86be",
+      "contentHash": "c7c7ac27125e37a6c07d10638a2632525cb6b8c2f27ba16a9cc967b1a5177554",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -1905,12 +1905,12 @@
       "author": "Paul Hammond (citypaul)",
       "license": "MIT",
       "sourceUrl": "https://github.com/citypaul/.dotfiles",
-      "upstreamCommit": "89702899e3c470eed83a27e45e5773ea09222f4a",
+      "upstreamCommit": "6220d843058ff33bb7d3dd3af175fd82b1c7965d",
       "upstreamPath": "claude/.claude/skills/tdd",
       "topics": [],
-      "contentHash": "0991935922da27da80f6666c9efc0cf33ac0907ca11214e8f0b4c82332fbcc82",
+      "contentHash": "6728be726e43734c1c58c40cd984b4dc91f6ec5eee1d0d6e0ee199022d149e58",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -1925,12 +1925,12 @@
       "author": "Paul Hammond (citypaul)",
       "license": "MIT",
       "sourceUrl": "https://github.com/citypaul/.dotfiles",
-      "upstreamCommit": "89702899e3c470eed83a27e45e5773ea09222f4a",
+      "upstreamCommit": "6220d843058ff33bb7d3dd3af175fd82b1c7965d",
       "upstreamPath": "claude/.claude/skills/testing",
       "topics": [],
-      "contentHash": "bb53eefa83589449f7d0087b57f9062cba719be9eb24462daa264a0cb8ed8bef",
+      "contentHash": "09d32ee240bf4301366d97f9f236b10bcdcf1cf4b8d0d6706b27bf97b8e58a6a",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -2106,14 +2106,14 @@
       "author": "Matt Pocock",
       "license": "MIT",
       "sourceUrl": "https://github.com/mattpocock/skills",
-      "upstreamCommit": "2ab958093e83e0ec752e6c1c5932da465bf23e0c",
+      "upstreamCommit": "a621cc4f755d1da9c35dc3bb3abbd1d2a3208670",
       "upstreamPath": "skills/engineering/code-review",
       "topics": [
         "build"
       ],
-      "contentHash": "380018498a177d47fa4be2ddc78f73e1df273401e444f6065e8b886e8a167669",
+      "contentHash": "4d2b08c0574678b368034ea78da2e4f20fd4315edd0088ce88fc3e021e3abf2b",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner",
         "date": "2026-08-04",
@@ -2810,12 +2810,12 @@
       "author": "Open Design contributors (nexu-io)",
       "license": "Apache-2.0",
       "sourceUrl": "https://github.com/nexu-io/open-design",
-      "upstreamCommit": "28b2273e987eddaedc5301e2d87973c4a7ee5de9",
+      "upstreamCommit": "125f3739ea70e99a81666137762d146ab2fd69bd",
       "upstreamPath": "skills/design-brief/SKILL.md",
       "topics": [],
-      "contentHash": "228baaf94409081f1af1258259fe4390fe629df635eae2d727a8b6d6c98a61b7",
-      "byteAudit": "vendored-match",
-      "catalogRevision": 2,
+      "contentHash": "0e140e1a5bbe402ce0b0b1b8f6d323e273bd2eadcbc4c0a89c03523d6d365f58",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 3,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3087,12 +3087,12 @@
       "author": "product-on-purpose (copyright \"Jonathan\")",
       "license": "Apache-2.0",
       "sourceUrl": "https://github.com/product-on-purpose/pm-skills",
-      "upstreamCommit": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4",
+      "upstreamCommit": "31f38ed48fc53d3646a2d926244afa2caa62fc4c",
       "upstreamPath": "skills/discover-competitive-analysis",
       "topics": [],
-      "contentHash": "f938bc164ac0dae015140ba75db15f42d293e147de566d2d66783cef85d77157",
+      "contentHash": "7c11d05842e7dd822e4a36410f0b7ee4f80a19f623d33217b214b02f0e31f359",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 2,
+      "catalogRevision": 3,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3264,14 +3264,14 @@
       "author": "expo",
       "license": "MIT",
       "sourceUrl": "https://github.com/expo/skills",
-      "upstreamCommit": "09eb052410e7f609624cb161ea4cd9576c69cd5d",
+      "upstreamCommit": "114ee4ddc1371efed4209f8ea1cce5f93354613a",
       "upstreamPath": "plugins/expo/skills/eas-workflows",
       "topics": [
         "ops"
       ],
-      "contentHash": "f074fe8ab672e834e75b586fd34939727c1376d975de1ba9298dcb65641104fb",
+      "contentHash": "9ec9ed13a55bbac5e37476b2d28b26f9dabb84df05a9c5bc169b84a85f8dfd88",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -3451,7 +3451,7 @@
       "author": "elevenlabs",
       "license": "MIT",
       "sourceUrl": "https://github.com/elevenlabs/skills",
-      "upstreamCommit": "37c0f2a682a8953cb9f09b152a0e1624d234193e",
+      "upstreamCommit": "5acd0650d014b262c52d8321d16cff275ac6e4b8",
       "upstreamPath": "speech-to-text",
       "topics": [
         "build"
@@ -3459,9 +3459,9 @@
       "requiredSecrets": [
         "ELEVENLABS_API_KEY"
       ],
-      "contentHash": "fbacf33e4520ae6b2ae98c0888f231b5213243499bc8575784b153672f699207",
+      "contentHash": "3f422606321e556c887101d6c73081b0620c04205e7a3d905f2da6c446fc4447",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -3476,7 +3476,7 @@
       "author": "elevenlabs",
       "license": "MIT",
       "sourceUrl": "https://github.com/elevenlabs/skills",
-      "upstreamCommit": "37c0f2a682a8953cb9f09b152a0e1624d234193e",
+      "upstreamCommit": "5acd0650d014b262c52d8321d16cff275ac6e4b8",
       "upstreamPath": "text-to-speech",
       "topics": [
         "build"
@@ -3484,9 +3484,9 @@
       "requiredSecrets": [
         "ELEVENLABS_API_KEY"
       ],
-      "contentHash": "23331a9f46db67c90a93f84872751b53a4683eb39150a92d2c0ffeaabc259a60",
+      "contentHash": "c00b015cc4eea1a806209bce4932f4386739b9ec0e074ce9b662b2fe6c9f2b25",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -3501,7 +3501,7 @@
       "author": "elevenlabs",
       "license": "MIT",
       "sourceUrl": "https://github.com/elevenlabs/skills",
-      "upstreamCommit": "37c0f2a682a8953cb9f09b152a0e1624d234193e",
+      "upstreamCommit": "5acd0650d014b262c52d8321d16cff275ac6e4b8",
       "upstreamPath": "voice-changer",
       "topics": [
         "build"
@@ -3509,9 +3509,9 @@
       "requiredSecrets": [
         "ELEVENLABS_API_KEY"
       ],
-      "contentHash": "e918832e2a5583113cdf0322d4d3e61894b6636cdbc207397186a8a3834b3d0d",
+      "contentHash": "b11a2f21e3c870a8efa7e1deac5e5065dd1b2cdbe35033baf7629c9c6c954fab",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -3546,14 +3546,14 @@
       "author": "K-Dense Inc.",
       "license": "MIT",
       "sourceUrl": "https://github.com/K-Dense-AI/claude-scientific-skills",
-      "upstreamCommit": "2b4cce7d8763232864fa3dff701e311636bcc62f",
+      "upstreamCommit": "d767725c6e93b1d02a220e6be75b261a9833ede5",
       "upstreamPath": "skills/exa-search",
       "topics": [
         "research"
       ],
-      "contentHash": "63ac3c47a36f240feb5945161b9834ac72fdbb8e0de332b6970caf6144dd9d35",
+      "contentHash": "5a77fbc054f887bae633b7c007de9ffab632c8b00fc45785c8b730956c014b2c",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -3571,12 +3571,12 @@
       "author": "K-Dense Inc.",
       "license": "MIT",
       "sourceUrl": "https://github.com/K-Dense-AI/claude-scientific-skills",
-      "upstreamCommit": "2b4cce7d8763232864fa3dff701e311636bcc62f",
+      "upstreamCommit": "d767725c6e93b1d02a220e6be75b261a9833ede5",
       "upstreamPath": "skills/experimental-design",
       "topics": [],
-      "contentHash": "ca8b42c523d0adafc035846ba60b6ad6434e9f86a13450eefa588d2d229e2d9f",
-      "byteAudit": "vendored-match",
-      "catalogRevision": 2,
+      "contentHash": "48c8c930083ffafd80e89605d3cf5dd2c625b8483878df7b0b2f4e08a8a8097a",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 3,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3611,14 +3611,14 @@
       "author": "expo",
       "license": "MIT",
       "sourceUrl": "https://github.com/expo/skills",
-      "upstreamCommit": "09eb052410e7f609624cb161ea4cd9576c69cd5d",
+      "upstreamCommit": "114ee4ddc1371efed4209f8ea1cce5f93354613a",
       "upstreamPath": "plugins/expo/skills/expo-router",
       "topics": [
         "build"
       ],
-      "contentHash": "f73fd616cba0e8c84178ce5af103ec1e4fa4e4b8d7bd4d8addf058c5ed6f07ed",
+      "contentHash": "727c89f20369813746afa216498f568e9950b79702e3097cad8f876c603fc4ad",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -3633,14 +3633,14 @@
       "author": "expo",
       "license": "MIT",
       "sourceUrl": "https://github.com/expo/skills",
-      "upstreamCommit": "09eb052410e7f609624cb161ea4cd9576c69cd5d",
+      "upstreamCommit": "114ee4ddc1371efed4209f8ea1cce5f93354613a",
       "upstreamPath": "plugins/expo/skills/expo-upgrade",
       "topics": [
         "ops"
       ],
-      "contentHash": "7759f087fce77322fbd5ecf49114918f688b6a19a24beb268123c212adf7d9b8",
+      "contentHash": "387ba31be1c19d6917b21971962de261e58ff0cc11b61d7b4afeaa633ca89fd0",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -3777,12 +3777,12 @@
       "author": "Addy Osmani (addyosmani)",
       "license": "MIT",
       "sourceUrl": "https://github.com/addyosmani/agent-skills",
-      "upstreamCommit": "3a6fc6392823e31e2362091bd4e3cddf5b77af14",
+      "upstreamCommit": "bdf76c7c6b7b3b3e01bb15c9fdc42ac5351855c1",
       "upstreamPath": "skills/frontend-ui-engineering",
       "topics": [],
-      "contentHash": "139757136d332421df6a7b6683279d6229b7f43ffb81f2ea7b86952262a90ba7",
+      "contentHash": "d5ef1dba7c309cac01770404dc42df54daa5d122ca0330d0a039053a4629185d",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -4023,12 +4023,12 @@
       "author": "mattpocock",
       "license": "MIT",
       "sourceUrl": "https://github.com/mattpocock/skills",
-      "upstreamCommit": "694fa30311e02c2639942308513555e61ee84a6f",
+      "upstreamCommit": "a621cc4f755d1da9c35dc3bb3abbd1d2a3208670",
       "upstreamPath": "skills/productivity/grill-me",
       "topics": [],
-      "contentHash": "b9aaa352d7b00826524b0c117325aa42e91993dc703a6dce1f168915a554448e",
-      "byteAudit": "vendored-match",
-      "catalogRevision": 2,
+      "contentHash": "f5d611854b2078959a35bb6f87c9633066031578fd6573a92a66989a4c235e52",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 3,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",

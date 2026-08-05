@@ -520,7 +520,7 @@
         "source": "git-subdir",
         "url": "https://github.com/nexu-io/open-design",
         "path": "skills/brandkit",
-        "sha": "30501a2f12d5584ba2379c0912304f7f3f4fcb97"
+        "sha": "125f3739ea70e99a81666137762d146ab2fd69bd"
       },
       "skills": [
         "./"
@@ -792,7 +792,7 @@
         "source": "git-subdir",
         "url": "https://github.com/santifer/career-ops",
         "path": ".agents/skills/career-ops",
-        "sha": "79ba55d7f66863eb6e7e8ce213fb8dd98b30de49"
+        "sha": "cf0d011067b27217ca05c546652fa362f5e028df"
       },
       "skills": [
         "./"
@@ -844,7 +844,7 @@
         "source": "git-subdir",
         "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
         "path": "skills/citation-management",
-        "sha": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92"
+        "sha": "d767725c6e93b1d02a220e6be75b261a9833ede5"
       },
       "skills": [
         "./"
@@ -896,7 +896,7 @@
         "source": "git-subdir",
         "url": "https://github.com/citypaul/.dotfiles",
         "path": "claude/.claude/skills/refactoring",
-        "sha": "89702899e3c470eed83a27e45e5773ea09222f4a"
+        "sha": "6220d843058ff33bb7d3dd3af175fd82b1c7965d"
       },
       "skills": [
         "./"
@@ -909,7 +909,7 @@
         "source": "git-subdir",
         "url": "https://github.com/citypaul/.dotfiles",
         "path": "claude/.claude/skills/tdd",
-        "sha": "89702899e3c470eed83a27e45e5773ea09222f4a"
+        "sha": "6220d843058ff33bb7d3dd3af175fd82b1c7965d"
       },
       "skills": [
         "./"
@@ -922,7 +922,7 @@
         "source": "git-subdir",
         "url": "https://github.com/citypaul/.dotfiles",
         "path": "claude/.claude/skills/testing",
-        "sha": "89702899e3c470eed83a27e45e5773ea09222f4a"
+        "sha": "6220d843058ff33bb7d3dd3af175fd82b1c7965d"
       },
       "skills": [
         "./"
@@ -999,7 +999,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills",
         "path": "skills/engineering/code-review",
-        "sha": "2ab958093e83e0ec752e6c1c5932da465bf23e0c"
+        "sha": "a621cc4f755d1da9c35dc3bb3abbd1d2a3208670"
       },
       "skills": [
         "./"
@@ -1362,7 +1362,7 @@
         "source": "git-subdir",
         "url": "https://github.com/nexu-io/open-design",
         "path": "skills/design-brief",
-        "sha": "28b2273e987eddaedc5301e2d87973c4a7ee5de9"
+        "sha": "125f3739ea70e99a81666137762d146ab2fd69bd"
       },
       "skills": [
         "./"
@@ -1439,7 +1439,7 @@
         "source": "git-subdir",
         "url": "https://github.com/product-on-purpose/pm-skills",
         "path": "skills/discover-competitive-analysis",
-        "sha": "d7744fcfbab592cdf5544f37cc5e3744aa90b0f4"
+        "sha": "31f38ed48fc53d3646a2d926244afa2caa62fc4c"
       },
       "skills": [
         "./"
@@ -1530,7 +1530,7 @@
         "source": "git-subdir",
         "url": "https://github.com/expo/skills",
         "path": "plugins/expo/skills/eas-workflows",
-        "sha": "09eb052410e7f609624cb161ea4cd9576c69cd5d"
+        "sha": "114ee4ddc1371efed4209f8ea1cce5f93354613a"
       },
       "skills": [
         "./"
@@ -1608,7 +1608,7 @@
         "source": "git-subdir",
         "url": "https://github.com/elevenlabs/skills",
         "path": "speech-to-text",
-        "sha": "37c0f2a682a8953cb9f09b152a0e1624d234193e"
+        "sha": "5acd0650d014b262c52d8321d16cff275ac6e4b8"
       },
       "skills": [
         "./"
@@ -1621,7 +1621,7 @@
         "source": "git-subdir",
         "url": "https://github.com/elevenlabs/skills",
         "path": "text-to-speech",
-        "sha": "37c0f2a682a8953cb9f09b152a0e1624d234193e"
+        "sha": "5acd0650d014b262c52d8321d16cff275ac6e4b8"
       },
       "skills": [
         "./"
@@ -1634,7 +1634,7 @@
         "source": "git-subdir",
         "url": "https://github.com/elevenlabs/skills",
         "path": "voice-changer",
-        "sha": "37c0f2a682a8953cb9f09b152a0e1624d234193e"
+        "sha": "5acd0650d014b262c52d8321d16cff275ac6e4b8"
       },
       "skills": [
         "./"
@@ -1660,7 +1660,7 @@
         "source": "git-subdir",
         "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
         "path": "skills/exa-search",
-        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
+        "sha": "d767725c6e93b1d02a220e6be75b261a9833ede5"
       },
       "skills": [
         "./"
@@ -1673,7 +1673,7 @@
         "source": "git-subdir",
         "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
         "path": "skills/experimental-design",
-        "sha": "2b4cce7d8763232864fa3dff701e311636bcc62f"
+        "sha": "d767725c6e93b1d02a220e6be75b261a9833ede5"
       },
       "skills": [
         "./"
@@ -1699,7 +1699,7 @@
         "source": "git-subdir",
         "url": "https://github.com/expo/skills",
         "path": "plugins/expo/skills/expo-router",
-        "sha": "09eb052410e7f609624cb161ea4cd9576c69cd5d"
+        "sha": "114ee4ddc1371efed4209f8ea1cce5f93354613a"
       },
       "skills": [
         "./"
@@ -1712,7 +1712,7 @@
         "source": "git-subdir",
         "url": "https://github.com/expo/skills",
         "path": "plugins/expo/skills/expo-upgrade",
-        "sha": "09eb052410e7f609624cb161ea4cd9576c69cd5d"
+        "sha": "114ee4ddc1371efed4209f8ea1cce5f93354613a"
       },
       "skills": [
         "./"
@@ -1790,7 +1790,7 @@
         "source": "git-subdir",
         "url": "https://github.com/addyosmani/agent-skills",
         "path": "skills/frontend-ui-engineering",
-        "sha": "3a6fc6392823e31e2362091bd4e3cddf5b77af14"
+        "sha": "bdf76c7c6b7b3b3e01bb15c9fdc42ac5351855c1"
       },
       "skills": [
         "./"
@@ -1907,7 +1907,7 @@
         "source": "git-subdir",
         "url": "https://github.com/mattpocock/skills",
         "path": "skills/productivity/grill-me",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f"
+        "sha": "a621cc4f755d1da9c35dc3bb3abbd1d2a3208670"
       },
       "skills": [
         "./"
