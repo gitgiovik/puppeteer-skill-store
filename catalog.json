@@ -767,14 +767,14 @@
       "author": "anthropics",
       "license": "Apache-2.0",
       "sourceUrl": "https://github.com/anthropics/skills",
-      "upstreamCommit": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb",
+      "upstreamCommit": "f17010c9bb483898c1d9c9f42dde2b3a98889434",
       "upstreamPath": "skills/claude-api",
       "topics": [
         "build"
       ],
-      "contentHash": "90b8cdbfd2cfc922b2ef48a708fd9a17356888b741ac915062d047ccc6fcbf6a",
+      "contentHash": "433f4fd4805ef9bc12a83e67eddbc7a82b55bcef3a6c1d908ea34b7fb9f1883b",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -1365,14 +1365,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "13861c2051189e08ac843b396c90dda004b916a8",
       "upstreamPath": "skills/asc-app-create-ui",
       "topics": [
         "build"
       ],
-      "contentHash": "a765f95d631df37e97f8b44af97e3fe820c3c5f07a051d22786876af961b73d0",
+      "contentHash": "32a63c71e2180052acac86839da784caad401c1e8843bb1a34b636714175a8d8",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1673,14 +1673,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "13861c2051189e08ac843b396c90dda004b916a8",
       "upstreamPath": "skills/asc-signing-setup",
       "topics": [
         "build"
       ],
-      "contentHash": "e4b76440e9a73cfba4d58bae8747ea75fdafb14be7dd9ab49d037856bea3cb0a",
+      "contentHash": "62c986b9476b0709ac36fc18b93aec9006ee366949ad69862b8b03ee7f4d4f6e",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1695,14 +1695,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "13861c2051189e08ac843b396c90dda004b916a8",
       "upstreamPath": "skills/asc-submission-health",
       "topics": [
         "build"
       ],
-      "contentHash": "c681ca0de6243e203f01f4c12f509dd12b3165c107fd14e878984fcb2b1deb55",
+      "contentHash": "d40991f6316d7026ccea93105e7fdb5406f3cc1d598d0184b8f7ea3797b55fce",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2063,14 +2063,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e58528db9a006528a5fb0a2c029790fa6a9a7c0e",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-app-onboard",
       "topics": [
         "ops"
       ],
-      "contentHash": "93e46b4f96a67060dcbe0d532af4e84b4e7c9616c93cdd5e57065d9664eb49d3",
+      "contentHash": "7057c16770f1fcf15cdce7011eb0d075782cf85804df8e6a1ab9ccfab04a5971",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2195,14 +2195,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e58528db9a006528a5fb0a2c029790fa6a9a7c0e",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-deploy",
       "topics": [
         "ops"
       ],
       "contentHash": "7315d3b00ecc2ca516d0fb944f5cdbb9b1e5bd651ed9419ab3bf459d86551048",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2217,14 +2217,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e58528db9a006528a5fb0a2c029790fa6a9a7c0e",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-diagnostics",
       "topics": [
         "ops"
       ],
-      "contentHash": "be77e2e72f05a55cfa346c20f6d694f4c17955c5bf5f9ac3f2b21bf8e29b1870",
+      "contentHash": "0f8b3b03f51ee24d641160d36a6fc42713f3bebcf06e74ac6bf7a28ada3b3074",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2261,14 +2261,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e58528db9a006528a5fb0a2c029790fa6a9a7c0e",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-kubernetes",
       "topics": [
         "ops"
       ],
-      "contentHash": "60ce78bd4128901b563619766bd609834547b46aec5b652c63ddce7c99636e4c",
+      "contentHash": "4d45b0558c6a8a33975dce5674c80675c0fa348c9d8e619e9a5e3aa49a5d900b",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2327,14 +2327,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e58528db9a006528a5fb0a2c029790fa6a9a7c0e",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-prepare",
       "topics": [
         "ops"
       ],
       "contentHash": "e389d29d5e56ebd8e2c59f7644f6ff6f02a78c5bfa865fc7d8b91e28ada49cad",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2349,14 +2349,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e58528db9a006528a5fb0a2c029790fa6a9a7c0e",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-quotas",
       "topics": [
         "ops"
       ],
       "contentHash": "d2a7d0026599829012405e855600feb1ebbc2b77174d4b7913cc2a41b4fd2228",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2481,14 +2481,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e58528db9a006528a5fb0a2c029790fa6a9a7c0e",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-validate",
       "topics": [
         "ops"
       ],
       "contentHash": "93f0cfa047fb01e30858833b61c4435e2e1a5cabd6175eb0ef43d39c6e9ff11a",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2762,12 +2762,12 @@
       "author": "Leonxlnx (curated into Open Design by nexu-io)",
       "license": "MIT",
       "sourceUrl": "https://github.com/nexu-io/open-design",
-      "upstreamCommit": "30501a2f12d5584ba2379c0912304f7f3f4fcb97",
+      "upstreamCommit": "044324b9a6cc14bd7850e1bfb32fcdbab00cfcc3",
       "upstreamPath": "skills/brandkit/SKILL.md",
       "topics": [],
       "contentHash": "20343ea7d800a91fe45c68ecf2dfbc0247d13c9fda2dd2ec5f240ac0f97c54b7",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3374,7 +3374,7 @@
       "author": "Santiago Fernández de Valderrama (santifer)",
       "license": "MIT",
       "sourceUrl": "https://github.com/santifer/career-ops",
-      "upstreamCommit": "79ba55d7f66863eb6e7e8ce213fb8dd98b30de49",
+      "upstreamCommit": "9048c5d28bd241962bc7f9388f5e8fd107ee0f42",
       "upstreamPath": ".agents/skills/career-ops/SKILL.md + modes",
       "upstreamPaths": [
         {
@@ -3387,9 +3387,9 @@
         }
       ],
       "topics": [],
-      "contentHash": "c18dc96045c4ea5a83435edc02235565488ae7e68c31c1be2b7a082316182fc7",
+      "contentHash": "000895fe2e9409ef4e1b6c6928c567b6f0f25ceba7b6d78a0682c2f1c762c52e",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3523,14 +3523,14 @@
       "author": "K-Dense Inc.",
       "license": "MIT",
       "sourceUrl": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "upstreamCommit": "ab2f84ab10597c59fac186ecda6d5edd5dcc8b92",
+      "upstreamCommit": "5ad4aae76bc40257b914367afacc6fd686a282d5",
       "upstreamPath": "skills/citation-management",
       "topics": [
         "research"
       ],
-      "contentHash": "5b5043e40f5b599922a4dfb236aa4fddd2ba013e9b8efb8e53267f1e1319e75b",
+      "contentHash": "8afaf4ca0532a43ae2eddfd0768d9bdffa4a90b4f784f4efdefc78cb14af375f",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -3552,12 +3552,12 @@
       "author": "Paul Hammond (citypaul)",
       "license": "MIT",
       "sourceUrl": "https://github.com/citypaul/.dotfiles",
-      "upstreamCommit": "89702899e3c470eed83a27e45e5773ea09222f4a",
+      "upstreamCommit": "9e6f75630fded850db9efecc8f260c51b3c97e26",
       "upstreamPath": "claude/.claude/skills/domain-driven-design",
       "topics": [],
-      "contentHash": "439c2dd1569eb4310381b16c5b4ecc672db04b0d3399bd7a18f6933798c0f0ef",
+      "contentHash": "0ee929c6c7696ce48f40b64f31e5f4295d46fdd7758f8f7c24b41bd5519ddffa",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3572,12 +3572,12 @@
       "author": "Paul Hammond (citypaul)",
       "license": "MIT",
       "sourceUrl": "https://github.com/citypaul/.dotfiles",
-      "upstreamCommit": "89702899e3c470eed83a27e45e5773ea09222f4a",
+      "upstreamCommit": "9e6f75630fded850db9efecc8f260c51b3c97e26",
       "upstreamPath": "claude/.claude/skills/finding-seams",
       "topics": [],
-      "contentHash": "8780092491ab8cbc2ef4710fc1b2d961440efc8630dfc55e6ba5589b790ba2b9",
+      "contentHash": "fa68f7d335cba974996f66f078d18477a4e2233c1f559d85a6ff24f8a22bd445",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3592,12 +3592,12 @@
       "author": "Paul Hammond (citypaul)",
       "license": "MIT",
       "sourceUrl": "https://github.com/citypaul/.dotfiles",
-      "upstreamCommit": "89702899e3c470eed83a27e45e5773ea09222f4a",
+      "upstreamCommit": "9e6f75630fded850db9efecc8f260c51b3c97e26",
       "upstreamPath": "claude/.claude/skills/hexagonal-architecture",
       "topics": [],
-      "contentHash": "55d960779e0ecd62c19da77633fcd5aa90ddc5f29589209760149760f68f1a8d",
+      "contentHash": "84fcd11e6327f59fe35237f10a809f25cd2c42fc1f000a15036208c03edf5e79",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3612,12 +3612,12 @@
       "author": "Paul Hammond (citypaul)",
       "license": "MIT",
       "sourceUrl": "https://github.com/citypaul/.dotfiles",
-      "upstreamCommit": "89702899e3c470eed83a27e45e5773ea09222f4a",
+      "upstreamCommit": "9e6f75630fded850db9efecc8f260c51b3c97e26",
       "upstreamPath": "claude/.claude/skills/refactoring",
       "topics": [],
-      "contentHash": "33b9ba806f5b79abacc611fc050d936b1e1a4baf46ba6ed340162e975bac86be",
+      "contentHash": "5865dc8d58e7d5cb6df629723d70a2b30c4082e5d2880483e28ebca285c7c350",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3632,12 +3632,12 @@
       "author": "Paul Hammond (citypaul)",
       "license": "MIT",
       "sourceUrl": "https://github.com/citypaul/.dotfiles",
-      "upstreamCommit": "89702899e3c470eed83a27e45e5773ea09222f4a",
+      "upstreamCommit": "9e6f75630fded850db9efecc8f260c51b3c97e26",
       "upstreamPath": "claude/.claude/skills/tdd",
       "topics": [],
-      "contentHash": "0991935922da27da80f6666c9efc0cf33ac0907ca11214e8f0b4c82332fbcc82",
+      "contentHash": "1cb95d0c73b802f870535787bf7ddbc2fc6a1108f8480969accf2eb44ecde323",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
@@ -3652,12 +3652,12 @@
       "author": "Paul Hammond (citypaul)",
       "license": "MIT",
       "sourceUrl": "https://github.com/citypaul/.dotfiles",
-      "upstreamCommit": "89702899e3c470eed83a27e45e5773ea09222f4a",
+      "upstreamCommit": "9e6f75630fded850db9efecc8f260c51b3c97e26",
       "upstreamPath": "claude/.claude/skills/testing",
       "topics": [],
-      "contentHash": "bb53eefa83589449f7d0087b57f9062cba719be9eb24462daa264a0cb8ed8bef",
+      "contentHash": "5101e8a6388a0dadc8f9b4dab1bab7cb8c9c7a56f4a9327191a39b855c9dc9a6",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 3,
+      "catalogRevision": 4,
       "reviewed": {
         "by": "owner",
         "date": "2026-07-26",
