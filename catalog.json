@@ -767,14 +767,14 @@
       "author": "anthropics",
       "license": "Apache-2.0",
       "sourceUrl": "https://github.com/anthropics/skills",
-      "upstreamCommit": "b29e7cf65e5cb78a5ac33d582270551bc74a14eb",
+      "upstreamCommit": "0a64e398ec6bb34a494f0c347e8ccae53a862f8e",
       "upstreamPath": "skills/claude-api",
       "topics": [
         "build"
       ],
-      "contentHash": "90b8cdbfd2cfc922b2ef48a708fd9a17356888b741ac915062d047ccc6fcbf6a",
+      "contentHash": "7336ae0b1668ba0bbf676be0d94c02ffc199874b19dd0ee207b91c8e124678c2",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "owner-selection",
         "date": "2026-07-26",
@@ -1365,14 +1365,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-app-create-ui",
       "topics": [
         "build"
       ],
-      "contentHash": "a765f95d631df37e97f8b44af97e3fe820c3c5f07a051d22786876af961b73d0",
+      "contentHash": "32a63c71e2180052acac86839da784caad401c1e8843bb1a34b636714175a8d8",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1387,14 +1387,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-apple-ads",
       "topics": [
         "build"
       ],
-      "contentHash": "7643b67672bea00451695235a7c1c400bbab1a07dc20e4261d1fee8de31867bf",
+      "contentHash": "3a63b491d8a6df93ce17ff949dc77d49603b929ce0071cf4e1168560164778e9",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1409,14 +1409,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-aso-audit",
       "topics": [
         "build"
       ],
-      "contentHash": "7f51f5d5b554f9647f61187fa3695d7ef30bb9ded5a85d7c3a0abde27b0b4c2f",
+      "contentHash": "7f4b31e626ab2d3ff2577c61084651c34f9186d16401952c535719a778e3664b",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1431,14 +1431,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-build-lifecycle",
       "topics": [
         "build"
       ],
-      "contentHash": "f9be03001ec1c284272fdbd3b548cacde2cec4962d77bbe1ff36de65aec51ef8",
+      "contentHash": "d9c3c23b5a2cf0c55d7bc0b42c95ed3a769965ce3b86bd630f497fa4c1e63770",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1475,14 +1475,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-id-resolver",
       "topics": [
         "build"
       ],
-      "contentHash": "fa8abb6c02bef7b5125c72111afb4a9cd356e27df9c5cbd0ac46d573f011a4e8",
+      "contentHash": "0dc7a9b68ce016ee04d8c0415cda7c5f0af2f7dff99d651d99e4c084329e6017",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1497,14 +1497,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-localize-metadata",
       "topics": [
         "build"
       ],
-      "contentHash": "2e9d65bd29d2215d083a0680d6b639dde1be1eeea3b97f926207a15eb8ad5fb9",
+      "contentHash": "31c5fa985b6721f5195b2f8f2b4a750444d87534b9d1338e1c8bb6df8664a4bc",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1519,14 +1519,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-metadata-sync",
       "topics": [
         "build"
       ],
-      "contentHash": "1303afd73ca3d44340049c0a4adbd48033a432987aa02cf8977a97232b65d8cc",
+      "contentHash": "1a81b0088c68e48459ec19553a0caa4a7305c9d05970cf09ce0c234c0fd036c3",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1563,14 +1563,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-ppp-pricing",
       "topics": [
         "build"
       ],
-      "contentHash": "2a8d976c42993421c6dc0fdd980195ed2ea062f1a3d9826a86839f475bed37d2",
+      "contentHash": "2005c5f09c6e5db46421f29e2f90f2e307de2fd93b985958d5af8a5dacb2bfe0",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1585,14 +1585,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-release-flow",
       "topics": [
         "build"
       ],
-      "contentHash": "770690e7c837039f5c2c0f92833d0d47fe89dfdd0067a1b6aaea8e783f197ec4",
+      "contentHash": "7f901c7e71c6a088d044fee63741f34b15d2b0e80116d9199d8673c8c229dd22",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1673,14 +1673,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-signing-setup",
       "topics": [
         "build"
       ],
-      "contentHash": "e4b76440e9a73cfba4d58bae8747ea75fdafb14be7dd9ab49d037856bea3cb0a",
+      "contentHash": "d2cfb4f01a2ac8f67629ed5f20c30c38f690aeb854ed7569cf60c05600412b3c",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1695,14 +1695,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-submission-health",
       "topics": [
         "build"
       ],
-      "contentHash": "c681ca0de6243e203f01f4c12f509dd12b3165c107fd14e878984fcb2b1deb55",
+      "contentHash": "d40991f6316d7026ccea93105e7fdb5406f3cc1d598d0184b8f7ea3797b55fce",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1739,14 +1739,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-testflight-orchestration",
       "topics": [
         "build"
       ],
-      "contentHash": "0dddb2ffd1749c68f94cb318e18e053cd0fce314ddb1474813502904432450eb",
+      "contentHash": "5e6a62092bec82a63d1ddba4adb869ebf4a1ee59a69bfbca73bf6422f2de6311",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1783,14 +1783,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-workflow",
       "topics": [
         "build"
       ],
-      "contentHash": "2f824318c4b8c5be605e574e7defee43609f576c4a61256cf0913aaee74ec3ea",
+      "contentHash": "dc0cf4b74a0393890b89b4d77e35182cd61fc3678956120e9bd8773b607aee36",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -1805,14 +1805,14 @@
       "author": "rorkai",
       "license": "MIT",
       "sourceUrl": "https://github.com/rorkai/app-store-connect-cli-skills",
-      "upstreamCommit": "3b567352099e28c19afddd447bc7e51a348334ce",
+      "upstreamCommit": "88045d744445078f6747deb4d20355b4ac69cccc",
       "upstreamPath": "skills/asc-xcode-build",
       "topics": [
         "build"
       ],
-      "contentHash": "93563685006016c769520f7701d9a7d20996ec2ba44db8a0de96356d47698810",
+      "contentHash": "29b7e48cb3ea3f05ee1cbecccaa554ba9885bdc4c5a9523ceb88e16a178d5b10",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2063,14 +2063,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e20084b9d230c6f3b46ce36f011e6c3e50f79f8a",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-app-onboard",
       "topics": [
         "ops"
       ],
-      "contentHash": "93e46b4f96a67060dcbe0d532af4e84b4e7c9616c93cdd5e57065d9664eb49d3",
+      "contentHash": "7057c16770f1fcf15cdce7011eb0d075782cf85804df8e6a1ab9ccfab04a5971",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2195,14 +2195,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e20084b9d230c6f3b46ce36f011e6c3e50f79f8a",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-deploy",
       "topics": [
         "ops"
       ],
       "contentHash": "7315d3b00ecc2ca516d0fb944f5cdbb9b1e5bd651ed9419ab3bf459d86551048",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2217,14 +2217,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e20084b9d230c6f3b46ce36f011e6c3e50f79f8a",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-diagnostics",
       "topics": [
         "ops"
       ],
-      "contentHash": "be77e2e72f05a55cfa346c20f6d694f4c17955c5bf5f9ac3f2b21bf8e29b1870",
+      "contentHash": "0f8b3b03f51ee24d641160d36a6fc42713f3bebcf06e74ac6bf7a28ada3b3074",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2261,14 +2261,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e20084b9d230c6f3b46ce36f011e6c3e50f79f8a",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-kubernetes",
       "topics": [
         "ops"
       ],
-      "contentHash": "60ce78bd4128901b563619766bd609834547b46aec5b652c63ddce7c99636e4c",
+      "contentHash": "4d45b0558c6a8a33975dce5674c80675c0fa348c9d8e619e9a5e3aa49a5d900b",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
@@ -2327,14 +2327,14 @@
       "author": "microsoft",
       "license": "MIT",
       "sourceUrl": "https://github.com/microsoft/skills",
-      "upstreamCommit": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
+      "upstreamCommit": "e20084b9d230c6f3b46ce36f011e6c3e50f79f8a",
       "upstreamPath": ".github/plugins/azure-skills/skills/azure-prepare",
       "topics": [
         "ops"
       ],
       "contentHash": "e389d29d5e56ebd8e2c59f7644f6ff6f02a78c5bfa865fc7d8b91e28ada49cad",
       "byteAudit": "upstream-differs",
-      "catalogRevision": 1,
+      "catalogRevision": 2,
       "reviewed": {
         "by": "claude-autonomous-program",
         "date": "2026-08-05",
