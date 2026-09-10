@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T17:46:31+02:00",
+  "generatedAt": "2026-09-10T21:30:00+02:00",
   "renames": {},
   "suggestedMarketplaces": [
     {
@@ -3395,29 +3395,6 @@
         "date": "2026-07-26",
         "sha": "57b34c07e01cd106528936398507e1b4552ca295",
         "verdict": "upstream-at-pin"
-      }
-    },
-    {
-      "slug": "caveman",
-      "name": "caveman",
-      "description": "Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman.",
-      "author": "mattpocock",
-      "license": "MIT",
-      "sourceUrl": "https://github.com/mattpocock/skills",
-      "upstreamCommit": "694fa30311e02c2639942308513555e61ee84a6f",
-      "upstreamPath": "skills/productivity/caveman",
-      "topics": [],
-      "contentHash": "a05825ef43d31b8dbb937fa99b4dfc65b150688f72af67cc8000745ad38e0461",
-      "byteAudit": "vendored-match",
-      "catalogRevision": 2,
-      "unavailable": {
-        "reason": "Removed upstream: mattpocock/skills deleted skills/productivity/caveman (commit 7d3ada97, 'Remove caveman skill documentation to streamline productivity skills'). Pin frozen at 694fa303 — the last commit where it existed — and excluded from the weekly pin bump so it no longer fails re-hash; listed with this reason, refused at install."
-      },
-      "reviewed": {
-        "by": "owner",
-        "date": "2026-07-26",
-        "sha": "694fa30311e02c2639942308513555e61ee84a6f",
-        "verdict": "reproduces-vendored-audit"
       }
     },
     {
@@ -9620,6 +9597,38 @@
         "date": "2026-08-05",
         "sha": "1f28ae4c5e5edc2cbe10b3756a20524fc92cee07",
         "verdict": "imported-vendor-backfill-2026-08-05"
+      }
+    },
+    {
+      "slug": "ponytail",
+      "name": "ponytail",
+      "description": "Forces the laziest solution that actually works, simplest, shortest, most minimal. Channels a senior dev who has seen everything: question whether the task needs to exist at all (YAGNI), reach for the standard library before custom code, native platform features before dependencies, one line before fifty. Supports intensity levels: lite, full (default), ultra. Use on ANY coding task: writing, adding, refactoring, fixing, reviewing, or designing code, and choosing libraries or dependencies. Also use whenever the user says \"ponytail\", \"be lazy\", \"lazy mode\", \"simplest solution\", \"minimal solution\", \"yagni\", \"do less\", or \"shortest path\", or complains about over-engineering, bloat, boilerplate, or unnecessary dependencies. Do NOT use for non-coding requests (general knowledge, prose, translation, summaries, recipes).",
+      "author": "DietrichGebert",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/DietrichGebert/ponytail",
+      "upstreamCommit": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+      "upstreamPath": "skills/ponytail + LICENSE",
+      "upstreamPaths": [
+        {
+          "from": "skills/ponytail",
+          "to": ""
+        },
+        {
+          "from": "LICENSE",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "code-review"
+      ],
+      "contentHash": "dc8132bf4c40b089064189a532030c6064d809ad6eb08d1eb17290096e4d3a42",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "claude-autonomous-program",
+        "date": "2026-09-03",
+        "sha": "2ed6c52c9d7e5e56942508591085fd45dea277d3",
+        "verdict": "vendored-audit-w12-2026-09-03 · bytes vendored under curated/provenance/ponytail"
       }
     },
     {
