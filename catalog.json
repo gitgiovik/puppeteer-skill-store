@@ -8886,6 +8886,38 @@
       }
     },
     {
+      "slug": "motion-designer",
+      "name": "motion-designer",
+      "description": "Make a launch film for an app, mobile (inside an iPhone) or desktop (a window on a laptop's desktop, with a real pointer; web apps in a browser window), with its real UI rebuilt or captured in HTML, or a story told in panels with the brand's character and an end card. The film is cut on the beat to an original track made for it (or the user's), in a chosen visual style, with an optional voiceover in a local voice the user picks (Chatterbox or Kokoro), checked frame by frame and rendered to MP4, a muted loop, a poster and a single self-contained HTML. It also makes or cuts a track to the bar and the frame, writes and mixes a voiceover, and checks and installs the tools it needs after asking. Use when the user wants a launch video, promo, teaser or product film of their iOS, Android, macOS, Windows, Linux, Electron, Tauri or web app, wants to change such a film's story, style, pacing, device, music or voiceover, wants music made or a track cut to a film's beat or narration mixed over it, or asks what the tool needs to run.",
+      "author": "kaventro",
+      "license": "MIT",
+      "sourceUrl": "https://github.com/kaventro/motion-designer",
+      "upstreamCommit": "0cf0ba92d3db7d8d5ae603a65b56a99a2866311c",
+      "upstreamPath": "skills/motion-designer",
+      "upstreamPaths": [
+        {
+          "from": "skills/motion-designer",
+          "to": ""
+        },
+        {
+          "from": "LICENSE",
+          "to": ""
+        }
+      ],
+      "topics": [
+        "design"
+      ],
+      "contentHash": "5063b1b3948b315444660f7faef5afe54896aa2509cf64c76e4123b67b82bf8a",
+      "byteAudit": "upstream-differs",
+      "catalogRevision": 1,
+      "reviewed": {
+        "by": "claude-autonomous-program",
+        "date": "2026-10-01",
+        "sha": "0cf0ba92d3db7d8d5ae603a65b56a99a2866311c",
+        "verdict": "vendored-audit-2026-10-01 · bytes vendored under curated/provenance/motion-designer"
+      }
+    },
+    {
       "slug": "ms-entra-agent-id",
       "name": "entra-agent-id",
       "description": "Provision Microsoft Entra Agent Identity Blueprints, BlueprintPrincipals, and per-instance Agent Identities via Microsoft Graph, and configure OAuth 2.0 token exchange (fmi_path, OBO, cross-tenant) including the Microsoft Entra SDK for AgentID sidecar. USE FOR: Agent Identity Blueprint, BlueprintPrincipal, agent OAuth, fmi_path token exchange, agent OBO, Workload Identity Federation for agents, polyglot agent auth, Microsoft.Identity.Web.AgentIdentities. DO NOT USE FOR: standard Entra app registration (use entra-app-registration), Microsoft Foundry agent authoring (use microsoft-foundry).",
