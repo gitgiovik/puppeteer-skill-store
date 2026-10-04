@@ -12,7 +12,8 @@
  *      file most loaded with duplicates of what the app already does);
  *  (b) a repo already in `catalog.json` is not news; subscription relays, prompt leaks,
  *      ToS / anti-bot / unofficial WhatsApp bypasses and offensive or reverse-engineering
- *      tooling are dropped ({@link DENY_TERM_GROUPS}, one `reason` per group);
+ *      tooling are dropped ({@link DENY_REPOS} by name, {@link DENY_TERM_GROUPS} by words,
+ *      one `reason` per group);
  *  (c) the "already integrated" gate ({@link INTEGRATED_NAMES}, {@link INTEGRATED_WORDS},
  *      {@link INTEGRATED_TERMS}) — see the HAND COPY note below;
  *  (d) findarepo's `summary` is never part of the output: description and licence come
@@ -58,6 +59,13 @@ export const DENY_TERM_GROUPS = Object.freeze([
       /provider[\s_-]*proxy/,
       /[a-z0-9]2api\b/,
       /\bsubscriptions?\b.{0,60}\bapi\b/,
+      /unlimited[\s_-]*free/,
+      /\bfree\b.{0,40}\b(?:claude|gpt|gemini|codex|tokens?)\b/,
+      /\b(?:claude|gpt|gemini|codex)\b.{0,40}\bfor[\s_-]*free\b/,
+      /\b(?:ai|llm)[\s_-]*gateway/,
+      /auto[\s_-]*fallback/,
+      /telemetry[\s_-]*removed/,
+      /guardrails?[\s_-]*stripped/,
     ],
   },
   {
@@ -78,6 +86,11 @@ export const DENY_TERM_GROUPS = Object.freeze([
       /\bstealth\b/,
       /cloudflare[\s_-]*bypass/,
       /whatsapp(?![\s_-]*(?:cloud|business)[\s_-]*api)/,
+      /\blinkedin\b/,
+      /xiaohongshu/,
+      /douyin/,
+      /tiktok.{0,40}download/,
+      /logged[\s_-]*in[\s_-]*browser[\s_-]*session/,
     ],
   },
   {
@@ -100,8 +113,57 @@ export const DENY_TERM_GROUPS = Object.freeze([
       /pentest/,
       /red[\s_-]*team/,
       /\bclaude[\s_-]*red\b/,
+      /cybersecurity/,
+      /\bosint\b/,
+      /\bjadx\b/,
     ],
   },
+]);
+
+/**
+ * Repos dropped by name, whatever their words say (rule of 14/08, owner answers 9 and 18).
+ * The source dossier names these one by one: 12 subscription relays, "free Claude" forks or
+ * prompt leaks, 7 platform-ToS / anti-bot / unofficial WhatsApp tools, 15 offensive or
+ * reverse-engineering tools, plus OmniRoute (an AI gateway with account auto-fallback).
+ * Matched lower-cased on findarepo's name AND on the identity GitHub resolves (second pass).
+ * Owner decision D3 ratifies the list; keeping any of them is the owner's call, not ours.
+ */
+export const DENY_REPOS = Object.freeze([
+  { repo: 'wei-shaw/sub2api', reason: 'subscription-relay' },
+  { repo: 'wei-shaw/claude-relay-service', reason: 'subscription-relay' },
+  { repo: 'router-for-me/cliproxyapi', reason: 'subscription-relay' },
+  { repo: 'alishahryar1/free-claude-code', reason: 'subscription-relay' },
+  { repo: 'decolua/9router', reason: 'subscription-relay' },
+  { repo: 'justlovemaki/aiclient2api', reason: 'subscription-relay' },
+  { repo: 'freecodexyz/free-code', reason: 'subscription-relay' },
+  { repo: 'claude-code-best/claude-code', reason: 'subscription-relay' },
+  { repo: 'noemica-io/open-claude-in-chrome', reason: 'subscription-relay' },
+  { repo: 'diegosouzapw/omniroute', reason: 'subscription-relay' },
+  { repo: 'asgeirtj/system_prompts_leaks', reason: 'prompt-leak' },
+  { repo: 'x1xhlol/system-prompts-and-models-of-ai-tools', reason: 'prompt-leak' },
+  { repo: 'piebald-ai/claude-code-system-prompts', reason: 'prompt-leak' },
+  { repo: 'stickerdaniel/linkedin-mcp-server', reason: 'tos-bypass' },
+  { repo: 'korotovsky/slack-mcp-server', reason: 'tos-bypass' },
+  { repo: 'verygoodplugins/whatsapp-mcp', reason: 'tos-bypass' },
+  { repo: 'xpzouying/xiaohongshu-mcp', reason: 'tos-bypass' },
+  { repo: 'feder-cr/invisible_playwright_mcp', reason: 'tos-bypass' },
+  { repo: 'vibheksoni/stealth-browser-mcp', reason: 'tos-bypass' },
+  { repo: 'evil0ctal/douyin_tiktok_download_api', reason: 'tos-bypass' },
+  { repo: 'zhaoxuya520/reverse-skill', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'mukul975/anthropic-cybersecurity-skills', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'simoneavogadro/android-reverse-engineering-skill', reason: 'offensive-or-reverse-engineering' },
+  { repo: '0x4m4/hexstrike-ai', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'mrexodia/ida-pro-mcp', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'blacktop/ida-mcp-rs', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'bethington/ghidra-mcp', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'symgraph/ghidrassistmcp', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'duty1g/x64dbg-mcp-server', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'miscusi-peek/cheatengine-mcp-bridge', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'zhizhuodemao/js-reverse-mcp', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'ling71671/open-reverselab', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'zinja-coder/jadx-ai-mcp', reason: 'offensive-or-reverse-engineering' },
+  { repo: '1-3-7/disrobe', reason: 'offensive-or-reverse-engineering' },
+  { repo: 'openosint/openosint', reason: 'offensive-or-reverse-engineering' },
 ]);
 
 /** Repo names the owner contested as already integrated (dossier 3.2, row 29). */
@@ -181,6 +243,9 @@ export function dropKnown(items, catalogRepos) {
 
 /** The deny group a row falls in, or `undefined`. */
 export function denyReason(i) {
+  const repo = i.repo.toLowerCase();
+  const byName = DENY_REPOS.find((r) => r.repo === repo);
+  if (byName) return byName.reason;
   const text = haystack(i);
   return DENY_TERM_GROUPS.find((g) => g.patterns.some((p) => p.test(text)))?.reason;
 }
