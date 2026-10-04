@@ -4,7 +4,7 @@
  * Run by `.github/workflows/weekly-discovery.yml`, entirely separate from the
  * daily snapshot workflow because it spends a DIFFERENT, much tighter budget:
  * the GitHub Search API's 30 requests/minute (its own ceiling, independent of
- * the 5000/h core REST budget the daily job's GraphQL calls use).
+ * the core REST budget: 1 000/h per repository with the workflow's GITHUB_TOKEN).
  *
  * TWO DISCOVERY PASSES, written to `discovery.json` at the data-branch root as CANDIDATES only —
  * nothing here ever touches `catalog.json`. A human still reviews, pins a
@@ -22,7 +22,7 @@
  *
  * 2. KNOWN-COLLECTION ENUMERATION: for the ~42 repos catalog.json already
  *    pins, fetch the CURRENT default-branch tree (core REST API — a
- *    completely separate budget from Search, 5000/h) and look for
+ *    completely separate budget from Search, 1 000/h per repository) and look for
  *    `.../SKILL.md` paths not already covered by any curated entry's
  *    `upstreamPath`/`upstreamPaths` for that repo. This is how a repo like
  *    `anthropics/skills` growing a 10th skill directory gets surfaced without
