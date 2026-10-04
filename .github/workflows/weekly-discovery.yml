@@ -55,6 +55,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/discover.mjs --out ../data-branch/discovery.json
 
+      # B3.2-G6: the "trending" leads from findarepo.com, filtered BEFORE they are
+      # written, in their OWN document (never discovery.json, which shipped apps read
+      # unfiltered). Same job, same cron, same token; a findarepo outage writes nothing
+      # and must never stop the discovery above, hence continue-on-error.
+      - name: Run external leads (findarepo)
+        working-directory: main
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/external-leads.mjs --out ../data-branch/external-leads.json
+
       - name: Commit + push data branch (only if something changed)
         working-directory: data-branch
         run: |
