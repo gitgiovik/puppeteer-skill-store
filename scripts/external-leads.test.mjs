@@ -2,7 +2,8 @@
 // every fetch is simulated, every write is captured).
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, statSync, mkdtempSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { spawnSync } from 'node:child_process';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -274,16 +275,23 @@ test('MAX_GITHUB_CALLS = 60: never more GitHub calls than that, never Search', a
 // ---- (6) identity resolved by GitHub goes through the WHOLE chain again --------------
 
 test('a rename towards an excluded or catalogued name does not pass', async () => {
+  // Old names are NEUTRAL, so only the second pass (on the identity GitHub resolves) can stop them.
   const renames = {
-    'old/renamed-to-graphify': 'Graphify-Labs/graphify',
-    'old/renamed-to-catalogue': 'Anthropics/Skills',
-    'old/renamed-to-offensive': 'SnailSploit/Claude-Red',
-    'old/renamed-to-brain': 'someone/second-brain-kit',
+    'old/tool-one': 'Graphify-Labs/graphify',
+    'old/tool-two': 'Anthropics/Skills',
+    'old/tool-three': 'SnailSploit/Claude-Red',
+    'old/tool-four': 'someone/second-brain-kit',
     'old/plain-helper': 'decolua/9router',
   };
+  // Neutral new name too: only the GitHub description (known after the resolution) gives it away.
+  const described = {
+    'old/tool-five': ['acme/neutral-kit', 'Offensive security toolkit for red team work.'],
+    'old/tool-six': ['acme/neutral-notes', 'A second brain for your daily notes.'],
+  };
   const net = fakeNet({
-    skills: envelope([...Object.keys(renames).map((r) => row(r)), row('ok/stays')]),
-    github: (r) => ghRepo(renames[r] ?? r),
+    skills: envelope([...Object.keys(renames), ...Object.keys(described)].map((r) => row(r)).concat(row('ok/stays'))),
+    github: (r) =>
+      described[r] ? ghRepo(described[r][0], { description: described[r][1] }) : ghRepo(renames[r] ?? r),
   });
   const { writes } = await go(net);
   const doc = JSON.parse(writes.get(OUT));
@@ -291,6 +299,52 @@ test('a rename towards an excluded or catalogued name does not pass', async () =
     doc.candidates.map((c) => c.repo),
     ['ok/stays'],
   );
+});
+
+test('every GitHub call failing, or an empty envelope, writes nothing and exits 0 (lens m2)', async () => {
+  const dir = mkdtempSync(join(tmpdir(), 'leads-'));
+  const out = join(dir, 'external-leads.json');
+  const before = '{"previous":"week"}\n';
+  writeFileSync(out, before);
+  const mtime = statSync(out).mtimeMs;
+  try {
+    const cases = {
+      'github 403 on every call': fakeNet({
+        skills: envelope([row('ok/a'), row('ok/b')]),
+        mcp: envelope([row('ok/c')]),
+        github: 403,
+      }),
+      'github unreachable on every call': fakeNet({
+        skills: envelope([row('ok/a')]),
+        github: new Error('ECONNRESET'),
+      }),
+      'items: [] in both files': fakeNet({ skills: envelope([]), mcp: envelope([]) }),
+    };
+    for (const [name, net] of Object.entries(cases)) {
+      const lines = [];
+      const code = await run(['--out', out, '--source-base', BASE], {
+        env: {},
+        fetchImpl: net.fetchImpl,
+        readCatalog: () => ({ skills: [] }),
+        log: (s) => lines.push(String(s)),
+        warn: (s) => lines.push(String(s)),
+        now: () => new Date('2026-10-05T05:00:00.000Z'),
+      });
+      assert.equal(code, 0, name);
+      assert.equal(readFileSync(out, 'utf8'), before, `${name}: last week's file is untouched`);
+      assert.equal(statSync(out).mtimeMs, mtime, `${name}: mtime untouched`);
+      assert.ok(lines.some((l) => /nothing written/.test(l)), `${name}: logged`);
+    }
+    // a partial failure still writes the survivors
+    const partial = fakeNet({
+      skills: envelope([row('ok/a', 9), row('ok/b', 8)]),
+      github: (r) => (r === 'ok/a' ? 500 : ghRepo(r)),
+    });
+    const { writes } = await go(partial);
+    assert.deepEqual(JSON.parse(writes.get(OUT)).candidates.map((c) => c.repo), ['ok/b']);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
 });
 
 test('archived, private, unreachable or malformed repos are dropped; duplicates collapse', async () => {

@@ -109,8 +109,16 @@ test('dropByDenyTerms keeps ordinary skills and MCP servers', () => {
     item('nidhinjs/prompt-master', 'Writes accurate prompts for any AI tool.'),
     item('firecrawl/firecrawl-mcp-server', 'Official web scraping and search server.', 9, 'mcp'),
     item('mksglu/context-mode', 'Context window optimization for coding agents.', 9, 'mcp'),
+    // "free" in its everyday sense (lens r2 m-r2-1): a free skill is not a free-Claude relay
+    item('acme/design-skills', 'Free and open-source Claude Code skills for designers.'),
+    item('acme/gemini-helper', 'A free MCP server for Gemini CLI.', 9, 'mcp'),
+    item('acme/claude-collection', 'Free, curated collection of Claude skills.'),
   ];
   assert.deepEqual(repos(dropByDenyTerms(keep)), repos(keep));
+  // ... while the relay forms stay dropped
+  for (const t of ['free claude tokens', 'Free-Claude relay', 'unlimited gpt for free', 'free gemini', 'free tokens']) {
+    assert.deepEqual(repos(dropByDenyTerms([item('acme/x-tool', t)])), [], `"${t}" dropped`);
+  }
 });
 
 // Named one by one in the source dossier (findarepo scettico, rows 37-39) plus OmniRoute
@@ -231,6 +239,29 @@ test('dropIntegrated: the five contested by the owner never come out', () => {
     item('YishenTu/claudian', 'An Obsidian plugin that embeds an agent in your vault.'),
   ];
   assert.deepEqual(repos(dropIntegrated(contested)), []);
+});
+
+test('dropIntegrated: graph and memory duplicates of graphify and the Brain never come out (lens m3)', () => {
+  // Real repos seen on 2026-10-03; the summaries are paraphrases written here.
+  const dupes = [
+    item('colbymchenry/codegraph', 'Pre-indexed code knowledge graph for coding agents.', 9, 'mcp'),
+    item('Egonex-AI/Understand-Anything', 'Turn any code into an interactive knowledge graph.'),
+    item('thedotmack/claude-mem', 'Captures what the agent did and replays it next time.'),
+    item('HiAi-gg/docsmint', 'Builds a knowledge base out of documents with GraphRAG.'),
+    item('someone/session-recorder', 'Keeps persistent memory across sessions.'),
+    item('someone/ctx-keeper', 'Persistent context for long projects.'),
+    item('someone/mem-store', 'Small store.'),
+  ];
+  assert.deepEqual(repos(dropIntegrated(dupes)), []);
+  // ordinary skills that merely sound close stay
+  const keep = [
+    item('acme/member-card', 'Renders a member card.'),
+    item('acme/memo-pad', 'A memo pad skill.'),
+    item('acme/graph-charts', 'Draws charts and graphs from CSV files.'),
+    item('acme/context-trimmer', 'Trims long context windows.'),
+    item('acme/memory-profiler', 'Profiles process memory usage.'),
+  ];
+  assert.deepEqual(repos(dropIntegrated(keep)), repos(keep));
 });
 
 test('dropIntegrated: INTEGRATED_TERMS works like the native gate (two terms, one in the name)', () => {

@@ -60,7 +60,9 @@ export const DENY_TERM_GROUPS = Object.freeze([
       /[a-z0-9]2api\b/,
       /\bsubscriptions?\b.{0,60}\bapi\b/,
       /unlimited[\s_-]*free/,
-      /\bfree\b.{0,40}\b(?:claude|gpt|gemini|codex|tokens?)\b/,
+      // "free Claude / GPT / Gemini / Codex" as a product, not "free ... Claude skills" or "a free MCP server for Gemini"
+      /\bfree[\s_-]*(?:claude|gpt|gemini|codex)\b(?![\s_-]*(?:code[\s_-]*)?(?:skills?|servers?|collections?))/,
+      /\bfree[\s_-]*tokens?\b/,
       /\b(?:claude|gpt|gemini|codex)\b.{0,40}\bfor[\s_-]*free\b/,
       /\b(?:ai|llm)[\s_-]*gateway/,
       /auto[\s_-]*fallback/,
@@ -176,7 +178,20 @@ export const INTEGRATED_NAMES = Object.freeze([
 ]);
 
 /** Words that mark a "second brain" anywhere in a row (owner: every brain / second brain / obsidian). */
-export const INTEGRATED_WORDS = Object.freeze([/\bbrain\b/, /second[\s_-]*brain/, /\bobsidian\b/]);
+export const INTEGRATED_WORDS = Object.freeze([
+  /\bbrain\b/,
+  /second[\s_-]*brain/,
+  /\bobsidian\b/,
+  // graphify is native and the Brain keeps a knowledge graph (owner: graphify is contested; lens m3)
+  /knowledge[\s_-]*graph/,
+  /code[\s_-]*graph/,
+  /graph[\s_-]*rag/,
+  // the Brain already keeps persistent memory and context (lens m3)
+  /persistent[\s_-]*(?:memory|context)/,
+]);
+
+/** Name tokens that mark a memory tool on their own, e.g. claude-mem (whole word, so "member" and "memo" stay). */
+export const INTEGRATED_NAME_WORDS = Object.freeze([{ word: 'mem', reason: 'the Brain already keeps memory' }]);
 
 /**
  * Native-capability vocabularies, same semantics as the app's native gate: a row is
@@ -262,6 +277,9 @@ export function integratedReason(i) {
   if (byName) return byName.reason;
   const text = haystack(i);
   if (INTEGRATED_WORDS.some((w) => w.test(text))) return 'a second brain: the Brain is the app\'s own';
+  const nameTerms = terms(repoName(i.repo));
+  const byNameWord = INTEGRATED_NAME_WORDS.find((w) => nameTerms.has(w.word));
+  if (byNameWord) return byNameWord.reason;
   const all = terms([i.repo, i.summary ?? '', i.description ?? ''].join(' '));
   const own = terms(repoName(i.repo));
   for (const g of INTEGRATED_TERMS) {

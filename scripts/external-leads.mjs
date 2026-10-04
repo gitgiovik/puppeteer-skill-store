@@ -169,6 +169,12 @@ export async function run(argv, deps = {}) {
     items.push(...parsed);
   }
 
+  // An empty week is an outage, not news: keep last week's document.
+  if (items.length === 0) {
+    warn('external-leads: findarepo returned no items; nothing written this week.');
+    return 0;
+  }
+
   // 2. Filter on findarepo's names, then cap.
   const shortlist = capByMomentum(filterChain(items, known), MAX_LEADS_PER_KIND);
 
@@ -208,6 +214,10 @@ export async function run(argv, deps = {}) {
       failed++;
       warn(`external-leads: GitHub unreachable for ${item.repo} (${err?.name ?? 'Error'}); dropped.`);
     }
+  }
+  if (calls > 0 && failed === calls) {
+    warn(`external-leads: all ${calls} GitHub call(s) failed; nothing written this week.`);
+    return 0;
   }
   const seen = new Set();
   const finalItems = filterChain(enriched, known).filter((i) => {
