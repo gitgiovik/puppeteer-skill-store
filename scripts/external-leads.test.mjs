@@ -3,7 +3,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { execFileSync } from 'node:child_process';
+import { spawnSync } from 'node:child_process';
 import { dirname, join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import {
@@ -153,19 +153,16 @@ test('with a fake GITHUB_TOKEN neither stdout nor stderr (nor the file) contain 
     process.stdout.write('\\nWRITTEN:' + written.length + ':' + written.includes(process.env.GITHUB_TOKEN) + '\\n');
     process.exitCode = code;
   `;
-  let stdout = '';
-  let stderr = '';
-  try {
-    stdout = execFileSync(process.execPath, ['--input-type=module', '-e', harness], {
-      env: { ...process.env, GITHUB_TOKEN: token },
-      encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'pipe'],
-    });
-  } catch (err) {
-    stdout = String(err.stdout ?? '');
-    stderr = String(err.stderr ?? '');
-    assert.fail(`harness failed: ${stderr}`);
-  }
+  // spawnSync, not execFileSync: stderr must be captured on success too.
+  const child = spawnSync(process.execPath, ['--input-type=module', '-e', harness], {
+    env: { ...process.env, GITHUB_TOKEN: token },
+    encoding: 'utf8',
+    stdio: ['ignore', 'pipe', 'pipe'],
+  });
+  const stdout = String(child.stdout ?? '');
+  const stderr = String(child.stderr ?? '');
+  assert.equal(child.status, 0, `harness failed: ${stderr.replaceAll(token, '<token>')}`);
+  assert.match(stderr, /GitHub answered HTTP 403/, 'stderr is really captured');
   assert.match(stdout, /WRITTEN:[1-9]\d*:false/);
   assert.ok(!stdout.includes(token), 'token on stdout');
   assert.ok(!stderr.includes(token), 'token on stderr');
