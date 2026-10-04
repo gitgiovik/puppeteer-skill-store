@@ -38,3 +38,8 @@ jobs:
         env:
           BASE_REF: ${{ github.base_ref }}
         run: node scripts/validate-entry.mjs --base-ref "origin/$BASE_REF"
+
+      # The store's own unit tests (node --test, no dependencies, no network). Explicit
+      # files only: `node --test scripts` would run every script of the folder as a test.
+      - name: Run the store script tests
+        run: node --test scripts/*.test.mjs scripts/lib/*.test.mjs
