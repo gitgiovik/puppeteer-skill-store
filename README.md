@@ -15,6 +15,7 @@ This repo produces two different things, on purpose kept apart:
 |---|---|---|---|---|
 | `catalog.json`, `.claude-plugin/marketplace.json` | `main` | repo root | Humans, via PR + CI | The reviewed catalogue. Every change is a diff a person read. |
 | `popularity.json`, `snapshots/*.json`, `discovery.json`, `mcp-registry.json` | `data` | branch root | GitHub Actions bots, daily/weekly | Machine-generated signals. Nobody reviews these commits; they are DATA, not curation. |
+| `external-leads.json` | `data` | branch root | `weekly-discovery.yml` (its `external-leads.mjs` step), weekly | "Trending" leads from an outside source, findarepo (findarepo.com) · CC BY 4.0, filtered before writing. A separate document on purpose: the app reads it only behind a switch that is off by default. |
 
 `main` stays clean and auditable — a `git log` on it is a log of curation
 decisions. `data` is an orphan branch (no shared history with `main`) that
@@ -29,6 +30,7 @@ it directly. So the raw URLs are:
 https://raw.githubusercontent.com/gitgiovik/puppeteer-skill-store/main/catalog.json
 https://raw.githubusercontent.com/gitgiovik/puppeteer-skill-store/data/popularity.json
 https://raw.githubusercontent.com/gitgiovik/puppeteer-skill-store/data/snapshots/2026-07-26.json
+https://raw.githubusercontent.com/gitgiovik/puppeteer-skill-store/data/external-leads.json
 ```
 
 In a `raw.githubusercontent.com` URL the segment after the repo is the **ref**,
@@ -39,6 +41,39 @@ app's `packages/skills/src/store-index-client.ts` points at.) Read
 freshness signals — the two are independent fetches, and a store that cannot
 reach the popularity document degrades to "no ranking data yet" rather than
 failing.
+
+### What `external-leads.json` contains
+
+Once a week `scripts/external-leads.mjs` reads findarepo's `skills.json` and
+`mcp.json` (never `categories.json`; one request per file, 20 s timeout, no
+retry) and writes the survivors of a filter to their own file. It is NEVER
+merged into `discovery.json`: app versions already installed read that file
+without any switch or filter.
+
+- **Filtered before writing** (`scripts/lib/external-leads-filter.mjs`): repos
+  already in `catalog.json`; subscription relays, prompt leaks, ToS / anti-bot
+  / unofficial WhatsApp bypasses, offensive and reverse-engineering tooling;
+  anything that duplicates what the app already does (ponytail, caveman,
+  claude-obsidian, graphify, obsidian-second-brain, every "second brain" /
+  Obsidian kit, plus a small vocabulary copied by hand from the app's own
+  "already integrated" gate, which the app re-applies when it reads the leads).
+- **At most 30 skills + 30 MCP servers**, by stars gained in findarepo's
+  measured window. Each survivor costs ONE GitHub REST call (at most 60 per
+  run): GitHub's `full_name` resolves renames and the whole filter runs again
+  on it; archived and private repos are dropped.
+- **Shape**: `{generatedAt, source: "findarepo", attribution, dataDate,
+  license: "CC-BY-4.0", candidates[]}`; each candidate is `{repo, kind
+  ("skill" | "mcp"), stars, starsGained, measuredWindowDays, description,
+  licenseSpdx, createdAt, url, installable}`. Description and licence come
+  from GitHub; findarepo's own summaries are never redistributed. `url` is
+  always `https://github.com/<repo>`. MCP leads are `installable: false`: a
+  link to look at, never a direct install.
+- **Attribution**: star-velocity data by findarepo (findarepo.com) · CC BY 4.0
+  (https://creativecommons.org/licenses/by/4.0/). Methodology:
+  https://findarepo.com/about/methodology/.
+- **Outage-safe**: if findarepo does not answer (or answers without `items[]`)
+  nothing is written and the step exits 0, so last week's file stays. The step
+  is `continue-on-error`, so it can never stop the discovery run.
 
 ### What `popularity.json` contains
 
@@ -410,12 +445,14 @@ scripts/
   generate-marketplace.mjs            # catalog.json -> marketplace.json
   collect-snapshot.mjs                # daily: GraphQL stats + tarball reachability + MCP registry sync
   discover.mjs                        # weekly: Search API + known-repo enumeration -> candidates
+  external-leads.mjs                  # weekly: findarepo skills/mcp -> filtered external-leads.json (+ .test.mjs)
   validate-entry.mjs                  # PR CI: re-fetch + re-hash + license check for changed entries
   propose-pin-bumps.mjs               # weekly: subtree-scoped pin bumps -> one cumulative PR (never auto-merged)
   audit-bundle-refs.mjs               # weekly (non-blocking): catalog-wide "refs outside the pinned subtree" audit
   lib/
     tar.mjs                           # standalone USTAR reader (ported from packages/skills/src/pack/tar.ts)
     upstream.mjs                      # standalone upstream-fetch + hash primitives (ported, see file header)
+    external-leads-filter.mjs         # pure filter for external-leads.mjs (+ .test.mjs)
 .github/workflows/
   validate-entry.yml                  # on every PR touching catalog.json / marketplace.json / scripts/
   daily-snapshot.yml                  # cron: writes to the `data` branch
@@ -434,7 +471,9 @@ data/                                 # NOT in this branch — lives on the orph
 - **Weekly discovery**: a small, fixed list of GitHub Search queries, paced
   to stay well under Search's separate 30-req/min ceiling — kept in its own
   workflow specifically so it can never interfere with the daily job's
-  budget.
+  budget. Its external-leads step adds two findarepo GETs and at most 60
+  GitHub REST calls; the workflow's `GITHUB_TOKEN` allows 1 000 REST
+  requests/h per repository, shared by both passes.
 - **PR validation**: bounded to the entries a PR actually changes, not the
   whole catalogue.
 - **Weekly pin-bump**: one HEAD resolution + one commits call per distinct
