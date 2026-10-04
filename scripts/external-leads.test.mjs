@@ -279,6 +279,7 @@ test('a rename towards an excluded or catalogued name does not pass', async () =
     'old/renamed-to-catalogue': 'Anthropics/Skills',
     'old/renamed-to-offensive': 'SnailSploit/Claude-Red',
     'old/renamed-to-brain': 'someone/second-brain-kit',
+    'old/plain-helper': 'decolua/9router',
   };
   const net = fakeNet({
     skills: envelope([...Object.keys(renames).map((r) => row(r)), row('ok/stays')]),

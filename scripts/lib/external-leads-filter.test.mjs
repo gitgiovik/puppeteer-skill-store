@@ -8,6 +8,8 @@ import {
   ALLOWED_SOURCE_FILES,
   FORBIDDEN_SOURCE_FILES,
   DENY_TERM_GROUPS,
+  DENY_REPOS,
+  denyReason,
   INTEGRATED_NAMES,
   INTEGRATED_TERMS,
   MAX_LEADS_PER_KIND,
@@ -109,6 +111,110 @@ test('dropByDenyTerms keeps ordinary skills and MCP servers', () => {
     item('mksglu/context-mode', 'Context window optimization for coding agents.', 9, 'mcp'),
   ];
   assert.deepEqual(repos(dropByDenyTerms(keep)), repos(keep));
+});
+
+// Named one by one in the source dossier (findarepo scettico, rows 37-39) plus OmniRoute
+// (findarepo source card, row 62): 12 relays / "free Claude" / leaks, 7 platform-ToS or
+// unofficial WhatsApp, 15 offensive or reverse engineering, 1 AI gateway.
+const NAMED_DENY = {
+  'subscription-relay': [
+    'Wei-Shaw/sub2api',
+    'Wei-Shaw/claude-relay-service',
+    'router-for-me/CLIProxyAPI',
+    'Alishahryar1/free-claude-code',
+    'decolua/9router',
+    'justlovemaki/AIClient2API',
+    'freecodexyz/free-code',
+    'claude-code-best/claude-code',
+    'noemica-io/open-claude-in-chrome',
+    'diegosouzapw/OmniRoute',
+  ],
+  'prompt-leak': [
+    'asgeirtj/system_prompts_leaks',
+    'x1xhlol/system-prompts-and-models-of-ai-tools',
+    'Piebald-AI/claude-code-system-prompts',
+  ],
+  'tos-bypass': [
+    'stickerdaniel/linkedin-mcp-server',
+    'korotovsky/slack-mcp-server',
+    'verygoodplugins/whatsapp-mcp',
+    'xpzouying/xiaohongshu-mcp',
+    'feder-cr/invisible_playwright_mcp',
+    'vibheksoni/stealth-browser-mcp',
+    'Evil0ctal/Douyin_TikTok_Download_API',
+  ],
+  'offensive-or-reverse-engineering': [
+    'zhaoxuya520/reverse-skill',
+    'mukul975/Anthropic-Cybersecurity-Skills',
+    'SimoneAvogadro/android-reverse-engineering-skill',
+    '0x4m4/hexstrike-ai',
+    'mrexodia/ida-pro-mcp',
+    'blacktop/ida-mcp-rs',
+    'bethington/ghidra-mcp',
+    'symgraph/GhidrAssistMCP',
+    'duty1g/x64dbg-mcp-server',
+    'miscusi-peek/cheatengine-mcp-bridge',
+    'zhizhuodemao/js-reverse-mcp',
+    'LING71671/open-reverselab',
+    'zinja-coder/jadx-ai-mcp',
+    '1-3-7/disrobe',
+    'OpenOSINT/OpenOSINT',
+  ],
+};
+
+test('DENY_REPOS lists exactly the 35 repos the source dossier names, each with its group reason', () => {
+  const expected = Object.entries(NAMED_DENY)
+    .flatMap(([reason, list]) => list.map((r) => `${r.toLowerCase()} ${reason}`))
+    .sort();
+  assert.equal(expected.length, 35);
+  assert.deepEqual(DENY_REPOS.map((r) => `${r.repo} ${r.reason}`).sort(), expected);
+});
+
+test('filterChain drops each of the 35 named repos by name alone, in any case', () => {
+  for (const [reason, list] of Object.entries(NAMED_DENY)) {
+    for (const r of list) {
+      for (const repo of [r, r.toUpperCase(), r.toLowerCase()]) {
+        const fx = item(repo, 'A helpful tool for agents.');
+        assert.deepEqual(repos(filterChain([fx], [])), [], `${repo} should be dropped as ${reason}`);
+        assert.equal(denyReason(fx), reason, `${repo} reason`);
+      }
+    }
+  }
+});
+
+test('the widened terms catch what the real descriptions say, under a neutral name', () => {
+  const fixtures = {
+    'subscription-relay': [
+      'Use Claude Code for free with any model.',
+      'Free tokens for GPT and Gemini through one endpoint.',
+      'Unlimited free access to frontier models.',
+      'An AI gateway in front of many providers.',
+      'One LLM gateway for every coding tool.',
+      'Routes requests with auto-fallback between accounts.',
+      'A fork with telemetry removed.',
+      'A fork with the security guardrails stripped.',
+    ],
+    'tos-bypass': [
+      'Search profiles and jobs on LinkedIn.',
+      'Publish notes to Xiaohongshu.',
+      'Fetch Douyin videos without a watermark.',
+      'TikTok bulk video download API.',
+      'Works through your own logged-in browser session.',
+    ],
+    'offensive-or-reverse-engineering': [
+      'Cybersecurity skills for agents.',
+      'OSINT investigations from an agent.',
+      'Drive JADX from a model.',
+      'Automated pentesting toolkit.',
+    ],
+  };
+  for (const [reason, texts] of Object.entries(fixtures)) {
+    for (const t of texts) {
+      const fx = { ...item('someone/helper', t), summary: '', description: t };
+      assert.equal(denyReason(fx), reason, `"${t}" should be ${reason}`);
+      assert.deepEqual(repos(filterChain([fx], [])), [], `"${t}" dropped`);
+    }
+  }
 });
 
 test('dropIntegrated: the five contested by the owner never come out', () => {
