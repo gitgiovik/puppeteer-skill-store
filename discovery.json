@@ -1,659 +1,659 @@
 {
-  "generatedAt": "2026-09-28T11:31:49.461Z",
+  "generatedAt": "2026-10-05T12:06:44.755Z",
   "candidates": [
     {
-      "repo": "tt-a1i/archify",
-      "stars": 73206,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
       "repo": "op7418/guizang-social-card-skill",
-      "stars": 7285,
+      "stars": 7349,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "internet-court/internet-court-skill",
-      "stars": 6259,
+      "stars": 6384,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "epoko77-ai/im-not-ai",
-      "stars": 5771,
+      "stars": 5848,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "eugeniughelbur/obsidian-second-brain",
-      "stars": 4628,
+      "stars": 4674,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "yanliudesign/mono-color-skill",
-      "stars": 3295,
+      "stars": 3341,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "nolangz/pixel2motion",
-      "stars": 2350,
+      "stars": 2378,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "AgriciDaniel/claude-blog",
-      "stars": 2275,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "Alisa0808/vox-director",
-      "stars": 2069,
+      "stars": 2326,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "Adkid-Zephyr/anti-defensive-writing-Skill",
-      "stars": 1859,
+      "stars": 2164,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "Alisa0808/vox-director",
+      "stars": 2125,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "DreambigOu/ELI5",
-      "stars": 1513,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "JuneYaooo/gpt-image2-ppt-skills",
-      "stars": 1312,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "kharmanskyi/open-steps",
-      "stars": 991,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "lignertys/reddit-research-skills",
-      "stars": 984,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "Bhanunamikaze/Agentic-SEO-Skill",
-      "stars": 940,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "dominikmartn/hue",
-      "stars": 834,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "danilo-znamerovszkij/draw-your-font",
-      "stars": 795,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "xiaopu-ai/web-design",
-      "stars": 779,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "Storybloq/storybloq",
-      "stars": 760,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "learnwithu/mingli-master",
-      "stars": 737,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "Hao0321/claude-skill-social-post",
-      "stars": 675,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "OSideMedia/higgsfield-ai-prompt-skill",
-      "stars": 650,
+      "stars": 1639,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "feitangyuan/onetake",
-      "stars": 632,
+      "stars": 1571,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "JuneYaooo/gpt-image2-ppt-skills",
+      "stars": 1326,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "lignertys/reddit-research-skills",
+      "stars": 1220,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "Mahanaicoach/google-maps-scraper-kit",
+      "stars": 1202,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "kharmanskyi/open-steps",
+      "stars": 1169,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "Bhanunamikaze/Agentic-SEO-Skill",
+      "stars": 947,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "0xpili/simplified-technical-english",
+      "stars": 847,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "dominikmartn/hue",
+      "stars": 832,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "danilo-znamerovszkij/draw-your-font",
+      "stars": 810,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "xiaopu-ai/web-design",
+      "stars": 778,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "Storybloq/storybloq",
+      "stars": 763,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "learnwithu/mingli-master",
+      "stars": 739,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "Hao0321/claude-skill-social-post",
+      "stars": 724,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "OSideMedia/higgsfield-ai-prompt-skill",
+      "stars": 685,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "superdesigndev/superdesign-skill",
-      "stars": 610,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "TexasBedouin/vibe-check",
-      "stars": 608,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "jianruntech/geo-score",
-      "stars": 605,
+      "stars": 623,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "agentenatalie/get-job.skill",
-      "stars": 605,
+      "stars": 620,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "jianruntech/geo-score",
+      "stars": 619,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "TexasBedouin/vibe-check",
+      "stars": 611,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "bybit-exchange/svg-diagram",
-      "stars": 592,
+      "stars": 605,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "aldefy/compose-skill",
-      "stars": 591,
+      "stars": 594,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "kimlawtech/korean-privacy-terms",
-      "stars": 584,
+      "stars": 585,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "crawfordxx/xiaoma-durex-copywriter",
-      "stars": 579,
+      "stars": 581,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "bitwize-music-studio/claude-ai-music-skills",
-      "stars": 518,
+      "stars": 531,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "yanliudesign/offer-toolkit-skill",
-      "stars": 506,
+      "stars": 517,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "op7418/guizang-yingzao-skill",
-      "stars": 475,
+      "stars": 483,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "markfulton/ai-employees",
-      "stars": 469,
+      "stars": 481,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "jnMetaCode/ai-shortfilm-prompts",
-      "stars": 446,
+      "stars": 454,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "alirezarezvani/claude-code-aso-skill",
-      "stars": 441,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "alirezarezvani/ClaudeForge",
-      "stars": 430,
+      "stars": 445,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "tizzy916/humanities-writing-companion",
-      "stars": 421,
+      "stars": 431,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "alirezarezvani/ClaudeForge",
+      "stars": 429,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "Lupynow/math-modeling-skills",
-      "stars": 418,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "zexuanw958-svg/travel-plan-viz",
-      "stars": 394,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "rediumvex/ai-video-generator-claude",
-      "stars": 394,
+      "stars": 417,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "ilyautov/humanizer-ru",
-      "stars": 394,
+      "stars": 410,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
-      "repo": "irenerachel/visual-style-ppt-skill",
-      "stars": 389,
+      "repo": "rediumvex/ai-video-generator-claude",
+      "stars": 400,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "zexuanw958-svg/travel-plan-viz",
+      "stars": 397,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "djfksjd/ir-search",
-      "stars": 379,
+      "stars": 393,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "irenerachel/visual-style-ppt-skill",
+      "stars": 390,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "JamesShi96/project-butler",
-      "stars": 372,
+      "stars": 373,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "dpconde/claude-android-skill",
-      "stars": 332,
+      "stars": 335,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "ckelsoe/prompt-architect",
-      "stars": 305,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "PleasePrompto/google-ai-mode-skill",
-      "stars": 294,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "handsomeZR-netizen/mathmodel-skill",
-      "stars": 293,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "likaku/Mck-ppt-design-skill",
-      "stars": 290,
+      "stars": 309,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "A-cat-with-carrots/OnlyShot",
-      "stars": 290,
+      "stars": 301,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "likaku/Mck-ppt-design-skill",
+      "stars": 293,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "PleasePrompto/google-ai-mode-skill",
+      "stars": 293,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "rrezartprebreza/spring-boot-skills",
-      "stars": 290,
+      "stars": 293,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
-      "repo": "Li-Evan/Bloom",
-      "stars": 276,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "zouchenzhen/thesis-defense-pptx-skill",
-      "stars": 265,
+      "repo": "handsomeZR-netizen/mathmodel-skill",
+      "stars": 292,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "xixihhhh/hotclip",
-      "stars": 262,
+      "stars": 283,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "Li-Evan/Bloom",
+      "stars": 281,
+      "note": "repo match (query: topic:claude-skill)"
+    },
+    {
+      "repo": "zouchenzhen/thesis-defense-pptx-skill",
+      "stars": 266,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "Aboudjem/humanizer-skill",
-      "stars": 258,
+      "stars": 264,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "Hao0321/ai-media-generator",
-      "stars": 250,
-      "note": "repo match (query: topic:claude-skill)"
-    },
-    {
-      "repo": "assafelovic/skyll",
-      "stars": 247,
+      "stars": 255,
       "note": "repo match (query: topic:claude-skill)"
     },
     {
       "repo": "thedotmack/claude-mem",
-      "stars": 94819,
+      "stars": 96364,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "Egonex-AI/Understand-Anything",
-      "stars": 84435,
+      "stars": 85314,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "stars": 77830,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
-      "stars": 69618,
+      "stars": 69807,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "ayghri/i-have-adhd",
-      "stars": 51741,
+      "stars": 53780,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "wshobson/agents",
-      "stars": 40050,
+      "stars": 40206,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "VoltAgent/awesome-agent-skills",
-      "stars": 34973,
+      "stars": 35222,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "nanocoai/nanoclaw",
-      "stars": 30856,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "OthmanAdi/planning-with-files",
-      "stars": 27164,
+      "stars": 30872,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "alirezarezvani/claude-skills",
-      "stars": 26709,
+      "stars": 27654,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "OthmanAdi/planning-with-files",
+      "stars": 27287,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "JimLiu/baoyu-skills",
-      "stars": 26197,
+      "stars": 26348,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "titanwings/distilly",
-      "stars": 25087,
+      "stars": 25307,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "teng-lin/notebooklm-py",
-      "stars": 19515,
+      "stars": 19612,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "travisvn/awesome-claude-skills",
-      "stars": 15197,
+      "stars": 15268,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "yusufkaraaslan/Skill_Seekers",
-      "stars": 15042,
+      "stars": 15099,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "NevaMind-AI/memU",
-      "stars": 14463,
+      "stars": 14490,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "nidhinjs/prompt-master",
-      "stars": 13743,
+      "stars": 14048,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "latent-spaces/brag",
+      "stars": 13601,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "Orchestra-Research/AI-Research-SKILLs",
-      "stars": 13101,
+      "stars": 13258,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "Jeffallan/claude-skills",
-      "stars": 11657,
+      "stars": 11735,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "Vincentwei1021/video-shotcraft",
-      "stars": 9777,
+      "stars": 10330,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "nexu-io/html-anything",
-      "stars": 8968,
+      "stars": 9011,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "anbeime/skill",
-      "stars": 7310,
+      "stars": 7552,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "WenyuChiou/awesome-agentic-ai-zh",
-      "stars": 7205,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "zenstory-ai/oh-story-claudecode",
-      "stars": 7148,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "deanpeters/Product-Manager-Skills",
-      "stars": 7098,
+      "stars": 7396,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "SnailSploit/Claude-Red",
-      "stars": 7037,
+      "stars": 7270,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
-      "repo": "ikaijua/Awesome-AITools",
-      "stars": 6200,
+      "repo": "zenstory-ai/oh-story-claudecode",
+      "stars": 7262,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "deanpeters/Product-Manager-Skills",
+      "stars": 7165,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "gosom/google-maps-scraper",
-      "stars": 6161,
+      "stars": 6282,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "ikaijua/Awesome-AITools",
+      "stars": 6205,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "browser-act/skills",
-      "stars": 6036,
+      "stars": 6097,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "elementalsouls/Claude-BugHunter",
-      "stars": 4696,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "liustack/modlens",
-      "stars": 4061,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "parcadei/Continuous-Claude-v3",
-      "stars": 3943,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "nowork-studio/notfair-plugin",
-      "stars": 3873,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "glitternetwork/pinme",
-      "stars": 3746,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "geekjourneyx/md2wechat-skill",
-      "stars": 3673,
+      "stars": 4772,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "sergebulaev/linkedin-skills",
-      "stars": 3648,
+      "stars": 4134,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
-      "repo": "davepoon/buildwithclaude",
-      "stars": 3562,
+      "repo": "liustack/modlens",
+      "stars": 4120,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
-      "repo": "zenbu-labs/terminal-browser",
-      "stars": 3488,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "codeaashu/claude-code",
-      "stars": 3360,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
-      "stars": 3067,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "rohitg00/pro-workflow",
-      "stars": 2886,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "ScrapeCreators/social-media-research-skills",
-      "stars": 2876,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "Natively-AI-assistant/natively-cluely-ai-assistant",
-      "stars": 2608,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "irinabuht12-oss/marketing-skills",
-      "stars": 2581,
+      "repo": "parcadei/Continuous-Claude-v3",
+      "stars": 3939,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
-      "stars": 2555,
+      "stars": 3913,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
-      "repo": "romainsimon/paperasse",
-      "stars": 2418,
+      "repo": "nowork-studio/notfair-plugin",
+      "stars": 3898,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "glitternetwork/pinme",
+      "stars": 3745,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "geekjourneyx/md2wechat-skill",
+      "stars": 3687,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "zenbu-labs/terminal-browser",
+      "stars": 3649,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "davepoon/buildwithclaude",
+      "stars": 3588,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "Ar9av/obsidian-wiki",
+      "stars": 3521,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "irinabuht12-oss/marketing-skills",
+      "stars": 3491,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "codeaashu/claude-code",
+      "stars": 3369,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "ScrapeCreators/social-media-research-skills",
+      "stars": 3194,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "stars": 3096,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "rohitg00/pro-workflow",
+      "stars": 2901,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "filtalgo/Filtmall-Shopping-Skill",
+      "stars": 2787,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "Natively-AI-assistant/natively-cluely-ai-assistant",
+      "stars": 2681,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "zenstory-ai/drama-skills",
-      "stars": 2335,
+      "stars": 2516,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
-      "repo": "wondelai/skills",
-      "stars": 2274,
+      "repo": "romainsimon/paperasse",
+      "stars": 2500,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "Appllama/appllama-skills",
-      "stars": 2138,
+      "stars": 2383,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
-      "repo": "composio-community/awesome-claude-plugins",
-      "stars": 1982,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "zanwei/design-dna",
-      "stars": 1854,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "timescale/pg-aiguide",
-      "stars": 1850,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "XiaoMaColtAI/math-modeling-skill",
-      "stars": 1849,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "a5c-ai/babysitter",
-      "stars": 1820,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "Prat011/awesome-llm-skills",
-      "stars": 1764,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "coldteadotai/pr-lens",
-      "stars": 1740,
-      "note": "repo match (query: topic:claude-skills)"
-    },
-    {
-      "repo": "BayramAnnakov/claude-reflect",
-      "stars": 1703,
+      "repo": "wondelai/skills",
+      "stars": 2339,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "cbrock84/headcount",
-      "stars": 1690,
+      "stars": 1981,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "kaankiziltug/logo-design-skill",
+      "stars": 1931,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "composio-community/awesome-claude-plugins",
+      "stars": 1931,
+      "note": "repo match (query: topic:claude-skills)"
+    },
+    {
+      "repo": "zanwei/design-dna",
+      "stars": 1884,
       "note": "repo match (query: topic:claude-skills)"
     },
     {
       "repo": "mksglu/context-mode",
-      "stars": 24159,
+      "stars": 25440,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "AgriciDaniel/claude-seo",
-      "stars": 17841,
+      "stars": 18303,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "AgriciDaniel/claude-obsidian",
-      "stars": 15270,
+      "stars": 15355,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "AgriciDaniel/claude-ads",
-      "stars": 9600,
+      "stars": 9719,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "htdt/godogen",
-      "stars": 7014,
+      "stars": 7044,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "wuyoscar/GPT-Image2-Skill",
-      "stars": 5583,
+      "stars": 5630,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "NarratorAI-Studio/narrator-ai-cli-skill",
-      "stars": 2671,
+      "stars": 3024,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "alexgreensh/token-optimizer",
-      "stars": 2420,
+      "stars": 2492,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "oh-my-mermaid/oh-my-mermaid",
-      "stars": 2271,
+      "stars": 2274,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "Vincentwei1021/anything2explainer",
-      "stars": 2120,
+      "stars": 2243,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
-      "stars": 1863,
+      "stars": 1869,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "mohi-devhub/antivibe",
-      "stars": 1109,
+      "stars": 1119,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "AgriciDaniel/banana-claude",
-      "stars": 1066,
+      "stars": 1072,
+      "note": "repo match (query: topic:claude-code-skill)"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "stars": 1065,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "Jane-xiaoer/claude-skill-web-clone",
-      "stars": 1026,
+      "stars": 1035,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "divar-ir/ai-doc-gen",
-      "stars": 763,
+      "stars": 765,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
@@ -663,62 +663,72 @@
     },
     {
       "repo": "shinpr/claude-code-workflows",
-      "stars": 685,
+      "stars": 688,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "aeonfun/soul.md",
-      "stars": 681,
+      "stars": 683,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "MyuriKanao/src-hunter-skill",
-      "stars": 626,
-      "note": "repo match (query: topic:claude-code-skill)"
-    },
-    {
-      "repo": "7onez/cti-expert",
-      "stars": 600,
+      "stars": 631,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "JayPokale/Chisle",
-      "stars": 570,
+      "stars": 613,
+      "note": "repo match (query: topic:claude-code-skill)"
+    },
+    {
+      "repo": "7onez/cti-expert",
+      "stars": 605,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "RandallLiuXin/GodotMaker",
-      "stars": 548,
+      "stars": 549,
+      "note": "repo match (query: topic:claude-code-skill)"
+    },
+    {
+      "repo": "coldteadotai/abide",
+      "stars": 543,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "JimmySadek/youtube-fetcher-to-markdown",
-      "stars": 484,
+      "stars": 486,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "claude-world/notebooklm-skill",
-      "stars": 464,
-      "note": "repo match (query: topic:claude-code-skill)"
-    },
-    {
-      "repo": "AI272/speaker",
-      "stars": 460,
+      "stars": 463,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "gcpdev/llm-council-skill",
-      "stars": 454,
+      "stars": 459,
+      "note": "repo match (query: topic:claude-code-skill)"
+    },
+    {
+      "repo": "AI272/speaker",
+      "stars": 458,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "peterfei/ai-agent-team",
-      "stars": 438,
+      "stars": 440,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "notque/vexjoy-agent",
-      "stars": 425,
+      "stars": 424,
+      "note": "repo match (query: topic:claude-code-skill)"
+    },
+    {
+      "repo": "AgriciDaniel/claude-youtube",
+      "stars": 421,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
@@ -728,47 +738,42 @@
     },
     {
       "repo": "pegasi-ai/reins",
-      "stars": 411,
-      "note": "repo match (query: topic:claude-code-skill)"
-    },
-    {
-      "repo": "AgriciDaniel/claude-youtube",
-      "stars": 404,
+      "stars": 392,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "ombulabs/claude-code_rails-upgrade-skill",
-      "stars": 386,
-      "note": "repo match (query: topic:claude-code-skill)"
-    },
-    {
-      "repo": "coldteadotai/abide",
-      "stars": 374,
+      "stars": 387,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "giuseppe-trisciuoglio/developer-kit",
-      "stars": 349,
+      "stars": 353,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "cucuwang/geoptimize",
-      "stars": 298,
+      "stars": 299,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "AgriciDaniel/claude-canvas",
-      "stars": 298,
+      "stars": 299,
+      "note": "repo match (query: topic:claude-code-skill)"
+    },
+    {
+      "repo": "codeaashu/free-claude-code",
+      "stars": 289,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "tanviet12/vbsec",
-      "stars": 281,
+      "stars": 287,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "Hainrixz/cyber-neo",
-      "stars": 273,
+      "stars": 279,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
@@ -777,38 +782,38 @@
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
-      "repo": "SepineTam/mcp-for-stata",
-      "stars": 261,
+      "repo": "AgriciDaniel/on-page-seo",
+      "stars": 264,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
-      "repo": "AgriciDaniel/on-page-seo",
-      "stars": 259,
+      "repo": "SepineTam/mcp-for-stata",
+      "stars": 263,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "jeecgboot/skills",
-      "stars": 235,
+      "stars": 236,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "Avijit07x/claude-db",
-      "stars": 228,
+      "stars": 230,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "AgriciDaniel/claude-cybersecurity",
-      "stars": 225,
+      "stars": 226,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "secondsky/claude-skills",
-      "stars": 222,
+      "stars": 226,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "vast-ai/vast-cli",
-      "stars": 220,
+      "stars": 223,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
@@ -818,12 +823,7 @@
     },
     {
       "repo": "Evol-ai/SkillCompass",
-      "stars": 215,
-      "note": "repo match (query: topic:claude-code-skill)"
-    },
-    {
-      "repo": "codeaashu/free-claude-code",
-      "stars": 214,
+      "stars": 216,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
@@ -833,202 +833,197 @@
     },
     {
       "repo": "greekr4/playwright-bot-bypass",
-      "stars": 199,
+      "stars": 200,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "Adancurusul/embedded-debugger-mcp",
-      "stars": 197,
-      "note": "repo match (query: topic:claude-code-skill)"
-    },
-    {
-      "repo": "Evan715823/cheatsheet-generator-skill",
-      "stars": 196,
-      "note": "repo match (query: topic:claude-code-skill)"
-    },
-    {
-      "repo": "AElfProject/aelf-skills",
-      "stars": 184,
+      "stars": 198,
       "note": "repo match (query: topic:claude-code-skill)"
     },
     {
       "repo": "ComposioHQ/awesome-claude-skills",
-      "stars": 75773,
+      "stars": 76523,
+      "note": "repo match (query: topic:agent-skills)"
+    },
+    {
+      "repo": "career-ops-hq/career-ops",
+      "stars": 73509,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "hesreallyhim/awesome-claude-code",
-      "stars": 54735,
+      "stars": 55086,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "VoltAgent/awesome-openclaw-skills",
-      "stars": 52848,
+      "stars": 52955,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "CherryHQ/cherry-studio",
-      "stars": 52208,
+      "stars": 52369,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
-      "stars": 47019,
+      "stars": 47261,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "reactive-resume/reactive-resume",
-      "stars": 43499,
-      "note": "repo match (query: topic:agent-skills)"
-    },
-    {
-      "repo": "cathrynlavery/diagram-design",
-      "stars": 42634,
+      "stars": 43806,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "alibaba/open-code-review",
-      "stars": 42118,
+      "stars": 43800,
+      "note": "repo match (query: topic:agent-skills)"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "stars": 43379,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "github/awesome-copilot",
-      "stars": 39470,
+      "stars": 39716,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "virgiliojr94/book-to-skill",
-      "stars": 32842,
+      "stars": 33791,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "topoteretes/cognee",
-      "stars": 31110,
+      "stars": 31373,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "phuryn/pm-skills",
-      "stars": 26634,
+      "stars": 26775,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "agentskills/agentskills",
-      "stars": 25754,
+      "stars": 25919,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "pascalorg/editor",
-      "stars": 24349,
+      "stars": 24629,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "KKKKhazix/khazix-skills",
-      "stars": 20966,
+      "stars": 21172,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "NVIDIA/SkillSpector",
-      "stars": 18486,
+      "stars": 19421,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "microsoft/SkillOpt",
-      "stars": 17732,
+      "stars": 18040,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "kubesphere/kubesphere",
-      "stars": 17059,
+      "stars": 17060,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "citrolabs/ego-lite",
-      "stars": 16613,
+      "stars": 16833,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "alibaba/zvec",
-      "stars": 16019,
+      "stars": 16060,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "eigent-ai/eigent",
-      "stars": 15441,
+      "stars": 15453,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "krillinai/OpenCreator",
-      "stars": 12475,
+      "stars": 12589,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "aden-hive/hive",
-      "stars": 11078,
+      "stars": 11089,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "Agents365-ai/drawio-skill",
-      "stars": 9726,
+      "stars": 9926,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "jnMetaCode/superpowers-zh",
-      "stars": 8225,
+      "stars": 8258,
+      "note": "repo match (query: topic:agent-skills)"
+    },
+    {
+      "repo": "xixu-me/xget",
+      "stars": 8195,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "YaoApp/yao",
-      "stars": 8040,
+      "stars": 8077,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
-      "repo": "refly-ai/refly",
-      "stars": 7534,
+      "repo": "tigerless-labs/autoharness",
+      "stars": 7924,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "Gentleman-Programming/gentle-ai",
-      "stars": 7357,
+      "stars": 7545,
+      "note": "repo match (query: topic:agent-skills)"
+    },
+    {
+      "repo": "refly-ai/refly",
+      "stars": 7527,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "trailofbits/skills",
-      "stars": 7276,
+      "stars": 7370,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "Devin-AXIS/iPolloWork",
-      "stars": 6814,
+      "stars": 6650,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "htmlstreamofficial/preline",
-      "stars": 6449,
+      "stars": 6468,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "ThinkInAIXYZ/deepchat",
-      "stars": 6349,
-      "note": "repo match (query: topic:agent-skills)"
-    },
-    {
-      "repo": "heilcheng/awesome-agent-skills",
-      "stars": 6241,
+      "stars": 6354,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
       "repo": "ningzimu/codex-ppt-skill",
-      "stars": 6239,
+      "stars": 6337,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
-      "repo": "antfu/skills",
-      "stars": 5928,
-      "note": "repo match (query: topic:agent-skills)"
-    },
-    {
-      "repo": "larashero3-dotcom/lieflat-charts",
-      "stars": 5756,
+      "repo": "heilcheng/awesome-agent-skills",
+      "stars": 6262,
       "note": "repo match (query: topic:agent-skills)"
     },
     {
@@ -1149,6 +1144,11 @@
     {
       "repo": "rohitg00/awesome-claude-code-toolkit",
       "path": "skills/testing-strategies/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "getsentry/skills",
+      "path": "skills/secret-serialization/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -1943,6 +1943,11 @@
     },
     {
       "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-cloth-material/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
       "path": "agent-skills/3d/3d-falling-leaves/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -1959,6 +1964,21 @@
     {
       "repo": "MengTo/Skills",
       "path": "agent-skills/3d/3d-high-resolution-textures/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-metal-material/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-orbit-inspect-demo/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-paper-material/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -1983,7 +2003,22 @@
     },
     {
       "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-underwater-god-rays/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
       "path": "agent-skills/3d/3d-virtual-tour/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-wood-lighting-scorecard/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-wood-material/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -2059,6 +2094,36 @@
     {
       "repo": "MengTo/Skills",
       "path": "agent-skills/codex/x-bookmark-quote-posts/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/fire-smoke-skill-vfx/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/game-dev-combat-animation/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/game-dev-combat-skill-polish/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/ice-frost-skill-vfx/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/lightning-energy-skill-vfx/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/water-crystal-skill-vfx/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -2178,6 +2243,11 @@
     },
     {
       "repo": "MengTo/Skills",
+      "path": "agent-skills/web-design/fire-paper-loader/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
       "path": "agent-skills/web-design/funky-purple-container-tech/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -2199,6 +2269,11 @@
     {
       "repo": "MengTo/Skills",
       "path": "agent-skills/web-design/gsap/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/web-design/horizontal-scroll-scenes/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -2234,6 +2309,11 @@
     {
       "repo": "MengTo/Skills",
       "path": "agent-skills/web-design/number-details/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/web-design/paper-cinder-transition/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -5333,6 +5413,11 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/13c-metabolic-flux/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/adaptyv/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -5404,6 +5489,16 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/bulk-rnaseq/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/cantera/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/cellprofiler/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -5493,11 +5588,6 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/docx/SKILL.md",
-      "note": "new SKILL.md in a known collection repo (branch: main)"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/esm/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -5513,7 +5603,17 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/fictiv/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/flowio/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/flowkit/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -5643,6 +5743,16 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/mageck/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/marine-carbonate-chemistry/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/markdown-mermaid-writing/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -5709,6 +5819,16 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/nextflow/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/nmrglue/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/nwb-conversion/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -5783,11 +5903,6 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/pdf/SKILL.md",
-      "note": "new SKILL.md in a known collection repo (branch: main)"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/pennylane/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -5823,12 +5938,12 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/pptx/SKILL.md",
+      "path": "skills/primekg/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/primekg/SKILL.md",
+      "path": "skills/primer-design/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -5839,6 +5954,16 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/pufferlib/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/pybamm/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/pycalphad/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -5903,6 +6028,11 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/qiime2-amplicon/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/qiskit/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -5914,6 +6044,11 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/rdkit/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/relion/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -6038,6 +6173,11 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/tellurium/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/tiledbvcf/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -6099,11 +6239,6 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/what-if-oracle/SKILL.md",
-      "note": "new SKILL.md in a known collection repo (branch: main)"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/xlsx/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -6343,6 +6478,11 @@
     },
     {
       "repo": "cloudflare/skills",
+      "path": "skills/basin/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "cloudflare/skills",
       "path": "skills/cloudflare-email-service/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -6364,6 +6504,11 @@
     {
       "repo": "cloudflare/skills",
       "path": "skills/durable-objects/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "cloudflare/skills",
+      "path": "skills/k2/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -6408,7 +6553,17 @@
     },
     {
       "repo": "mattpocock/skills",
+      "path": "skills/engineering/implement-spec/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "mattpocock/skills",
       "path": "skills/engineering/implement/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "path": "skills/engineering/pr/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -6418,7 +6573,17 @@
     },
     {
       "repo": "mattpocock/skills",
+      "path": "skills/engineering/retro/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "mattpocock/skills",
       "path": "skills/engineering/wizard/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "path": "skills/in-progress/chief-of-staff/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -6428,22 +6593,7 @@
     },
     {
       "repo": "mattpocock/skills",
-      "path": "skills/in-progress/implement-spec/SKILL.md",
-      "note": "new SKILL.md in a known collection repo (branch: main)"
-    },
-    {
-      "repo": "mattpocock/skills",
       "path": "skills/in-progress/loop-me/SKILL.md",
-      "note": "new SKILL.md in a known collection repo (branch: main)"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "path": "skills/in-progress/pr/SKILL.md",
-      "note": "new SKILL.md in a known collection repo (branch: main)"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "path": "skills/in-progress/retro/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -9588,6 +9738,11 @@
     },
     {
       "repo": "datadog-labs/agent-skills",
+      "path": "dd-apm/enable-dsm/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "datadog-labs/agent-skills",
       "path": "dd-apm/k8s-ssi/agent-install/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -9693,6 +9848,11 @@
     },
     {
       "repo": "datadog-labs/agent-skills",
+      "path": "dd-browser-sdk/setup-sourcemaps/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "datadog-labs/agent-skills",
       "path": "dd-browser-sdk/upgrade-v5/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
@@ -9709,6 +9869,11 @@
     {
       "repo": "datadog-labs/agent-skills",
       "path": "dd-gcp-integration/SKILL.md",
+      "note": "new SKILL.md in a known collection repo (branch: main)"
+    },
+    {
+      "repo": "datadog-labs/agent-skills",
+      "path": "dd-instrument-llmo/SKILL.md",
       "note": "new SKILL.md in a known collection repo (branch: main)"
     },
     {
@@ -13049,920 +13214,920 @@
   ],
   "searchCandidates": [
     {
-      "repo": "tt-a1i/archify",
-      "htmlUrl": "https://github.com/tt-a1i/archify",
-      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "stars": 73206,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
       "repo": "op7418/guizang-social-card-skill",
       "htmlUrl": "https://github.com/op7418/guizang-social-card-skill",
       "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
-      "stars": 7285,
+      "stars": 7349,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "internet-court/internet-court-skill",
       "htmlUrl": "https://github.com/internet-court/internet-court-skill",
       "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
-      "stars": 6259,
+      "stars": 6384,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "epoko77-ai/im-not-ai",
       "htmlUrl": "https://github.com/epoko77-ai/im-not-ai",
       "description": "AI가 쓴 한글을 사람 글처럼 윤문하는 Claude 스킬 — Korean AI-text humanizer: detects and rewrites translationese, mechanical parallelism, and 71 other AI tells",
-      "stars": 5771,
+      "stars": 5848,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "eugeniughelbur/obsidian-second-brain",
       "htmlUrl": "https://github.com/eugeniughelbur/obsidian-second-brain",
       "description": "Persistent memory for Claude Code and 6 other CLI agents, stored as plain markdown in your Obsidian vault. Stop re-explaining your projects, decisions and people every session. 45 commands: hybrid semantic search, self-rewriting notes, key-less web research, and scheduled agents that maintain the vault while you sleep.",
-      "stars": 4628,
+      "stars": 4674,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "yanliudesign/mono-color-skill",
       "htmlUrl": "https://github.com/yanliudesign/mono-color-skill",
       "description": "One-ink editorial print image skill — warm paper, halftone photography, active negative space, and restrained typography.",
-      "stars": 3295,
+      "stars": 3341,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "nolangz/pixel2motion",
       "htmlUrl": "https://github.com/nolangz/pixel2motion",
       "description": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
-      "stars": 2350,
+      "stars": 2378,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "AgriciDaniel/claude-blog",
       "htmlUrl": "https://github.com/AgriciDaniel/claude-blog",
       "description": "Claude Code blog skill suite: 30 sub-skills, 5 agents, 5-gate v1.9.0 Blog Delivery Contract, dual-optimized for Google rankings and AI citations. Active development at AI-Marketing-Hub/claude-blog (AI Marketing Hub Pro community); public releases ship here.",
-      "stars": 2275,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "Alisa0808/vox-director",
-      "htmlUrl": "https://github.com/Alisa0808/vox-director",
-      "description": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
-      "stars": 2069,
+      "stars": 2326,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "Adkid-Zephyr/anti-defensive-writing-Skill",
       "htmlUrl": "https://github.com/Adkid-Zephyr/anti-defensive-writing-Skill",
       "description": "极致轻量｜阻止论文的防御性写作 | Anti-defensive writing for academic papers — 学术写作原则 Skill + prompt pack (CN/EN)",
-      "stars": 1859,
+      "stars": 2164,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "Alisa0808/vox-director",
+      "htmlUrl": "https://github.com/Alisa0808/vox-director",
+      "description": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
+      "stars": 2125,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "DreambigOu/ELI5",
       "htmlUrl": "https://github.com/DreambigOu/ELI5",
       "description": "ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents. Adapts tone, vocabulary, and analogies to match the audience.",
-      "stars": 1513,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "JuneYaooo/gpt-image2-ppt-skills",
-      "htmlUrl": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
-      "description": "Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill. ",
-      "stars": 1312,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "kharmanskyi/open-steps",
-      "htmlUrl": "https://github.com/kharmanskyi/open-steps",
-      "description": "Skills that translate your coding agent's output into plain language: honest reports, straight verdicts, steps you can follow. MIT.",
-      "stars": 991,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "lignertys/reddit-research-skills",
-      "htmlUrl": "https://github.com/lignertys/reddit-research-skills",
-      "description": "Reddit research skills for Claude Code and AI agents",
-      "stars": 984,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "Bhanunamikaze/Agentic-SEO-Skill",
-      "htmlUrl": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
-      "description": "An LLM-first SEO analysis skill for Antigravity, Codex, Claude with 16 specialized sub-skills, 10 specialist agents, and 88 optional utility scripts used as evidence collectors.",
-      "stars": 940,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "dominikmartn/hue",
-      "htmlUrl": "https://github.com/dominikmartn/hue",
-      "description": "open-source skill that learns any brand and turns it into a complete design system. works on claude code and codex. install once, every UI your assistant builds matches your brand.",
-      "stars": 834,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "danilo-znamerovszkij/draw-your-font",
-      "htmlUrl": "https://github.com/danilo-znamerovszkij/draw-your-font",
-      "description": "Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads. Node CLI + Claude Code skill.",
-      "stars": 795,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "xiaopu-ai/web-design",
-      "htmlUrl": "https://github.com/xiaopu-ai/web-design",
-      "description": "A Claude Code SKILL for designing beautiful, consistent web pages — spec first, code second. ",
-      "stars": 779,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "Storybloq/storybloq",
-      "htmlUrl": "https://github.com/Storybloq/storybloq",
-      "description": "Project memory and workflows for Claude Code and Codex. Keep stories, plans, handovers, and review evidence in your repo. Resume across sessions and follow progress in the Mac app.",
-      "stars": 760,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "learnwithu/mingli-master",
-      "htmlUrl": "https://github.com/learnwithu/mingli-master",
-      "description": "紫微斗数命盘解读 skill · 基于 iztro-py 精确排盘，生成可视化命盘 HTML",
-      "stars": 737,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "Hao0321/claude-skill-social-post",
-      "htmlUrl": "https://github.com/Hao0321/claude-skill-social-post",
-      "description": "A Claude Code skill by Hao (駱君昊) that learns your Facebook voice and auto-posts to FB / IG / Threads / X with a 14-day content calendar. Mega-viral validated: 80K reach / 448 likes / 500 comments on first post. Includes Day 2 flop postmortem.",
-      "stars": 675,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "OSideMedia/higgsfield-ai-prompt-skill",
-      "htmlUrl": "https://github.com/OSideMedia/higgsfield-ai-prompt-skill",
-      "description": "Claude AI skill for cinematic Higgsfield AI prompts — 32 sub-skills covering Seedance 2.5 (omni-reference, video edit + extend) and 2.0, the Hell Grind feature-film pipeline, an acting system, Cinema Studio 2.5/3.0/3.5, MCSLA, Soul ID consistency, Kling 3.0 Motion Control, the DISCIPLINE framework, and 18 templates.",
-      "stars": 650,
+      "stars": 1639,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "feitangyuan/onetake",
       "htmlUrl": "https://github.com/feitangyuan/onetake",
       "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
-      "stars": 632,
+      "stars": 1571,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "JuneYaooo/gpt-image2-ppt-skills",
+      "htmlUrl": "https://github.com/JuneYaooo/gpt-image2-ppt-skills",
+      "description": "Clone any .pptx into your own deck — OpenAI gpt-image-2 mimics the layout, you supply the content. 10 bundled styles. | 把任何 .pptx 模板\"抄\"成你的 PPT：gpt-image-2 仿版式、你换内容，另含 10 套精选风格。Claude Code / OpenClaw skill. ",
+      "stars": 1326,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "lignertys/reddit-research-skills",
+      "htmlUrl": "https://github.com/lignertys/reddit-research-skills",
+      "description": "Reddit research skills for Claude Code and AI agents",
+      "stars": 1220,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "Mahanaicoach/google-maps-scraper-kit",
+      "htmlUrl": "https://github.com/Mahanaicoach/google-maps-scraper-kit",
+      "description": "Google Maps scraper for lead generation, run by Claude Code. Exports clean CSVs with phones, emails, websites and socials. Local, free, no API keys.",
+      "stars": 1202,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "kharmanskyi/open-steps",
+      "htmlUrl": "https://github.com/kharmanskyi/open-steps",
+      "description": "Plain-language agent skills for Claude Code, Codex, Cursor and Gemini CLI: honest session reports, straight verdicts, steps you can follow. MIT.",
+      "stars": 1169,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "Bhanunamikaze/Agentic-SEO-Skill",
+      "htmlUrl": "https://github.com/Bhanunamikaze/Agentic-SEO-Skill",
+      "description": "An LLM-first SEO analysis skill for Antigravity, Codex, Claude with 16 specialized sub-skills, 10 specialist agents, and 88 optional utility scripts used as evidence collectors.",
+      "stars": 947,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "0xpili/simplified-technical-english",
+      "htmlUrl": "https://github.com/0xpili/simplified-technical-english",
+      "description": "An Agent Skill that makes an LLM write in ASD-STE100 Simplified Technical English. Rules, approved word list, and a check tool.",
+      "stars": 847,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "dominikmartn/hue",
+      "htmlUrl": "https://github.com/dominikmartn/hue",
+      "description": "open-source skill that learns any brand and turns it into a complete design system. works on claude code and codex. install once, every UI your assistant builds matches your brand.",
+      "stars": 832,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "danilo-znamerovszkij/draw-your-font",
+      "htmlUrl": "https://github.com/danilo-znamerovszkij/draw-your-font",
+      "description": "Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads. Node CLI + Claude Code skill.",
+      "stars": 810,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "xiaopu-ai/web-design",
+      "htmlUrl": "https://github.com/xiaopu-ai/web-design",
+      "description": "A Claude Code SKILL for designing beautiful, consistent web pages — spec first, code second. ",
+      "stars": 778,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "Storybloq/storybloq",
+      "htmlUrl": "https://github.com/Storybloq/storybloq",
+      "description": "Project memory and workflows for Claude Code and Codex. Keep stories, plans, handovers, and review evidence in your repo. Resume across sessions and follow progress in the Mac app.",
+      "stars": 763,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "learnwithu/mingli-master",
+      "htmlUrl": "https://github.com/learnwithu/mingli-master",
+      "description": "紫微斗数命盘解读 skill · 基于 iztro-py 精确排盘，生成可视化命盘 HTML",
+      "stars": 739,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "Hao0321/claude-skill-social-post",
+      "htmlUrl": "https://github.com/Hao0321/claude-skill-social-post",
+      "description": "A Claude Code skill by Hao (駱君昊) that learns your Facebook voice and auto-posts to FB / IG / Threads / X with a 14-day content calendar. Mega-viral validated: 80K reach / 448 likes / 500 comments on first post. Includes Day 2 flop postmortem.",
+      "stars": 724,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "OSideMedia/higgsfield-ai-prompt-skill",
+      "htmlUrl": "https://github.com/OSideMedia/higgsfield-ai-prompt-skill",
+      "description": "Claude AI skill for cinematic Higgsfield AI prompts — 32 sub-skills covering Seedance 2.5 (omni-reference, video edit + extend) and 2.0, the Hell Grind feature-film pipeline, an acting system, Cinema Studio 2.5/3.0/3.5, MCSLA, Soul ID consistency, Kling 3.0 Motion Control, the DISCIPLINE framework, and 18 templates.",
+      "stars": 685,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "superdesigndev/superdesign-skill",
       "htmlUrl": "https://github.com/superdesigndev/superdesign-skill",
       "description": "The design skill for Claude Code, Cursor and any coding agent. Stop shipping AI-slop UI: turn it into shippable, tasteful frontend. Install: npx skills add superdesigndev/superdesign-skill. Powered by superdesign.dev",
-      "stars": 610,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "TexasBedouin/vibe-check",
-      "htmlUrl": "https://github.com/TexasBedouin/vibe-check",
-      "description": "By a 12-year product manager who builds 0-to-1: takes a beginner from a vague idea to a buildable plan, then guides the build (GitHub basics, clean-code habits, a verify-and-iterate loop, a checkup for the mess). For Claude Code, Codex, and Antigravity. grill-me is for engineers, vibe-check is for everyone else.",
-      "stars": 608,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "jianruntech/geo-score",
-      "htmlUrl": "https://github.com/jianruntech/geo-score",
-      "description": "Can AI engines cite your site, and do they? Free 0–100 readiness score on an open GEO rubric, plus citation tracking via the OpenAI, Perplexity, Gemini and Claude APIs with your own keys. Zero dependencies, MCP server.",
-      "stars": 605,
+      "stars": 623,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "agentenatalie/get-job.skill",
       "htmlUrl": "https://github.com/agentenatalie/get-job.skill",
       "description": "实习.skill — 双非也能拿大厂 offer。帮你改简历、抠面经、准备面试，把真实背景翻译成面试官想要的样子。",
-      "stars": 605,
+      "stars": 620,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "jianruntech/geo-score",
+      "htmlUrl": "https://github.com/jianruntech/geo-score",
+      "description": "Can AI engines cite your site, and do they? Free 0–100 readiness score on an open GEO rubric, plus citation tracking via the OpenAI, Perplexity, Gemini and Claude APIs with your own keys. Zero dependencies, MCP server.",
+      "stars": 619,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "TexasBedouin/vibe-check",
+      "htmlUrl": "https://github.com/TexasBedouin/vibe-check",
+      "description": "By a 12-year product manager who builds 0-to-1: takes a beginner from a vague idea to a buildable plan, then guides the build (GitHub basics, clean-code habits, a verify-and-iterate loop, a checkup for the mess). For Claude Code, Codex, and Antigravity. grill-me is for engineers, vibe-check is for everyone else.",
+      "stars": 611,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "bybit-exchange/svg-diagram",
       "htmlUrl": "https://github.com/bybit-exchange/svg-diagram",
       "description": "Agent skill that draws architecture, flowchart, sequence, data-flow and lifecycle diagrams as hand-placed SVG, to one linted house style.",
-      "stars": 592,
+      "stars": 605,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "aldefy/compose-skill",
       "htmlUrl": "https://github.com/aldefy/compose-skill",
       "description": "Jetpack Compose Agent Skill — AI-powered coding guidance with actual androidx/androidx source code receipts. Works with Claude Code, Codex CLI, Gemini CLI, Cursor, Copilot, Windsurf, and more.",
-      "stars": 591,
+      "stars": 594,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "kimlawtech/korean-privacy-terms",
       "htmlUrl": "https://github.com/kimlawtech/korean-privacy-terms",
       "description": "한국 법령 기반 개인정보처리방침·이용약관 자동 생성 Claude Code 스킬. 2025.4.21 작성지침 및 2026.3 개정 법령 반영.",
-      "stars": 584,
+      "stars": 585,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "crawfordxx/xiaoma-durex-copywriter",
       "htmlUrl": "https://github.com/crawfordxx/xiaoma-durex-copywriter",
       "description": "杜蕾斯式文案与海报 Skill for Claude Code —— 双层语义方法论 + 8 个文案公式 + 从 260 张原始海报拆解的视觉系统 + AI 出图/代码排版管线",
-      "stars": 579,
+      "stars": 581,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "bitwize-music-studio/claude-ai-music-skills",
       "htmlUrl": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
       "description": "Human + AI music production workflow for Suno - skills, templates, and tools",
-      "stars": 518,
+      "stars": 531,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "yanliudesign/offer-toolkit-skill",
       "htmlUrl": "https://github.com/yanliudesign/offer-toolkit-skill",
       "description": "Full job-hunt Claude skill bundle — Job Description decoder + Resume builder (11 templates) + Behavioral Interview / story bank. Three self-contained sub-skills with a top-level router.",
-      "stars": 506,
+      "stars": 517,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "op7418/guizang-yingzao-skill",
       "htmlUrl": "https://github.com/op7418/guizang-yingzao-skill",
       "description": "🏯 Claude Code / Codex skill — transform Chinese architecture, cultural places & travel photos into art-directed editorial posters with GPT Image. 中国古建筑与在地文化照片 → 艺术指导海报",
-      "stars": 475,
+      "stars": 483,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "markfulton/ai-employees",
       "htmlUrl": "https://github.com/markfulton/ai-employees",
       "description": "Open source AI Employees. 8 scheduled business roles, 60 routines, on Claude Code and 10 other harnesses. They drive your browser the way you do and improve every run. You own the files.",
-      "stars": 469,
+      "stars": 481,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "jnMetaCode/ai-shortfilm-prompts",
       "htmlUrl": "https://github.com/jnMetaCode/ai-shortfilm-prompts",
       "description": "Claude Code Skill that turns any idea into a cinematic, model-ready video prompt — Sora · Kling · Veo · Seedance. 21 genre templates, 5-stage structure, eval-tested. Distilled from the AI short Hollywood director PJ Ace called \"one of the best short films I've seen in years.\"",
-      "stars": 446,
+      "stars": 454,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "alirezarezvani/claude-code-aso-skill",
       "htmlUrl": "https://github.com/alirezarezvani/claude-code-aso-skill",
       "description": "AEO Automation Framework for Claude Code One-click, beginner friendly automation for GitHub. Includes a dedicated fleet of AEO sub-agents handling planning, execution, reports, actionable items, and executive summaries. Trigger work instantly with AEO slash-commands. Fully integrated as a Claude Code Skill and usable across Claude AI App",
-      "stars": 441,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "alirezarezvani/ClaudeForge",
-      "htmlUrl": "https://github.com/alirezarezvani/ClaudeForge",
-      "description": "A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-quality CLAUDE.md instruction files — aligned with Anthropic’s best practices for Claude Code.",
-      "stars": 430,
+      "stars": 445,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "tizzy916/humanities-writing-companion",
       "htmlUrl": "https://github.com/tizzy916/humanities-writing-companion",
       "description": "End-to-end humanities writing assistant — an Agent Skill (open SKILL.md format). 11 modes from Socratic research-question sharpening through AI-use disclosure. Bilingual (EN/中文), discipline-aware (literature/history/philosophy/art/religion/linguistics + cross-disciplinary). Four-layer critique, calibratable devils advocate, voice preservation.",
-      "stars": 421,
+      "stars": 431,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "alirezarezvani/ClaudeForge",
+      "htmlUrl": "https://github.com/alirezarezvani/ClaudeForge",
+      "description": "A CLAUDE.md Generator and Maintenance tool for for Claude Code to create high-quality CLAUDE.md instruction files — aligned with Anthropic’s best practices for Claude Code.",
+      "stars": 429,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "Lupynow/math-modeling-skills",
       "htmlUrl": "https://github.com/Lupynow/math-modeling-skills",
       "description": "数学建模竞赛完整工具链：从拿到赛题到交出论文，一条龙解决。  覆盖 国赛 CUMCM（A/B/C） 和 美赛 MCM/ICM（A-F） 全部题型。",
-      "stars": 418,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "zexuanw958-svg/travel-plan-viz",
-      "htmlUrl": "https://github.com/zexuanw958-svg/travel-plan-viz",
-      "description": "Migo · 旅行领航 —— 把旅行行程生成为单文件、可离线、手机优先的 HTML（交互地图+每日时间轴+出发前提醒）。Claude Code / Codex 通用 Skill（travel-plan-viz）。",
-      "stars": 394,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "rediumvex/ai-video-generator-claude",
-      "htmlUrl": "https://github.com/rediumvex/ai-video-generator-claude",
-      "description": "10 Claude skills that generate studio-quality AI video prompts for Seedance 2.0 on Higgsfield. Viral hooks, SaaS demos, personal brand, faceless content, luxury aesthetic & more.",
-      "stars": 394,
+      "stars": 417,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "ilyautov/humanizer-ru",
       "htmlUrl": "https://github.com/ilyautov/humanizer-ru",
       "description": "humanizer-ru: редактура русского текста для AI-агентов. Убирает канцелярит и шаблонные обороты, сверяет смысл и факты. 67 признаков, 21 жёсткий запрет, сканер, CLI, MCP и расширение Chrome. | Russian text editing for AI agents: removes bureaucratese and template phrasing, checks facts.",
-      "stars": 394,
+      "stars": 410,
       "matchedQuery": "topic:claude-skill"
     },
     {
-      "repo": "irenerachel/visual-style-ppt-skill",
-      "htmlUrl": "https://github.com/irenerachel/visual-style-ppt-skill",
-      "description": "【Skill】视觉风格 PPT 生成工作流",
-      "stars": 389,
+      "repo": "rediumvex/ai-video-generator-claude",
+      "htmlUrl": "https://github.com/rediumvex/ai-video-generator-claude",
+      "description": "10 Claude skills that generate studio-quality AI video prompts for Seedance 2.0 on Higgsfield. Viral hooks, SaaS demos, personal brand, faceless content, luxury aesthetic & more.",
+      "stars": 400,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "zexuanw958-svg/travel-plan-viz",
+      "htmlUrl": "https://github.com/zexuanw958-svg/travel-plan-viz",
+      "description": "Migo · 旅行领航 —— 把旅行行程生成为单文件、可离线、手机优先的 HTML（交互地图+每日时间轴+出发前提醒）。Claude Code / Codex 通用 Skill（travel-plan-viz）。",
+      "stars": 397,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "djfksjd/ir-search",
       "htmlUrl": "https://github.com/djfksjd/ir-search",
       "description": "🇰🇷 한국 정부 지원사업 전수조사 에이전트 스킬 [Claude Code·Codex·agy(Antigravity)·Cursor·Gemini CLI·Grok Build 지원] K-Startup·기업마당·NIPA·KOCCA·SMTECH 크롤링 + 즉시/로드맵/변형 3분류 (Korea-only)",
-      "stars": 379,
+      "stars": 393,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "irenerachel/visual-style-ppt-skill",
+      "htmlUrl": "https://github.com/irenerachel/visual-style-ppt-skill",
+      "description": "【Skill】视觉风格 PPT 生成工作流",
+      "stars": 390,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "JamesShi96/project-butler",
       "htmlUrl": "https://github.com/JamesShi96/project-butler",
       "description": "Project memory system for AI coding assistants (Claude Code, Cursor, Codex): session logs, project wiki, rules, TODOs, and handoff.",
-      "stars": 372,
+      "stars": 373,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "dpconde/claude-android-skill",
       "htmlUrl": "https://github.com/dpconde/claude-android-skill",
       "description": "Claude Code skill for building modern Android apps following best practices.",
-      "stars": 332,
+      "stars": 335,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "ckelsoe/prompt-architect",
       "htmlUrl": "https://github.com/ckelsoe/prompt-architect",
       "description": "Agent skill for analyzing and improving prompts using 31 frameworks across 7 intent categories. Works with Claude Code, Gemini CLI, Cursor, Copilot, and 30+ Agent Skills compatible tools.",
-      "stars": 305,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "PleasePrompto/google-ai-mode-skill",
-      "htmlUrl": "https://github.com/PleasePrompto/google-ai-mode-skill",
-      "description": "Claude Code skill for free Google AI Mode search with citations. Zero-config setup, persistent browser profile, query optimization. Token-efficient web research.",
-      "stars": 294,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "handsomeZR-netizen/mathmodel-skill",
-      "htmlUrl": "https://github.com/handsomeZR-netizen/mathmodel-skill",
-      "description": "三竞赛 (CUMCM/MCM/电工杯) 数学建模 skill — harness-agnostic, 同时支持 Claude Code 与 Codex CLI, 全程问答式 (Friendly Mode), 10 阶段 + 4 反馈层 + per-Qi 加权聚合 + 题型 dim 加权 + empirical 实测分位锚定",
-      "stars": 293,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "likaku/Mck-ppt-design-skill",
-      "htmlUrl": "https://github.com/likaku/Mck-ppt-design-skill",
-      "description": "Consulting firm-style PowerPoint design system for AI agents. 70 layout patterns, flat design, python-pptx. 麦麸风格PPT设计系统。",
-      "stars": 290,
+      "stars": 309,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "A-cat-with-carrots/OnlyShot",
       "htmlUrl": "https://github.com/A-cat-with-carrots/OnlyShot",
       "description": "OnlyShot · 神仙鱼 AI 短剧工业流水线 Claude Skill — 一句话 → 剧本/分镜/分镜图/视频/剪辑 五步 → 可发红果抖音的完整短剧。集成即梦/Seedance，17 失败模式沉淀。",
-      "stars": 290,
+      "stars": 301,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "likaku/Mck-ppt-design-skill",
+      "htmlUrl": "https://github.com/likaku/Mck-ppt-design-skill",
+      "description": "Consulting firm-style PowerPoint design system for AI agents. 70 layout patterns, flat design, python-pptx. 麦麸风格PPT设计系统。",
+      "stars": 293,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "PleasePrompto/google-ai-mode-skill",
+      "htmlUrl": "https://github.com/PleasePrompto/google-ai-mode-skill",
+      "description": "Claude Code skill for free Google AI Mode search with citations. Zero-config setup, persistent browser profile, query optimization. Token-efficient web research.",
+      "stars": 293,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "rrezartprebreza/spring-boot-skills",
       "htmlUrl": "https://github.com/rrezartprebreza/spring-boot-skills",
       "description": "Production-grade Claude Code and Codex skills for Spring Boot developers",
-      "stars": 290,
+      "stars": 293,
       "matchedQuery": "topic:claude-skill"
     },
     {
-      "repo": "Li-Evan/Bloom",
-      "htmlUrl": "https://github.com/Li-Evan/Bloom",
-      "description": "Hire a private AI tutor for anything — it reads how you actually learn and teaches the next lesson just for you. Bloom's 2-Sigma research as a Claude Code skill + self-hostable web app · 中文优先 苏格拉底式 AI 家教",
-      "stars": 276,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "zouchenzhen/thesis-defense-pptx-skill",
-      "htmlUrl": "https://github.com/zouchenzhen/thesis-defense-pptx-skill",
-      "description": "Codex / Claude Skill for editable thesis-defense PPTX from PDF or LaTeX while preserving a PowerPoint template. 从论文 PDF / LaTeX 生成可编辑答辩 PPTX，并保留指定 PPT 模板风格。",
-      "stars": 265,
+      "repo": "handsomeZR-netizen/mathmodel-skill",
+      "htmlUrl": "https://github.com/handsomeZR-netizen/mathmodel-skill",
+      "description": "三竞赛 (CUMCM/MCM/电工杯) 数学建模 skill — harness-agnostic, 同时支持 Claude Code 与 Codex CLI, 全程问答式 (Friendly Mode), 10 阶段 + 4 反馈层 + per-Qi 加权聚合 + 题型 dim 加权 + empirical 实测分位锚定",
+      "stars": 292,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "xixihhhh/hotclip",
       "htmlUrl": "https://github.com/xixihhhh/hotclip",
       "description": "免费开源的 AI 剪辑 / 直播切片工具:长视频、直播回放、播客一键切成爆款竖屏短视频,直发抖音/快手/B站/小红书/视频号——AI 找高光金句、弹幕热度进爆点判断、自动加字幕、横屏转竖屏,本地运行无水印不上传 | Free open-source Opus Clip alternative, 100% local: AI clips long videos & livestream VODs into viral 9:16 shorts for TikTok & YouTube Shorts. No credits, no watermark, no uploads. Win/macOS/Linux.",
-      "stars": 262,
+      "stars": 283,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "Li-Evan/Bloom",
+      "htmlUrl": "https://github.com/Li-Evan/Bloom",
+      "description": "Hire a private AI tutor for anything — it reads how you actually learn and teaches the next lesson just for you. Bloom's 2-Sigma research as a Claude Code skill + self-hostable web app · 中文优先 苏格拉底式 AI 家教",
+      "stars": 281,
+      "matchedQuery": "topic:claude-skill"
+    },
+    {
+      "repo": "zouchenzhen/thesis-defense-pptx-skill",
+      "htmlUrl": "https://github.com/zouchenzhen/thesis-defense-pptx-skill",
+      "description": "Codex / Claude Skill for editable thesis-defense PPTX from PDF or LaTeX while preserving a PowerPoint template. 从论文 PDF / LaTeX 生成可编辑答辩 PPTX，并保留指定 PPT 模板风格。",
+      "stars": 266,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "Aboudjem/humanizer-skill",
       "htmlUrl": "https://github.com/Aboudjem/humanizer-skill",
       "description": "Free, open-source AI writing humanizer and detector. 55 patterns, 5 voices, a 0-100 AI-tell score, and nothing leaves your machine.",
-      "stars": 258,
+      "stars": 264,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "Hao0321/ai-media-generator",
       "htmlUrl": "https://github.com/Hao0321/ai-media-generator",
       "description": "Zero-skill cinema. Senior-director prompts on autopilot. A Claude Code Skill for high-quality AI image / video / music prompt crafting and browser-based execution across 14+ generative platforms.",
-      "stars": 250,
-      "matchedQuery": "topic:claude-skill"
-    },
-    {
-      "repo": "assafelovic/skyll",
-      "htmlUrl": "https://github.com/assafelovic/skyll",
-      "description": "A tool for autonomous agents like OpenClaw to discover and learn skills autonomously",
-      "stars": 247,
+      "stars": 255,
       "matchedQuery": "topic:claude-skill"
     },
     {
       "repo": "thedotmack/claude-mem",
       "htmlUrl": "https://github.com/thedotmack/claude-mem",
       "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-      "stars": 94819,
+      "stars": 96364,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "Egonex-AI/Understand-Anything",
       "htmlUrl": "https://github.com/Egonex-AI/Understand-Anything",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "stars": 84435,
+      "stars": 85314,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "tt-a1i/archify",
+      "htmlUrl": "https://github.com/tt-a1i/archify",
+      "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+      "stars": 77830,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "code-yeongyu/oh-my-openagent",
       "htmlUrl": "https://github.com/code-yeongyu/oh-my-openagent",
       "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
-      "stars": 69618,
+      "stars": 69807,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "ayghri/i-have-adhd",
       "htmlUrl": "https://github.com/ayghri/i-have-adhd",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "stars": 51741,
+      "stars": 53780,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "wshobson/agents",
       "htmlUrl": "https://github.com/wshobson/agents",
       "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi",
-      "stars": 40050,
+      "stars": 40206,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "VoltAgent/awesome-agent-skills",
       "htmlUrl": "https://github.com/VoltAgent/awesome-agent-skills",
       "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-      "stars": 34973,
+      "stars": 35222,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "nanocoai/nanoclaw",
       "htmlUrl": "https://github.com/nanocoai/nanoclaw",
       "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
-      "stars": 30856,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "OthmanAdi/planning-with-files",
-      "htmlUrl": "https://github.com/OthmanAdi/planning-with-files",
-      "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
-      "stars": 27164,
+      "stars": 30872,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "alirezarezvani/claude-skills",
       "htmlUrl": "https://github.com/alirezarezvani/claude-skills",
       "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-      "stars": 26709,
+      "stars": 27654,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "OthmanAdi/planning-with-files",
+      "htmlUrl": "https://github.com/OthmanAdi/planning-with-files",
+      "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
+      "stars": 27287,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "JimLiu/baoyu-skills",
       "htmlUrl": "https://github.com/JimLiu/baoyu-skills",
       "description": "",
-      "stars": 26197,
+      "stars": 26348,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "titanwings/distilly",
       "htmlUrl": "https://github.com/titanwings/distilly",
       "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
-      "stars": 25087,
+      "stars": 25307,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "teng-lin/notebooklm-py",
       "htmlUrl": "https://github.com/teng-lin/notebooklm-py",
       "description": "Unofficial Python API and agentic skill for Google Gemini Notebook. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
-      "stars": 19515,
+      "stars": 19612,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "travisvn/awesome-claude-skills",
       "htmlUrl": "https://github.com/travisvn/awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
-      "stars": 15197,
+      "stars": 15268,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "yusufkaraaslan/Skill_Seekers",
       "htmlUrl": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "description": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
-      "stars": 15042,
+      "stars": 15099,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "NevaMind-AI/memU",
       "htmlUrl": "https://github.com/NevaMind-AI/memU",
       "description": "Personal memory across agents",
-      "stars": 14463,
+      "stars": 14490,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "nidhinjs/prompt-master",
       "htmlUrl": "https://github.com/nidhinjs/prompt-master",
       "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
-      "stars": 13743,
+      "stars": 14048,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "latent-spaces/brag",
+      "htmlUrl": "https://github.com/latent-spaces/brag",
+      "description": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.",
+      "stars": 13601,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "Orchestra-Research/AI-Research-SKILLs",
       "htmlUrl": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
       "description": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
-      "stars": 13101,
+      "stars": 13258,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "Jeffallan/claude-skills",
       "htmlUrl": "https://github.com/Jeffallan/claude-skills",
       "description": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
-      "stars": 11657,
+      "stars": 11735,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "Vincentwei1021/video-shotcraft",
       "htmlUrl": "https://github.com/Vincentwei1021/video-shotcraft",
       "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
-      "stars": 9777,
+      "stars": 10330,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "nexu-io/html-anything",
       "htmlUrl": "https://github.com/nexu-io/html-anything",
       "description": "✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.",
-      "stars": 8968,
+      "stars": 9011,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "anbeime/skill",
       "htmlUrl": "https://github.com/anbeime/skill",
       "description": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill library, featuring curated skill packs across document processing, content creation, programming, machine learning, automated workflows, and many more domains.",
-      "stars": 7310,
+      "stars": 7552,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "WenyuChiou/awesome-agentic-ai-zh",
       "htmlUrl": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
       "description": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
-      "stars": 7205,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "zenstory-ai/oh-story-claudecode",
-      "htmlUrl": "https://github.com/zenstory-ai/oh-story-claudecode",
-      "description": "Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网文): 扫榜、拆文、写作、去AI味、封面全流程，长篇短篇都支持 | 13 skills for novel writing and long-form fiction with file-based continuity tracking. MIT.",
-      "stars": 7148,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "deanpeters/Product-Manager-Skills",
-      "htmlUrl": "https://github.com/deanpeters/Product-Manager-Skills",
-      "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
-      "stars": 7098,
+      "stars": 7396,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "SnailSploit/Claude-Red",
       "htmlUrl": "https://github.com/SnailSploit/Claude-Red",
       "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-      "stars": 7037,
+      "stars": 7270,
       "matchedQuery": "topic:claude-skills"
     },
     {
-      "repo": "ikaijua/Awesome-AITools",
-      "htmlUrl": "https://github.com/ikaijua/Awesome-AITools",
-      "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
-      "stars": 6200,
+      "repo": "zenstory-ai/oh-story-claudecode",
+      "htmlUrl": "https://github.com/zenstory-ai/oh-story-claudecode",
+      "description": "Claude Code / Codex / OpenCode agent skills for writing Chinese web novels (网文): 扫榜、拆文、写作、去AI味、封面全流程，长篇短篇都支持 | 13 skills for novel writing and long-form fiction with file-based continuity tracking. MIT.",
+      "stars": 7262,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "deanpeters/Product-Manager-Skills",
+      "htmlUrl": "https://github.com/deanpeters/Product-Manager-Skills",
+      "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
+      "stars": 7165,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "gosom/google-maps-scraper",
       "htmlUrl": "https://github.com/gosom/google-maps-scraper",
       "description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
-      "stars": 6161,
+      "stars": 6282,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "ikaijua/Awesome-AITools",
+      "htmlUrl": "https://github.com/ikaijua/Awesome-AITools",
+      "description": "Collection of AI-related utilities. Welcome to submit pull requests /收藏AI相关的实用工具，欢迎提交pull requests",
+      "stars": 6205,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "browser-act/skills",
       "htmlUrl": "https://github.com/browser-act/skills",
       "description": "Browser automation CLI built for AI agents. Break through anti-bot walls, hand off to humans across platforms when stuck. Parallel multi-task execution, independent multi-session operation, isolated multi-account browsing.",
-      "stars": 6036,
+      "stars": 6097,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "elementalsouls/Claude-BugHunter",
       "htmlUrl": "https://github.com/elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
-      "stars": 4696,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "liustack/modlens",
-      "htmlUrl": "https://github.com/liustack/modlens",
-      "description": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网最强 DeepSeek Harness 外挂视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。",
-      "stars": 4061,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "parcadei/Continuous-Claude-v3",
-      "htmlUrl": "https://github.com/parcadei/Continuous-Claude-v3",
-      "description": "Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.",
-      "stars": 3943,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "nowork-studio/notfair-plugin",
-      "htmlUrl": "https://github.com/nowork-studio/notfair-plugin",
-      "description": "Open-source SEO, GEO, and marketing skills for AI agents.",
-      "stars": 3873,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "glitternetwork/pinme",
-      "htmlUrl": "https://github.com/glitternetwork/pinme",
-      "description": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
-      "stars": 3746,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "geekjourneyx/md2wechat-skill",
-      "htmlUrl": "https://github.com/geekjourneyx/md2wechat-skill",
-      "description": "面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。",
-      "stars": 3673,
+      "stars": 4772,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "sergebulaev/linkedin-skills",
       "htmlUrl": "https://github.com/sergebulaev/linkedin-skills",
       "description": "Claude skills for LinkedIn. 11 Claude Code and Codex skills that write human-sounding LinkedIn posts, craft comments that get noticed, analyze your feed, and build a publishing cadence, all from your terminal. Content engineering by Creative Content Crafts. MIT.",
-      "stars": 3648,
+      "stars": 4134,
       "matchedQuery": "topic:claude-skills"
     },
     {
-      "repo": "davepoon/buildwithclaude",
-      "htmlUrl": "https://github.com/davepoon/buildwithclaude",
-      "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
-      "stars": 3562,
+      "repo": "liustack/modlens",
+      "htmlUrl": "https://github.com/liustack/modlens",
+      "description": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网最强 DeepSeek Harness 外挂视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。",
+      "stars": 4120,
       "matchedQuery": "topic:claude-skills"
     },
     {
-      "repo": "zenbu-labs/terminal-browser",
-      "htmlUrl": "https://github.com/zenbu-labs/terminal-browser",
-      "description": "A browser inside your terminal",
-      "stars": 3488,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "codeaashu/claude-code",
-      "htmlUrl": "https://github.com/codeaashu/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "stars": 3360,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
-      "htmlUrl": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
-      "description": "A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash commands, skills, hooks, subagents, agent teams, and MCP servers. Beginner path to power-user depth. Featured in Awesome Claude Code.",
-      "stars": 3067,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "rohitg00/pro-workflow",
-      "htmlUrl": "https://github.com/rohitg00/pro-workflow",
-      "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
-      "stars": 2886,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "ScrapeCreators/social-media-research-skills",
-      "htmlUrl": "https://github.com/ScrapeCreators/social-media-research-skills",
-      "description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
-      "stars": 2876,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "Natively-AI-assistant/natively-cluely-ai-assistant",
-      "htmlUrl": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
-      "description": "Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Otter, Granola, Final Round AI, Fireflies, and Interview Coder. Real-time transcription, AI meeting notes, lecture recording, local RAG, BYOK, and stealth mode. Runs locally. No subscriptions. No data breaches.",
-      "stars": 2608,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "irinabuht12-oss/marketing-skills",
-      "htmlUrl": "https://github.com/irinabuht12-oss/marketing-skills",
-      "description": "Claude skills for marketing: 49 free marketing skills for Claude Code and claude.ai (Google Ads, Meta Ads, SEO, AI visibility) + the Ryze Google Ads MCP / Meta Ads MCP: claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
-      "stars": 2581,
+      "repo": "parcadei/Continuous-Claude-v3",
+      "htmlUrl": "https://github.com/parcadei/Continuous-Claude-v3",
+      "description": "Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.",
+      "stars": 3939,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
       "htmlUrl": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
       "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
-      "stars": 2555,
+      "stars": 3913,
       "matchedQuery": "topic:claude-skills"
     },
     {
-      "repo": "romainsimon/paperasse",
-      "htmlUrl": "https://github.com/romainsimon/paperasse",
-      "description": "🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, ...",
-      "stars": 2418,
+      "repo": "nowork-studio/notfair-plugin",
+      "htmlUrl": "https://github.com/nowork-studio/notfair-plugin",
+      "description": "Open-source SEO, GEO, and marketing skills for AI agents.",
+      "stars": 3898,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "glitternetwork/pinme",
+      "htmlUrl": "https://github.com/glitternetwork/pinme",
+      "description": "Deploy Your Frontend in a Single Command. Claude Code Skills supported.",
+      "stars": 3745,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "geekjourneyx/md2wechat-skill",
+      "htmlUrl": "https://github.com/geekjourneyx/md2wechat-skill",
+      "description": "面向 AI Agent 的微信公众号创作与发布 CLI：Markdown 排版、AI 配图、预览与草稿创建；支持由浏览器 Agent 保存知乎、CSDN、头条未发布草稿。",
+      "stars": 3687,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "zenbu-labs/terminal-browser",
+      "htmlUrl": "https://github.com/zenbu-labs/terminal-browser",
+      "description": "A browser inside your terminal",
+      "stars": 3649,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "davepoon/buildwithclaude",
+      "htmlUrl": "https://github.com/davepoon/buildwithclaude",
+      "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
+      "stars": 3588,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "Ar9av/obsidian-wiki",
+      "htmlUrl": "https://github.com/Ar9av/obsidian-wiki",
+      "description": "Framework for AI agents to build and maintain a digital brain through Obsidian wiki | Memory System for Agents",
+      "stars": 3521,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "irinabuht12-oss/marketing-skills",
+      "htmlUrl": "https://github.com/irinabuht12-oss/marketing-skills",
+      "description": "Claude skills for marketing: 49 free marketing skills for Claude Code and claude.ai (Google Ads, Meta Ads, SEO, AI visibility) + the Ryze Google Ads MCP / Meta Ads MCP: claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
+      "stars": 3491,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "codeaashu/claude-code",
+      "htmlUrl": "https://github.com/codeaashu/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "stars": 3369,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "ScrapeCreators/social-media-research-skills",
+      "htmlUrl": "https://github.com/ScrapeCreators/social-media-research-skills",
+      "description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
+      "stars": 3194,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "htmlUrl": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "description": "A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash commands, skills, hooks, subagents, agent teams, and MCP servers. Beginner path to power-user depth. Featured in Awesome Claude Code.",
+      "stars": 3096,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "rohitg00/pro-workflow",
+      "htmlUrl": "https://github.com/rohitg00/pro-workflow",
+      "description": "Claude Code learns from your corrections: self-correcting memory that compounds over 50+ sessions. Context engineering, parallel worktrees, agent teams, and 17 battle-tested skills.",
+      "stars": 2901,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "filtalgo/Filtmall-Shopping-Skill",
+      "htmlUrl": "https://github.com/filtalgo/Filtmall-Shopping-Skill",
+      "description": "Agent-native shopping for extreme value: verifiable same-product price evidence, checkout, orders, delivery, and after-sales.",
+      "stars": 2787,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "Natively-AI-assistant/natively-cluely-ai-assistant",
+      "htmlUrl": "https://github.com/Natively-AI-assistant/natively-cluely-ai-assistant",
+      "description": "Natively — Free open-source AI meeting assistant, interview copilot, and note taker. The best alternative to Cluely, Otter, Granola, Final Round AI, Fireflies, and Interview Coder. Real-time transcription, AI meeting notes, lecture recording, local RAG, BYOK, and stealth mode. Runs locally. No subscriptions. No data breaches.",
+      "stars": 2681,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "zenstory-ai/drama-skills",
       "htmlUrl": "https://github.com/zenstory-ai/drama-skills",
       "description": "开源 AI 短剧/漫剧创作 skill 合集：剧本、角色资产、分镜 storyboard、图片/视频提示词、审查，适配 Claude Code 与 Codex | Open-source AI short drama / micro-drama skills for Claude Code & Codex: script, assets, storyboard, image & video prompts, review. MIT.",
-      "stars": 2335,
+      "stars": 2516,
       "matchedQuery": "topic:claude-skills"
     },
     {
-      "repo": "wondelai/skills",
-      "htmlUrl": "https://github.com/wondelai/skills",
-      "description": "Wondel.ai Agent Skills — Business, Marketing, UX & Coding Frameworks from Bestselling Books. 50 skills + 12 guided journeys for Claude Code, Codex, Cursor & other agentskills.io agents.",
-      "stars": 2274,
+      "repo": "romainsimon/paperasse",
+      "htmlUrl": "https://github.com/romainsimon/paperasse",
+      "description": "🇫🇷  Skills pour agents IA spécialisés dans la bureaucratie française : Comptable, Notaire, ...",
+      "stars": 2500,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "Appllama/appllama-skills",
       "htmlUrl": "https://github.com/Appllama/appllama-skills",
       "description": "A builder, not just a researcher. Agent skills that turn top-grossing app patterns into native-quality mobile screens.",
-      "stars": 2138,
+      "stars": 2383,
       "matchedQuery": "topic:claude-skills"
     },
     {
-      "repo": "composio-community/awesome-claude-plugins",
-      "htmlUrl": "https://github.com/composio-community/awesome-claude-plugins",
-      "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
-      "stars": 1982,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "zanwei/design-dna",
-      "htmlUrl": "https://github.com/zanwei/design-dna",
-      "description": "Turn reference UIs (images, screenshots, URLs) into quantified Design DNA JSON—tokens, qualitative style, visual effects—then generate matching UI from your content.",
-      "stars": 1854,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "timescale/pg-aiguide",
-      "htmlUrl": "https://github.com/timescale/pg-aiguide",
-      "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
-      "stars": 1850,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "XiaoMaColtAI/math-modeling-skill",
-      "htmlUrl": "https://github.com/XiaoMaColtAI/math-modeling-skill",
-      "description": "数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库(优化/预测/评价/图论/机器学习等)、角色指导文档、论文模板和实用工具脚本",
-      "stars": 1849,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "a5c-ai/babysitter",
-      "htmlUrl": "https://github.com/a5c-ai/babysitter",
-      "description": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration",
-      "stars": 1820,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "Prat011/awesome-llm-skills",
-      "htmlUrl": "https://github.com/Prat011/awesome-llm-skills",
-      "description": "A curated list of awesome LLM and AI Agent Skills, resources and tools for customising AI Agent workflows - that works with Claude Code, Codex, Gemini CLI and your custom AI Agents",
-      "stars": 1764,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "coldteadotai/pr-lens",
-      "htmlUrl": "https://github.com/coldteadotai/pr-lens",
-      "description": "Review code 100X faster. Lens draws every PR as animated architecture and data-flow walkthroughs, inside the pull request itself. Use it as a GitHub App, GitHub Action, CLI, or a Skill for your coding agent",
-      "stars": 1740,
-      "matchedQuery": "topic:claude-skills"
-    },
-    {
-      "repo": "BayramAnnakov/claude-reflect",
-      "htmlUrl": "https://github.com/BayramAnnakov/claude-reflect",
-      "description": "A self-learning system for Claude Code that captures corrections, positive feedback, and preferences — then syncs them to CLAUDE.md and AGENTS.md.",
-      "stars": 1703,
+      "repo": "wondelai/skills",
+      "htmlUrl": "https://github.com/wondelai/skills",
+      "description": "Wondel.ai Agent Skills — Business, Marketing, UX & Coding Frameworks from Bestselling Books. 50 skills + 12 guided journeys for Claude Code, Codex, Cursor & other agentskills.io agents.",
+      "stars": 2339,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "cbrock84/headcount",
       "htmlUrl": "https://github.com/cbrock84/headcount",
       "description": "An agent organization structured as a company — 15+ departments, 125+ skills, each independently installable, citing the standards and regulators that settle the question. Runs in Claude Code and ChatGPT.",
-      "stars": 1690,
+      "stars": 1981,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "kaankiziltug/logo-design-skill",
+      "htmlUrl": "https://github.com/kaankiziltug/logo-design-skill",
+      "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+      "stars": 1931,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "composio-community/awesome-claude-plugins",
+      "htmlUrl": "https://github.com/composio-community/awesome-claude-plugins",
+      "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+      "stars": 1931,
+      "matchedQuery": "topic:claude-skills"
+    },
+    {
+      "repo": "zanwei/design-dna",
+      "htmlUrl": "https://github.com/zanwei/design-dna",
+      "description": "Turn reference UIs (images, screenshots, URLs) into quantified Design DNA JSON—tokens, qualitative style, visual effects—then generate matching UI from your content.",
+      "stars": 1884,
       "matchedQuery": "topic:claude-skills"
     },
     {
       "repo": "mksglu/context-mode",
       "htmlUrl": "https://github.com/mksglu/context-mode",
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
-      "stars": 24159,
+      "stars": 25440,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "AgriciDaniel/claude-seo",
       "htmlUrl": "https://github.com/AgriciDaniel/claude-seo",
-      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions, including DataForSEO, Firecrawl, Ahrefs and Matomo.",
-      "stars": 17841,
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "stars": 18303,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "AgriciDaniel/claude-obsidian",
       "htmlUrl": "https://github.com/AgriciDaniel/claude-obsidian",
       "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
-      "stars": 15270,
+      "stars": 15355,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "AgriciDaniel/claude-ads",
       "htmlUrl": "https://github.com/AgriciDaniel/claude-ads",
       "description": "Claude-first paid-media operations skill for Claude Code across 12 ad platforms (Google, Meta, YouTube, LinkedIn, TikTok, Microsoft, Apple, Amazon, Reddit, Pinterest, Snapchat, X): source-grounded audits, deterministic scoring, versioned JSON reports, and capability-gated account changes.",
-      "stars": 9600,
+      "stars": 9719,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "htdt/godogen",
       "htmlUrl": "https://github.com/htdt/godogen",
       "description": "Autonomous game development for Godot, Bevy, and Babylon.js with Claude Code and Codex",
-      "stars": 7014,
+      "stars": 7044,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "wuyoscar/GPT-Image2-Skill",
       "htmlUrl": "https://github.com/wuyoscar/GPT-Image2-Skill",
       "description": "GPT Image 2/2.5 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing",
-      "stars": 5583,
+      "stars": 5630,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "NarratorAI-Studio/narrator-ai-cli-skill",
       "htmlUrl": "https://github.com/NarratorAI-Studio/narrator-ai-cli-skill",
       "description": "AI 解说大师 — Agent skill；封装 narrator-ai-cli 供 Claude/Codex 等工具调用",
-      "stars": 2671,
+      "stars": 3024,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "alexgreensh/token-optimizer",
       "htmlUrl": "https://github.com/alexgreensh/token-optimizer",
       "description": "Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay. ",
-      "stars": 2420,
+      "stars": 2492,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "oh-my-mermaid/oh-my-mermaid",
       "htmlUrl": "https://github.com/oh-my-mermaid/oh-my-mermaid",
       "description": "Turn complex codebases into clear, navigable architecture diagrams with Claude Code.",
-      "stars": 2271,
+      "stars": 2274,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "Vincentwei1021/anything2explainer",
       "htmlUrl": "https://github.com/Vincentwei1021/anything2explainer",
       "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
-      "stars": 2120,
+      "stars": 2243,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
       "htmlUrl": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
       "description": "AI skill for OpenClaw & Claude Code — recommend from 10000+ Nano Banana Pro (Gemini) image prompts. Smart search by use case, content remix, sample images.",
-      "stars": 1863,
+      "stars": 1869,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "mohi-devhub/antivibe",
       "htmlUrl": "https://github.com/mohi-devhub/antivibe",
       "description": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
-      "stars": 1109,
+      "stars": 1119,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "AgriciDaniel/banana-claude",
       "htmlUrl": "https://github.com/AgriciDaniel/banana-claude",
       "description": "AI image generation skill for Claude Code - Creative Director powered by Gemini",
-      "stars": 1066,
+      "stars": 1072,
+      "matchedQuery": "topic:claude-code-skill"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "htmlUrl": "https://github.com/lemomo-ai/lemo-opuscar",
+      "description": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+      "stars": 1065,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "Jane-xiaoer/claude-skill-web-clone",
       "htmlUrl": "https://github.com/Jane-xiaoer/claude-skill-web-clone",
       "description": "Methodology for faithfully cloning any website (static / React / WebGL) — without copying AI-hallucinated code. Real source first.",
-      "stars": 1026,
+      "stars": 1035,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "divar-ir/ai-doc-gen",
       "htmlUrl": "https://github.com/divar-ir/ai-doc-gen",
       "description": "AI-powered multi-agent system that automatically analyzes codebases and generates comprehensive documentation. Features GitLab integration, concurrent processing, and multiple LLM support for better code understanding and developer onboarding.",
-      "stars": 763,
+      "stars": 765,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
@@ -13976,84 +14141,98 @@
       "repo": "shinpr/claude-code-workflows",
       "htmlUrl": "https://github.com/shinpr/claude-code-workflows",
       "description": "Development workflows for Claude Code that keep broad exploration focused on the outcome you approved.",
-      "stars": 685,
+      "stars": 688,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "aeonfun/soul.md",
       "htmlUrl": "https://github.com/aeonfun/soul.md",
       "description": "The best way to build a personality for your agent. Let Claude Code / OpenClaw ingest your data & build your AI soul.",
-      "stars": 681,
+      "stars": 683,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "MyuriKanao/src-hunter-skill",
       "htmlUrl": "https://github.com/MyuriKanao/src-hunter-skill",
       "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘 Claude Code skill — 19 个攻击类 playbook、305 个结构化 payload、263 个 WAF/EDR 绕过、2887 份 HackerOne 真实案例、88,636 WooYun 案例统计",
-      "stars": 626,
-      "matchedQuery": "topic:claude-code-skill"
-    },
-    {
-      "repo": "7onez/cti-expert",
-      "htmlUrl": "https://github.com/7onez/cti-expert",
-      "description": "CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code / Codex. 120+ commands, 57 techniques, 79 typed MCP tools, deterministic case pipeline + ICD-203 reports. No API keys required for core.",
-      "stars": 600,
+      "stars": 631,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "JayPokale/Chisle",
       "htmlUrl": "https://github.com/JayPokale/Chisle",
       "description": "Cut your AI coding agent's token bill on three axes: terse prose, YAGNI-first code, and tool-output compression. Claude Code, Pi, Cursor, Codex, Gemini + 4 more. Zero deps, published benchmarks including the runs it loses.",
-      "stars": 570,
+      "stars": 613,
+      "matchedQuery": "topic:claude-code-skill"
+    },
+    {
+      "repo": "7onez/cti-expert",
+      "htmlUrl": "https://github.com/7onez/cti-expert",
+      "description": "CTI Expert — Cyber Threat Intelligence & OSINT analysis skill for Claude Code / Codex. 120+ commands, 57 techniques, 79 typed MCP tools, deterministic case pipeline + ICD-203 reports. No API keys required for core.",
+      "stars": 605,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "RandallLiuXin/GodotMaker",
       "htmlUrl": "https://github.com/RandallLiuXin/GodotMaker",
       "description": "Autonomous text-to-game pipeline for Godot, powered by Claude Code,Codex,Opencode",
-      "stars": 548,
+      "stars": 549,
+      "matchedQuery": "topic:claude-code-skill"
+    },
+    {
+      "repo": "coldteadotai/abide",
+      "htmlUrl": "https://github.com/coldteadotai/abide",
+      "description": "Make your coding agent abide by all your project rules ",
+      "stars": 543,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "JimmySadek/youtube-fetcher-to-markdown",
       "htmlUrl": "https://github.com/JimmySadek/youtube-fetcher-to-markdown",
       "description": "Portable AI-agent skill: capture YouTube transcripts as Obsidian-ready Markdown with metadata, linked timestamps, language selection, and subtitle exports",
-      "stars": 484,
+      "stars": 486,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "claude-world/notebooklm-skill",
       "htmlUrl": "https://github.com/claude-world/notebooklm-skill",
       "description": "NotebookLM does the research, Claude writes the content. Research → Synthesis → Content Creation → Publishing. Claude Code Skill + MCP Server.",
-      "stars": 464,
-      "matchedQuery": "topic:claude-code-skill"
-    },
-    {
-      "repo": "AI272/speaker",
-      "htmlUrl": "https://github.com/AI272/speaker",
-      "description": "Speaker is a Codex skill project for academic presentations: read real.pptx, combine text extraction, PPTX structure parsing, page-by-page rendering, OCR, and visual review to generate page-by-page speaker notes, and write a clean version of the lecture into the PowerPoint comment area.",
-      "stars": 460,
+      "stars": 463,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "gcpdev/llm-council-skill",
       "htmlUrl": "https://github.com/gcpdev/llm-council-skill",
       "description": "A skill to claude code that enables brainstorming with other LLMs (ChatGPT, Gemini) before presenting the implementation plan to the user",
-      "stars": 454,
+      "stars": 459,
+      "matchedQuery": "topic:claude-code-skill"
+    },
+    {
+      "repo": "AI272/speaker",
+      "htmlUrl": "https://github.com/AI272/speaker",
+      "description": "Speaker is a Codex skill project for academic presentations: read real.pptx, combine text extraction, PPTX structure parsing, page-by-page rendering, OCR, and visual review to generate page-by-page speaker notes, and write a clean version of the lecture into the PowerPoint comment area.",
+      "stars": 458,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "peterfei/ai-agent-team",
       "htmlUrl": "https://github.com/peterfei/ai-agent-team",
       "description": "AI Agent Team-拥有24/7专业AI开发团队：产品经理、前端开发、后端开发、测试工程师、DevOps工程师、技术负责人。一键安装，支持中英文命令，大幅提升开发效率！",
-      "stars": 438,
+      "stars": 440,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "notque/vexjoy-agent",
       "htmlUrl": "https://github.com/notque/vexjoy-agent",
       "description": "VexJoy AI Agent with Jev Intelligent Routing - /do routes plain-English requests to the right specialist agent and gates the work with reviews, tests, and a learning loop.",
-      "stars": 425,
+      "stars": 424,
+      "matchedQuery": "topic:claude-code-skill"
+    },
+    {
+      "repo": "AgriciDaniel/claude-youtube",
+      "htmlUrl": "https://github.com/AgriciDaniel/claude-youtube",
+      "description": "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more.",
+      "stars": 421,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
@@ -14067,63 +14246,56 @@
       "repo": "pegasi-ai/reins",
       "htmlUrl": "https://github.com/pegasi-ai/reins",
       "description": "Stop AI agents from doing things you didn't ask for.",
-      "stars": 411,
-      "matchedQuery": "topic:claude-code-skill"
-    },
-    {
-      "repo": "AgriciDaniel/claude-youtube",
-      "htmlUrl": "https://github.com/AgriciDaniel/claude-youtube",
-      "description": "Claude Code skill for YouTube creators — channel audits, video SEO, retention scripts, thumbnails, content strategy, Shorts optimization, analytics, monetization, and more.",
-      "stars": 404,
+      "stars": 392,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "ombulabs/claude-code_rails-upgrade-skill",
       "htmlUrl": "https://github.com/ombulabs/claude-code_rails-upgrade-skill",
       "description": "🤖 The one and only Claude Code Skill to Upgrade Rails by FastRuby.io -- Based on 60,000 dev/hours of experience upgrading Rails from 2.3 all the way to 8.1. Dual boot your Rails application and gradually upgrade one minor version at a time.  🚀",
-      "stars": 386,
-      "matchedQuery": "topic:claude-code-skill"
-    },
-    {
-      "repo": "coldteadotai/abide",
-      "htmlUrl": "https://github.com/coldteadotai/abide",
-      "description": "Make your coding agent abide by all your project rules ",
-      "stars": 374,
+      "stars": 387,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "giuseppe-trisciuoglio/developer-kit",
       "htmlUrl": "https://github.com/giuseppe-trisciuoglio/developer-kit",
       "description": " Modular plugin marketplace for Claude Code and agentic CLIs, with validated, spec-driven skills, agents, commands, and workflows for Java, TypeScript, Python, PHP, AWS, and AI.",
-      "stars": 349,
+      "stars": 353,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "cucuwang/geoptimize",
       "htmlUrl": "https://github.com/cucuwang/geoptimize",
       "description": "Deterministic content-readiness lint.",
-      "stars": 298,
+      "stars": 299,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "AgriciDaniel/claude-canvas",
       "htmlUrl": "https://github.com/AgriciDaniel/claude-canvas",
       "description": "AI-orchestrated visual production for Obsidian Canvas. Create presentations, flowcharts, mood boards, knowledge graphs, and galleries with intelligent layout and AI-generated content.",
-      "stars": 298,
+      "stars": 299,
+      "matchedQuery": "topic:claude-code-skill"
+    },
+    {
+      "repo": "codeaashu/free-claude-code",
+      "htmlUrl": "https://github.com/codeaashu/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "stars": 289,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "tanviet12/vbsec",
       "htmlUrl": "https://github.com/tanviet12/vbsec",
       "description": "Security scanning skill for Claude Code, Codex and Antigravity. Finds the 21 most common vulnerabilities in AI-written code and shows how to fix each one.",
-      "stars": 281,
+      "stars": 287,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "Hainrixz/cyber-neo",
       "htmlUrl": "https://github.com/Hainrixz/cyber-neo",
       "description": "Open-source cybersecurity analysis agent for Claude Code. Scans projects for vulnerabilities across all OWASP 2025 Top 10 and CWE Top 25 categories. 11 security domains, 60+ secret patterns, parallel subagent analysis, professional report generation. Built by tododeia.com",
-      "stars": 273,
+      "stars": 279,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
@@ -14134,52 +14306,52 @@
       "matchedQuery": "topic:claude-code-skill"
     },
     {
-      "repo": "SepineTam/mcp-for-stata",
-      "htmlUrl": "https://github.com/SepineTam/mcp-for-stata",
-      "description": "Stata-MCP: A MCP server for integrating Stata into your agent loop with a safety-first design.",
-      "stars": 261,
-      "matchedQuery": "topic:claude-code-skill"
-    },
-    {
       "repo": "AgriciDaniel/on-page-seo",
       "htmlUrl": "https://github.com/AgriciDaniel/on-page-seo",
       "description": "On-Page SEO Analyzer - Analyze your website's SEO performance",
-      "stars": 259,
+      "stars": 264,
+      "matchedQuery": "topic:claude-code-skill"
+    },
+    {
+      "repo": "SepineTam/mcp-for-stata",
+      "htmlUrl": "https://github.com/SepineTam/mcp-for-stata",
+      "description": "Stata-MCP: A MCP server for integrating Stata into your agent loop with a safety-first design.",
+      "stars": 263,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "jeecgboot/skills",
       "htmlUrl": "https://github.com/jeecgboot/skills",
       "description": "JeecgBoot Skills — AI 驱动 · 一句话生成全套工件! 在 Claude Code 中，用一句话生成 代码 · 表单 · 流程 · 报表 · 图表 · 大屏 · 仪表盘。 覆盖 JeecgBoot 低代码平台 与 JimuReport 积木报表 两大产品的企业级开发全场景。",
-      "stars": 235,
+      "stars": 236,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "Avijit07x/claude-db",
       "htmlUrl": "https://github.com/Avijit07x/claude-db",
       "description": "Persistent memory for Claude Code. Bring your own database.",
-      "stars": 228,
+      "stars": 230,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "AgriciDaniel/claude-cybersecurity",
       "htmlUrl": "https://github.com/AgriciDaniel/claude-cybersecurity",
       "description": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
-      "stars": 225,
+      "stars": 226,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "secondsky/claude-skills",
       "htmlUrl": "https://github.com/secondsky/claude-skills",
       "description": "Production-ready skills for Claude Code CLI - Cloudflare, React, Tailwind v4, and AI integrations",
-      "stars": 222,
+      "stars": 226,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "vast-ai/vast-cli",
       "htmlUrl": "https://github.com/vast-ai/vast-cli",
       "description": "Vast.ai python and cli api client",
-      "stars": 220,
+      "stars": 223,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
@@ -14193,14 +14365,7 @@
       "repo": "Evol-ai/SkillCompass",
       "htmlUrl": "https://github.com/Evol-ai/SkillCompass",
       "description": "Evaluate agent skill quality. Find the weakest link. Fix it. Prove it worked.",
-      "stars": 215,
-      "matchedQuery": "topic:claude-code-skill"
-    },
-    {
-      "repo": "codeaashu/free-claude-code",
-      "htmlUrl": "https://github.com/codeaashu/free-claude-code",
-      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
-      "stars": 214,
+      "stars": 216,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
@@ -14214,280 +14379,273 @@
       "repo": "greekr4/playwright-bot-bypass",
       "htmlUrl": "https://github.com/greekr4/playwright-bot-bypass",
       "description": "Claude Code skill to bypass bot detection (Google CAPTCHA, etc.)",
-      "stars": 199,
+      "stars": 200,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "Adancurusul/embedded-debugger-mcp",
       "htmlUrl": "https://github.com/Adancurusul/embedded-debugger-mcp",
       "description": "MCP server + CLI + Codex/Claude skill for embedded debugging via probe-rs or OpenOCD — ARM Cortex-M, RISC-V, and Xtensa (ESP32), with AI crash diagnosis",
-      "stars": 197,
-      "matchedQuery": "topic:claude-code-skill"
-    },
-    {
-      "repo": "Evan715823/cheatsheet-generator-skill",
-      "htmlUrl": "https://github.com/Evan715823/cheatsheet-generator-skill",
-      "description": "Turn your course slides and PDFs into dense, exam-ready LaTeX cheatsheets.",
-      "stars": 196,
-      "matchedQuery": "topic:claude-code-skill"
-    },
-    {
-      "repo": "AElfProject/aelf-skills",
-      "htmlUrl": "https://github.com/AElfProject/aelf-skills",
-      "description": "Unified aelf skills hub for discovery, routing, bootstrap, and health checks across OpenClaw, Codex, Cursor, and Claude Code.",
-      "stars": 184,
+      "stars": 198,
       "matchedQuery": "topic:claude-code-skill"
     },
     {
       "repo": "ComposioHQ/awesome-claude-skills",
       "htmlUrl": "https://github.com/ComposioHQ/awesome-claude-skills",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "stars": 75773,
+      "stars": 76523,
+      "matchedQuery": "topic:agent-skills"
+    },
+    {
+      "repo": "career-ops-hq/career-ops",
+      "htmlUrl": "https://github.com/career-ops-hq/career-ops",
+      "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
+      "stars": 73509,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "hesreallyhim/awesome-claude-code",
       "htmlUrl": "https://github.com/hesreallyhim/awesome-claude-code",
       "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
-      "stars": 54735,
+      "stars": 55086,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "VoltAgent/awesome-openclaw-skills",
       "htmlUrl": "https://github.com/VoltAgent/awesome-openclaw-skills",
       "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
-      "stars": 52848,
+      "stars": 52955,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "CherryHQ/cherry-studio",
       "htmlUrl": "https://github.com/CherryHQ/cherry-studio",
       "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
-      "stars": 52208,
+      "stars": 52369,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "sickn33/agentic-awesome-skills",
       "htmlUrl": "https://github.com/sickn33/agentic-awesome-skills",
       "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,400+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
-      "stars": 47019,
+      "stars": 47261,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "reactive-resume/reactive-resume",
       "htmlUrl": "https://github.com/reactive-resume/reactive-resume",
       "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
-      "stars": 43499,
-      "matchedQuery": "topic:agent-skills"
-    },
-    {
-      "repo": "cathrynlavery/diagram-design",
-      "htmlUrl": "https://github.com/cathrynlavery/diagram-design",
-      "description": "Editorial diagram design for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "stars": 42634,
+      "stars": 43806,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "alibaba/open-code-review",
       "htmlUrl": "https://github.com/alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "stars": 42118,
+      "stars": 43800,
+      "matchedQuery": "topic:agent-skills"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "htmlUrl": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "stars": 43379,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "github/awesome-copilot",
       "htmlUrl": "https://github.com/github/awesome-copilot",
       "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-      "stars": 39470,
+      "stars": 39716,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "virgiliojr94/book-to-skill",
       "htmlUrl": "https://github.com/virgiliojr94/book-to-skill",
       "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "stars": 32842,
+      "stars": 33791,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "topoteretes/cognee",
       "htmlUrl": "https://github.com/topoteretes/cognee",
       "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory with small models for free",
-      "stars": 31110,
+      "stars": 31373,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "phuryn/pm-skills",
       "htmlUrl": "https://github.com/phuryn/pm-skills",
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-      "stars": 26634,
+      "stars": 26775,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "agentskills/agentskills",
       "htmlUrl": "https://github.com/agentskills/agentskills",
       "description": "Specification and documentation for Agent Skills",
-      "stars": 25754,
+      "stars": 25919,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "pascalorg/editor",
       "htmlUrl": "https://github.com/pascalorg/editor",
       "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
-      "stars": 24349,
+      "stars": 24629,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "KKKKhazix/khazix-skills",
       "htmlUrl": "https://github.com/KKKKhazix/khazix-skills",
       "description": "数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer & more — Claude Code, Codex & 40+ agents",
-      "stars": 20966,
+      "stars": 21172,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "NVIDIA/SkillSpector",
       "htmlUrl": "https://github.com/NVIDIA/SkillSpector",
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-      "stars": 18486,
+      "stars": 19421,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "microsoft/SkillOpt",
       "htmlUrl": "https://github.com/microsoft/SkillOpt",
       "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
-      "stars": 17732,
+      "stars": 18040,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "kubesphere/kubesphere",
       "htmlUrl": "https://github.com/kubesphere/kubesphere",
       "description": "The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️",
-      "stars": 17059,
+      "stars": 17060,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "citrolabs/ego-lite",
       "htmlUrl": "https://github.com/citrolabs/ego-lite",
       "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "stars": 16613,
+      "stars": 16833,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "alibaba/zvec",
       "htmlUrl": "https://github.com/alibaba/zvec",
       "description": "A lightweight, lightning-fast, in-process vector database",
-      "stars": 16019,
+      "stars": 16060,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "eigent-ai/eigent",
       "htmlUrl": "https://github.com/eigent-ai/eigent",
       "description": "Eigent: The Open Source Cowork Desktop - Local and Free Alternative to Claude Cowork and Codex",
-      "stars": 15441,
+      "stars": 15453,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "krillinai/OpenCreator",
       "htmlUrl": "https://github.com/krillinai/OpenCreator",
       "description": "Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, video translation, and edits with Agents in one place.",
-      "stars": 12475,
+      "stars": 12589,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "aden-hive/hive",
       "htmlUrl": "https://github.com/aden-hive/hive",
       "description": "Multi-Agent Harness for Production AI",
-      "stars": 11078,
+      "stars": 11089,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "Agents365-ai/drawio-skill",
       "htmlUrl": "https://github.com/Agents365-ai/drawio-skill",
       "description": "Agent skill that turns natural language, code, Terraform/K8s, SQL, OpenAPI, AsyncAPI, Protobuf and GraphQL sources into editable, tested draw.io architecture diagrams: incremental sync, multi-view projection, drift diff, CI architecture tests, whiteboard derasterize, interactive HTML/PPTX/Mermaid exports.",
-      "stars": 9726,
+      "stars": 9926,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "jnMetaCode/superpowers-zh",
       "htmlUrl": "https://github.com/jnMetaCode/superpowers-zh",
       "description": "🦸 AI 编程超能力 · 中文增强版 — superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Qoder 等 26 款 AI 编程工具真正会干活",
-      "stars": 8225,
+      "stars": 8258,
+      "matchedQuery": "topic:agent-skills"
+    },
+    {
+      "repo": "xixu-me/xget",
+      "htmlUrl": "https://github.com/xixu-me/xget",
+      "description": "Ultra-high-performance, secure, all-in-one acceleration engine for developer resources",
+      "stars": 8195,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "YaoApp/yao",
       "htmlUrl": "https://github.com/YaoApp/yao",
       "description": "✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted.",
-      "stars": 8040,
+      "stars": 8077,
       "matchedQuery": "topic:agent-skills"
     },
     {
-      "repo": "refly-ai/refly",
-      "htmlUrl": "https://github.com/refly-ai/refly",
-      "description": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
-      "stars": 7534,
+      "repo": "tigerless-labs/autoharness",
+      "htmlUrl": "https://github.com/tigerless-labs/autoharness",
+      "description": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates them as you work, and prunes the ones that stop getting used. No daemon, no benchmark.",
+      "stars": 7924,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "Gentleman-Programming/gentle-ai",
       "htmlUrl": "https://github.com/Gentleman-Programming/gentle-ai",
       "description": "Gentle-AI configures the AI coding agents you already use: Claude Code, Cursor, OpenCode, Codex, Pi, and more. Choose persistent memory, Organic-Driven Development, curated skills, MCP servers, personas, and optional bounded review. Open source, no agent lock-in.",
-      "stars": 7357,
+      "stars": 7545,
+      "matchedQuery": "topic:agent-skills"
+    },
+    {
+      "repo": "refly-ai/refly",
+      "htmlUrl": "https://github.com/refly-ai/refly",
+      "description": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
+      "stars": 7527,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "trailofbits/skills",
       "htmlUrl": "https://github.com/trailofbits/skills",
       "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
-      "stars": 7276,
+      "stars": 7370,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "Devin-AXIS/iPolloWork",
       "htmlUrl": "https://github.com/Devin-AXIS/iPolloWork",
       "description": "Enterprise-grade, local-first Agent Workbench for people and agent teams. A unified multi-engine workspace for Codex Harness, DeepSeek Harness, and OpenCode, with unified plugins and Skills, multi-agent projects and tasks, and editable code, documents, presentations, design, and video.",
-      "stars": 6814,
+      "stars": 6650,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "htmlstreamofficial/preline",
       "htmlUrl": "https://github.com/htmlstreamofficial/preline",
       "description": "Preline UI is an open-source set of prebuilt UI components based on the utility-first Tailwind CSS framework.",
-      "stars": 6449,
+      "stars": 6468,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "ThinkInAIXYZ/deepchat",
       "htmlUrl": "https://github.com/ThinkInAIXYZ/deepchat",
       "description": "🐬DeepChat - A smart assistant that connects powerful AI to your personal world",
-      "stars": 6349,
-      "matchedQuery": "topic:agent-skills"
-    },
-    {
-      "repo": "heilcheng/awesome-agent-skills",
-      "htmlUrl": "https://github.com/heilcheng/awesome-agent-skills",
-      "description": "Tutorials, Guides and Agent Skills Directories",
-      "stars": 6241,
+      "stars": 6354,
       "matchedQuery": "topic:agent-skills"
     },
     {
       "repo": "ningzimu/codex-ppt-skill",
       "htmlUrl": "https://github.com/ningzimu/codex-ppt-skill",
       "description": "GPT-Image-2 PPT Generator Skill for Creating Image-Based PowerPoint Presentations in Codex and Other Skill-Compatible Agents",
-      "stars": 6239,
+      "stars": 6337,
       "matchedQuery": "topic:agent-skills"
     },
     {
-      "repo": "antfu/skills",
-      "htmlUrl": "https://github.com/antfu/skills",
-      "description": "Anthony Fu's curated collection of agent skills.",
-      "stars": 5928,
-      "matchedQuery": "topic:agent-skills"
-    },
-    {
-      "repo": "larashero3-dotcom/lieflat-charts",
-      "htmlUrl": "https://github.com/larashero3-dotcom/lieflat-charts",
-      "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
-      "stars": 5756,
+      "repo": "heilcheng/awesome-agent-skills",
+      "htmlUrl": "https://github.com/heilcheng/awesome-agent-skills",
+      "description": "Tutorials, Guides and Agent Skills Directories",
+      "stars": 6262,
       "matchedQuery": "topic:agent-skills"
     }
   ],
@@ -14610,6 +14768,11 @@
     {
       "repo": "rohitg00/awesome-claude-code-toolkit",
       "path": "skills/testing-strategies/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "getsentry/skills",
+      "path": "skills/secret-serialization/SKILL.md",
       "branch": "main"
     },
     {
@@ -15404,6 +15567,11 @@
     },
     {
       "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-cloth-material/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
       "path": "agent-skills/3d/3d-falling-leaves/SKILL.md",
       "branch": "main"
     },
@@ -15420,6 +15588,21 @@
     {
       "repo": "MengTo/Skills",
       "path": "agent-skills/3d/3d-high-resolution-textures/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-metal-material/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-orbit-inspect-demo/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-paper-material/SKILL.md",
       "branch": "main"
     },
     {
@@ -15444,7 +15627,22 @@
     },
     {
       "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-underwater-god-rays/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
       "path": "agent-skills/3d/3d-virtual-tour/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-wood-lighting-scorecard/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/3d/3d-wood-material/SKILL.md",
       "branch": "main"
     },
     {
@@ -15520,6 +15718,36 @@
     {
       "repo": "MengTo/Skills",
       "path": "agent-skills/codex/x-bookmark-quote-posts/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/fire-smoke-skill-vfx/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/game-dev-combat-animation/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/game-dev-combat-skill-polish/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/ice-frost-skill-vfx/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/lightning-energy-skill-vfx/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/game-combat/water-crystal-skill-vfx/SKILL.md",
       "branch": "main"
     },
     {
@@ -15639,6 +15867,11 @@
     },
     {
       "repo": "MengTo/Skills",
+      "path": "agent-skills/web-design/fire-paper-loader/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
       "path": "agent-skills/web-design/funky-purple-container-tech/SKILL.md",
       "branch": "main"
     },
@@ -15660,6 +15893,11 @@
     {
       "repo": "MengTo/Skills",
       "path": "agent-skills/web-design/gsap/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/web-design/horizontal-scroll-scenes/SKILL.md",
       "branch": "main"
     },
     {
@@ -15695,6 +15933,11 @@
     {
       "repo": "MengTo/Skills",
       "path": "agent-skills/web-design/number-details/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "MengTo/Skills",
+      "path": "agent-skills/web-design/paper-cinder-transition/SKILL.md",
       "branch": "main"
     },
     {
@@ -18794,6 +19037,11 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/13c-metabolic-flux/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/adaptyv/SKILL.md",
       "branch": "main"
     },
@@ -18865,6 +19113,16 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/bulk-rnaseq/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/cantera/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/cellprofiler/SKILL.md",
       "branch": "main"
     },
     {
@@ -18954,11 +19212,6 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/docx/SKILL.md",
-      "branch": "main"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/esm/SKILL.md",
       "branch": "main"
     },
@@ -18974,7 +19227,17 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/fictiv/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/flowio/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/flowkit/SKILL.md",
       "branch": "main"
     },
     {
@@ -19104,6 +19367,16 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/mageck/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/marine-carbonate-chemistry/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/markdown-mermaid-writing/SKILL.md",
       "branch": "main"
     },
@@ -19170,6 +19443,16 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/nextflow/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/nmrglue/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/nwb-conversion/SKILL.md",
       "branch": "main"
     },
     {
@@ -19244,11 +19527,6 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/pdf/SKILL.md",
-      "branch": "main"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/pennylane/SKILL.md",
       "branch": "main"
     },
@@ -19284,12 +19562,12 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/pptx/SKILL.md",
+      "path": "skills/primekg/SKILL.md",
       "branch": "main"
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/primekg/SKILL.md",
+      "path": "skills/primer-design/SKILL.md",
       "branch": "main"
     },
     {
@@ -19300,6 +19578,16 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/pufferlib/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/pybamm/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/pycalphad/SKILL.md",
       "branch": "main"
     },
     {
@@ -19364,6 +19652,11 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/qiime2-amplicon/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/qiskit/SKILL.md",
       "branch": "main"
     },
@@ -19375,6 +19668,11 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/rdkit/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/relion/SKILL.md",
       "branch": "main"
     },
     {
@@ -19499,6 +19797,11 @@
     },
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
+      "path": "skills/tellurium/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/tiledbvcf/SKILL.md",
       "branch": "main"
     },
@@ -19560,11 +19863,6 @@
     {
       "repo": "K-Dense-AI/scientific-agent-skills",
       "path": "skills/what-if-oracle/SKILL.md",
-      "branch": "main"
-    },
-    {
-      "repo": "K-Dense-AI/scientific-agent-skills",
-      "path": "skills/xlsx/SKILL.md",
       "branch": "main"
     },
     {
@@ -19804,6 +20102,11 @@
     },
     {
       "repo": "cloudflare/skills",
+      "path": "skills/basin/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "cloudflare/skills",
       "path": "skills/cloudflare-email-service/SKILL.md",
       "branch": "main"
     },
@@ -19825,6 +20128,11 @@
     {
       "repo": "cloudflare/skills",
       "path": "skills/durable-objects/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "cloudflare/skills",
+      "path": "skills/k2/SKILL.md",
       "branch": "main"
     },
     {
@@ -19869,7 +20177,17 @@
     },
     {
       "repo": "mattpocock/skills",
+      "path": "skills/engineering/implement-spec/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "mattpocock/skills",
       "path": "skills/engineering/implement/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "path": "skills/engineering/pr/SKILL.md",
       "branch": "main"
     },
     {
@@ -19879,7 +20197,17 @@
     },
     {
       "repo": "mattpocock/skills",
+      "path": "skills/engineering/retro/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "mattpocock/skills",
       "path": "skills/engineering/wizard/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "path": "skills/in-progress/chief-of-staff/SKILL.md",
       "branch": "main"
     },
     {
@@ -19889,22 +20217,7 @@
     },
     {
       "repo": "mattpocock/skills",
-      "path": "skills/in-progress/implement-spec/SKILL.md",
-      "branch": "main"
-    },
-    {
-      "repo": "mattpocock/skills",
       "path": "skills/in-progress/loop-me/SKILL.md",
-      "branch": "main"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "path": "skills/in-progress/pr/SKILL.md",
-      "branch": "main"
-    },
-    {
-      "repo": "mattpocock/skills",
-      "path": "skills/in-progress/retro/SKILL.md",
       "branch": "main"
     },
     {
@@ -23049,6 +23362,11 @@
     },
     {
       "repo": "datadog-labs/agent-skills",
+      "path": "dd-apm/enable-dsm/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "datadog-labs/agent-skills",
       "path": "dd-apm/k8s-ssi/agent-install/SKILL.md",
       "branch": "main"
     },
@@ -23154,6 +23472,11 @@
     },
     {
       "repo": "datadog-labs/agent-skills",
+      "path": "dd-browser-sdk/setup-sourcemaps/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "datadog-labs/agent-skills",
       "path": "dd-browser-sdk/upgrade-v5/SKILL.md",
       "branch": "main"
     },
@@ -23170,6 +23493,11 @@
     {
       "repo": "datadog-labs/agent-skills",
       "path": "dd-gcp-integration/SKILL.md",
+      "branch": "main"
+    },
+    {
+      "repo": "datadog-labs/agent-skills",
+      "path": "dd-instrument-llmo/SKILL.md",
       "branch": "main"
     },
     {
